@@ -16,7 +16,7 @@ namespace MediaInfoKeeper.Configuration
 
         [DisplayName("入库时扫描片头")]
         [Description("新剧集入库时触发片头检测。")]
-        public bool ScanIntroOnItemAdded { get; set; } = false;
+        public bool ScanIntroOnItemAdded { get; set; } = true;
         
         [DisplayName("保护片头标记")]
         [Description("刷新元数据时保护已存在的片头/片尾标记不被清空。")]
