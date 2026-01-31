@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Description>MediaInfoKeeper Emby plugin</Description>
     <PackageTags>emby;plugin;pms;media;server;</PackageTags>
     <BaseOutputPath>Build\bin\</BaseOutputPath>
@@ -23,7 +23,6 @@
     <PackageReference Include="MediaBrowser.Server.Core" Version="4.9.1.90" />
     <PackageReference Include="Lib.Harmony" Version="2.4.1" />
     <PackageReference Include="SQLitePCL.pretty.core" Version="1.2.2" />
-    <PackageReference Include="ILRepack" Version="2.0.44" PrivateAssets="All" />
     <PackageReference Include="System.Memory" Version="4.6.3" />
   </ItemGroup>
 
@@ -35,7 +34,11 @@
   </Target>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="$(ILRepack) /out:$(TargetDir)$(TargetFileName) $(TargetPath) $(TargetDir)0Harmony.dll /lib:$(TargetDir)" />
+    <PropertyGroup>
+      <IlRepackExe Condition="'$(OS)'=='Windows_NT'">$(UserProfile)\.dotnet\tools\ilrepack.exe</IlRepackExe>
+      <IlRepackExe Condition="'$(OS)'!='Windows_NT'">$(HOME)/.dotnet/tools/ilrepack</IlRepackExe>
+    </PropertyGroup>
+    <Exec Command="$(IlRepackExe) /out:$(TargetDir)$(TargetFileName) $(TargetPath) $(TargetDir)0Harmony.dll /lib:$(TargetDir)" />
   </Target>
 
 </Project>
