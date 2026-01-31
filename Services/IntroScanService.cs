@@ -114,8 +114,8 @@ namespace MediaInfoKeeper.Services
                 MediaTypes = new[] { MediaType.Video }
             };
 
-            var cutoff = Plugin.Instance.Options.RecentTasks.RecentItemsDays > 0
-                ? DateTime.UtcNow.AddDays(-Plugin.Instance.Options.RecentTasks.RecentItemsDays)
+            var cutoff = Plugin.Instance.Options.MainPage.RecentItemsDays > 0
+                ? DateTime.UtcNow.AddDays(-Plugin.Instance.Options.MainPage.RecentItemsDays)
                 : (DateTime?)null;
 
             var episodes = this.libraryManager.GetItemList(query)

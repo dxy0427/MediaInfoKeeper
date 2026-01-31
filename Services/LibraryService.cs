@@ -99,7 +99,7 @@ namespace MediaInfoKeeper.Services
 
         private HashSet<string> GetScopedLibraryKeys()
         {
-            var raw = Plugin.Instance.Options.LibraryScope.CatchupLibraries;
+            var raw = Plugin.Instance.Options.MainPage.CatchupLibraries;
             if (string.IsNullOrWhiteSpace(raw))
             {
                 return new HashSet<string>(StringComparer.OrdinalIgnoreCase);

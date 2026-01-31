@@ -26,7 +26,7 @@ namespace MediaInfoKeeper.ScheduledTask
 
         public string Key => "MediaInfoKeeperExtractMediaInfoTask";
 
-        public string Name => "3.提取媒体信息";
+        public string Name => "4.提取媒体信息";
 
         public string Description => "对计划任务范围内！的条目 恢复/提取 媒体信息并写入 JSON。（已存在则恢复）";
 
@@ -100,7 +100,7 @@ namespace MediaInfoKeeper.ScheduledTask
                 return;
             }
 
-            var persistMediaInfo = item is Video && Plugin.Instance.Options.General.PersistMediaInfoEnabled;
+            var persistMediaInfo = item is Video && Plugin.Instance.Options.MainPage.PersistMediaInfoEnabled;
             if (!persistMediaInfo)
             {
                 this.logger.Info($"跳过 未开启持久化或非视频: {displayName}");
@@ -167,7 +167,7 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private List<string> GetScopedLibraryPaths(out bool hasScope)
         {
-            var scoped = Plugin.Instance.Options.LibraryScope.ScheduledTaskLibraries ?? string.Empty;
+            var scoped = Plugin.Instance.Options.MainPage.ScheduledTaskLibraries ?? string.Empty;
             var tokens = new HashSet<string>(
                 scoped
                     .Split(new[] { ',', ';', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries)

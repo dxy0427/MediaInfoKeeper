@@ -63,7 +63,7 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private List<BaseItem> FetchRecentScopedItems()
         {
-            var limit = Math.Max(1, Plugin.Instance.Options.RecentTasks.RecentItemsLimit);
+            var limit = Math.Max(1, Plugin.Instance.Options.MainPage.RecentItemsLimit);
             var scopePaths = GetScopedLibraryPaths(out var hasScope);
             if (hasScope && !scopePaths.Any())
             {
@@ -103,7 +103,7 @@ namespace MediaInfoKeeper.ScheduledTask
                 return;
             }
 
-            var persistMediaInfo = item is Video && Plugin.Instance.Options.General.PersistMediaInfoEnabled;
+            var persistMediaInfo = item is Video && Plugin.Instance.Options.MainPage.PersistMediaInfoEnabled;
             if (!persistMediaInfo)
             {
                 this.logger.Info($"跳过 未开启持久化或非视频: {displayName}");
@@ -173,7 +173,7 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private List<string> GetScopedLibraryPaths(out bool hasScope)
         {
-            var scoped = Plugin.Instance.Options.LibraryScope.ScheduledTaskLibraries ?? string.Empty;
+            var scoped = Plugin.Instance.Options.MainPage.ScheduledTaskLibraries ?? string.Empty;
             var tokens = new HashSet<string>(
                 scoped
                     .Split(new[] { ',', ';', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries)

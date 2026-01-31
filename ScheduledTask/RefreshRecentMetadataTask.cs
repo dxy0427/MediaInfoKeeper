@@ -112,8 +112,8 @@ namespace MediaInfoKeeper.ScheduledTask
                 MediaTypes = new[] { MediaType.Video }
             };
 
-            var cutoff = Plugin.Instance.Options.RecentTasks.RecentItemsDays > 0
-                ? DateTime.UtcNow.AddDays(-Plugin.Instance.Options.RecentTasks.RecentItemsDays)
+            var cutoff = Plugin.Instance.Options.MainPage.RecentItemsDays > 0
+                ? DateTime.UtcNow.AddDays(-Plugin.Instance.Options.MainPage.RecentItemsDays)
                 : (DateTime?)null;
 
             var items = this.libraryManager.GetItemList(query)
@@ -140,16 +140,16 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private bool ShouldReplaceMetadata()
         {
-            var mode = Plugin.Instance.Options.RecentTasks.RefreshMetadataMode ?? string.Empty;
+            var mode = Plugin.Instance.Options.MainPage.RefreshMetadataMode ?? string.Empty;
             return HasReplaceFlag(mode);
         }
 
         private bool ShouldReplaceImages()
         {
-            var mode = Plugin.Instance.Options.RecentTasks.RefreshImageMode;
+            var mode = Plugin.Instance.Options.MainPage.RefreshImageMode;
             if (string.IsNullOrWhiteSpace(mode))
             {
-                mode = Plugin.Instance.Options.RecentTasks.RefreshMetadataMode ?? string.Empty;
+                mode = Plugin.Instance.Options.MainPage.RefreshMetadataMode ?? string.Empty;
             }
 
             return HasReplaceFlag(mode);

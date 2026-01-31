@@ -9,7 +9,7 @@ namespace MediaInfoKeeper.Configuration
 {
     public class EnhanceChineseSearchOptions : EditableOptionsBase
     {
-        public override string EditorTitle => "增强搜索";
+        public override string EditorTitle => "Enhance Search";
 
         [DisplayName("启用增强搜索")]
         [Description("支持中文模糊搜索与拼音搜索，默认关闭。")]
@@ -53,9 +53,36 @@ namespace MediaInfoKeeper.Configuration
                 SearchItemTypeList.Add(new EditorSelectOption
                 {
                     Value = item.ToString(),
-                    Name = item.ToString(),
+                    Name = GetSearchItemTypeDisplayName(item),
                     IsEnabled = true
                 });
+            }
+        }
+
+        private static string GetSearchItemTypeDisplayName(SearchItemType item)
+        {
+            switch (item)
+            {
+                case SearchItemType.Movie:
+                    return "电影";
+                case SearchItemType.Collection:
+                    return "合集";
+                case SearchItemType.Series:
+                    return "剧集";
+                case SearchItemType.Season:
+                    return "季";
+                case SearchItemType.Episode:
+                    return "集";
+                case SearchItemType.Person:
+                    return "人物";
+                case SearchItemType.LiveTv:
+                    return "直播电视";
+                case SearchItemType.Playlist:
+                    return "播放列表";
+                case SearchItemType.Video:
+                    return "视频";
+                default:
+                    return item.ToString();
             }
         }
     }

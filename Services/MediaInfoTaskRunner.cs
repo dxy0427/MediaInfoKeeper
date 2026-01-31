@@ -23,7 +23,7 @@ namespace MediaInfoKeeper.Services
                 return;
             }
 
-            var maxConcurrent = Math.Max(1, Plugin.Instance.Options.General.MaxConcurrentCount);
+            var maxConcurrent = Math.Max(1, Plugin.Instance.Options.MainPage.MaxConcurrentCount);
 
             using var semaphore = new SemaphoreSlim(maxConcurrent, maxConcurrent);
             var tasks = new List<Task>(items.Count);

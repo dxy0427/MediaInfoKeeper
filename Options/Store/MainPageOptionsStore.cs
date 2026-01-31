@@ -14,20 +14,13 @@ namespace MediaInfoKeeper.Options.Store
         public MainPageOptions GetOptions()
         {
             var options = this.pluginOptionsStore.GetOptionsForUi();
-            return new MainPageOptions
-            {
-                General = options.General ?? new GeneralOptions(),
-                LibraryScope = options.LibraryScope ?? new LibraryScopeOptions(),
-                RecentTasks = options.RecentTasks ?? new RecentTaskOptions()
-            };
+            return options.MainPage ?? new MainPageOptions();
         }
 
         public void SetOptions(MainPageOptions options)
         {
             var pluginOptions = this.pluginOptionsStore.GetOptions();
-            pluginOptions.General = options?.General ?? new GeneralOptions();
-            pluginOptions.LibraryScope = options?.LibraryScope ?? new LibraryScopeOptions();
-            pluginOptions.RecentTasks = options?.RecentTasks ?? new RecentTaskOptions();
+            pluginOptions.MainPage = options ?? new MainPageOptions();
             this.pluginOptionsStore.SetOptions(pluginOptions);
         }
     }

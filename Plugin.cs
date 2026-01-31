@@ -112,8 +112,8 @@ namespace MediaInfoKeeper
             ProxyOptionsStore = new ProxyOptionsStore(OptionsStore);
             EnhanceChineseSearchOptionsStore = new EnhanceChineseSearchOptionsStore(OptionsStore);
 
-            FfprobeGuard.Initialize(this.logger, this.Options.General.DisableSystemFfprobe);
-            MetadataProvidersWatcher.Initialize(this.logger, this.Options.General.EnableMetadataProvidersWatcher);
+            FfprobeGuard.Initialize(this.logger, this.Options.MainPage?.DisableSystemFfprobe ?? true);
+            MetadataProvidersWatcher.Initialize(this.logger, this.Options.MainPage?.EnableMetadataProvidersWatcher ?? true);
             UnlockIntroSkip.Initialize(this.logger, this.Options.IntroSkip?.UnlockIntroSkip ?? false);
             UnlockIntroSkip.Configure(this.Options);
             IntroMarkerProtect.Initialize(this.logger, this.Options.IntroSkip?.ProtectIntroMarkers ?? true);
@@ -121,7 +121,7 @@ namespace MediaInfoKeeper
             SearchScopeUtility.UpdateSearchScope(this.Options.EnhanceChineseSearch?.SearchScope);
             EnhanceChineseSearch.Initialize(this.logger, this.Options.EnhanceChineseSearch);
 
-            this.currentPersistMediaInfo = this.Options.General.PersistMediaInfoEnabled;
+            this.currentPersistMediaInfo = this.Options.MainPage?.PersistMediaInfoEnabled ?? true;
 
             LibraryService = new LibraryService(libraryManager, providerManager, fileSystem);
             MediaInfoService = new MediaInfoService(libraryManager, fileSystem, itemRepository, jsonSerializer);
@@ -148,7 +148,15 @@ namespace MediaInfoKeeper
 
         public sealed override string Name => PluginName;
 
-        public PluginConfiguration Options => this.OptionsStore.GetOptions();
+        public PluginConfiguration Options
+        {
+            get
+            {
+                var options = this.OptionsStore.GetOptions();
+                options.MainPage ??= new MainPageOptions();
+                return options;
+            }
+        }
 
         public ILogger Logger => this.logger;
 
@@ -185,9 +193,7 @@ namespace MediaInfoKeeper
                 return;
             }
 
-            options.General ??= new GeneralOptions();
-            options.LibraryScope ??= new LibraryScopeOptions();
-            options.RecentTasks ??= new RecentTaskOptions();
+            options.MainPage ??= new MainPageOptions();
             options.IntroSkip ??= new IntroSkipOptions();
             options.Proxy ??= new ProxyOptions();
             options.GitHub ??= new GitHubOptions();
@@ -211,8 +217,7 @@ namespace MediaInfoKeeper
                 });
             }
 
-            options.LibraryList = list;
-            options.LibraryScope.LibraryList = list;
+            options.MainPage.LibraryList = list;
             options.IntroSkip.LibraryList = list;
             options.GitHub.CurrentVersion = GetCurrentVersion();
             options.GitHub.LatestReleaseVersion = GetLatestReleaseVersion();
@@ -220,13 +225,13 @@ namespace MediaInfoKeeper
 
         internal bool HandleOptionsSaving(PluginConfiguration options)
         {
-            if (options?.LibraryScope == null)
+            if (options?.MainPage == null)
             {
                 return true;
             }
 
-            options.LibraryScope.CatchupLibraries = NormalizeScopedLibraries(options.LibraryScope.CatchupLibraries);
-            options.LibraryScope.ScheduledTaskLibraries = NormalizeScopedLibraries(options.LibraryScope.ScheduledTaskLibraries);
+            options.MainPage.CatchupLibraries = NormalizeScopedLibraries(options.MainPage.CatchupLibraries);
+            options.MainPage.ScheduledTaskLibraries = NormalizeScopedLibraries(options.MainPage.ScheduledTaskLibraries);
             if (options.IntroSkip != null)
             {
                 options.IntroSkip.LibraryScope = NormalizeScopedLibraries(options.IntroSkip.LibraryScope);
@@ -243,21 +248,20 @@ namespace MediaInfoKeeper
                 return;
             }
 
-            options.General ??= new GeneralOptions();
-            options.LibraryScope ??= new LibraryScopeOptions();
+            options.MainPage ??= new MainPageOptions();
             options.IntroSkip ??= new IntroSkipOptions();
             options.EnhanceChineseSearch ??= new EnhanceChineseSearchOptions();
 
-            this.currentPersistMediaInfo = options.General.PersistMediaInfoEnabled;
+            this.currentPersistMediaInfo = options.MainPage.PersistMediaInfoEnabled;
 
             this.logger.Info($"{this.Name} 配置已更新。");
-            this.logger.Info($"PersistMediaInfoEnabled 设置为 {options.General.PersistMediaInfoEnabled}");
-            this.logger.Info($"MediaInfoJsonRootFolder 设置为 {(string.IsNullOrEmpty(options.General.MediaInfoJsonRootFolder) ? "EMPTY" : options.General.MediaInfoJsonRootFolder)}");
-            this.logger.Info($"DeleteMediaInfoJsonOnRemove 设置为 {options.General.DeleteMediaInfoJsonOnRemove}");
-            this.logger.Info($"CatchupLibraries 设置为 {(string.IsNullOrEmpty(options.LibraryScope.CatchupLibraries) ? "EMPTY" : options.LibraryScope.CatchupLibraries)}");
-            this.logger.Info($"ScheduledTaskLibraries 设置为 {(string.IsNullOrEmpty(options.LibraryScope.ScheduledTaskLibraries) ? "EMPTY" : options.LibraryScope.ScheduledTaskLibraries)}");
-            this.logger.Info($"EnableMetadataProvidersWatcher 设置为 {options.General.EnableMetadataProvidersWatcher}");
-            this.logger.Info($"MaxConcurrentCount 设置为 {options.General.MaxConcurrentCount}");
+            this.logger.Info($"PersistMediaInfoEnabled 设置为 {options.MainPage.PersistMediaInfoEnabled}");
+            this.logger.Info($"MediaInfoJsonRootFolder 设置为 {(string.IsNullOrEmpty(options.MainPage.MediaInfoJsonRootFolder) ? "EMPTY" : options.MainPage.MediaInfoJsonRootFolder)}");
+            this.logger.Info($"DeleteMediaInfoJsonOnRemove 设置为 {options.MainPage.DeleteMediaInfoJsonOnRemove}");
+            this.logger.Info($"CatchupLibraries 设置为 {(string.IsNullOrEmpty(options.MainPage.CatchupLibraries) ? "EMPTY" : options.MainPage.CatchupLibraries)}");
+            this.logger.Info($"ScheduledTaskLibraries 设置为 {(string.IsNullOrEmpty(options.MainPage.ScheduledTaskLibraries) ? "EMPTY" : options.MainPage.ScheduledTaskLibraries)}");
+            this.logger.Info($"EnableMetadataProvidersWatcher 设置为 {options.MainPage.EnableMetadataProvidersWatcher}");
+            this.logger.Info($"MaxConcurrentCount 设置为 {options.MainPage.MaxConcurrentCount}");
             this.logger.Info($"EnableProxyServer 设置为 {options.Proxy.EnableProxyServer}");
             this.logger.Info($"ProxyServerUrl 设置为 {(string.IsNullOrEmpty(options.Proxy.ProxyServerUrl) ? "EMPTY" : options.Proxy.ProxyServerUrl)}");
             this.logger.Info($"IgnoreCertificateValidation 设置为 {options.Proxy.IgnoreCertificateValidation}");
@@ -265,8 +269,8 @@ namespace MediaInfoKeeper
             this.logger.Info($"EnhanceChineseSearch 设置为 {options.EnhanceChineseSearch.EnhanceChineseSearch}");
             this.logger.Info($"ExcludeOriginalTitleFromSearch 设置为 {options.EnhanceChineseSearch.ExcludeOriginalTitleFromSearch}");
 
-            FfprobeGuard.Configure(options.General.DisableSystemFfprobe);
-            MetadataProvidersWatcher.Configure(options.General.EnableMetadataProvidersWatcher);
+            FfprobeGuard.Configure(options.MainPage.DisableSystemFfprobe);
+            MetadataProvidersWatcher.Configure(options.MainPage.EnableMetadataProvidersWatcher);
             UnlockIntroSkip.Configure(options);
             ProxyServer.Configure(options.Proxy.EnableProxyServer);
             SearchScopeUtility.UpdateSearchScope(options.EnhanceChineseSearch.SearchScope);
@@ -497,7 +501,7 @@ namespace MediaInfoKeeper
         {
             this.logger.Info($"{e.Item.Path} 删除剧集事件");
             // 未开启删除开关时直接跳过。
-            if (!this.Options.General.DeleteMediaInfoJsonOnRemove || !this.Options.General.PersistMediaInfoEnabled)
+            if (!this.Options.MainPage.DeleteMediaInfoJsonOnRemove || !this.Options.MainPage.PersistMediaInfoEnabled)
             {
                 return;
             }

@@ -24,7 +24,7 @@ namespace MediaInfoKeeper.ScheduledTask
         }
         public string Key => "MediaInfoKeeperExportExistingMediaInfoTask";
 
-        public string Name => "4.导出媒体信息";
+        public string Name => "5.导出媒体信息";
 
         public string Description => "对计划任务范围内！已存在 MediaInfo 的条目导出 JSON，无 MediaInfo 则跳过。";
 
@@ -120,7 +120,7 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private List<string> GetScopedLibraryPaths(out bool hasScope)
         {
-            var scoped = Plugin.Instance.Options.LibraryScope.ScheduledTaskLibraries ?? string.Empty;
+            var scoped = Plugin.Instance.Options.MainPage.ScheduledTaskLibraries ?? string.Empty;
             var tokens = new HashSet<string>(
                 scoped
                     .Split(new[] { ',', ';', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries)

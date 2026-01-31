@@ -20,7 +20,7 @@ namespace MediaInfoKeeper.ScheduledTask
 
         public string Key => "MediaInfoKeeperScanRecentIntroTask";
 
-        public string Name => "5.扫描片头（测试用）";
+        public string Name => "3.扫描片头（最近入库）";
 
         public string Description => "对最近入库的剧集执行片头检测。";
 
