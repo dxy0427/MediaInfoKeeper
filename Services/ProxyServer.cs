@@ -197,6 +197,7 @@ namespace MediaInfoKeeper.Services
             if (isEnabled && writeEnv && !string.IsNullOrEmpty(proxyUrl))
             {
                 Environment.SetEnvironmentVariable("http_proxy", proxyUrl);
+                Environment.SetEnvironmentVariable("https_proxy", proxyUrl);
                 Environment.SetEnvironmentVariable("HTTP_PROXY", proxyUrl);
                 Environment.SetEnvironmentVariable("HTTPS_PROXY", proxyUrl);
                 logger.Info($"设置代理环境变量 {proxyUrl}");

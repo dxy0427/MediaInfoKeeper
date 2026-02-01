@@ -20,7 +20,7 @@ namespace MediaInfoKeeper.Configuration
         public bool IgnoreCertificateValidation { get; set; } = false;
 
         [DisplayName("写入环境变量")]
-        [Description("同步写入 http_proxy/HTTP_PROXY/HTTPS_PROXY，便于 ffprobe 等外部进程访问需要代理的资源。")]
+        [Description("同步写入 http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY，便于 ffprobe 等外部进程访问需要代理的资源。")]
         public bool WriteProxyEnvVars { get; set; } = true;
     }
 }
