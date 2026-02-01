@@ -27,16 +27,6 @@ namespace MediaInfoKeeper.Services
             this.libraryManager = libraryManager;
         }
 
-        public async Task ScanRecentIntroAsync(CancellationToken cancellationToken, IProgress<double> progress)
-        {
-            this.logger.Info("最近入库片头扫描开始");
-
-            var episodes = FetchRecentEpisodes();
-            await ScanEpisodesAsync(episodes, cancellationToken, progress).ConfigureAwait(false);
-
-            this.logger.Info("最近入库片头扫描完成");
-        }
-
         public async Task ScanEpisodesAsync(
             IReadOnlyList<Episode> episodes,
             CancellationToken cancellationToken,
@@ -103,30 +93,6 @@ namespace MediaInfoKeeper.Services
             }
 
             this.logger.Info($"扫描完成，条目数 {total}");
-        }
-
-        public List<Episode> FetchRecentEpisodes()
-        {
-            var query = new InternalItemsQuery
-            {
-                Recursive = true,
-                HasPath = true,
-                MediaTypes = new[] { MediaType.Video }
-            };
-
-            var cutoff = Plugin.Instance.Options.MainPage.RecentItemsDays > 0
-                ? DateTime.UtcNow.AddDays(-Plugin.Instance.Options.MainPage.RecentItemsDays)
-                : (DateTime?)null;
-
-            var episodes = this.libraryManager.GetItemList(query)
-                .OfType<Episode>()
-                .Where(i => i.ExtraType is null)
-                .Where(i => cutoff == null || i.DateCreated >= cutoff)
-                .OrderByDescending(i => i.DateCreated)
-                .ToList();
-
-            this.logger.Info($"扫描条目数 {episodes.Count}");
-            return episodes;
         }
 
         public bool HasIntroMarkers(BaseItem item)
