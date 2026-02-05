@@ -147,10 +147,10 @@ namespace MediaInfoKeeper.Configuration
             }
             
             AddGroup("插件",
-                nameof(PersistMediaInfoEnabled),
-                nameof(ExtractMediaInfoOnItemAdded));
+                nameof(PersistMediaInfoEnabled));
             
             AddGroup("基本设置",
+                nameof(ExtractMediaInfoOnItemAdded),
                 nameof(DeleteMediaInfoJsonOnRemove),
                 nameof(DisableSystemFfprobe),
                 nameof(EnableMetadataProvidersWatcher),
