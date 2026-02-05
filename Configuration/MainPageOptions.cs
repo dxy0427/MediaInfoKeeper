@@ -15,7 +15,7 @@ namespace MediaInfoKeeper.Configuration
 
         public override string EditorDescription => "将媒体信息与章节保存为 JSON，并在需要时从 JSON 恢复。";
 
-        [DisplayName("插件启用")]
+        [DisplayName("启用插件")]
         [Description("启用后优先从 JSON 恢复，提取后再写入 JSON。")]
         public bool PersistMediaInfoEnabled { get; set; } = true;
 
@@ -69,7 +69,7 @@ namespace MediaInfoKeeper.Configuration
         [DisplayName("最近入库媒体筛选数量")]
         [Description("用于“提取媒体信息、扫描片头”计划任务，默认 100。")]
         [MinValue(1)]
-        [MaxValue(1000)]
+        [MaxValue(100000000)]
         public int RecentItemsLimit { get; set; } = 100;
 
         [Browsable(false)]

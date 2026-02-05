@@ -26,9 +26,9 @@ namespace MediaInfoKeeper.ScheduledTask
 
         public string Key => "MediaInfoKeeperExtractMediaInfoTask";
 
-        public string Name => "4.提取媒体信息";
+        public string Name => "4.恢复媒体信息";
 
-        public string Description => "对计划任务范围内！的条目 恢复/提取 媒体信息并写入 JSON。（已存在则恢复）";
+        public string Description => "对计划任务范围内！的条目,存在 JSON 则恢复，不存在则跳过";
 
         public string Category => Plugin.TaskCategoryName;
 
@@ -130,11 +130,6 @@ namespace MediaInfoKeeper.ScheduledTask
                     }
                 }
 
-                var collectionFolders = (BaseItem[])this.libraryManager.GetCollectionFolders(item);
-                var libraryOptions = this.libraryManager.GetLibraryOptions(item);
-
-                var dummyLibraryOptions = LibraryService.CopyLibraryOptions(libraryOptions);
-
                 var deserializeResult = await Plugin.MediaInfoService
                     .DeserializeMediaInfo(item, directoryService, source, false)
                     .ConfigureAwait(false);
@@ -150,18 +145,7 @@ namespace MediaInfoKeeper.ScheduledTask
                     return;
                 }
 
-                this.logger.Info($"无Json媒体信息存在，刷新开始: {displayName}");
-                item.DateLastRefreshed = new DateTimeOffset();
-
-                await Plugin.ProviderManager
-                    .RefreshSingleItem(item, refreshOptions, collectionFolders, dummyLibraryOptions, cancellationToken)
-                    .ConfigureAwait(false);
-
-                this.logger.Info($"写入 JSON: {displayName}");
-                await Plugin.MediaInfoService.SerializeMediaInfo(item.InternalId, directoryService, true, source)
-                    .ConfigureAwait(false);
-
-                this.logger.Info($"完成: {displayName}");
+                this.logger.Info($"无Json媒体信息存在，跳过: {displayName}");
             }
         }
 
