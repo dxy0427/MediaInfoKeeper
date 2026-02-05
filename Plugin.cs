@@ -264,6 +264,7 @@ namespace MediaInfoKeeper
 
             this.logger.Info($"{this.Name} 配置已更新。");
             this.logger.Info($"PersistMediaInfoEnabled 设置为 {options.MainPage.PersistMediaInfoEnabled}");
+            this.logger.Info($"ExtractMediaInfoOnItemAdded 设置为 {options.MainPage.ExtractMediaInfoOnItemAdded}");
             this.logger.Info($"MediaInfoJsonRootFolder 设置为 {(string.IsNullOrEmpty(options.MainPage.MediaInfoJsonRootFolder) ? "EMPTY" : options.MainPage.MediaInfoJsonRootFolder)}");
             this.logger.Info($"DeleteMediaInfoJsonOnRemove 设置为 {options.MainPage.DeleteMediaInfoJsonOnRemove}");
             this.logger.Info($"CatchupLibraries 设置为 {(string.IsNullOrEmpty(options.MainPage.CatchupLibraries) ? "EMPTY" : options.MainPage.CatchupLibraries)}");
@@ -386,6 +387,12 @@ namespace MediaInfoKeeper
                     // 如果不存在Json文件，则使用ffprobe 提取一次
                     if (restoreResult == MediaInfoService.MediaInfoRestoreResult.Failed)
                     {
+                        if (!this.Options.MainPage.ExtractMediaInfoOnItemAdded)
+                        {
+                            this.logger.Info("已关闭入库时提取媒体信息，跳过");
+                            return;
+                        }
+
                         // 恢复失败时先触发媒体信息提取，再写入 JSON。
                         this.logger.Info("恢复失败，初次入库，开始提取媒体信息");
 

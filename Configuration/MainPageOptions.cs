@@ -15,9 +15,13 @@ namespace MediaInfoKeeper.Configuration
 
         public override string EditorDescription => "将媒体信息与章节保存为 JSON，并在需要时从 JSON 恢复。";
 
-        [DisplayName("启用")]
+        [DisplayName("插件启用")]
         [Description("启用后优先从 JSON 恢复，提取后再写入 JSON。")]
         public bool PersistMediaInfoEnabled { get; set; } = true;
+
+        [DisplayName("入库时提取媒体信息")]
+        [Description("当 JSON 不存在或恢复失败时，是否提取媒体信息并写入 JSON。")]
+        public bool ExtractMediaInfoOnItemAdded { get; set; } = true;
 
         [DisplayName("条目移除时删除 JSON")]
         [Description("启用后，条目移除时删除已持久化的 JSON。")]
@@ -143,7 +147,8 @@ namespace MediaInfoKeeper.Configuration
             }
             
             AddGroup("插件",
-                nameof(PersistMediaInfoEnabled));
+                nameof(PersistMediaInfoEnabled),
+                nameof(ExtractMediaInfoOnItemAdded));
             
             AddGroup("基本设置",
                 nameof(DeleteMediaInfoJsonOnRemove),
