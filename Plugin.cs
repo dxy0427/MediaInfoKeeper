@@ -740,7 +740,7 @@ namespace MediaInfoKeeper
         private string GetCurrentVersion()
         {
             var version = this.GetType().Assembly.GetName().Version;
-            return version == null ? "未知" : $"v{version.ToString(3)}";
+            return version == null ? "未知" : $"v{version.ToString(4)}";
         }
 
         private string GetReleaseHistoryBody()

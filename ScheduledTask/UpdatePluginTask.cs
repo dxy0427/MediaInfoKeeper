@@ -177,7 +177,7 @@ namespace MediaInfoKeeper.ScheduledTask
         {
             if (string.IsNullOrWhiteSpace(value))
             {
-                return new Version(0, 0, 0);
+                return new Version(0, 0, 0, 0);
             }
 
             var normalized = value.StartsWith("v", StringComparison.OrdinalIgnoreCase)
@@ -189,7 +189,7 @@ namespace MediaInfoKeeper.ScheduledTask
         private static string GetCurrentVersion()
         {
             var version = Assembly.GetExecutingAssembly().GetName().Version;
-            return version == null ? "0.0.0" : $"v{version.ToString(3)}";
+            return version == null ? "0.0.0.0" : $"v{version.ToString(4)}";
         }
 
         internal class ApiResponseInfo
