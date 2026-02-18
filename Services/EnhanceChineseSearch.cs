@@ -282,9 +282,7 @@ namespace MediaInfoKeeper.Services
                         CurrentTokenizerName = statement.Current?.GetString(0) ?? "unknown";
                     }
                 }
-
-                logger?.Info("增强搜索 - 当前分词器（前）为 " + CurrentTokenizerName);
-
+                
                 var options = Plugin.Instance?.Options?.EnhanceChineseSearch;
                 if (options != null && !string.Equals(CurrentTokenizerName, "unknown", StringComparison.Ordinal))
                 {
@@ -322,8 +320,6 @@ namespace MediaInfoKeeper.Services
                         }
                     }
                 }
-
-                logger?.Info("增强搜索 - 当前分词器（后）为 " + CurrentTokenizerName);
             }
             catch (Exception e)
             {
