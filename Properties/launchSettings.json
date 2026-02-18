@@ -1,7 +1,11 @@
 {
   "profiles": {
-    "EmbyPluginSimpleUI": {
-      "commandName": "Project"
+    "EmbyPlugin": {
+      "commandName": "Executable",
+      "executablePath": "sh",
+      "commandLineArgs": "./restart_emby.sh",
+      "workingDirectory": ".",
+      "_comment_windows": "Windows: powershell -ExecutionPolicy Bypass -File restart_emby.ps1"
     },
     "EmbyServer": {
       "commandName": "Executable",

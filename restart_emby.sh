@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 remote="${REMOTE_SSH:-root@192.168.33.100}"
-local_dll="${LOCAL_DLL:-/Users/honue/Documents/WorkSpace/MediaInfoKeeper/Build/bin/Debug/net8.0/MediaInfoKeeper.dll}"
+local_dll="${LOCAL_DLL:-$script_dir/Build/bin/Debug/net8.0/MediaInfoKeeper.dll}"
 remote_dir="${REMOTE_DIR:-/opt/emby/config/plugins}"
 compose_dir="${COMPOSE_DIR:-/opt/emby}"
+
+# 0) Build
+dotnet build "$script_dir/MediaInfoKeeper.csproj" -c Debug
 
 # 1) Copy DLL
 scp "$local_dll" "${remote}:${remote_dir}/"
