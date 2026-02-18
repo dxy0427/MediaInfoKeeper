@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
-using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Logging;
-using MediaBrowser.Model.Querying;
 using MediaBrowser.Model.Tasks;
 
 namespace MediaInfoKeeper.ScheduledTask
@@ -52,20 +50,8 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private List<Episode> FetchRecentEpisodes()
         {
-            var query = new InternalItemsQuery
-            {
-                Recursive = true,
-                HasPath = true,
-                MediaTypes = new[] { MediaType.Video }
-            };
-
-            var episodes = this.libraryManager.GetItemList(query)
-                .OfType<Episode>()
-                .Where(i => i.ExtraType is null)
-                .OrderByDescending(i => i.DateCreated)
-                .Take(Math.Max(1, Plugin.Instance.Options.MainPage.RecentItemsLimit))
-                .ToList();
-
+            var episodes = Plugin.LibraryService.FetchRecentItems(
+                Plugin.Instance.Options.MainPage.RecentItemsLimit);
             this.logger.Info($"扫描条目数 {episodes.Count}");
             return episodes;
         }

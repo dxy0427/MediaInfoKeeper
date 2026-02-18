@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
-using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Tasks;
 using MediaBrowser.Model.Configuration;
@@ -105,24 +104,11 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private List<BaseItem> FetchRecentItems()
         {
-            var query = new InternalItemsQuery
-            {
-                Recursive = true,
-                HasPath = true,
-                MediaTypes = new[] { MediaType.Video }
-            };
-
             var cutoff = Plugin.Instance.Options.MainPage.RecentItemsDays > 0
                 ? DateTime.UtcNow.AddDays(-Plugin.Instance.Options.MainPage.RecentItemsDays)
                 : (DateTime?)null;
 
-            var items = this.libraryManager.GetItemList(query)
-                .Where(i => i.ExtraType is null)
-                .Where(i => cutoff == null || i.DateCreated >= cutoff)
-                .OrderByDescending(i => i.DateCreated)
-                .ToList();
-
-            return items;
+            return Plugin.LibraryService.FetchRecentItems(cutoff, true);
         }
 
         private MetadataRefreshOptions BuildRefreshOptions(bool replaceMetadata, bool replaceImages)

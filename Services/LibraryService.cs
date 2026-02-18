@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using Emby.Web.GenericEdit.Common;
 using MediaBrowser.Controller.Entities;
+using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Configuration;
@@ -18,14 +23,39 @@ namespace MediaInfoKeeper.Services
         private readonly ILibraryManager libraryManager;
         private readonly IProviderManager providerManager;
         private readonly IFileSystem fileSystem;
+        private readonly IUserDataManager userDataManager;
 
         /// <summary>创建库处理辅助类并注入所需服务。</summary>
-        public LibraryService(ILibraryManager libraryManager, IProviderManager providerManager, IFileSystem fileSystem)
+        public LibraryService(ILibraryManager libraryManager, IProviderManager providerManager, IFileSystem fileSystem, IUserDataManager userDataManager)
         {
             this.logger = Plugin.Instance.Logger;
             this.libraryManager = libraryManager;
             this.providerManager = providerManager;
             this.fileSystem = fileSystem;
+            this.userDataManager = userDataManager;
+        }
+
+        /// <summary>构建媒体库选择列表，用于配置 UI 复用。</summary>
+        public List<EditorSelectOption> BuildLibrarySelectOptions()
+        {
+            var list = new List<EditorSelectOption>();
+            foreach (var folder in this.libraryManager.GetVirtualFolders())
+            {
+                if (folder == null)
+                {
+                    continue;
+                }
+
+                var name = string.IsNullOrWhiteSpace(folder.Name) ? folder.ItemId : folder.Name;
+                list.Add(new EditorSelectOption
+                {
+                    Value = folder.ItemId,
+                    Name = name,
+                    IsEnabled = true
+                });
+            }
+
+            return list;
         }
 
         /// <summary>判断条目是否已存在 MediaInfo。</summary>
@@ -100,6 +130,222 @@ namespace MediaInfoKeeper.Services
         private HashSet<string> GetScopedLibraryKeys()
         {
             var raw = Plugin.Instance.Options.MainPage.CatchupLibraries;
+            return ParseScopedLibraryTokens(raw);
+        }
+
+        /// <summary>根据配置生成媒体库路径列表。</summary>
+        public List<string> GetScopedLibraryPaths(string scopedLibraries, out bool hasScope)
+        {
+            var tokens = ParseScopedLibraryTokens(scopedLibraries);
+            hasScope = tokens.Count > 0;
+
+            var libraries = this.libraryManager.GetVirtualFolders();
+            if (tokens.Count > 0)
+            {
+                libraries = libraries
+                    .Where(folder =>
+                        (!string.IsNullOrWhiteSpace(folder.ItemId) && tokens.Contains(folder.ItemId)) ||
+                        (!string.IsNullOrWhiteSpace(folder.Name) && tokens.Contains(folder.Name.Trim())))
+                    .ToList();
+            }
+
+            return NormalizeLibraryPaths(libraries.SelectMany(folder => folder.Locations ?? Array.Empty<string>()));
+        }
+
+        /// <summary>按路径范围获取视频条目。</summary>
+        public List<BaseItem> FetchScopedVideoItems(IReadOnlyCollection<string> scopePaths, bool orderByDateCreatedDesc = false, int? take = null)
+        {
+            var query = new InternalItemsQuery
+            {
+                Recursive = true,
+                HasPath = true,
+                MediaTypes = new[] { MediaType.Video }
+            };
+
+            if (scopePaths != null && scopePaths.Count > 0)
+            {
+                query.PathStartsWithAny = scopePaths.ToArray();
+            }
+
+            var items = this.libraryManager.GetItemList(query)
+                .Where(i => i.ExtraType is null);
+
+            if (orderByDateCreatedDesc)
+            {
+                items = items.OrderByDescending(i => i.DateCreated);
+            }
+
+            if (take.HasValue)
+            {
+                items = items.Take(take.Value);
+            }
+
+            return items.ToList();
+        }
+
+        /// <summary>按时间窗口获取最近条目。</summary>
+        public List<BaseItem> FetchRecentItems(DateTime? cutoff, bool orderByDateCreatedDesc = true)
+        {
+            var query = new InternalItemsQuery
+            {
+                Recursive = true,
+                HasPath = true,
+                MediaTypes = new[] { MediaType.Video }
+            };
+
+            var items = this.libraryManager.GetItemList(query)
+                .Where(i => i.ExtraType is null)
+                .Where(i => cutoff == null || i.DateCreated >= cutoff);
+
+            if (orderByDateCreatedDesc)
+            {
+                items = items.OrderByDescending(i => i.DateCreated);
+            }
+
+            return items.ToList();
+        }
+
+        /// <summary>按时间倒序获取最近的剧集条目。</summary>
+        public List<Episode> FetchRecentItems(int limit)
+        {
+            var query = new InternalItemsQuery
+            {
+                Recursive = true,
+                HasPath = true,
+                MediaTypes = new[] { MediaType.Video }
+            };
+
+            var items = this.libraryManager.GetItemList(query)
+                .OfType<Episode>()
+                .Where(i => i.ExtraType is null)
+                .OrderByDescending(i => i.DateCreated)
+                .Take(Math.Max(1, limit))
+                .ToList();
+
+            return items;
+        }
+
+        /// <summary>获取全局收藏的视频条目。</summary>
+        public List<BaseItem> FetchFavoriteVideoItems()
+        {
+            var query = new InternalItemsQuery
+            {
+                Recursive = true,
+                HasPath = true,
+                MediaTypes = new[] { MediaType.Video }
+            };
+
+            var items = this.libraryManager.GetItemList(query)
+                .Where(i => i.ExtraType is null)
+                .Where(IsFavoriteByAnyUser)
+                .ToList();
+
+            return items;
+        }
+
+        public IReadOnlyList<Episode> FetchSeriesEpisodes(Series series)
+        {
+            if (series == null)
+            {
+                return Array.Empty<Episode>();
+            }
+
+            var episodes = new List<Episode>();
+            var known = new HashSet<long>();
+
+            var rootEpisodes = this.libraryManager.GetItemList(new InternalItemsQuery
+                {
+                    IncludeItemTypes = new[] { nameof(Episode) },
+                    HasPath = true,
+                    MediaTypes = new[] { MediaType.Video },
+                    ParentIds = new[] { series.InternalId }
+                })
+                .OfType<Episode>();
+
+            foreach (var episode in rootEpisodes)
+            {
+                if (known.Add(episode.InternalId))
+                {
+                    episodes.Add(episode);
+                }
+            }
+
+            var seasons = this.libraryManager.GetItemList(new InternalItemsQuery
+                {
+                    IncludeItemTypes = new[] { nameof(Season) },
+                    ParentIds = new[] { series.InternalId }
+                })
+                .OfType<Season>();
+
+            foreach (var season in seasons)
+            {
+                var seasonEpisodes = this.libraryManager.GetItemList(new InternalItemsQuery
+                    {
+                        IncludeItemTypes = new[] { nameof(Episode) },
+                        HasPath = true,
+                        MediaTypes = new[] { MediaType.Video },
+                        ParentIds = new[] { season.InternalId }
+                    })
+                    .OfType<Episode>();
+
+                foreach (var episode in seasonEpisodes)
+                {
+                    if (known.Add(episode.InternalId))
+                    {
+                        episodes.Add(episode);
+                    }
+                }
+            }
+
+            return episodes;
+        }
+
+        public IReadOnlyList<Episode> GetSeriesEpisodesFromItem(BaseItem item)
+        {
+            if (item is Series series)
+            {
+                return FetchSeriesEpisodes(series);
+            }
+
+            if (item is Episode episode)
+            {
+                var seriesFromEpisode = GetSeries(episode.SeriesId);
+                return seriesFromEpisode != null
+                    ? FetchSeriesEpisodes(seriesFromEpisode)
+                    : Array.Empty<Episode>();
+            }
+
+            if (item is Season season)
+            {
+                var seriesFromSeason = GetSeries(season.SeriesId);
+                return seriesFromSeason != null
+                    ? FetchSeriesEpisodes(seriesFromSeason)
+                    : Array.Empty<Episode>();
+            }
+
+            return Array.Empty<Episode>();
+        }
+
+        public Series GetSeries(long seriesId)
+        {
+            return seriesId == 0
+                ? null
+                : this.libraryManager.GetItemById(seriesId) as Series;
+        }
+        
+        private bool IsFavoriteByAnyUser(BaseItem item)
+        {
+            var userDataList = this.userDataManager.GetAllUserData(item.InternalId);
+            if (userDataList == null || userDataList.Count == 0)
+            {
+                return false;
+            }
+
+            return userDataList.Any(data => data?.IsFavorite == true);
+        }
+
+        private static HashSet<string> ParseScopedLibraryTokens(string raw)
+        {
             if (string.IsNullOrWhiteSpace(raw))
             {
                 return new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -111,6 +357,18 @@ namespace MediaInfoKeeper.Services
                 .Where(value => !string.IsNullOrEmpty(value));
 
             return new HashSet<string>(tokens, StringComparer.OrdinalIgnoreCase);
+        }
+
+        private static List<string> NormalizeLibraryPaths(IEnumerable<string> paths)
+        {
+            var separator = Path.DirectorySeparatorChar.ToString();
+            return paths
+                .Where(path => !string.IsNullOrWhiteSpace(path))
+                .Select(path => path.EndsWith(separator, StringComparison.Ordinal)
+                    ? path
+                    : path + separator)
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .ToList();
         }
 
         /// <summary>复制库配置，用于元数据刷新流程。</summary>

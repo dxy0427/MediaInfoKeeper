@@ -124,7 +124,7 @@ namespace MediaInfoKeeper.Services
                 this.logger.Debug("未能解析 AudioFingerprintManager");
             }
 
-            this.logger.Info("探测失败，可能尚未获取strm文件内容，请稍后再试，未找到片头检测方法，请检查 Emby 版本");
+            this.logger.Info("探测失败，可能尚未获取strm文件内容，请稍后再试。");
             return false;
         }
 
