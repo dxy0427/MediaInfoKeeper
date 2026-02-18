@@ -512,15 +512,15 @@ namespace MediaInfoKeeper
                 {
                     return;
                 }
-
-                var userName = e.User?.Name ?? "unknown";
-                logger.Info($"收藏事件: 用户={userName}, 条目={(item.Path ?? item.Name ?? item.Id.ToString())}");
-
+                
                 if (!userData.IsFavorite)
                 {
                     return;
                 }
 
+                var userName = e.User?.Name ?? "unknown";
+                logger.Info($"收藏事件: 用户={userName}, 条目={(item.Path ?? item.Name ?? item.Id.ToString())}");
+                
                 var canExtract = this.Options.MainPage?.ExtractMediaInfoOnFavorite == true &&
                                  (item is Episode || item is Season || item is Series);
                 var canScanIntro = this.Options.IntroSkip?.ScanIntroOnFavorite == true &&
@@ -565,11 +565,11 @@ namespace MediaInfoKeeper
                                             }
 
                                             _ = MediaInfoService.SerializeMediaInfo(target.InternalId, directoryService, true, "OnFavorite Extract");
-                                            this.logger.Info($"收藏 媒体信息提取完成: {displayName}");
+                                            this.logger.Info($"OnFavorite 媒体信息提取完成: {displayName}");
                                         }
                                         catch (Exception ex)
                                         {
-                                            this.logger.Error($"收藏 媒体信息提取失败: {displayName}");
+                                            this.logger.Error($"OnFavorite 媒体信息提取失败: {displayName}");
                                             this.logger.Error(ex.Message);
                                             this.logger.Debug(ex.StackTrace);
                                         }
@@ -594,7 +594,7 @@ namespace MediaInfoKeeper
                     }
                     else
                     {
-                        this.logger.Info("收藏 片头扫描跳过: 未找到系列条目");
+                        this.logger.Info("OnFavorite 片头扫描跳过: 未找到系列条目");
                     }
                 }
             }
