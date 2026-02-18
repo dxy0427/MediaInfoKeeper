@@ -300,6 +300,7 @@ namespace MediaInfoKeeper.Services
             return episodes;
         }
 
+        // 如果是 Series 就返回全剧集；如果是 Episode 或 Season 就只返回该季的所有剧集
         public IReadOnlyList<Episode> GetSeriesEpisodesFromItem(BaseItem item)
         {
             if (item is Series series)
@@ -309,18 +310,15 @@ namespace MediaInfoKeeper.Services
 
             if (item is Episode episode)
             {
-                var seriesFromEpisode = GetSeries(episode.SeriesId);
-                return seriesFromEpisode != null
-                    ? FetchSeriesEpisodes(seriesFromEpisode)
+                var seasonFromEpisode = this.libraryManager.GetItemById(episode.ParentId) as Season;
+                return seasonFromEpisode != null
+                    ? FetchSeasonEpisodes(seasonFromEpisode)
                     : Array.Empty<Episode>();
             }
 
             if (item is Season season)
             {
-                var seriesFromSeason = GetSeries(season.SeriesId);
-                return seriesFromSeason != null
-                    ? FetchSeriesEpisodes(seriesFromSeason)
-                    : Array.Empty<Episode>();
+                return FetchSeasonEpisodes(season);
             }
 
             return Array.Empty<Episode>();
@@ -331,6 +329,24 @@ namespace MediaInfoKeeper.Services
             return seriesId == 0
                 ? null
                 : this.libraryManager.GetItemById(seriesId) as Series;
+        }
+
+        private IReadOnlyList<Episode> FetchSeasonEpisodes(Season season)
+        {
+            if (season == null)
+            {
+                return Array.Empty<Episode>();
+            }
+
+            return this.libraryManager.GetItemList(new InternalItemsQuery
+                {
+                    IncludeItemTypes = new[] { nameof(Episode) },
+                    HasPath = true,
+                    MediaTypes = new[] { MediaType.Video },
+                    ParentIds = new[] { season.InternalId }
+                })
+                .OfType<Episode>()
+                .ToList();
         }
         
         private bool IsFavoriteByAnyUser(BaseItem item)
