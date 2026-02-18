@@ -9,26 +9,26 @@ MediaInfoKeeper
 功能
 ----------
 
-- MediaInfo Keeper：MediaInfo 的缓存、恢复与刷新保护。
-- IntroSkip：片头片尾跳过相关。
-- Search：搜索与匹配增强。
-- Proxy：设置Http代理能力。
-- GitHub & Update：版本获取与更新。
+- MediaInfo Keeper：将 MediaInfo/章节持久化为 JSON，入库恢复/提取并在刷新后恢复。
+- IntroSkip：解锁 .strm 片头检测、入库扫描片头、播放行为打标，并保护片头/片尾标记。
+- Search：中文模糊与拼音搜索增强，可设置搜索范围。
+- Proxy：全局 HttpClient 代理，支持忽略证书与写入代理环境变量。
+- GitHub & Update：版本检查与插件自更新。
 
 计划任务
 --------
 
-- 刷新媒体元数据（最近入库）：刷新后从 JSON 导入 MediaInfo（可选覆盖或补全）。
-- 扫描片头（最近入库）：按入库时间倒序取最近 N 条（最近入库媒体筛选数量）执行片头检测。
-- 提取媒体信息（最近入库）：对最近入库条目执行提取或恢复并写入 JSON。
-- 提取媒体信息：对范围内存量条目执行提取或恢复并写入 JSON。
-- 导出媒体信息：对已有 MediaInfo 的条目导出 JSON。
-- 更新插件至最新版本
+- 刷新媒体元数据：全局媒体库范围内，按“最近入库时间窗口（天）”筛选（0=不限制）刷新元数据（可选覆盖或补全），刷新后从 JSON 恢复媒体信息。
+- 扫描片头：全局媒体库范围内，按入库时间倒序取最近 N 条（“最近入库媒体筛选数量”）的剧集执行片头检测。
+- 提取媒体信息（最近入库）：计划任务媒体库范围内，按入库时间倒序取最近 N 条（“最近入库媒体筛选数量”）恢复/提取媒体信息并写入 JSON（已存在则恢复）。
+- 恢复媒体信息：计划任务范围内条目，存在 JSON 则恢复，不存在则跳过。
+- 备份媒体信息：计划任务范围内已存在 MediaInfo 的条目导出 JSON，无 MediaInfo 则跳过。
+- 更新插件：更新插件至最新版本。
 
 安装
 ----
 
-测试版本 4.9.1.90，4.8 系列不支持。
+**测试版本 4.9.1.90，4.8 系列不支持**
 
 1. 下载 `MediaInfoKeeper.dll`：<https://github.com/honue/MediaInfoKeeper/releases>
 2. 放入 Emby 配置目录中的 `plugins` 目录。
@@ -37,7 +37,6 @@ MediaInfoKeeper
 感谢
 ----
 
-项目参考：
-
 <https://github.com/sjtuross/StrmAssistant>
+
 <https://github.com/xinjiawei/StrmAssistant_less>
