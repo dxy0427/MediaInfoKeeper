@@ -75,6 +75,7 @@ namespace MediaInfoKeeper
         internal readonly IntroSkipOptionsStore IntroSkipOptionsStore;
         internal readonly ProxyOptionsStore ProxyOptionsStore;
         internal readonly EnhanceChineseSearchOptionsStore EnhanceChineseSearchOptionsStore;
+        internal readonly MetaDataOptionsStore MetaDataOptionsStore;
         private static readonly HttpClient HttpClient = new HttpClient
         {
             Timeout = TimeSpan.FromSeconds(3)
@@ -122,9 +123,12 @@ namespace MediaInfoKeeper
             IntroSkipOptionsStore = new IntroSkipOptionsStore(OptionsStore);
             ProxyOptionsStore = new ProxyOptionsStore(OptionsStore);
             EnhanceChineseSearchOptionsStore = new EnhanceChineseSearchOptionsStore(OptionsStore);
+            MetaDataOptionsStore = new MetaDataOptionsStore(OptionsStore);
 
             FfprobeGuard.Initialize(this.logger, this.Options.MainPage?.DisableSystemFfprobe ?? true);
-            MetadataProvidersWatcher.Initialize(this.logger, this.Options.MainPage?.EnableMetadataProvidersWatcher ?? true);
+            MetadataProvidersWatcher.Initialize(this.logger, this.Options.MetaData?.EnableMetadataProvidersWatcher ?? true);
+            MovieDbTitlePatch.Initialize(this.logger, this.Options.MetaData?.EnableAlternativeTitleFallback ?? true);
+            TvdbTitlePatch.Initialize(this.logger, this.Options.MetaData?.EnableTvdbFallback ?? true);
             UnlockIntroSkip.Initialize(this.logger, this.Options.IntroSkip?.UnlockIntroSkip ?? false);
             UnlockIntroSkip.Configure(this.Options);
             IntroMarkerProtect.Initialize(this.logger, this.Options.IntroSkip?.ProtectIntroMarkers ?? true);
@@ -190,7 +194,7 @@ namespace MediaInfoKeeper
                     {
                         new MainPageController(this.GetPluginInfo(), this.MainPageOptionsStore,
                             this.GitHubOptionsStore, this.IntroSkipOptionsStore, this.ProxyOptionsStore,
-                            this.EnhanceChineseSearchOptionsStore)
+                            this.EnhanceChineseSearchOptionsStore, this.MetaDataOptionsStore)
                     };
                 }
 
@@ -210,7 +214,9 @@ namespace MediaInfoKeeper
             options.Proxy ??= new ProxyOptions();
             options.GitHub ??= new GitHubOptions();
             options.EnhanceChineseSearch ??= new EnhanceChineseSearchOptions();
+            options.MetaData ??= new MetaDataOptions();
             options.EnhanceChineseSearch.Initialize();
+            options.MetaData.Initialize();
 
             var list = LibraryService.BuildLibrarySelectOptions();
             options.MainPage.LibraryList = list;
@@ -248,6 +254,7 @@ namespace MediaInfoKeeper
             options.MainPage ??= new MainPageOptions();
             options.IntroSkip ??= new IntroSkipOptions();
             options.EnhanceChineseSearch ??= new EnhanceChineseSearchOptions();
+            options.MetaData ??= new MetaDataOptions();
 
             this.PlugginEnabled = options.MainPage.PlugginEnabled;
 
@@ -259,7 +266,7 @@ namespace MediaInfoKeeper
             this.logger.Info($"DeleteMediaInfoJsonOnRemove 设置为 {options.MainPage.DeleteMediaInfoJsonOnRemove}");
             this.logger.Info($"CatchupLibraries 设置为 {(string.IsNullOrEmpty(options.MainPage.CatchupLibraries) ? "EMPTY" : options.MainPage.CatchupLibraries)}");
             this.logger.Info($"ScheduledTaskLibraries 设置为 {(string.IsNullOrEmpty(options.MainPage.ScheduledTaskLibraries) ? "EMPTY" : options.MainPage.ScheduledTaskLibraries)}");
-            this.logger.Info($"EnableMetadataProvidersWatcher 设置为 {options.MainPage.EnableMetadataProvidersWatcher}");
+            this.logger.Info($"EnableMetadataProvidersWatcher 设置为 {options.MetaData.EnableMetadataProvidersWatcher}");
             this.logger.Info($"MaxConcurrentCount 设置为 {options.MainPage.MaxConcurrentCount}");
             this.logger.Info($"EnableProxyServer 设置为 {options.Proxy.EnableProxyServer}");
             this.logger.Info($"ProxyServerUrl 设置为 {(string.IsNullOrEmpty(options.Proxy.ProxyServerUrl) ? "EMPTY" : options.Proxy.ProxyServerUrl)}");
@@ -267,13 +274,20 @@ namespace MediaInfoKeeper
             this.logger.Info($"WriteProxyEnvVars 设置为 {options.Proxy.WriteProxyEnvVars}");
             this.logger.Info($"EnhanceChineseSearch 设置为 {options.EnhanceChineseSearch.EnhanceChineseSearch}");
             this.logger.Info($"ExcludeOriginalTitleFromSearch 设置为 {options.EnhanceChineseSearch.ExcludeOriginalTitleFromSearch}");
+            this.logger.Info($"EnableAlternativeTitleFallback 设置为 {options.MetaData.EnableAlternativeTitleFallback}");
+            this.logger.Info($"EnableTvdbFallback 设置为 {options.MetaData.EnableTvdbFallback}");
+            this.logger.Info($"TmdbFallbackLanguages 设置为 {options.MetaData.FallbackLanguages}");
+            this.logger.Info($"TvdbFallbackLanguages 设置为 {options.MetaData.TvdbFallbackLanguages}");
+            this.logger.Info($"TmdbBlockNonFallbackLanguage 设置为 {options.MetaData.BlockNonFallbackLanguage}");
 
             FfprobeGuard.Configure(options.MainPage.DisableSystemFfprobe);
-            MetadataProvidersWatcher.Configure(options.MainPage.EnableMetadataProvidersWatcher);
+            MetadataProvidersWatcher.Configure(options.MetaData.EnableMetadataProvidersWatcher);
             UnlockIntroSkip.Configure(options);
             ProxyServer.Configure(options.Proxy.EnableProxyServer);
             SearchScopeUtility.UpdateSearchScope(options.EnhanceChineseSearch.SearchScope);
             EnhanceChineseSearch.Configure(options.EnhanceChineseSearch);
+            MovieDbTitlePatch.Configure(options.MetaData.EnableAlternativeTitleFallback);
+            TvdbTitlePatch.Configure(options.MetaData.EnableTvdbFallback);
 
             if (options.IntroSkip.EnableIntroSkip)
             {

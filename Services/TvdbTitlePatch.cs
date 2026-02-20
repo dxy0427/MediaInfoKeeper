@@ -1,0 +1,881 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
+using System.Linq;
+using System.Reflection;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Threading.Tasks;
+using HarmonyLib;
+using MediaInfoKeeper.Configuration;
+using MediaBrowser.Controller.Entities;
+using MediaBrowser.Controller.Providers;
+using MediaBrowser.Model.Logging;
+
+namespace MediaInfoKeeper.Services
+{
+    /// <summary>
+    /// TVDB metadata fallback patch adapted from StrmAssistant ChineseTvdb.
+    /// </summary>
+    public static class TvdbTitlePatch
+    {
+        private static readonly object InitLock = new object();
+        private static readonly ThreadLocal<bool?> ConsiderJapanese = new ThreadLocal<bool?>();
+
+        private static readonly Regex ChineseRegex = new Regex(@"[\u4E00-\u9FFF]", RegexOptions.Compiled);
+        private static readonly Regex JapaneseRegex = new Regex(@"[\u3040-\u30FF]", RegexOptions.Compiled);
+
+        private static readonly string[] SupportedTvdbFallbackLanguages =
+        {
+            "zho",
+            "zhtw",
+            "yue",
+            "jpn"
+        };
+
+        private static Harmony harmony;
+        private static ILogger logger;
+        private static bool isEnabled = true;
+        private static bool waitingForTvdbAssembly;
+        private static bool patchesInstalled;
+        private static Assembly tvdbAssembly;
+
+        private static MethodInfo convertToTvdbLanguages;
+        private static MethodInfo getTranslation;
+        private static MethodInfo addMovieInfo;
+        private static MethodInfo addSeriesInfo;
+        private static MethodInfo getTvdbSeason;
+        private static MethodInfo findEpisode;
+        private static MethodInfo getEpisodeData;
+
+        public static void Initialize(ILogger pluginLogger, bool enable)
+        {
+            logger = pluginLogger;
+            isEnabled = enable;
+
+            lock (InitLock)
+            {
+                if (patchesInstalled)
+                {
+                    logger?.Debug("TVDB fallback patch already initialized.");
+                    return;
+                }
+
+                if (TryGetLoadedTvdbAssembly(out var assembly))
+                {
+                    TryInstallPatches(assembly, "startup");
+                    return;
+                }
+
+                if (!waitingForTvdbAssembly)
+                {
+                    AppDomain.CurrentDomain.AssemblyLoad += OnAssemblyLoad;
+                    waitingForTvdbAssembly = true;
+                    logger?.Info("TVDB fallback patch delayed: waiting for Tvdb assembly. Enabled={0}", isEnabled);
+                }
+            }
+        }
+
+        public static void Configure(bool enable)
+        {
+            if (isEnabled == enable)
+            {
+                return;
+            }
+
+            isEnabled = enable;
+            logger?.Info("TVDB fallback patch {0}", isEnabled ? "enabled" : "disabled");
+        }
+
+        private static void OnAssemblyLoad(object sender, AssemblyLoadEventArgs args)
+        {
+            var loadedAssembly = args?.LoadedAssembly;
+            if (loadedAssembly == null)
+            {
+                return;
+            }
+
+            var name = loadedAssembly.GetName().Name;
+            if (!string.Equals(name, "Tvdb", StringComparison.OrdinalIgnoreCase))
+            {
+                return;
+            }
+
+            lock (InitLock)
+            {
+                if (patchesInstalled)
+                {
+                    return;
+                }
+
+                TryInstallPatches(loadedAssembly, "assembly-load");
+            }
+        }
+
+        private static bool TryGetLoadedTvdbAssembly(out Assembly assembly)
+        {
+            assembly = AppDomain.CurrentDomain.GetAssemblies()
+                .FirstOrDefault(a => string.Equals(a.GetName().Name, "Tvdb", StringComparison.OrdinalIgnoreCase));
+            return assembly != null;
+        }
+
+        private static void TryInstallPatches(Assembly assembly, string source)
+        {
+            try
+            {
+                tvdbAssembly = assembly;
+                ResolveMethods(assembly);
+                harmony ??= new Harmony("mediainfokeeper.tvdb.chinesefallback");
+
+                var patchCount = 0;
+                patchCount += PatchMethod(
+                    convertToTvdbLanguages,
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(ConvertToTvdbLanguagesPostfix)));
+                patchCount += PatchMethod(
+                    getTranslation,
+                    prefix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(GetTranslationPrefix)),
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(GetTranslationPostfix)));
+                patchCount += PatchMethod(
+                    addMovieInfo,
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(AddInfoPostfix)));
+                patchCount += PatchMethod(
+                    addSeriesInfo,
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(AddInfoPostfix)));
+                patchCount += PatchMethod(
+                    getTvdbSeason,
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(GetTvdbSeasonPostfix)));
+                patchCount += PatchMethod(
+                    findEpisode,
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(FindEpisodePostfix)));
+                patchCount += PatchMethod(
+                    getEpisodeData,
+                    postfix: new HarmonyMethod(typeof(TvdbTitlePatch), nameof(GetEpisodeDataPostfix)));
+
+                patchesInstalled = patchCount > 0;
+
+                if (waitingForTvdbAssembly)
+                {
+                    AppDomain.CurrentDomain.AssemblyLoad -= OnAssemblyLoad;
+                    waitingForTvdbAssembly = false;
+                }
+
+                logger?.Info(
+                    "TVDB Patch 初始化完成，补丁方法数={0}",
+                    patchCount);
+            }
+            catch (Exception ex)
+            {
+                logger?.Error("TVDB fallback patch init failed: {0}", ex);
+                harmony = null;
+            }
+        }
+
+        private static int PatchMethod(MethodInfo method, HarmonyMethod prefix = null, HarmonyMethod postfix = null)
+        {
+            if (method == null || harmony == null)
+            {
+                return 0;
+            }
+
+            harmony.Patch(method, prefix: prefix, postfix: postfix);
+            logger?.Debug("Patched {0}.{1}", method.DeclaringType?.FullName, method.Name);
+            return 1;
+        }
+
+        private static void ResolveMethods(Assembly assembly)
+        {
+            var entryPoint = assembly.GetType("Tvdb.EntryPoint", false);
+            convertToTvdbLanguages = entryPoint?.GetMethod(
+                "ConvertToTvdbLanguages",
+                BindingFlags.Instance | BindingFlags.Public,
+                binder: null,
+                types: new[] { typeof(ItemLookupInfo) },
+                modifiers: null);
+
+            var translations = assembly.GetType("Tvdb.Translations", false);
+            getTranslation = translations?.GetMethod(
+                "GetTranslation",
+                BindingFlags.Instance | BindingFlags.NonPublic);
+
+            var tvdbMovieProvider = assembly.GetType("Tvdb.TvdbMovieProvider", false);
+            addMovieInfo = tvdbMovieProvider?.GetMethod(
+                "AddMovieInfo",
+                BindingFlags.Instance | BindingFlags.NonPublic);
+
+            var tvdbSeriesProvider = assembly.GetType("Tvdb.TvdbSeriesProvider", false);
+            addSeriesInfo = tvdbSeriesProvider?.GetMethod(
+                "AddSeriesInfo",
+                BindingFlags.Instance | BindingFlags.NonPublic);
+
+            var tvdbSeasonProvider = assembly.GetType("Tvdb.TvdbSeasonProvider", false);
+            getTvdbSeason = tvdbSeasonProvider?.GetMethod(
+                "GetTvdbSeason",
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+
+            var tvdbEpisodeProvider = assembly.GetType("Tvdb.TvdbEpisodeProvider", false);
+            if (tvdbEpisodeProvider != null)
+            {
+                findEpisode = tvdbEpisodeProvider.GetMethods(BindingFlags.NonPublic | BindingFlags.Instance)
+                    .FirstOrDefault(m => m.Name == "FindEpisode" && m.GetParameters().Length == 3);
+
+                getEpisodeData = tvdbEpisodeProvider.GetMethod(
+                    "GetEpisodeData",
+                    BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+            }
+        }
+
+        [HarmonyPostfix]
+        private static void ConvertToTvdbLanguagesPostfix(ItemLookupInfo lookupInfo, ref string[] __result)
+        {
+            if (!isEnabled || lookupInfo == null)
+            {
+                return;
+            }
+
+            var metadataLanguage = lookupInfo.MetadataLanguage ?? string.Empty;
+            if (!metadataLanguage.StartsWith("zh", StringComparison.OrdinalIgnoreCase))
+            {
+                return;
+            }
+
+            try
+            {
+                var list = (__result ?? Array.Empty<string>()).ToList();
+                var index = list.FindIndex(v => string.Equals(v, "eng", StringComparison.OrdinalIgnoreCase));
+
+                var fallback = GetTvdbFallbackLanguages()
+                    .Where(l => (ConsiderJapanese.Value ?? true) || !string.Equals(l, "jpn", StringComparison.OrdinalIgnoreCase));
+
+                foreach (var language in fallback)
+                {
+                    if (list.Contains(language, StringComparer.OrdinalIgnoreCase))
+                    {
+                        continue;
+                    }
+
+                    if (index >= 0)
+                    {
+                        list.Insert(index, language);
+                        index++;
+                    }
+                    else
+                    {
+                        list.Add(language);
+                    }
+                }
+
+                __result = list.ToArray();
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("ConvertToTvdbLanguagesPostfix failed: {0}", ex.Message);
+            }
+        }
+
+        [HarmonyPrefix]
+        private static void GetTranslationPrefix(object[] __args)
+        {
+            if (!isEnabled || __args == null || __args.Length < 4)
+            {
+                return;
+            }
+
+            try
+            {
+                var translations = __args[0] as IList;
+                var tvdbLanguages = __args[1] as string[] ?? Array.Empty<string>();
+                var field = ToInt32(__args[2]);
+
+                if (translations != null && translations.Count > 0)
+                {
+                    if (field == 0)
+                    {
+                        RemoveAliases(translations);
+                    }
+
+                    if (HasTvdbJapaneseFallback())
+                    {
+                        var considerJapanese = HasPrimaryJapanese(translations);
+                        tvdbLanguages = tvdbLanguages
+                            .Where(l => considerJapanese || !string.Equals(l, "jpn", StringComparison.OrdinalIgnoreCase))
+                            .ToArray();
+                    }
+
+                    if (field == 0)
+                    {
+                        SortTvdbLanguagesByChinesePriority(translations, tvdbLanguages);
+                    }
+
+                    SortTranslationsByLanguageOrder(translations, tvdbLanguages);
+                }
+
+                __args[1] = tvdbLanguages;
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("GetTranslationPrefix failed: {0}", ex.Message);
+            }
+        }
+
+        [HarmonyPostfix]
+        private static void GetTranslationPostfix(object[] __args, ref object __result)
+        {
+            if (!isEnabled || __result == null || __args == null || __args.Length < 4)
+            {
+                return;
+            }
+
+            try
+            {
+                var defaultToFirst = ToBool(__args[3]);
+                if (defaultToFirst)
+                {
+                    return;
+                }
+
+                var field = ToInt32(__args[2]);
+                var name = GetPropertyString(__result, "name");
+
+                if (field == 0)
+                {
+                    if (BlockTvdbNonFallbackLanguage(name))
+                    {
+                        SetPropertyValue(__result, "name", null);
+                    }
+
+                    return;
+                }
+
+                if (field != 1)
+                {
+                    return;
+                }
+
+                var overview = GetPropertyString(__result, "overview");
+                if (BlockTvdbNonFallbackLanguage(overview))
+                {
+                    overview = null;
+                    SetPropertyValue(__result, "overview", null);
+                }
+
+                if (string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(overview))
+                {
+                    SetPropertyValue(__result, "name", overview);
+                }
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("GetTranslationPostfix failed: {0}", ex.Message);
+            }
+        }
+
+        [HarmonyPostfix]
+        private static void AddInfoPostfix(object[] __args)
+        {
+            if (!isEnabled || __args == null)
+            {
+                return;
+            }
+
+            try
+            {
+                foreach (var arg in __args)
+                {
+                    var item = TryGetMetadataResultItem(arg);
+                    if (item == null)
+                    {
+                        continue;
+                    }
+
+                    if (BlockTvdbNonFallbackLanguage(item.Overview))
+                    {
+                        item.Overview = null;
+                    }
+
+                    break;
+                }
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("AddInfoPostfix failed: {0}", ex.Message);
+            }
+        }
+
+        [HarmonyPostfix]
+        private static void GetTvdbSeasonPostfix(object[] __args, Task __result)
+        {
+            if (!isEnabled || __result == null)
+            {
+                return;
+            }
+
+            try
+            {
+                var seasonInfo = __args?.OfType<SeasonInfo>().FirstOrDefault();
+                var tvdbSeason = GetTaskResult(__result);
+                if (tvdbSeason == null)
+                {
+                    return;
+                }
+
+                var name = GetPropertyString(tvdbSeason, "name");
+                if (seasonInfo?.IndexNumber.HasValue == true &&
+                    (string.IsNullOrEmpty(name) || BlockTvdbNonFallbackLanguage(name)))
+                {
+                    SetPropertyValue(tvdbSeason, "name", $"第 {seasonInfo.IndexNumber.Value} 季");
+                }
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("GetTvdbSeasonPostfix failed: {0}", ex.Message);
+            }
+        }
+
+        [HarmonyPostfix]
+        private static void FindEpisodePostfix(object[] __args, ref object __result)
+        {
+            if (!isEnabled || __result == null)
+            {
+                return;
+            }
+
+            try
+            {
+                var name = GetPropertyString(__result, "name");
+                var overview = GetPropertyString(__result, "overview");
+
+                var considerJapanese = HasTvdbJapaneseFallback() && (IsJapanese(name) || IsJapanese(overview));
+                ConsiderJapanese.Value = considerJapanese;
+
+                if (!considerJapanese)
+                {
+                    if (!IsChinese(name))
+                    {
+                        SetPropertyValue(__result, "name", null);
+                    }
+
+                    if (!IsChinese(overview))
+                    {
+                        SetPropertyValue(__result, "overview", null);
+                    }
+
+                    return;
+                }
+
+                if (!IsChineseJapanese(name))
+                {
+                    SetPropertyValue(__result, "name", null);
+                }
+
+                if (!IsChineseJapanese(overview))
+                {
+                    SetPropertyValue(__result, "overview", null);
+                }
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("FindEpisodePostfix failed: {0}", ex.Message);
+            }
+        }
+
+        [HarmonyPostfix]
+        private static void GetEpisodeDataPostfix(object[] __args, Task __result)
+        {
+            if (!isEnabled || __result == null)
+            {
+                return;
+            }
+
+            try
+            {
+                var episodeInfo = __args?.OfType<EpisodeInfo>().FirstOrDefault();
+                var taskResult = GetTaskResult(__result);
+                if (taskResult == null)
+                {
+                    return;
+                }
+
+                var tvdbEpisode = GetPropertyValue(taskResult, "Item1") ?? taskResult;
+                if (tvdbEpisode == null)
+                {
+                    return;
+                }
+
+                var name = GetPropertyString(tvdbEpisode, "name");
+                var overview = GetPropertyString(tvdbEpisode, "overview");
+
+                if (episodeInfo?.IndexNumber.HasValue == true &&
+                    (string.IsNullOrEmpty(name) || BlockTvdbNonFallbackLanguage(name)))
+                {
+                    SetPropertyValue(tvdbEpisode, "name", $"第 {episodeInfo.IndexNumber.Value} 集");
+                }
+
+                if (BlockTvdbNonFallbackLanguage(overview))
+                {
+                    SetPropertyValue(tvdbEpisode, "overview", null);
+                }
+            }
+            catch (Exception ex)
+            {
+                logger?.Debug("GetEpisodeDataPostfix failed: {0}", ex.Message);
+            }
+        }
+
+        private static void RemoveAliases(IList translations)
+        {
+            for (var i = translations.Count - 1; i >= 0; i--)
+            {
+                var translation = translations[i];
+                if (translation == null)
+                {
+                    continue;
+                }
+
+                if (GetPropertyBool(translation, "isAlias"))
+                {
+                    translations.RemoveAt(i);
+                }
+            }
+        }
+
+        private static bool HasPrimaryJapanese(IList translations)
+        {
+            foreach (var translation in translations.Cast<object>())
+            {
+                var language = GetPropertyString(translation, "language");
+                if (!string.Equals(language, "jpn", StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                if (GetPropertyBool(translation, "IsPrimary"))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private static void SortTvdbLanguagesByChinesePriority(IList translations, string[] tvdbLanguages)
+        {
+            if (tvdbLanguages == null || tvdbLanguages.Length == 0)
+            {
+                return;
+            }
+
+            var cnLanguages = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            {
+                "zho",
+                "zhtw",
+                "yue"
+            };
+
+            Array.Sort(tvdbLanguages, (lang1, lang2) =>
+            {
+                if (lang1 == null && lang2 == null)
+                {
+                    return 0;
+                }
+
+                if (lang1 == null)
+                {
+                    return 1;
+                }
+
+                if (lang2 == null)
+                {
+                    return -1;
+                }
+
+                var t1 = FindTranslationByLanguage(translations, lang1);
+                var t2 = FindTranslationByLanguage(translations, lang2);
+
+                var name1 = GetPropertyString(t1, "name");
+                var name2 = GetPropertyString(t2, "name");
+
+                var cn1 = cnLanguages.Contains(lang1);
+                var cn2 = cnLanguages.Contains(lang2);
+
+                if (cn1 && cn2)
+                {
+                    var c1 = IsChinese(name1);
+                    var c2 = IsChinese(name2);
+                    if (c1 && !c2)
+                    {
+                        return -1;
+                    }
+
+                    if (!c1 && c2)
+                    {
+                        return 1;
+                    }
+
+                    return 0;
+                }
+
+                if (cn1)
+                {
+                    return -1;
+                }
+
+                if (cn2)
+                {
+                    return 1;
+                }
+
+                return 0;
+            });
+        }
+
+        private static object FindTranslationByLanguage(IList translations, string language)
+        {
+            foreach (var translation in translations.Cast<object>())
+            {
+                var current = GetPropertyString(translation, "language");
+                if (string.Equals(current, language, StringComparison.OrdinalIgnoreCase))
+                {
+                    return translation;
+                }
+            }
+
+            return null;
+        }
+
+        private static void SortTranslationsByLanguageOrder(IList translations, string[] tvdbLanguages)
+        {
+            if (translations == null || translations.Count == 0)
+            {
+                return;
+            }
+
+            var order = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+            if (tvdbLanguages != null)
+            {
+                for (var i = 0; i < tvdbLanguages.Length; i++)
+                {
+                    var language = tvdbLanguages[i];
+                    if (!string.IsNullOrWhiteSpace(language) && !order.ContainsKey(language))
+                    {
+                        order[language] = i;
+                    }
+                }
+            }
+
+            var sorted = translations.Cast<object>()
+                .OrderBy(t =>
+                {
+                    var language = GetPropertyString(t, "language") ?? string.Empty;
+                    return order.TryGetValue(language, out var idx) ? idx : int.MaxValue;
+                })
+                .ToList();
+
+            translations.Clear();
+            foreach (var item in sorted)
+            {
+                translations.Add(item);
+            }
+        }
+
+        private static BaseItem TryGetMetadataResultItem(object metadataResult)
+        {
+            var item = GetPropertyValue(metadataResult, "Item");
+            return item as BaseItem;
+        }
+
+        private static MetaDataOptions GetTmdbOptions()
+        {
+            var plugin = Plugin.Instance;
+            if (plugin == null)
+            {
+                return new MetaDataOptions();
+            }
+
+            return plugin.MetaDataOptionsStore?.GetOptions() ?? new MetaDataOptions();
+        }
+
+        private static List<string> GetTvdbFallbackLanguages()
+        {
+            var options = GetTmdbOptions();
+            var configured = options.TvdbFallbackLanguages;
+
+            if (string.IsNullOrWhiteSpace(configured))
+            {
+                return new List<string> { "zhtw", "yue" };
+            }
+
+            var selected = configured
+                .Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(v => v.Trim())
+                .Where(v => v.Length > 0)
+                .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+            var ordered = SupportedTvdbFallbackLanguages
+                .Where(v => selected.Contains(v))
+                .ToList();
+
+            if (ordered.Count == 0)
+            {
+                ordered.Add("zhtw");
+                ordered.Add("yue");
+            }
+
+            return ordered;
+        }
+
+        private static bool HasTvdbJapaneseFallback()
+        {
+            return GetTvdbFallbackLanguages().Any(v => string.Equals(v, "jpn", StringComparison.OrdinalIgnoreCase));
+        }
+
+        private static bool BlockTvdbNonFallbackLanguage(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                return false;
+            }
+
+            var options = GetTmdbOptions();
+            return options.BlockNonFallbackLanguage &&
+                   (!HasTvdbJapaneseFallback() || !IsJapanese(input));
+        }
+
+        private static bool IsChinese(string input)
+        {
+            return !string.IsNullOrEmpty(input) &&
+                   ChineseRegex.IsMatch(input) &&
+                   !JapaneseRegex.IsMatch(input.Replace("\u30FB", string.Empty));
+        }
+
+        private static bool IsJapanese(string input)
+        {
+            return !string.IsNullOrEmpty(input) &&
+                   JapaneseRegex.IsMatch(input.Replace("\u30FB", string.Empty));
+        }
+
+        private static bool IsChineseJapanese(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return false;
+            }
+
+            var normalized = input.Replace("\u30FB", string.Empty);
+            return ChineseRegex.IsMatch(normalized) || JapaneseRegex.IsMatch(normalized);
+        }
+
+        private static int ToInt32(object value)
+        {
+            if (value == null)
+            {
+                return 0;
+            }
+
+            if (value is int i)
+            {
+                return i;
+            }
+
+            return int.TryParse(value.ToString(), NumberStyles.Integer, CultureInfo.InvariantCulture, out var parsed)
+                ? parsed
+                : 0;
+        }
+
+        private static bool ToBool(object value)
+        {
+            if (value is bool b)
+            {
+                return b;
+            }
+
+            return value != null &&
+                   bool.TryParse(value.ToString(), out var parsed) &&
+                   parsed;
+        }
+
+        private static object GetTaskResult(Task task)
+        {
+            if (task == null)
+            {
+                return null;
+            }
+
+            var taskType = task.GetType();
+            if (!taskType.IsGenericType || taskType.GetGenericTypeDefinition() != typeof(Task<>))
+            {
+                return null;
+            }
+
+            var resultProperty = taskType.GetProperty("Result", BindingFlags.Public | BindingFlags.Instance);
+            return resultProperty?.GetValue(task);
+        }
+
+        private static object GetPropertyValue(object instance, string name)
+        {
+            if (instance == null || string.IsNullOrWhiteSpace(name))
+            {
+                return null;
+            }
+
+            var flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.IgnoreCase;
+            var property = instance.GetType().GetProperty(name, flags);
+            if (property != null)
+            {
+                try
+                {
+                    return property.GetValue(instance);
+                }
+                catch
+                {
+                    return null;
+                }
+            }
+
+            return null;
+        }
+
+        private static string GetPropertyString(object instance, string name)
+        {
+            return GetPropertyValue(instance, name) as string;
+        }
+
+        private static bool GetPropertyBool(object instance, string name)
+        {
+            var value = GetPropertyValue(instance, name);
+            if (value is bool b)
+            {
+                return b;
+            }
+
+            return value != null && bool.TryParse(value.ToString(), out var parsed) && parsed;
+        }
+
+        private static void SetPropertyValue(object instance, string name, string value)
+        {
+            if (instance == null || string.IsNullOrWhiteSpace(name))
+            {
+                return;
+            }
+
+            var property = instance.GetType().GetProperty(
+                name,
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.IgnoreCase);
+
+            if (property == null || !property.CanWrite || property.PropertyType != typeof(string))
+            {
+                return;
+            }
+
+            try
+            {
+                property.SetValue(instance, value);
+            }
+            catch
+            {
+                // ignore
+            }
+        }
+    }
+}

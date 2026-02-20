@@ -20,6 +20,9 @@ namespace MediaInfoKeeper.Configuration
         [DisplayName("Search")]
         public EnhanceChineseSearchOptions EnhanceChineseSearch { get; set; } = new EnhanceChineseSearchOptions();
 
+        [DisplayName("MetaData")]
+        public MetaDataOptions MetaData { get; set; } = new MetaDataOptions();
+
         [DisplayName("Proxy")]
         public ProxyOptions Proxy { get; set; } = new ProxyOptions();
 

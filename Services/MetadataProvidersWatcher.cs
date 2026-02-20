@@ -102,8 +102,7 @@ namespace MediaInfoKeeper.Services
 
             if (IsVideoImageProviderWithEpisode(__args, out var item))
             {
-                logger?.Info("MetadataProvidersWatcher 检测到元数据变动");
-                logger?.Info($"MetadataProvidersWatcher InternalId:{item.InternalId},Name:{item.Name ?? string.Empty}");
+                logger?.Info($"MetadataProvidersWatcher 检测到元数据变动 InternalId:{item.InternalId},Name:{item.Name ?? string.Empty}");
                 TriggerMediaInfoRestore(item);
             }
             return true;
