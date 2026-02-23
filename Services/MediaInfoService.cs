@@ -175,13 +175,13 @@ namespace MediaInfoKeeper.Services
                     }
 
                     this.jsonSerializer.SerializeToFile(mediaSourcesWithChapters, mediaInfoJsonPath);
-                    this.logger.Info($"{source} 保存成功: {mediaInfoJsonPath}");
+                    this.logger.Info($"{source} 保存成功: {item.FileName ?? item.Path} {mediaInfoJsonPath}");
 
                     return true;
                 }
                 catch (Exception e)
                 {
-                    this.logger.Error($"{source} 保存失败: {mediaInfoJsonPath}");
+                    this.logger.Error($"{source} 保存失败: {item.FileName ?? item.Path} {mediaInfoJsonPath}");
                     this.logger.Error(e.Message);
                     this.logger.Debug(e.StackTrace);
                 }
@@ -267,16 +267,16 @@ namespace MediaInfoKeeper.Services
                             this.itemRepository.SaveChapters(item.InternalId, true, mediaSourceWithChapters.Chapters);
                         }
 
-                        this.logger.Info($"{source} 恢复成功: {mediaInfoJsonPath}");
+                        this.logger.Info($"{source} 恢复成功: {item.FileName ?? item.Path}");
 
                         return MediaInfoRestoreResult.Restored;
                     }
 
-                    this.logger.Info($"{source} 跳过恢复: {mediaInfoJsonPath}");
+                    this.logger.Info($"{source} 跳过恢复: {item.FileName ?? item.Path}");
                 }
                 catch (Exception e)
                 {
-                    this.logger.Error($"{source} 恢复失败: {mediaInfoJsonPath}");
+                    this.logger.Error($"{source} 恢复失败: {item.FileName ?? item.Path}");
                     this.logger.Error(e.Message);
                     this.logger.Debug(e.StackTrace);
                 }
@@ -299,7 +299,7 @@ namespace MediaInfoKeeper.Services
             {
                 try
                 {
-                    this.logger.Info($"MediaInfoKeeper {source} 尝试删除: {mediaInfoJsonPath}");
+                    this.logger.Info($"MediaInfoKeeper {source} 尝试删除: {item.FileName ?? item.Path} {mediaInfoJsonPath}");
                     this.fileSystem.DeleteFile(mediaInfoJsonPath);
                 }
                 catch (Exception e)
