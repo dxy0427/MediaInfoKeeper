@@ -283,7 +283,7 @@ namespace MediaInfoKeeper.Services
             }
             else
             {
-                this.logger.Info($"{source} 未找到 JSON: {mediaInfoJsonPath}");
+                this.logger.Info($"{source} 未找到 JSON: {item.Name ?? item.Path}");
             }
 
             return MediaInfoRestoreResult.Failed;
