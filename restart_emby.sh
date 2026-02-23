@@ -15,4 +15,4 @@ dotnet build "$script_dir/MediaInfoKeeper.csproj" -c Debug
 scp "$local_dll" "${remote}:${remote_dir}/"
 
 # 2) Restart Emby (Docker Compose)
-ssh "$remote" "cd \"$compose_dir\" && docker compose restart"
+ssh "$remote" "cd \"$compose_dir\" && rm -rf ./config/cache/tmdb-tv && docker compose restart"
