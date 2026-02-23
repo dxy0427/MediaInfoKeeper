@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -74,33 +74,58 @@ namespace MediaInfoKeeper.Services
         /// <summary>根据配置计算媒体条目的 JSON 保存路径。</summary>
         public static string GetMediaInfoJsonPath(BaseItem item)
         {
-            var jsonRootFolder = Plugin.Instance.Options.MainPage.MediaInfoJsonRootFolder;
+            var jsonRootFolder = Plugin.Instance.Options.MainPage.MediaInfoJsonRootFolder?.Trim();
 
             var mediaInfoFileName = GetMediaInfoFileName(item);
-            var mediaInfoJsonPath = !string.IsNullOrEmpty(jsonRootFolder)
+            var mediaInfoJsonPath = !string.IsNullOrWhiteSpace(jsonRootFolder)
                 ? Path.Combine(jsonRootFolder, mediaInfoFileName)
                 : Path.Combine(item.ContainingFolderPath, mediaInfoFileName);
 
             return mediaInfoJsonPath;
         }
 
-        private static bool TryGetTmdbId(BaseItem item, out string tmdbId)
+        private static bool IsValidTmdbId(string tmdbId)
         {
-            tmdbId = item.GetProviderId(MetadataProviders.Tmdb);
-            if (!string.IsNullOrWhiteSpace(tmdbId) &&
-                !string.Equals(tmdbId, "None", StringComparison.OrdinalIgnoreCase))
-            {
-                return true;
-            }
-
-            if (item is Episode episodeWithSeries && Plugin.LibraryManager != null)
-            {
-                var series = Plugin.LibraryManager.GetItemById(episodeWithSeries.SeriesId);
-                tmdbId = series?.GetProviderId(MetadataProviders.Tmdb);
-            }
-
             return !string.IsNullOrWhiteSpace(tmdbId) &&
                    !string.Equals(tmdbId, "None", StringComparison.OrdinalIgnoreCase);
+        }
+
+        private static bool TryGetTmdbId(BaseItem item, out string tmdbId)
+        {
+            tmdbId = null;
+
+            if (item is Series seriesItem)
+            {
+                tmdbId = seriesItem.GetProviderId(MetadataProviders.Tmdb);
+                return IsValidTmdbId(tmdbId);
+            }
+
+            if (item is Episode episodeWithSeries)
+            {
+                if (Plugin.LibraryManager == null)
+                {
+                    return false;
+                }
+
+                var series = Plugin.LibraryManager.GetItemById(episodeWithSeries.SeriesId) as Series;
+                tmdbId = series?.GetProviderId(MetadataProviders.Tmdb);
+                return IsValidTmdbId(tmdbId);
+            }
+
+            if (item is Season season)
+            {
+                if (Plugin.LibraryManager == null)
+                {
+                    return false;
+                }
+
+                var series = Plugin.LibraryManager.GetItemById(season.ParentId) as Series;
+                tmdbId = series?.GetProviderId(MetadataProviders.Tmdb);
+                return IsValidTmdbId(tmdbId);
+            }
+
+            tmdbId = item.GetProviderId(MetadataProviders.Tmdb);
+            return IsValidTmdbId(tmdbId);
         }
 
         private static string GetMediaInfoFileName(BaseItem item)
@@ -211,14 +236,20 @@ namespace MediaInfoKeeper.Services
             bool ignoreFileChange)
         {
             var workItem = this.libraryManager.GetItemById(item.InternalId);
+            if (workItem == null)
+            {
+                this.logger.Info($"{source} 跳过恢复: 条目不存在 InternalId={item.InternalId}");
+                return MediaInfoRestoreResult.Failed;
+            }
 
             if (Plugin.LibraryService.HasMediaInfo(workItem))
             {
                 return MediaInfoRestoreResult.AlreadyExists;
             }
 
-            var mediaInfoJsonPath = GetMediaInfoJsonPath(item);
-            var file = directoryService.GetFile(mediaInfoJsonPath);
+            var ds = directoryService ?? new DirectoryService(this.logger, this.fileSystem);
+            var mediaInfoJsonPath = GetMediaInfoJsonPath(workItem);
+            var file = ds.GetFile(mediaInfoJsonPath);
 
             if (file?.Exists == true)
             {
@@ -230,7 +261,7 @@ namespace MediaInfoKeeper.Services
                         .ToArray()[0];
 
                     if (mediaSourceWithChapters?.MediaSourceInfo?.RunTimeTicks.HasValue is true &&
-                        (ignoreFileChange || !Plugin.LibraryService.HasFileChanged(item, directoryService)))
+                        (ignoreFileChange || !Plugin.LibraryService.HasFileChanged(workItem, ds)))
                     {
                         foreach (var subtitle in mediaSourceWithChapters.MediaSourceInfo.MediaStreams.Where(m =>
                                      m.IsExternal && m.Type == MediaStreamType.Subtitle &&
@@ -267,23 +298,23 @@ namespace MediaInfoKeeper.Services
                             this.itemRepository.SaveChapters(item.InternalId, true, mediaSourceWithChapters.Chapters);
                         }
 
-                        this.logger.Info($"{source} 恢复成功: {item.FileName ?? item.Path}");
+                        this.logger.Info($"{source} 恢复成功: {workItem.FileName ?? workItem.Path}");
 
                         return MediaInfoRestoreResult.Restored;
                     }
 
-                    this.logger.Info($"{source} 跳过恢复: {item.FileName ?? item.Path}");
+                    this.logger.Info($"{source} 跳过恢复: {workItem.FileName ?? workItem.Path}");
                 }
                 catch (Exception e)
                 {
-                    this.logger.Error($"{source} 恢复失败: {item.FileName ?? item.Path}");
+                    this.logger.Error($"{source} 恢复失败: {workItem.FileName ?? workItem.Path}");
                     this.logger.Error(e.Message);
                     this.logger.Debug(e.StackTrace);
                 }
             }
             else
             {
-                this.logger.Info($"{source} 未找到 JSON: {item.FileName ?? item.Path}");
+                this.logger.Info($"{source} 未找到 JSON: {workItem.FileName ?? workItem.Path} {mediaInfoJsonPath}");
             }
 
             return MediaInfoRestoreResult.Failed;
