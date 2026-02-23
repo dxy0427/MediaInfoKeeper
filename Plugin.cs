@@ -272,6 +272,11 @@ namespace MediaInfoKeeper
             this.logger.Info($"ProxyServerUrl 设置为 {(string.IsNullOrEmpty(options.Proxy.ProxyServerUrl) ? "EMPTY" : options.Proxy.ProxyServerUrl)}");
             this.logger.Info($"IgnoreCertificateValidation 设置为 {options.Proxy.IgnoreCertificateValidation}");
             this.logger.Info($"WriteProxyEnvVars 设置为 {options.Proxy.WriteProxyEnvVars}");
+            this.logger.Info($"EnableGzip 设置为 {options.Proxy.EnableGzip}");
+            this.logger.Info($"EnableAlternativeTmdb 设置为 {options.Proxy.EnableAlternativeTmdb}");
+            this.logger.Info($"AlternativeTmdbApiUrl 设置为 {(string.IsNullOrEmpty(options.Proxy.AlternativeTmdbApiUrl) ? "EMPTY" : options.Proxy.AlternativeTmdbApiUrl)}");
+            this.logger.Info($"AlternativeTmdbImageUrl 设置为 {(string.IsNullOrEmpty(options.Proxy.AlternativeTmdbImageUrl) ? "EMPTY" : options.Proxy.AlternativeTmdbImageUrl)}");
+            this.logger.Info($"AlternativeTmdbApiKey 设置为 {(string.IsNullOrEmpty(options.Proxy.AlternativeTmdbApiKey) ? "EMPTY" : "***")}");
             this.logger.Info($"EnhanceChineseSearch 设置为 {options.EnhanceChineseSearch.EnhanceChineseSearch}");
             this.logger.Info($"ExcludeOriginalTitleFromSearch 设置为 {options.EnhanceChineseSearch.ExcludeOriginalTitleFromSearch}");
             this.logger.Info($"EnableAlternativeTitleFallback 设置为 {options.MetaData.EnableAlternativeTitleFallback}");
