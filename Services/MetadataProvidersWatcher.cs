@@ -147,7 +147,7 @@ namespace MediaInfoKeeper.Services
                     await Task.Delay(TimeSpan.FromSeconds(10)).ConfigureAwait(false);
                     var directoryService = new DirectoryService(logger, fileSystem);
                     await mediaInfoService
-                        .DeserializeMediaInfo(item, directoryService, "MetadataProvidersWatcher 恢复媒体信息", true)
+                        .DeserializeMediaInfo(item, directoryService, "MetadataProvidersWatcher 恢复媒体信息")
                         .ConfigureAwait(false);
                 }
                 catch (Exception ex)

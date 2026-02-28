@@ -113,7 +113,7 @@ namespace MediaInfoKeeper.ScheduledTask
                 }
 
                 var deserializeResult = await Plugin.MediaInfoService
-                    .DeserializeMediaInfo(item, directoryService, source, false)
+                    .DeserializeMediaInfo(item, directoryService, source)
                     .ConfigureAwait(false);
 
                 if (deserializeResult == MediaInfoService.MediaInfoRestoreResult.Restored)

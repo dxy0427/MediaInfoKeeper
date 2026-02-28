@@ -410,7 +410,7 @@ namespace MediaInfoKeeper
                 {
                     // 优先尝试从 JSON 恢复，减少首次提取耗时。
                     this.logger.Info("尝试从 JSON 恢复 MediaInfo");
-                    var restoreResult = await MediaInfoService.DeserializeMediaInfo(e.Item, directoryService, "OnItemAdded", true).ConfigureAwait(false);
+                    var restoreResult = await MediaInfoService.DeserializeMediaInfo(e.Item, directoryService, "OnItemAdded").ConfigureAwait(false);
                     
                     // 如果不存在Json文件，则使用ffprobe 提取一次
                     if (restoreResult == MediaInfoService.MediaInfoRestoreResult.Failed)
