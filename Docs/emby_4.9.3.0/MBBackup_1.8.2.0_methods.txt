@@ -1,0 +1,5433 @@
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: AddColumn
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+    System.String
+    System.String
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: CheckDisposed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: CreateConnection
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: CreateException
+
+PARAMETERS:
+    SQLitePCL.pretty.ErrorCode
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: DisposeConnection
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetBytes
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetColumnNames
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetEquals
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetInOrEquals
+
+PARAMETERS:
+    System.String
+    System.Int64
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetInOrEquals
+
+PARAMETERS:
+    System.String
+    System.Int32[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetInOrEquals
+
+PARAMETERS:
+    System.String
+    System.Int64[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetIndexesInTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetNotInOrEquals
+
+PARAMETERS:
+    System.String
+    System.Int32[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetNotInOrEquals
+
+PARAMETERS:
+    System.String
+    System.Int64[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetScalarFunctions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetTableNames
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: GetTableNamesInTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: LogPrepareTime
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: OnClosing
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: PrepareAll
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: PrepareAll
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.Collections.Generic.List`1[[System.ReadOnlyMemory`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: RunDefaultInitialization
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: Vacuum
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_CacheSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_DbFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_EnableForeignKeyEnforcement
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_EnableSingleConnection
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_EnableTempStoreMemory
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_IsExternallyOwnedDatabase
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_Logger
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_MmioSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_OptimizeOnConnectionClose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_PragmaAnalysisLimit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_ReadTransactionMode
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_ThreadSafeMode
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: get_TransactionMode
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: set_DbFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: set_Logger
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository
+
+METHOD: set_ThreadSafeMode
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository+<>c
+
+METHOD: <GetInOrEquals>b__28_0
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository+<>c
+
+METHOD: <GetInOrEquals>b__29_0
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository+<>c
+
+METHOD: <GetNotInOrEquals>b__30_0
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.BaseSqliteRepository+<>c
+
+METHOD: <GetNotInOrEquals>b__31_0
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.ReaderWriterLockSlimExtensions
+
+METHOD: Read
+
+PARAMETERS:
+    System.Threading.ReaderWriterLockSlim
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.ReaderWriterLockSlimExtensions
+
+METHOD: Write
+
+PARAMETERS:
+    System.Threading.ReaderWriterLockSlim
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.ReaderWriterLockSlimExtensions+WriteLockToken
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Threading.ReaderWriterLockSlim
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.ReaderWriterLockSlimExtensions+WriteLockToken
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: CheckName
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ExecuteQuery
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: GetDateTimeKindFormat
+
+PARAMETERS:
+    System.DateTimeKind
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: GetGuid
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ReadDateTimeOffset
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ReadDateTimeOffset
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+    System.Int32
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ReadDateTimeOffset
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ReadDateTimeOffset
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ReadNullableDateTimeOffset
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ReadNullableDateTimeOffset
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+    System.Int32
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: RunQueries
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: SerializeToBytes
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    System.Object
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ToDateTimeParamValue
+
+PARAMETERS:
+    System.DateTime
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ToGuidBlob
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: ToGuidBlob
+
+PARAMETERS:
+    System.Guid
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Double
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.Double
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Net.IPAddress
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Guid
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.DateTimeOffset
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.DateTimeOffset
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.DateTimeOffset
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.DateTimeOffset
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Int64
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.Int64
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBind
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBindNull
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions
+
+METHOD: TryBindNull
+
+PARAMETERS:
+    SQLitePCL.pretty.IStatement
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: System.Collections.Generic.IEnumerable<SQLitePCL.pretty.IResultSet>.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: System.Collections.Generic.IEnumerator<SQLitePCL.pretty.IResultSet>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: Emby.Data.SqliteExtensions+<ExecuteQuery>d__42
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.AllBackupsInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.AllBackupsInfo
+
+METHOD: get_FullBackupInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.AllBackupsInfo
+
+METHOD: get_LightBackups
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.AllBackupsInfo
+
+METHOD: set_FullBackupInfo
+
+PARAMETERS:
+    MBBackup.BackupInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.AllBackupsInfo
+
+METHOD: set_LightBackups
+
+PARAMETERS:
+    MBBackup.BackupInfo[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.BackupApi
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.BackupApi
+
+METHOD: Get
+
+PARAMETERS:
+    MBBackup.Api.GetBackupInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.BackupApi
+
+METHOD: Post
+
+PARAMETERS:
+    MBBackup.Api.RestoreFromBackup
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.BackupApi
+
+METHOD: Post
+
+PARAMETERS:
+    MBBackup.Api.RestoreDataFromBackup
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.DataRestoreOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.DataRestoreOptions
+
+METHOD: get_Users
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.DataRestoreOptions
+
+METHOD: set_Users
+
+PARAMETERS:
+    MBBackup.Api.UserRestoreInfo[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.GetBackupInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreDataFromBackup
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreFromBackup
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreOptions
+
+METHOD: get_RestoreServerId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreOptions
+
+METHOD: get_UseFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreOptions
+
+METHOD: set_RestoreServerId
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.RestoreOptions
+
+METHOD: set_UseFiles
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.UserRestoreInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.UserRestoreInfo
+
+METHOD: get_SourceUserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.UserRestoreInfo
+
+METHOD: get_TargetUserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.UserRestoreInfo
+
+METHOD: set_SourceUserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Api.UserRestoreInfo
+
+METHOD: set_TargetUserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_CanRestore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_DateCreated
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_IsFullBackup
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_PluginVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_ServerVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: get_Users
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_CanRestore
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_DateCreated
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_IsFullBackup
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_PluginVersion
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_ServerVersion
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupInfo
+
+METHOD: set_Users
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.NameIdPair[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupNotificationTypeFactory
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.BackupNotificationTypeFactory
+
+METHOD: GetNotificationTypes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: get_BackupDirectory
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: get_BackupMetadataLibrary
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: get_BackupMetadataMusicAlbums
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: get_BackupMetadataMusicArtists
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: get_BackupMetadataPeople
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: get_BackupRetention
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: set_BackupDirectory
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: set_BackupMetadataLibrary
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: set_BackupMetadataMusicAlbums
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: set_BackupMetadataMusicArtists
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: set_BackupMetadataPeople
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Configuration.PluginConfiguration
+
+METHOD: set_BackupRetention
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Data.UserRepository
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Data.UserRepository
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Data.UserRepository
+
+METHOD: GetUser
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Data.UserRepository
+
+METHOD: RetrieveAllUsers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Data.UserRepository
+
+METHOD: UpdateUser
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Data.UserRepository
+
+METHOD: get_EnableSingleConnection
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: Execute
+
+PARAMETERS:
+    System.Threading.CancellationToken
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: GetDefaultTriggers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_Category
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_IsEnabled
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_IsHidden
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_IsLogged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Entities.ScheduledBackupTask
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    MediaBrowser.Model.Serialization.IXmlSerializer
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: UpdateConfiguration
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.BasePluginConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: get_Instance
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: get_Logger
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: set_Instance
+
+PARAMETERS:
+    MBBackup.Plugin
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin
+
+METHOD: set_Logger
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin+<>c__DisplayClass15_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin+<>c__DisplayClass15_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Plugin+<>c__DisplayClass15_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Tasks.ITaskManager
+    MediaBrowser.Common.Security.ISecurityManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.IServerApplicationPaths
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Model.Serialization.IXmlSerializer
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Notifications.INotificationManager
+    MediaBrowser.Model.Globalization.ILocalizationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: BackupExtraDatabases
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+    System.String
+    MBBackup.Sync.Sync
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: ClearEmbyConnectData
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: ExecuteBackup
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+    System.Threading.CancellationToken
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: ExecuteBackupInternal
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+    System.Threading.CancellationToken
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: GetAllBackups
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: GetBackupFolder
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: GetBackupInfo
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: GetLightBackups
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: GetMetadataFolderFromBackup
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: OnAppHostDisposed
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: Restore
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+    MBBackup.Api.RestoreOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: RestoreData
+
+PARAMETERS:
+    MBBackup.Configuration.PluginConfiguration
+    MBBackup.Api.DataRestoreOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: SupportsNotifications
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: ThrowIfRestoreInProgress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: ValidateBackupDirectory
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: ValidateBackupDirectory
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_ApplicationHost
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_ApplicationPaths
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_CurrentProgress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_FileSystem
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_Instance
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_JsonSerializer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_LibraryManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_LocalizationManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_NotificationManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_ServerConfigurationManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_UserDataManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_UserManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: get_XmlSerializer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_ApplicationHost
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_ApplicationPaths
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationPaths
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_CurrentProgress
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_FileSystem
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_Instance
+
+PARAMETERS:
+    MBBackup.ServerEntryPoint
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_JsonSerializer
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_LibraryManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ILibraryManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_LocalizationManager
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.ILocalizationManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_NotificationManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.INotificationManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_ServerConfigurationManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_UserDataManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserDataManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_UserManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint
+
+METHOD: set_XmlSerializer
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IXmlSerializer
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c
+
+METHOD: <ExecuteBackupInternal>b__74_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c
+
+METHOD: <ExecuteBackupInternal>b__74_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c
+
+METHOD: <GetBackupInfo>b__75_0
+
+PARAMETERS:
+    MBBackup.BackupInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c
+
+METHOD: <GetLightBackups>b__76_0
+
+PARAMETERS:
+    MBBackup.BackupInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c__DisplayClass78_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c__DisplayClass78_0
+
+METHOD: <BackupExtraDatabases>b__0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c__DisplayClass80_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c__DisplayClass80_0
+
+METHOD: <GetBackupFolder>b__0
+
+PARAMETERS:
+    MBBackup.BackupInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c__DisplayClass83_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<>c__DisplayClass83_0
+
+METHOD: <RestoreData>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<ExecuteBackup>d__71
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<ExecuteBackup>d__71
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<ExecuteBackupInternal>d__74
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<ExecuteBackupInternal>d__74
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<Restore>d__82
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.ServerEntryPoint+<Restore>d__82
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.List`1[[System.Tuple`2[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: get_ChangedFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: get_LeftOnlyFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: get_LeftOnlyFolders
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: get_RightOnlyFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: get_RightOnlyFolders
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: set_ChangedFiles
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.Tuple`2[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: set_LeftOnlyFiles
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: set_LeftOnlyFolders
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: set_RightOnlyFiles
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.FolderDiffResults
+
+METHOD: set_RightOnlyFolders
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Folders
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Folders
+
+METHOD: DiffFolders
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Folders
+
+METHOD: GetRelativePathsOfAllFiles
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Folders+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Folders+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Folders+<>c
+
+METHOD: <DiffFolders>b__3_0
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Logging.LogSeverity
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: AreContentsIdentical
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: CopyAll
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String[]
+    System.String[]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: IgnoreFile
+
+PARAMETERS:
+    System.String
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: MakeFullPath
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: SyncDirectories
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: SyncDirectories
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: SyncDirectories
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String[]
+    System.String[]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: SyncDirectories
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.String[]
+    System.String[]
+    System.String[]
+    System.Boolean
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryCopyDirectory
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String[]
+    System.String[]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryCopyFile
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryCopyFileIfChanged
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryCopyFileIfChanged
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryCreateDirectory
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryDeleteDirectory
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync
+
+METHOD: TryDeleteFile
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync+<>c
+
+METHOD: <.cctor>b__23_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MBBackup.dll
+DLL_VERSION: 1.8.2.0
+
+TYPE: MBBackup.Sync.Sync+<>c
+
+METHOD: <.cctor>b__23_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

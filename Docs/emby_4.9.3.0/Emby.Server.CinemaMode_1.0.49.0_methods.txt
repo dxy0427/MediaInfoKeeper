@@ -1,0 +1,2602 @@
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Cryptography.ICryptoProvider
+    MediaBrowser.Common.Security.ISecurityManager
+    MediaBrowser.Controller.Security.IEncryptionManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: CheckRegistrationWithServer
+
+PARAMETERS:
+    System.DateTimeOffset
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: DeleteCachedRecord
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: GetCacheFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: GetCacheKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: GetCachedRegRecord
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: GetRegistrationStatus
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: GetRegistrationStatusInternal
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager
+
+METHOD: SaveCachedRecord
+
+PARAMETERS:
+    System.String
+    Emby.Security.RegRecord
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager+<GetCachedRegRecord>d__17
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager+<GetCachedRegRecord>d__17
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager+<GetRegistrationStatus>d__21
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager+<GetRegistrationStatus>d__21
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager+<GetRegistrationStatusInternal>d__23
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.PluginSecurityManager+<GetRegistrationStatusInternal>d__23
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_expDate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_featId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_isTrial
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_isValid
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_lastChecked
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: get_registered
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: set_expDate
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: set_featId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: set_key
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: set_lastChecked
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Security.RegRecord
+
+METHOD: set_registered
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_CustomIntroPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosForEpisodes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosForMovies
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosForWatchedContent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosFromMoviesInLibrary
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosFromSimilarMovies
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosFromUpcomingTrailers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_EnableIntrosParentalControl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_MaximizeRandomization
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_MediaInfoIntroPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: get_TrailerLimit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_CustomIntroPath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosForEpisodes
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosForMovies
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosForWatchedContent
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosFromMoviesInLibrary
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosFromSimilarMovies
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosFromUpcomingTrailers
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_EnableIntrosParentalControl
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_MaximizeRandomization
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_MediaInfoIntroPath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
+
+METHOD: set_TrailerLimit
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfigurationFactory
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.CinemaModeConfigurationFactory
+
+METHOD: GetConfigurations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: <GetMediaInfoIntrosBy3D>b__14_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetAllIntroFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetCustomIntroFiles
+
+PARAMETERS:
+    Emby.Server.CinemaMode.CinemaModeConfiguration
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetCustomIntros
+
+PARAMETERS:
+    Emby.Server.CinemaMode.CinemaModeConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetIntros
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Entities.User
+    MediaBrowser.Controller.Library.IntrosOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetIntros
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetMediaInfoIntros
+
+PARAMETERS:
+    Emby.Server.CinemaMode.CinemaModeConfiguration
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetMediaInfoIntrosBy3D
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Entities.Video
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetMediaInfoIntrosByAudioStream
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.MediaStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetMediaInfoIntrosByTags
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Dto.LinkedItemInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetMediaInfoIntrosByVideoStream
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.MediaStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: GetResult
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Server.CinemaMode.CinemaModeConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: IsAudioMatch
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Entities.MediaStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: IsMatch
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: IsVideoFile
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: Normalize
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetCustomIntros>b__11_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetCustomIntros>b__11_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetIntros>b__7_0
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntros>b__12_0
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntros>b__12_1
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntros>b__12_2
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntros>b__12_3
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntros>b__12_4
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntrosBy3D>b__14_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntrosByAudioStream>b__15_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntrosByTags>b__16_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c
+
+METHOD: <GetMediaInfoIntrosByVideoStream>b__13_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass13_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass13_0
+
+METHOD: <GetMediaInfoIntrosByVideoStream>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass15_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass15_0
+
+METHOD: <GetMediaInfoIntrosByAudioStream>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass16_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass16_0
+
+METHOD: <GetMediaInfoIntrosByTags>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IntroInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass16_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<>c__DisplayClass16_1
+
+METHOD: <GetMediaInfoIntrosByTags>b__2
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.LinkedItemInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<GetIntros>d__7
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.DefaultIntroProvider+<GetIntros>d__7
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.IntrosEntryPoint
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.Tasks.ITaskManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.IntrosEntryPoint
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.IntrosEntryPoint
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.IntrosEntryPoint
+
+METHOD: _config_NamedConfigurationUpdated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions
+
+METHOD: DistinctBy
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[TSource]
+    System.Func`2[TSource,TKey]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 2
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions
+
+METHOD: DistinctBy
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[TSource]
+    System.Func`2[TSource,TKey]
+    System.Collections.Generic.IEqualityComparer`1[TKey]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 2
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions
+
+METHOD: DistinctByImpl
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[TSource]
+    System.Func`2[TSource,TKey]
+    System.Collections.Generic.IEqualityComparer`1[TKey]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 2
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions
+
+METHOD: ToArray
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[TSource]
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: <>m__Finally1
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: System.Collections.Generic.IEnumerator<TSource>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.LinqExtensions+<DistinctByImpl>d__3`2
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin+<>c__DisplayClass8_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Plugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScanTask
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScanTask
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScanTask
+
+METHOD: RefreshIntro
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScanTask
+
+METHOD: Run
+
+PARAMETERS:
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScanTask+<Run>d__5
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScanTask+<Run>d__5
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: Execute
+
+PARAMETERS:
+    System.Threading.CancellationToken
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: GetDefaultTriggers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_Category
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_IsEnabled
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_IsHidden
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_IsLogged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.CinemaMode.dll
+DLL_VERSION: 1.0.49.0
+
+TYPE: Emby.Server.CinemaMode.Tasks.RefreshIntrosScheduledTask
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

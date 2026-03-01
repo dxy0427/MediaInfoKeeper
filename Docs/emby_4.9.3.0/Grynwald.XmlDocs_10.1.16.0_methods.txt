@@ -1,0 +1,7686 @@
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BlockElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.BoldElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BoldElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ListItem, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.BulletedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.BulletedListElement
+
+METHOD: get_Items
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.CElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.CodeElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.CodeElement
+
+METHOD: get_Language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.DefinitionListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DefinitionListItem
+
+METHOD: get_Term
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.MemberElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: FromFile
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XDocument
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: get_AssemblyName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationFile
+
+METHOD: get_Members
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NamespaceMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.FieldMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PropertyMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.MethodMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EventMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SummaryElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.RemarksElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExampleElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExceptionElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedSectionElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PlainTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BulletedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NumberedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SimpleListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DefinitionListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CodeElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParagraphElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ValueElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ReturnsElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EmphasisElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.IdiomaticElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BoldElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.StrongElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.LineBreakElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: VisitExceptions
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ExceptionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: VisitParameters
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: VisitSeeAlso
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: VisitTypeParameters
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+    System.Collections.Generic.IReadOnlyCollection`1[[Grynwald.XmlDocs.TypeParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.DocumentationVisitor
+
+METHOD: VisitUnrecgonizedElements
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.EmphasisElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EmphasisElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EventMemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EventMemberElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EventMemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EventMemberElement
+
+METHOD: get_Exceptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.EventMemberElement
+
+METHOD: set_Exceptions
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ExceptionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExampleElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExampleElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExampleElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExceptionElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExceptionElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExceptionElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExceptionElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ExceptionElement
+
+METHOD: get_Reference
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.FieldMemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.FieldMemberElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.FieldMemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.FieldMemberElement
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.FieldMemberElement
+
+METHOD: set_Value
+
+PARAMETERS:
+    Grynwald.XmlDocs.ValueElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NamespaceMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.FieldMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PropertyMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.MethodMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EventMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExceptionElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SummaryElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.RemarksElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExampleElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ValueElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ReturnsElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedSectionElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PlainTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BulletedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NumberedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DefinitionListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SimpleListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CodeElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParagraphElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EmphasisElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.IdiomaticElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BoldElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.StrongElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IDocumentationVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.LineBreakElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.IdiomaticElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.IdiomaticElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.InlineElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: GetIndentation
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: ParseXmlDocument
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: ParseXmlElement
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: TrimCode
+
+PARAMETERS:
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: TrimLines
+
+PARAMETERS:
+    System.String
+    System.StringSplitOptions
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper
+
+METHOD: TrimText
+
+PARAMETERS:
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper+<>c
+
+METHOD: <GetIndentation>b__0_0
+
+PARAMETERS:
+    System.Char
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper+<>c__DisplayClass3_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlContentHelper+<>c__DisplayClass3_0
+
+METHOD: <TrimLines>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: EnsureNameIs
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+    System.Xml.Linq.XName
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: EnsureNameIs
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+    System.Xml.Linq.XName[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: GetPositionString
+
+PARAMETERS:
+    System.Xml.IXmlLineInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: RequireAttribute
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: RequireElement
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+    System.Xml.Linq.XName
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: RequireRootElement
+
+PARAMETERS:
+    System.Xml.Linq.XDocument
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: RequireValue
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.Internal.XmlExtensions
+
+METHOD: RequireValue
+
+PARAMETERS:
+    System.Xml.Linq.XAttribute
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.LineBreakElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.LineBreakElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListItem
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListItem
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListItem
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListItem
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ListItem
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: GetUnrecognizedElements
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+    System.Xml.Linq.XName[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: TryReadElement
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+    System.String
+    System.Func`2[System.Xml.Linq.XElement,T]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: get_Example
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: get_Remarks
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: get_SeeAlso
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: get_Summary
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: get_UnrecognizedElements
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: set_Example
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExampleElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: set_Remarks
+
+PARAMETERS:
+    Grynwald.XmlDocs.RemarksElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: set_SeeAlso
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.SeeAlsoElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: set_Summary
+
+PARAMETERS:
+    Grynwald.XmlDocs.SummaryElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement
+
+METHOD: set_UnrecognizedElements
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[Grynwald.XmlDocs.UnrecognizedSectionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement+<>c
+
+METHOD: <GetUnrecognizedElements>b__27_1
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement+<>c__DisplayClass27_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberElement+<>c__DisplayClass27_0
+
+METHOD: <GetUnrecognizedElements>b__0
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Grynwald.XmlDocs.MemberType
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: Parse
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: TryParse
+
+PARAMETERS:
+    System.String
+    Grynwald.XmlDocs.MemberId&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MemberId
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: get_Exceptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: get_Parameters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: get_Returns
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: get_TypeParameters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: set_Exceptions
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ExceptionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: set_Parameters
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: set_Returns
+
+PARAMETERS:
+    Grynwald.XmlDocs.ReturnsElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MethodMemberElement
+
+METHOD: set_TypeParameters
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.TypeParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NamespaceMemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NamespaceMemberElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NamespaceMemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ListItem, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.NumberedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.NumberedListElement
+
+METHOD: get_Items
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParagraphElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParagraphElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterElement
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ParameterReferenceElement
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PlainTextElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PlainTextElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PlainTextElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PlainTextElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.PlainTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PlainTextElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PlainTextElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: get_Exceptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: get_Parameters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: set_Exceptions
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ExceptionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: set_Parameters
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.PropertyMemberElement
+
+METHOD: set_Value
+
+PARAMETERS:
+    Grynwald.XmlDocs.ValueElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.RemarksElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.RemarksElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.RemarksElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ReturnsElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ReturnsElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ReturnsElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SectionElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SectionElement
+
+METHOD: get_Text
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+METHOD: get_Reference
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+METHOD: get_Link
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeCodeReferenceElement
+
+METHOD: get_Reference
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeElement
+
+METHOD: get_Text
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SeeUrlReferenceElement
+
+METHOD: get_Link
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.SimpleListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SimpleListItem
+
+METHOD: get_Text
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.StrongElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.StrongElement
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SummaryElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SummaryElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.SummaryElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.TableRow, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: get_Header
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableElement
+
+METHOD: get_Rows
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.TextBlock, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow
+
+METHOD: get_Columns
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TableRow+<>c
+
+METHOD: <FromXml>b__8_0
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextElement[]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: FromXmlOrNullIfEmpty
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: ReadElements
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: get_Elements
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock
+
+METHOD: set_Elements
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.TextElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: <>m__Finally1
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: System.Collections.Generic.IEnumerable<Grynwald.XmlDocs.TextElement>.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: System.Collections.Generic.IEnumerator<Grynwald.XmlDocs.TextElement>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextBlock+<ReadElements>d__12
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TextElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeMemberElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeMemberElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeMemberElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberId
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeMemberElement
+
+METHOD: get_TypeParameters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeMemberElement
+
+METHOD: set_TypeParameters
+
+PARAMETERS:
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.TypeParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterElement
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.TypeParameterReferenceElement
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedSectionElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedSectionElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedSectionElement
+
+METHOD: get_Xml
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedTextElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedTextElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedTextElement
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedTextElement
+
+METHOD: Equals
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedTextElement
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.UnrecognizedTextElement
+
+METHOD: get_Xml
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ValueElement
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ValueElement
+
+METHOD: Accept
+
+PARAMETERS:
+    Grynwald.XmlDocs.IDocumentationVisitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.ValueElement
+
+METHOD: FromXml
+
+PARAMETERS:
+    System.Xml.Linq.XElement
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.XmlDocsException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.XmlDocsException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Exception
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Microsoft.CodeAnalysis.EmbeddedAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.NullableAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.NullableAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.NullableContextAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.RefSafetyRulesAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

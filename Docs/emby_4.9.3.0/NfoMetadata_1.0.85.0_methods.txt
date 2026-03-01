@@ -1,0 +1,5674 @@
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.ConfigurationExtension
+
+METHOD: GetNfoConfiguration
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IConfigurationManager
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.ConfigurationFactory
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.ConfigurationFactory
+
+METHOD: GetConfigurations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: get_ReleaseDateFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: get_SaveImagePathsInNfoFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: get_UserIdForUserData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: set_ReleaseDateFormat
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: set_SaveImagePathsInNfoFiles
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Configuration.XbmcMetadataOptions
+
+METHOD: set_UserIdForUserData
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.EntryPoint
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Common.Configuration.IConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.EntryPoint
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.EntryPoint
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.EntryPoint
+
+METHOD: SaveMetadataForItem
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.EntryPoint
+
+METHOD: _userDataManager_UserDataSaved
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.UserDataSaveEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Helpers
+
+METHOD: GetFileInfo
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: AddProductionLocation
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: AddProductionLocations
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    System.String
+    System.Xml.XmlReaderSettings
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: FetchDataFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: FetchFromFileInfoNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: FetchFromRatingsNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: FetchFromStreamDetailsNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: FetchFromVideoNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: GetPersonFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: GetRatingFromNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: InitializeValidProviderIds
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: IsProviderIdValid
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: IsValidProviderId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: ParseCreditsNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Model.Entities.PersonType
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: ParsePersonNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Model.Entities.PersonType
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: ParseProviderIdIfValid
+
+PARAMETERS:
+    System.String
+    System.String
+    MediaBrowser.Model.Entities.ProviderIdDictionary
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: ParseProviderLinks
+
+PARAMETERS:
+    T
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: ParseSetXml
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: SplitNames
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: get_FileSystem
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: get_Logger
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: get_MovieDbParserSearchString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: get_ProviderManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: get_SupportsUrlAfterClosingXmlTag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: set_FileSystem
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: set_Logger
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1
+
+METHOD: set_ProviderManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_1
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Model.Entities.MetadataFields, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_2
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Model.Entities.MetadataFields, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_3
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_4
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_5
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <FetchDataFromXmlNode>b__25_6
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <ParseCreditsNode>b__23_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c
+
+METHOD: <ParsePersonNode>b__24_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c__DisplayClass23_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c__DisplayClass23_0
+
+METHOD: <ParseCreditsNode>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c__DisplayClass24_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<>c__DisplayClass24_0
+
+METHOD: <ParsePersonNode>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<Fetch>d__19
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<Fetch>d__19
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchDataFromXmlNode>d__25
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchDataFromXmlNode>d__25
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromFileInfoNode>d__32
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromFileInfoNode>d__32
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromRatingsNode>d__30
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromRatingsNode>d__30
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromStreamDetailsNode>d__33
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromStreamDetailsNode>d__33
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromVideoNode>d__34
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<FetchFromVideoNode>d__34
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<GetPersonFromXmlNode>d__36
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<GetPersonFromXmlNode>d__36
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<GetRatingFromNode>d__31
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<GetRatingFromNode>d__31
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<ParseCreditsNode>d__23
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<ParseCreditsNode>d__23
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<ParsePersonNode>d__24
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<ParsePersonNode>d__24
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<ParseSetXml>d__38
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.BaseNfoParser`1+<ParseSetXml>d__38
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.CollectionNfoParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.CollectionNfoParser
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.BoxSet, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.CollectionNfoParser
+
+METHOD: FetchDataFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.BoxSet, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.CollectionNfoParser+<FetchDataFromXmlNode>d__0
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.CollectionNfoParser+<FetchDataFromXmlNode>d__0
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser
+
+METHOD: FetchDataFromEpisodeDetailsNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser
+
+METHOD: FetchDataFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser
+
+METHOD: FetchMultiple
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser
+
+METHOD: FetchMultiple
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Xml.XmlReaderSettings
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchDataFromEpisodeDetailsNode>d__2
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchDataFromEpisodeDetailsNode>d__2
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchDataFromXmlNode>d__3
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchDataFromXmlNode>d__3
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchMultiple>d__0
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchMultiple>d__0
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchMultiple>d__1
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.EpisodeNfoParser+<FetchMultiple>d__1
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.GameNfoParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.MovieNfoParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.MovieNfoParser
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Video, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.MovieNfoParser
+
+METHOD: FetchDataFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Video, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.MovieNfoParser
+
+METHOD: get_SupportsUrlAfterClosingXmlTag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.MovieNfoParser+<FetchDataFromXmlNode>d__2
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.MovieNfoParser+<FetchDataFromXmlNode>d__2
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeasonNfoParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeasonNfoParser
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Season, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeasonNfoParser
+
+METHOD: FetchDataFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Season, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeasonNfoParser+<FetchDataFromXmlNode>d__0
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeasonNfoParser+<FetchDataFromXmlNode>d__0
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Series, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser
+
+METHOD: FetchDataFromXmlNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Series, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser
+
+METHOD: GetAirDays
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser
+
+METHOD: get_MovieDbParserSearchString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser
+
+METHOD: get_SupportsUrlAfterClosingXmlTag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser+<FetchDataFromXmlNode>d__4
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Parsers.SeriesNfoParser+<FetchDataFromXmlNode>d__4
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: get_StaticName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin+<>c__DisplayClass13_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin+<>c__DisplayClass13_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Plugin+<>c__DisplayClass13_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: FetchMultiple
+
+PARAMETERS:
+    System.Collections.Generic.List`1[MediaBrowser.Controller.Providers.MetadataResult`1[T]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: GetMultipleMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: HasChanged
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: get_Features
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1+<GetMetadata>d__1
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1+<GetMetadata>d__1
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1+<GetMultipleMetadata>d__2
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseNfoProvider`1+<GetMultipleMetadata>d__2
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseVideoNfoProvider`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseVideoNfoProvider`1
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseVideoNfoProvider`1
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseVideoNfoProvider`1+<Fetch>d__4
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.BaseVideoNfoProvider`1+<Fetch>d__4
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.CollectionNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.CollectionNfoProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.BoxSet, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.CollectionNfoProvider
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.CollectionNfoProvider
+
+METHOD: get_Features
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.EpisodeNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.EpisodeNfoProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.EpisodeNfoProvider
+
+METHOD: FetchMultiple
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.EpisodeNfoProvider
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.GameNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.GameNfoProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Game, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.GameNfoProvider
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.MovieNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.MusicVideoNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.PersonNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.PersonNfoProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Person, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.PersonNfoProvider
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.SeasonNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.SeasonNfoProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Season, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.SeasonNfoProvider
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.SeriesNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.SeriesNfoProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Series, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.SeriesNfoProvider
+
+METHOD: GetXmlFile
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Providers.VideoNfoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    MediaBrowser.Controller.Providers.IProviderManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.AlbumNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.AlbumNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.AlbumNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.AlbumNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.AlbumNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.AlbumNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: AddAlbums
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem[]
+    System.Xml.XmlWriter
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.ArtistNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: <AddActors>b__60_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.PersonInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: <AddCommonNodes>b__56_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.PersonInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: <AddCommonNodes>b__56_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.PersonInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: AddActors
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Entities.PersonInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Xml.XmlWriter
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: AddCommonNodes
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Xml.XmlWriter
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.IO.IFileSystem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: AddCustomTags
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Xml.XmlWriter
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: AddImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: AddMediaInfo
+
+PARAMETERS:
+    T
+    System.Xml.XmlWriter
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: AddUserData
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: Create
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetImagePathToSave
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetNameToSave
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetNumTopLevelNodes
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetOutputTrailerUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetOverviewToSave
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetTagForProviderKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: IsMinimumUpdateType
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: IsPersonType
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.PersonInfo
+    MediaBrowser.Model.Entities.PersonType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: RemoveInvalidXMLChars
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: Save
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: Save
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.IO.Stream
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: SaveToFile
+
+PARAMETERS:
+    System.IO.Stream
+    System.String
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: SetHidden
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: TryDelete
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: WriteOverviewNode
+
+PARAMETERS:
+    System.Xml.XmlWriter
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_ConfigurationManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_FileSystem
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_LibraryManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_LibraryMonitor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_Logger
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_MinimumUpdateType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_SaverName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_UserDataManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: get_UserManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_ConfigurationManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_FileSystem
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_LibraryManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ILibraryManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_LibraryMonitor
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ILibraryMonitor
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_Logger
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_UserDataManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserDataManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver
+
+METHOD: set_UserManager
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<>c
+
+METHOD: <.cctor>b__66_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<>c
+
+METHOD: <AddActors>b__60_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<Save>d__42
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<Save>d__42
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<SaveToFile>d__43
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.BaseNfoSaver+<SaveToFile>d__43
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.CollectionNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.CollectionNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.CollectionNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.CollectionNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.CollectionNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.CollectionNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetNameToSave
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetNumTopLevelNodes
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetOverviewToSave
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: GetValueToSave
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.EpisodeNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.GameNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.GameNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.GameNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.GameNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.GameNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.GameNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: GetMovieNfo
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: GetMovieSavePaths
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemInfo
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: IsSupportedExtraType
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.ExtraType
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.MovieNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.PersonNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.PersonNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.PersonNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.PersonNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.PersonNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeasonNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeasonNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeasonNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeasonNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeasonNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeasonNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeriesNfoSaver
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Library.ILibraryMonitor
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeriesNfoSaver
+
+METHOD: GetRootElementName
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeriesNfoSaver
+
+METHOD: GetSavePath
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeriesNfoSaver
+
+METHOD: GetTagsUsed
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    NfoMetadata.Configuration.XbmcMetadataOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeriesNfoSaver
+
+METHOD: IsEnabledFor
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Library.ItemUpdateType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.Savers.SeriesNfoSaver
+
+METHOD: WriteCustomElements
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Xml.XmlWriter
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.StringCompatibility
+
+METHOD: IndexOf
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.StringCompatibility
+
+METHOD: Replace
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: NfoMetadata.dll
+DLL_VERSION: 1.0.85.0
+
+TYPE: NfoMetadata.StringCompatibility
+
+METHOD: StartsWith
+
+PARAMETERS:
+    System.String
+    System.Char
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

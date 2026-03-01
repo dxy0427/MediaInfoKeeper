@@ -1,0 +1,2466 @@
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+    MediaBrowser.Model.Plugins.PluginPageInfo
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginConfigurationPage
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginUIPageRegistration
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_ConfigurationPageType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_DisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_EnableInMainMenu
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_EnableInUserMenu
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_FeatureId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_Href
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_MenuIcon
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_MenuSection
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_NavMenuId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_Plugin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: get_Translations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_ConfigurationPageType
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.ConfigurationPageType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_DisplayName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_EnableInMainMenu
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_EnableInUserMenu
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_FeatureId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_Href
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_MenuIcon
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_MenuSection
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_NavMenuId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_Plugin
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_PluginId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.ConfigurationPageInfo
+
+METHOD: set_Translations
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetAllPluginStrings
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetAllPluginStrings
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetAllPluginStrings
+
+METHOD: set_PluginId
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPage
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPage
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: get_EnableInMainMenu
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: get_EnableInUserMenu
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: get_PageType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: set_EnableInMainMenu
+
+PARAMETERS:
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: set_EnableInUserMenu
+
+PARAMETERS:
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: set_PageType
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Controller.Plugins.ConfigurationPageType, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardConfigurationPages
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardResource
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardResource
+
+METHOD: get_ResourceName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardResource
+
+METHOD: get_V
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardResource
+
+METHOD: set_ResourceName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetDashboardResource
+
+METHOD: set_V
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetFavIcon
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetRobotsTxt
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetStrings
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetStrings
+
+METHOD: get_Locale
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetStrings
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetStrings
+
+METHOD: set_Locale
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.GetStrings
+
+METHOD: set_PluginId
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.IResourceFileManager
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: GetManifestJsonResource
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: GetRawResourceStream
+
+PARAMETERS:
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: GetResource
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: GetSafeServerFriendlyName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: GetServiceWorkerJsResource
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: IsCoreHtml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: IsFormat
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: ModifyHtml
+
+PARAMETERS:
+    System.String
+    System.IO.Stream
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator
+
+METHOD: RemoveValueFromJson
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator+<GetManifestJsonResource>d__9
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator+<GetManifestJsonResource>d__9
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator+<GetServiceWorkerJsResource>d__8
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator+<GetServiceWorkerJsResource>d__8
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator+<ModifyHtml>d__14
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.PackageCreator+<ModifyHtml>d__14
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.IResourceFileManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Net.IHttpResultFactory
+    MediaBrowser.Controller.Plugins.IPluginUIPagesRegistrar
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: FindWebResource
+
+PARAMETERS:
+    System.String
+    System.String[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetFavIcon
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetDashboardConfigurationPage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetDashboardConfigurationPages
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetStrings
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetAllPluginStrings
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetRobotsTxt
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.Api.GetDashboardResource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetConfigPages
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetContentFactory
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetFullWebResourceName
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetGenericUIPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetManifestJsonResource
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetPackageCreator
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetPluginPages
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetResourceStream
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: GetServiceWorkerJsResource
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService
+
+METHOD: get_DashboardUIPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: <Get>b__11_1
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: <Get>b__11_2
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: <Get>b__11_8
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.TranslationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: <Get>b__16_1
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.TranslationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c
+
+METHOD: <GetGenericUIPages>b__14_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginUIPageRegistration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginConfigurationPage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__1
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__2
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__3
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__4
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__5
+
+PARAMETERS:
+    System.Tuple`2[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_0
+
+METHOD: <Get>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginConfigurationPage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_0
+
+METHOD: <Get>b__3
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_0
+
+METHOD: <Get>b__4
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_0
+
+METHOD: <Get>b__5
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_0
+
+METHOD: <Get>b__6
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass11_1
+
+METHOD: <Get>b__7
+
+PARAMETERS:
+    Emby.Web.Api.ConfigurationPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass12_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass12_0
+
+METHOD: <GetPluginPages>b__0
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.PluginPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass13_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass13_0
+
+METHOD: <GetConfigPages>b__0
+
+PARAMETERS:
+    System.Tuple`2[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass15_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass15_0
+
+METHOD: <Get>b__0
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass16_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass16_0
+
+METHOD: <Get>b__0
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass18_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass18_0
+
+METHOD: <Get>b__0
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass18_0
+
+METHOD: <Get>b__1
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass18_0
+
+METHOD: <Get>b__2
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass20_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass20_0
+
+METHOD: <FindWebResource>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass20_0
+
+METHOD: <FindWebResource>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass21_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<>c__DisplayClass21_0
+
+METHOD: <GetContentFactory>b__0
+
+PARAMETERS:
+    System.Int64
+    System.Int64
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<Get>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.Api.WebAppService+<Get>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

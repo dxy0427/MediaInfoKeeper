@@ -1,0 +1,813 @@
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Drawing.IImageProcessor
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.Func`1[[MediaBrowser.Common.Net.IHttpClient, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Model.System.IEnvironmentInfo
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: CreateImageCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageCollageOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: CropWhiteSpace
+
+PARAMETERS:
+    SkiaSharp.SKBitmap
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: Decode
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    SkiaSharp.SKEncodedOrigin&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: EncodeImage
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Int32
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetBitmap
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    SkiaSharp.SKEncodedOrigin&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetBitmap
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetDestinationImageInfo
+
+PARAMETERS:
+    SkiaSharp.SKCodec
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    System.Int32
+    System.Int32
+    System.Boolean
+    MediaBrowser.Model.Drawing.ImageOrientation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetDestinationImageInfoByHeightScale
+
+PARAMETERS:
+    SkiaSharp.SKCodec
+    System.Int32
+    System.Int32
+    System.Int32
+    System.Boolean
+    MediaBrowser.Model.Drawing.ImageOrientation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetDestinationImageInfoByWidthScale
+
+PARAMETERS:
+    SkiaSharp.SKCodec
+    System.Int32
+    System.Int32
+    System.Int32
+    System.Boolean
+    MediaBrowser.Model.Drawing.ImageOrientation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetImageFormat
+
+PARAMETERS:
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetImageOrientation
+
+PARAMETERS:
+    SkiaSharp.SKEncodedOrigin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetImageSize
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetInputBitmap
+
+PARAMETERS:
+    System.String
+    SkiaSharp.SKCodec
+    System.Int32
+    System.Int32
+    System.Boolean
+    System.Boolean
+    System.Boolean
+    MediaBrowser.Model.Drawing.ImageOrientation
+    SkiaSharp.SKImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetSKEncodedOrigin
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetSKFileStream
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetScaledDimensions
+
+PARAMETERS:
+    SkiaSharp.SKCodec
+    System.Int32
+    System.Int32
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetSupportedImageFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetTempFile
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: GetVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: IsTransparent
+
+PARAMETERS:
+    SkiaSharp.SKColor
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: IsTransparentColumn
+
+PARAMETERS:
+    SkiaSharp.SKBitmap
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: IsTransparentRow
+
+PARAMETERS:
+    SkiaSharp.SKBitmap
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: LogVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: OrientImage
+
+PARAMETERS:
+    SkiaSharp.SKBitmap
+    MediaBrowser.Model.Drawing.ImageOrientation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: ReverseOrientHeight
+
+PARAMETERS:
+    System.Int32
+    System.Single
+    MediaBrowser.Model.Drawing.ImageOrientation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: ReverseOrientWidth
+
+PARAMETERS:
+    System.Int32
+    System.Single
+    MediaBrowser.Model.Drawing.ImageOrientation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: get_SupportedInputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: get_SupportedOutputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: get_SupportsImageCollageCreation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: get_SupportsImageEncoding
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.SkiaEncoder
+
+METHOD: set_SupportedInputFormats
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Drawing.IImageProcessor
+    Emby.Drawing.Skia.SkiaEncoder
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: BuildPosterCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo[]
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: BuildSquareCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo[]
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: BuildSquareCollageBitmap
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo[]
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: BuildThumbCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo[]
+    System.String
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: BuildThumbCollageBitmap
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo[]
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: GetEncodedFormat
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.Skia.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Skia.StripCollageBuilder
+
+METHOD: GetNextValidImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo[]
+    System.Int32
+    System.Int32&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

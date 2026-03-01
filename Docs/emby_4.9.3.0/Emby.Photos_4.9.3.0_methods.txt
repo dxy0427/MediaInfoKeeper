@@ -1,0 +1,80 @@
+====================================================
+DLL_NAME: Emby.Photos.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Photos.PhotoProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Drawing.IImageProcessor
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Photos.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Photos.PhotoProvider
+
+METHOD: FetchAsync
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Photo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Providers.MetadataRefreshOptions
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Photos.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Photos.PhotoProvider
+
+METHOD: HasChanged
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.BaseMetadataResult
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.MetadataRefreshOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Photos.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Photos.PhotoProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

@@ -1,0 +1,7418 @@
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.EscapingHelpers
+
+METHOD: DoubleQuote
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.EscapingHelpers
+
+METHOD: EscapeUnixFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.FlagsConverter
+
+METHOD: ParseAsFlags
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.FlagsConverter
+
+METHOD: ToFlagsString
+
+PARAMETERS:
+    System.Nullable`1[T]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.FlagsConverter+<>c__0`1
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.FlagsConverter+<>c__0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.FlagsConverter+<>c__0`1
+
+METHOD: <ParseAsFlags>b__0_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.FlagsConverter+<>c__0`1
+
+METHOD: <ParseAsFlags>b__0_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.Globals
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.Globals
+
+METHOD: get_Format
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: GetConstant
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: GetConstant
+
+PARAMETERS:
+    System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: GetConstant
+
+PARAMETERS:
+    System.Nullable`1[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: GetConstant
+
+PARAMETERS:
+    System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: ParseDouble
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: ParseFloat
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: ParseInt32
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.NumericConstants
+
+METHOD: ParseInt64
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Common.UrlHelpers
+
+METHOD: GetExtensionFromUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: get_EscapingStyle
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: get_FeatureSelectors
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: get_SpecifyDemuxerFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: set_EscapingStyle
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.Enums.PathEscapingStyle
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: set_FeatureSelectors
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+METHOD: set_SpecifyDemuxerFormat
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: get_DemuxerSelector
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: get_InputProtocolSelector
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: get_MuxerSelector
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: get_OutputProtocolSelector
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: set_DemuxerSelector
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FeatureSelection.IDemuxerSelector
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: set_InputProtocolSelector
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FeatureSelection.IInputProtocolSelector
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: set_MuxerSelector
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FeatureSelection.IMuxerSelector
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
+
+METHOD: set_OutputProtocolSelector
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FeatureSelection.IOutputProtocolSelector
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+METHOD: get_Demuxer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+METHOD: set_Demuxer
+
+PARAMETERS:
+    System.Nullable`1[[Emby.Ffmpeg.Lib.RegisteredDemuxers, Emby.Ffmpeg.Lib, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.OutputStreamContainer
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.OutputStreamContainer
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.OutputStreamContainer
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Ffmpeg.Model.Containers.OutputStreamContainer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.OutputStreamContainer
+
+METHOD: get_Muxer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Containers.OutputStreamContainer
+
+METHOD: set_Muxer
+
+PARAMETERS:
+    System.Nullable`1[[Emby.Ffmpeg.Lib.RegisteredMuxers, Emby.Ffmpeg.Lib, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultDemuxerSelector
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultDemuxerSelector
+
+METHOD: SelectDemuxer
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultInputProtocolSelector
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultInputProtocolSelector
+
+METHOD: GetProtocolFromUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultInputProtocolSelector
+
+METHOD: SelectInputProtocol
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultMuxerSelector
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultMuxerSelector
+
+METHOD: SelectMuxer
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultOutputProtocolSelector
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.DefaultSelectors.DefaultOutputProtocolSelector
+
+METHOD: SelectOutputProtocol
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.IDemuxerSelector
+
+METHOD: SelectDemuxer
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.IInputProtocolSelector
+
+METHOD: SelectInputProtocol
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.IMuxerSelector
+
+METHOD: SelectMuxer
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FeatureSelection.IOutputProtocolSelector
+
+METHOD: SelectOutputProtocol
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: AddInput
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: AddInput
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Input.InputFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: AddOutput
+
+PARAMETERS:
+    System.String
+    Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
+    Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: AddOutput
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Output.OutputFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: BuildCommandLine
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: Connect
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+    Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: Connect
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+    Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: CreatInputFromContainer
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: Disconnect
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: FindStreamSource
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Configuration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Connections
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Filters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Input0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Inputs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Output0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand
+
+METHOD: get_Outputs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand+<>c
+
+METHOD: <Connect>b__28_0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand+<>c__DisplayClass28_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommand+<>c__DisplayClass28_0
+
+METHOD: <Connect>b__1
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommandBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FfmpegCommandBase
+
+METHOD: BuildCommandLine
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FfmpegCommand
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: AddFilter
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: AddFilter
+
+PARAMETERS:
+    T
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: AddFilterInstance
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: BuildFilterString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: get_Count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+METHOD: get_Item
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Filters.FilterBase
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: CreateInputPinInstance
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: CreateOutputPinInstance
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Filters.Pins.OutputPin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_Filter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_FilterId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_FilterName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_InputPin0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_InputPin1
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_InputPins
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_OutputPin0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_OutputPin1
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+METHOD: get_OutputPins
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    T
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance`1
+
+METHOD: get_Filter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+    Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSink.get_Feature
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.set_ConnectedSource
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: get_FilterPin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: get_OwnerFilter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: get_PinIndex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+METHOD: set_ConnectedSource
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstanceVideo
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+    Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+    Emby.Ffmpeg.Model.Features.Filters.Pins.OutputPin
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSource.get_Feature
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSourceInternal.get_ConnectedSink
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSourceInternal.set_ConnectedSink
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: GetStreamSpecifier
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: get_ConnectedSink
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: get_FilterPin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: get_OwnerFilter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: get_PinIndex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
+
+METHOD: set_ConnectedSink
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.StreamConnection
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+    Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.StreamConnection
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.StreamConnection
+
+METHOD: get_StreamSink
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.FilterGraph.StreamConnection
+
+METHOD: get_StreamSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
+    Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
+    Emby.Ffmpeg.Model.Containers.InputStreamContainer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
+    Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
+    System.String
+    System.Collections.Generic.IEnumerable`1[[Emby.Ffmpeg.Model.Input.InputStreamBase, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
+    Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
+    System.String
+    System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: <set_InputIndex>b__8_0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Input.InputStreamBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: BuildParameters
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: BuildUrlParam
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Audio0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_AudioStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Demuxer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_InputIndex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_InputProtocol
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Streams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_SubtitleStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Subtitles0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_Video0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: get_VideoStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: set_Demuxer
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: set_InputIndex
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: set_InputProtocol
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputFile
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Media.Model.Streams.AudioStream
+    Emby.Ffmpeg.Model.Features.Decoders.AudioDecoderBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: get_Decoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: get_DecoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: get_Stream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
+
+METHOD: get_StreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStreamType
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: BuildParameters
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSource.get_Feature
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: FromStream
+
+PARAMETERS:
+    Emby.Media.Model.Streams.StreamBase
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: GetStreamSpecifier
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_ConnectedSink
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_Decoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_DecoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_InputIndex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_IsAutoDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_MediaKind
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_Stream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: get_StreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: set_InputIndex
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
+
+METHOD: set_IsAutoDecoder
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Media.Model.Streams.SubtitleStream
+    Emby.Ffmpeg.Model.Features.Decoders.SubtitleDecoderBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: get_Decoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: get_DecoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: get_Stream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: get_StreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
+
+METHOD: set_Decoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Decoders.SubtitleDecoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Media.Model.Streams.VideoStream
+    Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: get_Decoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: get_DecoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: get_Stream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: get_StreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
+
+METHOD: set_Decoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.ICommandContext
+
+METHOD: get_Filters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.ICommandContext
+
+METHOD: get_Inputs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.ICommandContext
+
+METHOD: get_Outputs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+METHOD: get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+METHOD: get_Feature
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal
+
+METHOD: get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal
+
+METHOD: set_ConnectedSource
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+METHOD: GetStreamSpecifier
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+METHOD: get_ConnectedSink
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+METHOD: get_Feature
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSourceInternal
+
+METHOD: get_ConnectedSink
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSourceInternal
+
+METHOD: set_ConnectedSink
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
+    Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
+    Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
+    System.Collections.Generic.IEnumerable`1[[Emby.Ffmpeg.Model.Output.OutputStreamBase, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: AddMapParameters
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: BuildParameters
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: BuildUrlParam
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: MapInputStream
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
+    Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: MapInputStream
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IAudioStreamSource
+    Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: MapInputStream
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
+    Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Audio0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_AudioStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Muxer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_OutputProtocol
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Streams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_SubtitleStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Subtitles0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_Video0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: get_VideoStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputFile
+
+METHOD: set_Muxer
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IAudioStreamSource
+    Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: get_Encoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: get_EncoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: get_InputStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: get_InputStreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
+
+METHOD: set_Encoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStreamType
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: BuildParameters
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    Emby.Ffmpeg.Model.Configuration.CommandConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSink.get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSink.get_Feature
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_Encoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_EncoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_InputStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_InputStreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_MediaKind
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
+    Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.set_ConnectedSource
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: get_Encoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: get_EncoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: get_InputStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: get_InputStreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: set_Encoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
+
+METHOD: set_InputStream
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
+    Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.get_ConnectedSource
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.set_ConnectedSource
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: get_Encoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: get_EncoderCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: get_InputStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: get_InputStreamCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: get_OptionsCore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: set_Encoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
+
+METHOD: set_InputStream
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.CommandElementInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: get_FeatureName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: get_FeatureType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: set_FeatureName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: set_FeatureType
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Enums.FeatureType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+METHOD: set_Options
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
+
+METHOD: get_Filters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
+
+METHOD: set_Filters
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: get_Filters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: get_GlobalOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: get_Inputs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: get_Outputs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: set_Filters
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: set_GlobalOptions
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: set_Inputs
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputFileInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+METHOD: set_Outputs
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OutputFileInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: get_Filter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: get_FilterId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: get_InputPins
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: set_Filter
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: set_FilterId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+
+METHOD: set_InputPins
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputPinInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: get_Demuxer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: get_InputIndex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: get_InputProtocol
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: get_Streams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: set_Demuxer
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: set_InputIndex
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: set_InputProtocol
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: set_Options
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: set_Streams
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputStreamInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
+
+METHOD: get_ConnectedSourceId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
+
+METHOD: get_Index
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
+
+METHOD: set_ConnectedSourceId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
+
+METHOD: set_Index
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_AudioStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_ConnectedSinkId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_Decoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_IsAutoDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_MediaKind
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_SubtitleStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: get_VideoStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_AudioStream
+
+PARAMETERS:
+    Emby.Media.Model.Streams.AudioStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_ConnectedSinkId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_Decoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_IsAutoDecoder
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_MediaKind
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStreamType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_Options
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_SubtitleStream
+
+PARAMETERS:
+    Emby.Media.Model.Streams.SubtitleStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+METHOD: set_VideoStream
+
+PARAMETERS:
+    Emby.Media.Model.Streams.VideoStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionValueInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionValueInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionValueInfo
+
+METHOD: get_ValueString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionValueInfo
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionValueInfo
+
+METHOD: set_ValueString
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+METHOD: get_OptionValues
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+METHOD: set_OptionValues
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OptionValueInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: get_Muxer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: get_OutputProtocol
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: get_Streams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: set_Muxer
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: set_Options
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: set_OutputProtocol
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: set_Streams
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OutputStreamInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: get_ConnectedSourceId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: get_Encoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: get_MediaKind
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: get_Options
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: get_Stream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: set_ConnectedSourceId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: set_Encoder
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: set_MediaKind
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStreamType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: set_Options
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+METHOD: set_Stream
+
+PARAMETERS:
+    Emby.Media.Model.Streams.StreamBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Builders.FilterChainBuilder
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FfmpegCommand
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Builders.FilterChainBuilder
+
+METHOD: AppendFilter
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Builders.FilterChainBuilder
+
+METHOD: get_ChainInput
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Builders.FilterChainBuilder
+
+METHOD: get_ChainOutput
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Builders.FilterChainBuilder
+
+METHOD: get_Command
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Builders.FilterChainBuilder
+
+METHOD: set_ChainOutput
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Interfaces.IStreamSource
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.ContainerExtensions
+
+METHOD: AsStreamContainer
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.MediaSourceInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.ContainerExtensions
+
+METHOD: AsStreamContainer
+
+PARAMETERS:
+    Emby.Media.Model.ProbeModel.ProbeResult
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.ContainerExtensions+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.ContainerExtensions+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.ContainerExtensions+<>c
+
+METHOD: <AsStreamContainer>b__1_0
+
+PARAMETERS:
+    Emby.Media.Model.ProbeModel.ProbeStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.FeatureExtensions
+
+METHOD: Cast
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Extensions.FeatureExtensions
+
+METHOD: GetAtOrDefault
+
+PARAMETERS:
+    System.Collections.Generic.List`1[T]
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: AddFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
+    Emby.Ffmpeg.Model.FfmpegCommand
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: ApplyFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Options.Collections.BaseOptions
+    Emby.Ffmpeg.Model.Serialization.OptionsInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.InputFileInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OutputFileInfo
+    Emby.Ffmpeg.Model.FfmpegCommand
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+    Emby.Ffmpeg.Model.FfmpegCommand
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FeatureInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize
+
+METHOD: CreateFromSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
+    Emby.Ffmpeg.Model.FfmpegCommand
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize+<>c
+
+METHOD: <CreateFromSerializationModel>b__1_0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.InputStreamInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize+<>c__DisplayClass2_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Deserialize+<>c__DisplayClass2_0
+
+METHOD: <CreateFromSerializationModel>b__0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FfmpegCommand
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Options.Collections.BaseOptions
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Features.FeatureBase
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Input.InputStreamBase
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Output.OutputStreamBase
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Input.InputFile
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize
+
+METHOD: ToSerializationModel
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Output.OutputFile
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize+<>c
+
+METHOD: <ToSerializationModel>b__0_0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Input.InputFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize+<>c
+
+METHOD: <ToSerializationModel>b__0_1
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.Output.OutputFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize+<>c
+
+METHOD: <ToSerializationModel>b__1_0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.FilterInstance
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Ffmpeg.Operations.Serialization.Serialize+<>c
+
+METHOD: <ToSerializationModel>b__2_0
+
+PARAMETERS:
+    Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Microsoft.CodeAnalysis.EmbeddedAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Ffmpeg.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: System.Runtime.CompilerServices.RefSafetyRulesAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

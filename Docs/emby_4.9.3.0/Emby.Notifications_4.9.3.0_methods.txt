@@ -1,0 +1,4271 @@
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: get_DisplayDateTime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: get_ImageUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: get_Level
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: set_Description
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: set_DisplayDateTime
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: set_ImageUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: set_Level
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.AddAdminNotification
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.DeleteConfiguredNotification
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.DeleteConfiguredNotification
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.DeleteConfiguredNotification
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.DeleteConfiguredNotification
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.DeleteConfiguredNotification
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetAllTokens
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetConfiguredNotifications
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetConfiguredNotifications
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetConfiguredNotifications
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetDefaultNotificationInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetDefaultNotificationInfo
+
+METHOD: get_NotifierKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetDefaultNotificationInfo
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetDefaultNotificationInfo
+
+METHOD: set_NotifierKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetDefaultNotificationInfo
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetNotificationTypes
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetNotificationTypes
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetNotificationTypes
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetNotifications
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetNotificationsSummary
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetUserNotificationServices
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetUserNotificationServices
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.GetUserNotificationServices
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.MarkRead
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.MarkUnread
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: get_Icon
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: get_SetupModuleUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: set_Icon
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: set_PluginId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationServiceInfo
+
+METHOD: set_SetupModuleUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.INotificationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: AddNotification
+
+PARAMETERS:
+    Emby.Notifications.Api.AddAdminNotification
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetNotificationTypes
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetNotificationsSummary
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetAllTokens
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetNotifications
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Notifications.Api.AddAdminNotification
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Notifications.Api.MarkRead
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.NotificationsService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Notifications.Api.MarkUnread
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.SaveConfiguredNotification
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.SendTestNotification
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.INotificationManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: Delete
+
+PARAMETERS:
+    Emby.Notifications.Api.DeleteConfiguredNotification
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetUserNotificationServices
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetConfiguredNotifications
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Notifications.Api.GetDefaultNotificationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: GetSampleNotificationRequest
+
+PARAMETERS:
+    Emby.Notifications.UserNotificationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Notifications.Api.SendTestNotification
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Notifications.Api.SaveConfiguredNotification
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService+<>c__DisplayClass10_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService+<>c__DisplayClass10_0
+
+METHOD: <Get>b__0
+
+PARAMETERS:
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService+<>c__DisplayClass6_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.Api.UserNotificationsService+<>c__DisplayClass6_0
+
+METHOD: <Delete>b__0
+
+PARAMETERS:
+    Emby.Notifications.UserNotificationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.CoreNotificationTypeFactory
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.ILocalizationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.CoreNotificationTypeFactory
+
+METHOD: GetNotificationTypes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFeatures
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.INotificationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFeatures
+
+METHOD: GetFeatureInfos
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.ILocalizationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: FormatValueToString
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetAllTokens
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetBaseItemDtoTokens
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetFullTokenName
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Notifications.NotificationTokenCategory
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetTokens
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetValue
+
+PARAMETERS:
+    System.DateTimeOffset
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetValue
+
+PARAMETERS:
+    System.DateTime
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: GetValueWithReflection
+
+PARAMETERS:
+    System.Object
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: ReplaceTokens
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter
+
+METHOD: ReplaceTokens
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.String
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter+<>c__DisplayClass5_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter+<>c__DisplayClass5_0
+
+METHOD: <GetTokens>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.NotificationTokenCategory
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter+<>c__DisplayClass5_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationFormatter+<>c__DisplayClass5_1
+
+METHOD: <GetTokens>b__1
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.NotificationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Model.Logging.ILogManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: <GetNotificationTypeInfo>b__43_0
+
+PARAMETERS:
+    Emby.Notifications.INotificationTypeFactory
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: AddEventListeners
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: AllowNotificationType
+
+PARAMETERS:
+    Emby.Notifications.NotificationTypeInfo
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: ConvertToGroups
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ItemChangeEventArgs[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: CreateValueString
+
+PARAMETERS:
+    System.Int32
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: FilterItem
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetCategoryOrder
+
+PARAMETERS:
+    Emby.Notifications.NotificationCategoryInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetCategoryOrder
+
+PARAMETERS:
+    Emby.Notifications.NotificationTypeInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetCategoryOrder
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetConfiguredNotifications
+
+PARAMETERS:
+    Emby.Notifications.INotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetConfiguredNotifications
+
+PARAMETERS:
+    Emby.Notifications.INotifier
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetDtoOptions
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetLocalizedString
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetNotificationCategories
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetNotificationTokens
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetNotificationTypeInfo
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetNotificationTypes
+
+PARAMETERS:
+    Emby.Notifications.INotificationTypeFactory
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetNotificationTypes
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetRecordingDescription
+
+PARAMETERS:
+    MediaBrowser.Controller.LiveTv.ActiveRecordingInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetSeriesTimerDescription
+
+PARAMETERS:
+    MediaBrowser.Controller.LiveTv.SeriesTimerInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GetTimerDescription
+
+PARAMETERS:
+    MediaBrowser.Controller.LiveTv.TimerInfo
+    MediaBrowser.Controller.LiveTv.LiveTvProgram
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: GroupItemUpdateNotifications
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: ImportDependencies
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: LibraryUpdateTimerCallback
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: RemoveEventListeners
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: ReplaceTokens
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SaveUserNotification
+
+PARAMETERS:
+    Emby.Notifications.NotificationInfo
+    MediaBrowser.Controller.Entities.User
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SaveUserNotification
+
+PARAMETERS:
+    Emby.Notifications.UserNotificationInfo
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendItemAddedNotifications
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ItemChangeEventArgs[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendItemRemovedNotifications
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ItemChangeEventArgs[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendItemUpdatedNotifications
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ItemChangeEventArgs[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendNotification
+
+PARAMETERS:
+    Emby.Notifications.NotificationRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendNotification
+
+PARAMETERS:
+    Emby.Notifications.NotificationRequest
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendNotification
+
+PARAMETERS:
+    MediaBrowser.Model.Notifications.NotificationRequest
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendNotification
+
+PARAMETERS:
+    Emby.Notifications.INotifier
+    Emby.Notifications.NotificationInfo[]
+    Emby.Notifications.NotificationRequest
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendPlaybackNotification
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.PlaybackProgressEventArgs
+    System.String
+    System.String
+    Emby.Notifications.NotificationPlaybackInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: SendStartupNotification
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: Start
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: StartTimerForNotification
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.ItemChangeEventArgs
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.ItemChangeEventArgs, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: Stop
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: ToUserFriendlyString
+
+PARAMETERS:
+    System.TimeSpan
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _appHost_ApplicationUpdated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _appHost_EnterMaintenanceMode
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _appHost_ExitMaintenanceMode
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _appHost_HasPendingRestartChanged
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _appHost_HasUpdateAvailableChanged
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _deviceManager_CameraImageUploaded
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Devices.CameraImageUploadInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _installationManager_PackageInstallationFailed
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Common.Updates.InstallationFailedEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _installationManager_PluginInstalled
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _installationManager_PluginUninstalled
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _installationManager_PluginUpdated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _libraryManager_ItemAdded
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.ItemChangeEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _libraryManager_ItemRemoved
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.ItemChangeEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _libraryManager_ItemUpdated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.ItemChangeEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _liveTvManager_RecordingEnded
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.ActiveRecordingInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _liveTvManager_RecordingStarted
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.ActiveRecordingInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _liveTvManager_SeriesTimerCancelled
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.SeriesTimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _liveTvManager_SeriesTimerCreated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.SeriesTimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _liveTvManager_TimerCancelled
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.TimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _liveTvManager_TimerCreated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.TimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _sessionManager_AuthenticationFailed
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Session.AuthenticationRequest, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _sessionManager_AuthenticationSucceeded
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Authentication.AuthenticationResult, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _sessionManager_PlaybackProgress
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.PlaybackProgressEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _sessionManager_PlaybackStart
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.PlaybackProgressEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _sessionManager_PlaybackStopped
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.PlaybackStopEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _taskManager_TaskCompleted
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Tasks.TaskCompletionEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _userDataManager_UserDataSaved
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Controller.Library.UserDataSaveEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _userManager_UserCreated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _userManager_UserDeleted
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _userManager_UserLockedOut
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _userManager_UserPasswordChanged
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: _userManager_UserPolicyUpdated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: get_NotificationQueueManager
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager
+
+METHOD: set_NotificationQueueManager
+
+PARAMETERS:
+    Emby.Notifications.NotificationQueueManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: <GetNotificationCategories>b__38_0
+
+PARAMETERS:
+    Emby.Notifications.NotificationTypeInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: <GetNotificationCategories>b__38_1
+
+PARAMETERS:
+    System.Linq.IGrouping`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Emby.Notifications.NotificationTypeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: <GetNotificationCategories>b__38_2
+
+PARAMETERS:
+    Emby.Notifications.NotificationCategoryInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: <GetNotificationCategories>b__38_3
+
+PARAMETERS:
+    Emby.Notifications.NotificationTypeInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: <GetNotificationCategories>b__38_4
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c
+
+METHOD: <SendNotification>b__105_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass105_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass105_0
+
+METHOD: <SendNotification>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass40_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass40_0
+
+METHOD: <GetNotificationTypes>b__0
+
+PARAMETERS:
+    Emby.Notifications.INotificationTypeFactory
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass40_0
+
+METHOD: <GetNotificationTypes>b__1
+
+PARAMETERS:
+    Emby.Notifications.NotificationTypeInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass75_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManager+<>c__DisplayClass75_0
+
+METHOD: <GetConfiguredNotifications>b__0
+
+PARAMETERS:
+    Emby.Notifications.NotificationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManagerEntryPoint
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Notifications.INotificationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManagerEntryPoint
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationManagerEntryPoint
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Security.ISecurityManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager
+
+METHOD: QueueNotification
+
+PARAMETERS:
+    Emby.Notifications.INotifier
+    Emby.Notifications.InternalNotificationRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager
+
+METHOD: QueueNotification
+
+PARAMETERS:
+    Emby.Notifications.INotifier
+    Emby.Notifications.InternalNotificationRequest
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager
+
+METHOD: StartProcessingQueue
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager
+
+METHOD: TryDequeue
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager+<StartProcessingQueue>d__10
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationQueueManager+<StartProcessingQueue>d__10
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.NotificationRequestInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: get_NotifierKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: get_ServiceName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: get_SetupModuleUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: set_NotifierKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: set_PluginId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: set_ServiceName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationInfo
+
+METHOD: set_SetupModuleUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationOptions
+
+METHOD: get_Notifications
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotificationOptions
+
+METHOD: set_Notifications
+
+PARAMETERS:
+    Emby.Notifications.UserNotificationInfo[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Controller.Library.IUserManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: FillServiceInfo
+
+PARAMETERS:
+    Emby.Notifications.UserNotificationInfo
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: FindPlugin
+
+PARAMETERS:
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetAvailableOutputs
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetConfiguredNotifications
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetConfiguredNotifications
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetConfiguredNotifications
+
+PARAMETERS:
+    System.Int64[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetFeatureId
+
+PARAMETERS:
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetServiceOutputs
+
+PARAMETERS:
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: GetUserNotifications
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: SendNotification
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c
+
+METHOD: <GetAvailableOutputs>b__15_1
+
+PARAMETERS:
+    Emby.Notifications.Api.NotificationServiceInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c__DisplayClass11_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c__DisplayClass11_0
+
+METHOD: <GetUserNotifications>b__0
+
+PARAMETERS:
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c__DisplayClass12_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c__DisplayClass12_0
+
+METHOD: <FindPlugin>b__0
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c__DisplayClass15_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifier+<>c__DisplayClass15_0
+
+METHOD: <GetAvailableOutputs>b__0
+
+PARAMETERS:
+    Emby.Notifications.IUserNotifier
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifierConfigExtension
+
+METHOD: GetUserNotificationOptions
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserManager
+    System.Int64
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifierConfigExtension
+
+METHOD: UpdateUserNotificationOptions
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IUserManager
+    System.Int64
+    Emby.Notifications.UserNotificationOptions
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifierConfigurationStore
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifierConfigurationStore
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Notifications.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Notifications.UserNotifierConfigurationStore
+
+METHOD: GetConfigurations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

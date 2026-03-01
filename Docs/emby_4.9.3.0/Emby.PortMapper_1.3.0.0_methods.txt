@@ -1,0 +1,2498 @@
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.Dlna.IDeviceDiscovery
+    MediaBrowser.Common.Net.IHttpClient
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: AddMonoUriWorkaround
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: ClearCreatedRules
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: CreatePortMap
+
+PARAMETERS:
+    Mono.Nat.INatDevice
+    System.Int32
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: CreateRules
+
+PARAMETERS:
+    Mono.Nat.INatDevice
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: DisposeNat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: GetNewPortConfig
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: Start
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: _config_ConfigurationUpdated
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding
+
+METHOD: _deviceDiscovery_DeviceDiscovered
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding+<CreateRules>d__20
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding+<CreateRules>d__20
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding+<_deviceDiscovery_DeviceDiscovered>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.ExternalPortForwarding+<_deviceDiscovery_DeviceDiscovered>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.PortConfig
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.PortConfig
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.PortConfig
+
+METHOD: Equals
+
+PARAMETERS:
+    Emby.PortMapper.PortConfig
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.PortConfig
+
+METHOD: EqualsInternal
+
+PARAMETERS:
+    Emby.PortMapper.PortConfig
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Emby.PortMapper.PortConfig
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: CreatePortMap
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: DeletePortMap
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: GetSpecificMappingAsync
+
+PARAMETERS:
+    Mono.Nat.Protocol
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: get_DateLastPortMapped
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: get_LocalAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.AbstractNatDevice
+
+METHOD: set_DateLastPortMapped
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.INatDevice
+
+METHOD: CreatePortMap
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.INatDevice
+
+METHOD: DeletePortMap
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.INatDevice
+
+METHOD: GetSpecificMappingAsync
+
+PARAMETERS:
+    Mono.Nat.Protocol
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.INatDevice
+
+METHOD: get_DateLastPortMapped
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.INatDevice
+
+METHOD: get_LocalAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.INatDevice
+
+METHOD: set_DateLastPortMapped
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: .ctor
+
+PARAMETERS:
+    Mono.Nat.Protocol
+    System.Net.IPAddress
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: .ctor
+
+PARAMETERS:
+    Mono.Nat.Protocol
+    System.Net.IPAddress
+    System.Int32
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: Equals
+
+PARAMETERS:
+    Mono.Nat.Mapping
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: EqualsInternal
+
+PARAMETERS:
+    Mono.Nat.Mapping
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_Expiration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_Lifetime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_LocalAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_PrivatePort
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_Protocol
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: get_PublicPort
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_Description
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_Expiration
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_Lifetime
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_LocalAddress
+
+PARAMETERS:
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_PrivatePort
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_Protocol
+
+PARAMETERS:
+    Mono.Nat.Protocol
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Mapping
+
+METHOD: set_PublicPort
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.CreatePortMappingMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    Mono.Nat.Upnp.UpnpNatDevice
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.CreatePortMappingMessage
+
+METHOD: CreateDefaultDescription
+
+PARAMETERS:
+    Mono.Nat.Mapping
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.CreatePortMappingMessage
+
+METHOD: CreateWriter
+
+PARAMETERS:
+    System.Text.StringBuilder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.CreatePortMappingMessage
+
+METHOD: Encode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.CreatePortMappingMessage
+
+METHOD: WriteFullElement
+
+PARAMETERS:
+    System.Xml.XmlWriter
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.DeletePortMappingMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    Mono.Nat.Upnp.UpnpNatDevice
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.DeletePortMappingMessage
+
+METHOD: CreateWriter
+
+PARAMETERS:
+    System.Text.StringBuilder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.DeletePortMappingMessage
+
+METHOD: Encode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.DeletePortMappingMessage
+
+METHOD: WriteFullElement
+
+PARAMETERS:
+    System.Xml.XmlWriter
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetServicesMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetServicesMessage
+
+METHOD: Encode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetServicesMessage
+
+METHOD: get_Method
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    Mono.Nat.Protocol
+    System.Int32
+    Mono.Nat.Upnp.UpnpNatDevice
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryMessage
+
+METHOD: CreateWriter
+
+PARAMETERS:
+    System.Text.StringBuilder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryMessage
+
+METHOD: Encode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryMessage
+
+METHOD: WriteFullElement
+
+PARAMETERS:
+    System.Xml.XmlWriter
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryResponseMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Xml.XmlNode
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryResponseMessage
+
+METHOD: get_Enabled
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryResponseMessage
+
+METHOD: get_InternalClient
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryResponseMessage
+
+METHOD: get_InternalPort
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryResponseMessage
+
+METHOD: get_LeaseDuration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.GetSpecificPortMappingEntryResponseMessage
+
+METHOD: get_PortMappingDescription
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.MessageBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    Mono.Nat.Upnp.UpnpNatDevice
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.MessageBase
+
+METHOD: CreateRequest
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.MessageBase
+
+METHOD: Encode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.MessageBase
+
+METHOD: get_Method
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.ResponseMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.ResponseMessage
+
+METHOD: Decode
+
+PARAMETERS:
+    Mono.Nat.Upnp.UpnpNatDevice
+    System.String
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpErrorMessage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpErrorMessage
+
+METHOD: get_ErrorCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpErrorMessage
+
+METHOD: get_ErrorDescription
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpErrorMessage
+
+METHOD: set_ErrorCode
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpErrorMessage
+
+METHOD: set_ErrorDescription
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Net.IPAddress
+    System.Net.IPEndPoint
+    System.String
+    System.String
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Net.IHttpClient
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: CopyTo
+
+PARAMETERS:
+    System.IO.Stream
+    System.IO.Stream
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: CreatePortMap
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: CreatePortMapInternal
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: DeletePortMap
+
+PARAMETERS:
+    Mono.Nat.Mapping
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: GetSpecificMappingAsync
+
+PARAMETERS:
+    Mono.Nat.Protocol
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: get_ControlUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: get_HostEndPoint
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: get_LocalAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: get_ServiceType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: set_ControlUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: set_HostEndPoint
+
+PARAMETERS:
+    System.Net.EndPoint
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice
+
+METHOD: set_ServiceType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<CopyTo>d__21
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<CopyTo>d__21
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<CreatePortMap>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<CreatePortMap>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<CreatePortMapInternal>d__19
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<CreatePortMapInternal>d__19
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<DeletePortMap>d__20
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<DeletePortMap>d__20
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<GetSpecificMappingAsync>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpNatDevice+<GetSpecificMappingAsync>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Net.IHttpClient
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: GetUpnpNatDevice
+
+PARAMETERS:
+    System.Net.IPAddress
+    MediaBrowser.Model.Dlna.UpnpNotificationInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: ParseDeviceXml
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Common.Net.HttpResponseInfo
+    System.Net.IPAddress
+    System.Uri
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: ParseRootXml
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Common.Net.HttpResponseInfo
+    System.Net.IPAddress
+    System.Uri
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: ParseServiceListXml
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Common.Net.HttpResponseInfo
+    System.Net.IPAddress
+    System.Uri
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: ParseServiceXml
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Common.Net.HttpResponseInfo
+    System.Net.IPAddress
+    System.Uri
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher
+
+METHOD: ParseServicesList
+
+PARAMETERS:
+    System.Net.IPAddress
+    System.Uri
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseDeviceXml>d__7
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseDeviceXml>d__7
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseRootXml>d__6
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseRootXml>d__6
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseServiceListXml>d__8
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseServiceListXml>d__8
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseServiceXml>d__9
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseServiceXml>d__9
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseServicesList>d__5
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.PortMapper.dll
+DLL_VERSION: 1.3.0.0
+
+TYPE: Mono.Nat.Upnp.UpnpSearcher+<ParseServicesList>d__5
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

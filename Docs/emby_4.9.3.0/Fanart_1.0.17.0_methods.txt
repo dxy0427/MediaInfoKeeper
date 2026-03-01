@@ -1,0 +1,4845 @@
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Int32
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Fanart.FanartSeriesProvider+RootObject
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: PopulateImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider
+
+METHOD: get_ProviderName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<>c
+
+METHOD: <PopulateImages>b__15_1
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<>c__DisplayClass15_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<>c__DisplayClass15_0
+
+METHOD: <PopulateImages>b__0
+
+PARAMETERS:
+    Fanart.FanartSeriesProvider+Image
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<AddImages>d__13
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<AddImages>d__13
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<GetImages>d__12
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanArtSeasonProvider+<GetImages>d__12
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: PopulateImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider
+
+METHOD: get_ProviderName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c
+
+METHOD: <PopulateImages>b__14_1
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c__DisplayClass13_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c__DisplayClass13_0
+
+METHOD: <AddImages>b__0
+
+PARAMETERS:
+    Fanart.FanartArtistProvider+Album
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c__DisplayClass14_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<>c__DisplayClass14_0
+
+METHOD: <PopulateImages>b__0
+
+PARAMETERS:
+    Fanart.FanartArtistProvider+FanartArtistImage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<AddImages>d__13
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<AddImages>d__13
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<GetImages>d__12
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartAlbumProvider+<GetImages>d__12
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: DownloadArtistJson
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: EnsureArtistJson
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: GetArtistDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: GetArtistDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: GetArtistJsonPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: PopulateImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider
+
+METHOD: get_ProviderName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<>c
+
+METHOD: <PopulateImages>b__17_1
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<>c__DisplayClass17_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<>c__DisplayClass17_0
+
+METHOD: <PopulateImages>b__0
+
+PARAMETERS:
+    Fanart.FanartArtistProvider+FanartArtistImage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<AddImages>d__16
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<AddImages>d__16
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<DownloadArtistJson>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<DownloadArtistJson>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<GetImages>d__15
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+<GetImages>d__15
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: get_albumcover
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: get_cdart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: get_release_group_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: set_albumcover
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: set_cdart
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+Album
+
+METHOD: set_release_group_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: get_disc
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: get_lang
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: get_likes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: get_size
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: set_disc
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: set_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: set_lang
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: set_likes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: set_size
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistImage
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_albums
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_artistbackground
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_artistthumb
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_hdmusicarts
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_hdmusiclogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_mbid_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_musicarts
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_musicbanner
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_musiclogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_albums
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+Album, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_artistbackground
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_artistthumb
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_hdmusicarts
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_hdmusiclogo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_mbid_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_musicarts
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_musicbanner
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_musiclogo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartArtistProvider+FanartArtistResponse
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartConfigStore
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartConfigStore
+
+METHOD: GetConfigurations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Fanart.FanartMovieImageProvider+RootObject
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: DownloadMovieJson
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: EnsureMovieJson
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: GetFanartJsonPath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: GetMovieDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: GetMoviesDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: NormalizeImageUrl
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: NormalizeLanguage
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: PopulateImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider
+
+METHOD: get_ProviderName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<>c
+
+METHOD: <PopulateImages>b__18_1
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<>c__DisplayClass18_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<>c__DisplayClass18_0
+
+METHOD: <PopulateImages>b__0
+
+PARAMETERS:
+    Fanart.FanartMovieImageProvider+Image
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<AddImages>d__15
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<AddImages>d__15
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<DownloadMovieJson>d__26
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<DownloadMovieJson>d__26
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<GetImages>d__14
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+<GetImages>d__14
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: get_lang
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: get_likes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: set_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: set_lang
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: set_likes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+Image
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_hdmovieclearart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_hdmovielogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_imdb_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_movieart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_moviebackground
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_moviebanner
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_moviedisc
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_movielogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_movieposter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_moviethumb
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: get_tmdb_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_hdmovieclearart
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_hdmovielogo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_imdb_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_movieart
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_moviebackground
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_moviebanner
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_moviedisc
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_movielogo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_movieposter
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_moviethumb
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartMovieImageProvider+RootObject
+
+METHOD: set_tmdb_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartOptions
+
+METHOD: get_UserApiKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartOptions
+
+METHOD: set_UserApiKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: AddImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Fanart.FanartSeriesProvider+RootObject
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: DownloadSeriesJson
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: EnsureSeriesJson
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetFanartJsonPath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetFanartOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetSeriesDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetSeriesDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: PopulateImages
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    System.Int32
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: get_ProviderName
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider
+
+METHOD: set_Current
+
+PARAMETERS:
+    Fanart.FanartSeriesProvider
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<>c
+
+METHOD: <PopulateImages>b__20_1
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<>c__DisplayClass20_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<>c__DisplayClass20_0
+
+METHOD: <PopulateImages>b__0
+
+PARAMETERS:
+    Fanart.FanartSeriesProvider+Image
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<AddImages>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<AddImages>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<DownloadSeriesJson>d__30
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<DownloadSeriesJson>d__30
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<EnsureSeriesJson>d__28
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<EnsureSeriesJson>d__28
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<GetImages>d__17
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+<GetImages>d__17
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: get_lang
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: get_likes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: get_season
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: set_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: set_lang
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: set_likes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: set_season
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+Image
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_characterart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_clearart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_clearlogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_hdclearart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_hdtvlogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_seasonbanner
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_seasonposter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_seasonthumb
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_showbackground
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_thetvdb_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_tvbanner
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_tvposter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: get_tvthumb
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_characterart
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_clearart
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_clearlogo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_hdclearart
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_hdtvlogo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_seasonbanner
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_seasonposter
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_seasonthumb
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_showbackground
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_thetvdb_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_tvbanner
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_tvposter
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.FanartSeriesProvider+RootObject
+
+METHOD: set_tvthumb
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin+<>c__DisplayClass8_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.Plugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.StringCompatibility
+
+METHOD: IndexOf
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.StringCompatibility
+
+METHOD: Replace
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Fanart.dll
+DLL_VERSION: 1.0.17.0
+
+TYPE: Fanart.StringCompatibility
+
+METHOD: StartsWith
+
+PARAMETERS:
+    System.String
+    System.Char
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

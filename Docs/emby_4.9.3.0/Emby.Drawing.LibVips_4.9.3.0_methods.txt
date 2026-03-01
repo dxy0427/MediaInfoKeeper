@@ -1,0 +1,571 @@
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.IptcDecoder
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.IptcDecoder
+
+METHOD: Decode
+
+PARAMETERS:
+    NetVips.Image
+    MediaBrowser.Controller.Drawing.ImageData
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Drawing.IImageProcessor
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: CreateImageCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageCollageOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: EncodeImage
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Int32
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: GetField
+
+PARAMETERS:
+    NetVips.Image
+    System.String[]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: GetImageData
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: GetImageOrientation
+
+PARAMETERS:
+    NetVips.Image
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: GetImageSize
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: GetTempFile
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: GetVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: LoadImage
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: LoadThumbnail
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Entities.ItemImageInfo
+    System.Int32
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: LoadThumbnail
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+    NetVips.Enums+Size
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: LogVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: SaveAnimatedGif
+
+PARAMETERS:
+    NetVips.Image
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: SaveGif
+
+PARAMETERS:
+    NetVips.Image
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: get_SupportedImageDataFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: get_SupportedInputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: get_SupportedOutputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: get_SupportsImageCollageCreation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.LibVipsImageProcessor
+
+METHOD: get_SupportsImageEncoding
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.XmpDecoder
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.XmpDecoder
+
+METHOD: Decode
+
+PARAMETERS:
+    NetVips.Image
+    MediaBrowser.Controller.Drawing.ImageData
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.XmpDecoder
+
+METHOD: ParseListValue
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.XmpDecoder
+
+METHOD: ParseTextValue
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.XmpDecoder
+
+METHOD: ParseXmpDescriptionNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Drawing.ImageData
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.LibVips.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.LibVips.XmpDecoder
+
+METHOD: ParseXmpTopNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.Drawing.ImageData
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

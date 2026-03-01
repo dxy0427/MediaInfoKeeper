@@ -1,0 +1,1889 @@
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: DecodeBitmap
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: DecodeGif
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: DecodeJfif
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: DecodePng
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: GetDimensions
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: GetDimensions
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: ReadBytes
+
+PARAMETERS:
+    System.IO.BinaryReader
+    System.Int32
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: ReadLittleEndianInt16
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: ReadLittleEndianInt32
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.Common.ImageHeader
+
+METHOD: Supports
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.IServerApplicationPaths
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    System.Func`1[[MediaBrowser.Controller.Library.ILibraryManager, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: <GetOutputFormat>b__52_0
+
+PARAMETERS:
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: <GetOutputFormat>b__52_1
+
+PARAMETERS:
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: AddParts
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Providers.IImageEnhancer, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: CheckDisposed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: ContainerSupportsAnimation
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: ContainerSupportsTransparency
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: CreateImageCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageCollageOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: ExecuteImageEnhancers
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Providers.IImageEnhancer, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.String
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: FileSupportsTransparency
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetCacheFilePath
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Int32
+    System.Int32
+    System.Int32
+    System.Int32
+    System.DateTimeOffset
+    MediaBrowser.Model.Drawing.ImageFormat
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetCachePath
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetCachePath
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetConvertedImageCachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetEncodersForImage
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetEnhancedImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetEnhancedImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Drawing.ImageFeatures, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Int32
+    MediaBrowser.Controller.Providers.IImageEnhancer[]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetEnhancedImageCachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetEnhancedImageInternal
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Entities.ImageType
+    System.Int32
+    MediaBrowser.Controller.Providers.IImageEnhancer[]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageCacheTag
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Entities.ItemImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageCacheTag
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.PersonInfo
+    MediaBrowser.Controller.Entities.ItemImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageCacheTag
+
+PARAMETERS:
+    System.Int64
+    MediaBrowser.Model.Entities.ChapterInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageCacheTag
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageCacheTag
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Entities.ItemImageInfo
+    MediaBrowser.Controller.Providers.IImageEnhancer[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageData
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageFeatures
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageOutputOrderByPreference
+
+PARAMETERS:
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageSize
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.Entities.ItemImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageSize
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageSize
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetImageSizeFromImageEncoders
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetInputFormat
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetMimeType
+
+PARAMETERS:
+    MediaBrowser.Model.Drawing.ImageFormat
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetOutputFormat
+
+PARAMETERS:
+    MediaBrowser.Model.Drawing.ImageFormat[]
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Drawing.ImageFeatures, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetResizedImageCachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetSizeProviderPriority
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetSupportedEnhancers
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Entities.ImageType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetSupportedFileExtensions
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetSupportedImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetSupportedImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+    System.String
+    System.String
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: GetSupportedImageOutputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: OnImageSizeObtained
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    MediaBrowser.Model.Drawing.ImageSize
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: ProcessImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    System.IO.Stream
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: ProcessImage
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: SetImageEncoders
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Drawing.IImageEncoder, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: SupportsOrientation
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: _appPaths_CachePathChanged
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: get_ImageEncoders
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: get_ImageEnhancers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: get_SupportedFileExtensions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: get_SupportsImageCollageCreation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: set_ImageEnhancers
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.IImageEnhancer[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: set_SupportedFileExtensions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor
+
+METHOD: set_SupportsImageCollageCreation
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_1
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_2
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_3
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_4
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_5
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c
+
+METHOD: <SetImageEncoders>b__20_6
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c__DisplayClass50_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c__DisplayClass50_0
+
+METHOD: <ProcessImage>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.IImageEncoder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<>c__DisplayClass50_0
+
+METHOD: <ProcessImage>b__1
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.ItemImageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<CreateImageCollage>d__74
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<CreateImageCollage>d__74
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<ExecuteImageEnhancers>d__70
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<ExecuteImageEnhancers>d__70
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<GetEnhancedImage>d__67
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<GetEnhancedImage>d__67
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<GetEnhancedImage>d__68
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<GetEnhancedImage>d__68
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<GetEnhancedImageInternal>d__69
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<GetEnhancedImageInternal>d__69
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<ProcessImage>d__40
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<ProcessImage>d__40
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<ProcessImage>d__50
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.ImageProcessor+<ProcessImage>d__50
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: CreateImageCollage
+
+PARAMETERS:
+    MediaBrowser.Controller.Drawing.ImageCollageOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: EncodeImage
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Int32
+    MediaBrowser.Controller.Drawing.ImageProcessingOptions
+    MediaBrowser.Model.Drawing.ImageFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: GetImageSize
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: get_SupportedInputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: get_SupportedOutputFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: get_SupportsImageCollageCreation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Drawing.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Drawing.NullImageEncoder
+
+METHOD: get_SupportsImageEncoding
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

@@ -1,0 +1,42 @@
+====================================================
+DLL_NAME: Emby.Extensions.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Extensions.MemoryExtensions
+
+METHOD: SplitCore
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Span`1[[System.Range, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String[]
+    System.StringSplitOptions
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Extensions.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Extensions.MemoryExtensions
+
+METHOD: SplitCore
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Span`1[[System.Range, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Char[]
+    System.StringSplitOptions
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

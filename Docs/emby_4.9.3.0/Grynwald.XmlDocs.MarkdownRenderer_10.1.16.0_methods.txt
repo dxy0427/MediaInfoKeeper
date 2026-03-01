@@ -1,0 +1,1859 @@
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: .ctor
+
+PARAMETERS:
+    Grynwald.XmlDocs.MarkdownRenderer.IMarkdownConverter
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: AddToCurrentParagraph
+
+PARAMETERS:
+    Grynwald.MarkdownGenerator.MdSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: AppendBlock
+
+PARAMETERS:
+    Grynwald.MarkdownGenerator.MdBlock
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: AppendListItems
+
+PARAMETERS:
+    Grynwald.MarkdownGenerator.MdList
+    System.Collections.Generic.IEnumerable`1[[Grynwald.XmlDocs.ListItem, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: EndCurrentParagraph
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NamespaceMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.FieldMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PropertyMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.MethodMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EventMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExceptionElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PlainTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BulletedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NumberedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DefinitionListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CodeElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SummaryElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.RemarksElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ValueElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ReturnsElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExampleElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EmphasisElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.IdiomaticElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BoldElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.StrongElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.LineBreakElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: VisitExceptions
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ExceptionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: VisitParameters
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+    System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: VisitSeeAlso
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: VisitTypeParameters
+
+PARAMETERS:
+    Grynwald.XmlDocs.MemberElement
+    System.Collections.Generic.IReadOnlyCollection`1[[Grynwald.XmlDocs.TypeParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: get_CurrentBlock
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
+
+METHOD: get_Result
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c
+
+METHOD: <Visit>b__25_1
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c
+
+METHOD: <Visit>b__25_3
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c__DisplayClass25_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c__DisplayClass25_0
+
+METHOD: <Visit>b__2
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c__DisplayClass25_0
+
+METHOD: <Visit>b__4
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextBlock
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor+<>c__DisplayClass25_0
+
+METHOD: <Visit>g__CreateRow|0
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: BeginNestedSpan
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: EndNestedSpan
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: ThrowUnsupportedNode
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NamespaceMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.FieldMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PropertyMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.MethodMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EventMemberElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ExceptionElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.PlainTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BulletedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.NumberedListElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SimpleListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.DefinitionListItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TableRow
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.CodeElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParagraphElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.ParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.TypeParameterReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeCodeReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.SeeUrlReferenceElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.EmphasisElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.IdiomaticElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.BoldElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.StrongElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: Visit
+
+PARAMETERS:
+    Grynwald.XmlDocs.UnrecognizedTextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: get_CurrentSpan
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
+
+METHOD: get_Result
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.IMarkdownConverter
+
+METHOD: ConvertToBlock
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.IMarkdownConverter
+
+METHOD: ConvertToSpan
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.MarkdownConverter
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.MarkdownConverter
+
+METHOD: ConvertToBlock
+
+PARAMETERS:
+    Grynwald.XmlDocs.DocumentationElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.MarkdownConverter
+
+METHOD: ConvertToSpan
+
+PARAMETERS:
+    Grynwald.XmlDocs.TextElement
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.MarkdownConverter
+
+METHOD: CreateConvertToBlockVisitor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Grynwald.XmlDocs.MarkdownRenderer.MarkdownConverter
+
+METHOD: CreateConvertToSpanVisitor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: Microsoft.CodeAnalysis.EmbeddedAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.NullableAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.NullableAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.NullableContextAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Grynwald.XmlDocs.MarkdownRenderer.dll
+DLL_VERSION: 10.1.16.0
+
+TYPE: System.Runtime.CompilerServices.RefSafetyRulesAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

@@ -1,0 +1,2058 @@
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.BigEndianBinaryReader
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.BigEndianBinaryReader
+
+METHOD: ReadAndReverseBytes
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.BigEndianBinaryReader
+
+METHOD: ReadUInt16
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.BigEndianBinaryReader
+
+METHOD: ReadUInt32
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.AudioAttributes
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: ParsePlayback
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: ParsePosition
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: get_PlaybackInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: get_PositionInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: set_PlaybackInfo
+
+PARAMETERS:
+    DvdLib.Ifo.CellPlaybackInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Cell
+
+METHOD: set_PositionInfo
+
+PARAMETERS:
+    DvdLib.Ifo.CellPositionInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.CellPlaybackInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.CellPositionInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.UInt16
+    System.UInt16
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: get_ChapterNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: get_ProgramChainNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: get_ProgramNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: set_ChapterNumber
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: set_ProgramChainNumber
+
+PARAMETERS:
+    System.UInt16
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Chapter
+
+METHOD: set_ProgramNumber
+
+PARAMETERS:
+    System.UInt16
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd
+
+METHOD: ReadTT_SRPT
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd
+
+METHOD: ReadVTS
+
+PARAMETERS:
+    System.UInt16
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd
+
+METHOD: ReadVTS
+
+PARAMETERS:
+    System.UInt16
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c
+
+METHOD: <.ctor>b__5_0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c
+
+METHOD: <.ctor>b__5_1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c
+
+METHOD: <.ctor>b__5_2
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass7_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass7_0
+
+METHOD: <ReadVTS>b__0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass7_0
+
+METHOD: <ReadVTS>b__1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass8_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass8_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass8_1
+
+METHOD: <ReadVTS>b__0
+
+PARAMETERS:
+    DvdLib.Ifo.Title
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass8_2
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Dvd+<>c__DisplayClass8_2
+
+METHOD: <ReadVTS>b__1
+
+PARAMETERS:
+    DvdLib.Ifo.Title
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.DvdTime
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.DvdTime
+
+METHOD: GetBCDValue
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.DvdTime
+
+METHOD: op_Explicit
+
+PARAMETERS:
+    DvdLib.Ifo.DvdTime
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.MultiChannelExtension
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Program
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[DvdLib.Ifo.Cell, DvdMounter, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: ParseHeader
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_AudioStreamControl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_Palette
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_PlaybackMode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_PlaybackTime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_ProgramCount
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_ProhibitedUserOperations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_StillTime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: get_SubpictureStreamControl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_AudioStreamControl
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_Palette
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_PlaybackMode
+
+PARAMETERS:
+    DvdLib.Ifo.ProgramPlaybackMode
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_PlaybackTime
+
+PARAMETERS:
+    DvdLib.Ifo.DvdTime
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_ProgramCount
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_ProhibitedUserOperations
+
+PARAMETERS:
+    DvdLib.Ifo.UserOperation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_StillTime
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain
+
+METHOD: set_SubpictureStreamControl
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain+<>c__DisplayClass50_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain+<>c__DisplayClass50_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChain+<>c__DisplayClass50_1
+
+METHOD: <ParseHeader>b__0
+
+PARAMETERS:
+    DvdLib.Ifo.Cell
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.ProgramChainCommandTable
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: AddPgc
+
+PARAMETERS:
+    System.IO.BinaryReader
+    System.Int64
+    System.Boolean
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: IsVTSTitle
+
+PARAMETERS:
+    System.UInt32
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: ParseTT_SRPT
+
+PARAMETERS:
+    System.IO.BinaryReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: get_AngleCount
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: get_ChapterCount
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: get_EntryProgramChain
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: get_TitleNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: get_VideoTitleSetNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: set_AngleCount
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: set_ChapterCount
+
+PARAMETERS:
+    System.UInt16
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: set_EntryProgramChain
+
+PARAMETERS:
+    DvdLib.Ifo.ProgramChain
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: set_TitleNumber
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.Title
+
+METHOD: set_VideoTitleSetNumber
+
+PARAMETERS:
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.VideoAttributes
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdLib.Ifo.VirtualMachineCommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Model.Logging.ILogManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: CanMount
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: FormatFilePath
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: GetDvdVobFiles
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: GetPrimaryPlaylistVobFiles
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    System.String
+    System.Nullable`1[[System.UInt32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: GetRuntime
+
+PARAMETERS:
+    DvdLib.Ifo.Title
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: Mount
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: Mount
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+    System.Func`3[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__11_0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__11_1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__11_2
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__11_4
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__11_5
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__11_6
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetRuntime>b__10_0
+
+PARAMETERS:
+    DvdLib.Ifo.ProgramChain
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c
+
+METHOD: <GetRuntime>b__10_1
+
+PARAMETERS:
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c__DisplayClass11_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c__DisplayClass11_0
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__7
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c__DisplayClass11_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c__DisplayClass11_1
+
+METHOD: <GetPrimaryPlaylistVobFiles>b__3
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c__DisplayClass7_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.DvdMounter+<>c__DisplayClass7_0
+
+METHOD: <Mount>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: DvdMounter.dll
+DLL_VERSION: 1.0.2.0
+
+TYPE: DvdMounter.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

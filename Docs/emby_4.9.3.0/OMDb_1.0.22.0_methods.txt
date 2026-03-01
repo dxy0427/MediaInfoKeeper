@@ -1,0 +1,3984 @@
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.IApplicationHost
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteImageFetchOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider+<GetImages>d__7
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbImageProvider+<GetImages>d__7
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.IApplicationHost
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Library.ILibraryManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: CanSearchById
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: FilterValid
+
+PARAMETERS:
+    OMDb.Common.OmdbItemProvider+SearchResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.TrailerInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.EpisodeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.TrailerInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.EpisodeInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.SeriesInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.SeriesInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.MovieInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MovieInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMovieImdbId
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetMovieResult
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetNormalizedName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.SeriesInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MovieInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.EpisodeInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.TrailerInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSearchResultsInternal
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSeriesImdbId
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.SeriesInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: GetSupportedExternalIdentifiers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: SearchByName
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: SearchByName
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: SearchByName
+
+PARAMETERS:
+    System.String
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Controller.Providers.ItemLookupInfo
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<>c__DisplayClass15_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<>c__DisplayClass15_0
+
+METHOD: <GetSearchResultsInternal>b__0
+
+PARAMETERS:
+    OMDb.Common.OmdbItemProvider+SearchResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<>c__DisplayClass15_0
+
+METHOD: <GetSearchResultsInternal>b__1
+
+PARAMETERS:
+    OMDb.Common.OmdbItemProvider+SearchResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMetadata>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMetadata>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMetadata>d__29
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMetadata>d__29
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMovieImdbId>d__34
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMovieImdbId>d__34
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMovieResult>d__33`1
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetMovieResult>d__33`1
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetSearchResultsInternal>d__15
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetSearchResultsInternal>d__15
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetSeriesImdbId>d__35
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<GetSeriesImdbId>d__35
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<SearchByName>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<SearchByName>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<SearchByName>d__19
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+<SearchByName>d__19
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: GetYear
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: GetYears
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Actors
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Awards
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Country
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Director
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Episode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Genre
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Metascore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Plot
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Poster
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Rated
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Released
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Response
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Runtime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Season
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Title
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Writer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_Year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_imdbID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_imdbRating
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_imdbVotes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: get_seriesID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Actors
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Awards
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Country
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Director
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Episode
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Genre
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Language
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Metascore
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Plot
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Poster
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Rated
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Released
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Response
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Runtime
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Season
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Title
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Writer
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_Year
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_imdbID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_imdbRating
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_imdbVotes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResult
+
+METHOD: set_seriesID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResultList
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResultList
+
+METHOD: get_Search
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbItemProvider+SearchResultList
+
+METHOD: set_Search
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[OMDb.Common.OmdbItemProvider+SearchResult, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.IApplicationHost
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: Fetch
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    System.String
+    System.String
+    System.String
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: FetchEpisodeData
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    System.Int32
+    System.Int32
+    System.String
+    System.String
+    System.String
+    System.String
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: GetDataFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: GetOmdbResponse
+
+PARAMETERS:
+    MediaBrowser.Common.Net.IHttpClient
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: GetOmdbUrl
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Common.IApplicationHost
+    System.Threading.CancellationToken
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: GetRootObject
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: GetSeasonFilePath
+
+PARAMETERS:
+    System.String
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: GetSeasonRootObject
+
+PARAMETERS:
+    System.String
+    System.Int32
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: IsValidSeries
+
+PARAMETERS:
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: ParseAdditionalMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.MetadataResult`1[T]
+    OMDb.Common.OmdbProvider+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: ParsePeople
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider
+
+METHOD: ParseYear
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<>c__17`1
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<>c__17`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<>c__17`1
+
+METHOD: <ParseAdditionalMetadata>b__17_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<>c__17`1
+
+METHOD: <ParseAdditionalMetadata>b__17_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<Fetch>d__6`1
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<Fetch>d__6`1
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<FetchEpisodeData>d__7`1
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<FetchEpisodeData>d__7`1
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<GetRootObject>d__11
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<GetRootObject>d__11
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<GetSeasonRootObject>d__12
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+<GetSeasonRootObject>d__12
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+OmdbRating
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+OmdbRating
+
+METHOD: get_Source
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+OmdbRating
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+OmdbRating
+
+METHOD: set_Source
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+OmdbRating
+
+METHOD: set_Value
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: GetRottenTomatoScore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: GetYear
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: GetYears
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Actors
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Awards
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_BoxOffice
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Country
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_DVD
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Director
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Episode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Genre
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Metascore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Plot
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Poster
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Production
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Rated
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Ratings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Released
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Response
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Runtime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Title
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Website
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Writer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_Year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_imdbID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_imdbRating
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: get_imdbVotes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Actors
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Awards
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_BoxOffice
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Country
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_DVD
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Director
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Episode
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Genre
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Language
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Metascore
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Plot
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Poster
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Production
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Rated
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Ratings
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[OMDb.Common.OmdbProvider+OmdbRating, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Released
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Response
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Runtime
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Title
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Website
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Writer
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_Year
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_imdbID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_imdbRating
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject
+
+METHOD: set_imdbVotes
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+RootObject+<>c
+
+METHOD: <GetRottenTomatoScore>b__106_0
+
+PARAMETERS:
+    OMDb.Common.OmdbProvider+OmdbRating
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: get_Episodes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: get_Response
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: get_Season
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: get_Title
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: get_seriesID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: get_totalSeasons
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: set_Episodes
+
+PARAMETERS:
+    OMDb.Common.OmdbProvider+RootObject[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: set_Response
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: set_Season
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: set_Title
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: set_seriesID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Common.OmdbProvider+SeasonRootObject
+
+METHOD: set_totalSeasons
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OMDb.dll
+DLL_VERSION: 1.0.22.0
+
+TYPE: OMDb.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

@@ -1,0 +1,3745 @@
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin+<>c__DisplayClass8_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.EmbyGuideDataPlugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Security.ISecurityManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: EnsurePremiere
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: EnsureRatings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: FillRatingCountryCode
+
+PARAMETERS:
+    EmbyGuideData.GracenoteProgramRating
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: FilterLineup
+
+PARAMETERS:
+    EmbyGuideData.GracenoteLineup
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: FindBestRating
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[EmbyGuideData.GracenoteProgramRating, EmbyGuideData, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Globalization.CountryInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: FormatDate
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetChannels
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetCountries
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetLineups
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetLogoVariant
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetProgramsAsync
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetProgramsAsync
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.Boolean
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: GetUrlToLog
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: LoadRatings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: ToChannelInfo
+
+PARAMETERS:
+    EmbyGuideData.GracenoteChannel
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: ToLineupInfo
+
+PARAMETERS:
+    EmbyGuideData.GracenoteLineup
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: ToProgramInfo
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Int32
+    EmbyGuideData.GracenoteProgram
+    System.String
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Globalization.CountryInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: Validate
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: get_SetupUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<>c
+
+METHOD: <GetProgramsAsync>b__29_0
+
+PARAMETERS:
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<>c__DisplayClass30_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<>c__DisplayClass30_0
+
+METHOD: <GetProgramsAsync>b__0
+
+PARAMETERS:
+    EmbyGuideData.GracenoteProgram
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<EnsurePremiere>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<EnsurePremiere>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetChannels>d__21
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetChannels>d__21
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetLineups>d__25
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetLineups>d__25
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetProgramsAsync>d__29
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetProgramsAsync>d__29
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetProgramsAsync>d__30
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.Gracenote+<GetProgramsAsync>d__30
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: get_affiliateCallSign
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: get_affiliateId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: get_callSign
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: get_channel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: get_preferredImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: get_stationId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: set_affiliateCallSign
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: set_affiliateId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: set_callSign
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: set_channel
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: set_preferredImage
+
+PARAMETERS:
+    EmbyGuideData.GracenoteChannelPreferredImage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannel
+
+METHOD: set_stationId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: get_category
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: get_height
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: get_primary
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: get_uri
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: get_width
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: set_category
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: set_height
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: set_primary
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: set_uri
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteChannelPreferredImage
+
+METHOD: set_width
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: get_device
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: get_lineupId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: get_location
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: get_mso
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: get_type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: set_device
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: set_lineupId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: set_location
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: set_mso
+
+PARAMETERS:
+    EmbyGuideData.GracenoteLineupMso
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineup
+
+METHOD: set_type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineupMso
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineupMso
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineupMso
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineupMso
+
+METHOD: set_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteLineupMso
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_channels
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_duration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_endTime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_program
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_qualifiers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_ratings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_startTime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: get_station
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_channels
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_duration
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_endTime
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_program
+
+PARAMETERS:
+    EmbyGuideData.GracenoteProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_qualifiers
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_ratings
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[EmbyGuideData.GracenoteProgramRating, EmbyGuideData, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_startTime
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgram
+
+METHOD: set_station
+
+PARAMETERS:
+    EmbyGuideData.GracenoteProgramStation
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_audience
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_descriptionLang
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_entityType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_episodeNum
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_episodeTitle
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_eventTitle
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_genres
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_longDescription
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_origAirDate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_preferredImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_ratings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_releaseDate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_releaseYear
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_rootId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_seasonNum
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_seriesId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_shortDescription
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_subType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_title
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_titleLang
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_tmsId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: get_topCast
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_audience
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_descriptionLang
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_entityType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_episodeNum
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_episodeTitle
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_eventTitle
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_genres
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_longDescription
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_origAirDate
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_preferredImage
+
+PARAMETERS:
+    EmbyGuideData.GracenoteProgramPreferredImage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_ratings
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[EmbyGuideData.GracenoteProgramRating, EmbyGuideData, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_releaseDate
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_releaseYear
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_rootId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_seasonNum
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_seriesId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_shortDescription
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_subType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_title
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_titleLang
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_tmsId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramInfo
+
+METHOD: set_topCast
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_category
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_height
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_primary
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_text
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_tier
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_uri
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: get_width
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_category
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_height
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_primary
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_text
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_tier
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_uri
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage
+
+METHOD: set_width
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: get_category
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: get_height
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: get_primary
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: get_uri
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: get_width
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: set_category
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: set_height
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: set_primary
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: set_uri
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramPreferredImage2
+
+METHOD: set_width
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: get_body
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: get_code
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: get_countryCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: get_subRating
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: set_body
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: set_code
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: set_countryCode
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramRating
+
+METHOD: set_subRating
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: get_affiliateCallSign
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: get_affiliateId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: get_callSign
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: get_channel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: get_preferredImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: get_stationId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: set_affiliateCallSign
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: set_affiliateId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: set_callSign
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: set_channel
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: set_preferredImage
+
+PARAMETERS:
+    EmbyGuideData.GracenoteProgramPreferredImage2
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.GracenoteProgramStation
+
+METHOD: set_stationId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.StringCompatibility
+
+METHOD: IndexOf
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.StringCompatibility
+
+METHOD: Replace
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: EmbyGuideData.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: EmbyGuideData.StringCompatibility
+
+METHOD: StartsWith
+
+PARAMETERS:
+    System.String
+    System.Char
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

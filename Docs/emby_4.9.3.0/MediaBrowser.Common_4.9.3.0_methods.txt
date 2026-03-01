@@ -1,0 +1,9164 @@
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationManagerExtensions
+
+METHOD: GetConfiguration
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IConfigurationManager
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: get_ConfigurationType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: get_RequiresSerializedTypeInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: set_ConfigurationType
+
+PARAMETERS:
+    System.Type
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: set_Key
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationStore
+
+METHOD: set_RequiresSerializedTypeInfo
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+METHOD: get_NewConfiguration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+METHOD: set_Key
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+METHOD: set_NewConfiguration
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: GetCachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: GetImageCachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: add_CachePathChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_CachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_ConfigurationDirectoryPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_DataPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_ImageCachePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_LogDirectoryPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_PluginConfigurationsPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_PluginsPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_ProgramDataPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_ProgramSystemPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_SystemConfigurationFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_TempDirectory
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_TempUpdatePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: get_VirtualDataPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
+
+METHOD: remove_CachePathChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationFactory
+
+METHOD: GetConfigurations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: AddParts
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.IConfigurationFactory, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: GetConfiguration
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: GetConfigurationType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: ReplaceConfiguration
+
+PARAMETERS:
+    MediaBrowser.Model.Configuration.BaseApplicationConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: SaveConfiguration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: SaveConfiguration
+
+PARAMETERS:
+    System.String
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: add_ConfigurationUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: add_NamedConfigurationUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: add_NamedConfigurationUpdating
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: get_CommonApplicationPaths
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: get_CommonConfiguration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: remove_ConfigurationUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: remove_NamedConfigurationUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IConfigurationManager
+
+METHOD: remove_NamedConfigurationUpdating
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Configuration.IValidatingConfiguration
+
+METHOD: Validate
+
+PARAMETERS:
+    System.Object
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper
+
+METHOD: FireEventIfNotNull
+
+PARAMETERS:
+    System.EventHandler
+    System.Object
+    System.EventArgs
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper
+
+METHOD: FireEventIfNotNull
+
+PARAMETERS:
+    System.EventHandler`1[T]
+    System.Object
+    T
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper
+
+METHOD: QueueEventIfNotNull
+
+PARAMETERS:
+    System.EventHandler
+    System.Object
+    System.EventArgs
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper
+
+METHOD: QueueEventIfNotNull
+
+PARAMETERS:
+    System.EventHandler`1[T]
+    System.Object
+    T
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper
+
+METHOD: TriggerAll
+
+PARAMETERS:
+    System.EventHandler`1[T]
+    System.Object
+    T
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper
+
+METHOD: TriggerAll
+
+PARAMETERS:
+    System.EventHandler
+    System.Object
+    System.EventArgs
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper+<>c__DisplayClass0_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper+<>c__DisplayClass0_0
+
+METHOD: <QueueEventIfNotNull>b__0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper+<>c__DisplayClass1_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Events.EventHelper+<>c__DisplayClass1_0`1
+
+METHOD: <QueueEventIfNotNull>b__0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.BaseExtensions
+
+METHOD: GetMD5
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.BaseExtensions
+
+METHOD: GetMD5
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.BaseExtensions
+
+METHOD: StripHtml
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.BaseExtensions
+
+METHOD: get_CryptographyProvider
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.BaseExtensions
+
+METHOD: set_CryptographyProvider
+
+PARAMETERS:
+    MediaBrowser.Model.Cryptography.ICryptoProvider
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ConflictException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ConflictException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.DirectoryUnavailableException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.DirectoryUnavailableException
+
+METHOD: get_Path
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.DirectoryUnavailableException
+
+METHOD: set_Path
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.RangeRequestOutOfRangeException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.RangeRequestOutOfRangeException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.RateLimitExceededException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.RateLimitExceededException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.RemoteServiceUnavailableException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Extensions.ResourceExceptionType
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Extensions.ResourceExceptionType
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Common.Extensions.ResourceExceptionType
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: get_ResourceExceptionType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: get_ResourceId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: set_ResourceExceptionType
+
+PARAMETERS:
+    MediaBrowser.Common.Extensions.ResourceExceptionType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ResourceNotFoundException
+
+METHOD: set_ResourceId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ServiceUnavailableException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Extensions.ServiceUnavailableException
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: CheckForApplicationUpdate
+
+PARAMETERS:
+    System.Threading.CancellationToken
+    System.Boolean
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: ContainsStartupOption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: CreateInstance
+
+PARAMETERS:
+    System.Type
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: GetExports
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: Init
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: NotifyPendingRestart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: RemovePlugin
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: Resolve
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: Restart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: Shutdown
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: TryResolve
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: UpdateApplication
+
+PARAMETERS:
+    MediaBrowser.Model.Updates.PackageVersionInfo
+    System.Threading.CancellationToken
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: add_ApplicationUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: add_HasPendingRestartChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_ApplicationVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_CanSelfRestart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_CanSelfUpdate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_HasPendingRestart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_IsShuttingDown
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_IsStartupComplete
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_OperatingSystemDisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_Plugins
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_SystemId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: get_SystemUpdateLevel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: remove_ApplicationUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.IApplicationHost
+
+METHOD: remove_HasPendingRestartChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.MediaSourceInfo
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: GetHeaderValue
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: SetHeaderValue
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: SetPostData
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_AcceptHeader
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_AppendCharsetToMimeType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_BufferContent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_CacheLength
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_CacheMode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_CancellationToken
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_ConnectionContext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_ConvertUrlCredentialsToBasicAuth
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_DecompressionMethod
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_DownloadFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_EnableAutomaticTimeouts
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_EnableDefaultUserAgent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_EnableHttpCompression
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_EnableKeepAlive
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_FileBufferSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_FileOpenOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_FileShareMode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_Host
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogErrorResponseBody
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogErrors
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogRequest
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogRequestAsDebug
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogResponse
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogResponseHeaders
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_LogUrlPrefix
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_Progress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_Referer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_RequestContent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_RequestContentBytes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_RequestContentType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_RequestHeaders
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_RequestHttpContent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_Sanitation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_SingleTcpConnection
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_ThrowOnErrorResponse
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_TimeoutMs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: get_UserAgent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_AcceptHeader
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_AppendCharsetToMimeType
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_BufferContent
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_CacheLength
+
+PARAMETERS:
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_CacheMode
+
+PARAMETERS:
+    MediaBrowser.Common.Net.CacheMode
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_CancellationToken
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_ConnectionContext
+
+PARAMETERS:
+    System.IDisposable
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_ConvertUrlCredentialsToBasicAuth
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_DecompressionMethod
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Common.Net.CompressionMethod, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_DownloadFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_EnableAutomaticTimeouts
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_EnableDefaultUserAgent
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_EnableHttpCompression
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_EnableKeepAlive
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_FileBufferSize
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_FileOpenOptions
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileOpenOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_FileShareMode
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileShareMode
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_Host
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogErrorResponseBody
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogErrors
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogRequest
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogRequestAsDebug
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogResponse
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogResponseHeaders
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_LogUrlPrefix
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_Progress
+
+PARAMETERS:
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_Referer
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_RequestContent
+
+PARAMETERS:
+    System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_RequestContentBytes
+
+PARAMETERS:
+    System.ReadOnlyMemory`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_RequestContentType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_RequestHeaders
+
+PARAMETERS:
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_RequestHttpContent
+
+PARAMETERS:
+    System.Net.Http.HttpContent
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_SingleTcpConnection
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_ThrowOnErrorResponse
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_TimeoutMs
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions
+
+METHOD: set_UserAgent
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions+<>c__DisplayClass155_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpRequestOptions+<>c__DisplayClass155_0
+
+METHOD: <SetPostData>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.IDisposable[]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_Content
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_ContentLength
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_ContentType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_Headers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_ResponseUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_StatusCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: get_TempFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_Content
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_ContentLength
+
+PARAMETERS:
+    System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_ContentType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_Headers
+
+PARAMETERS:
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_ResponseUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_StatusCode
+
+PARAMETERS:
+    System.Net.HttpStatusCode
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.HttpResponseInfo
+
+METHOD: set_TempFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: Get
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: GetConnectionContext
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: GetResponse
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: GetTempFile
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: GetTempFileResponse
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: Post
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.IHttpClient
+
+METHOD: SendAsync
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetHostAddressesAsync
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetLocalIpAddresses
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetLocalIpAddresses
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetMacAddresses
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetNetworkDevices
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetNetworkShares
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetRandomUnusedTcpPort
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: GetRandomUnusedUdpPort
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: IsAddressInSubnets
+
+PARAMETERS:
+    System.Net.IPAddress
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: IsInLocalNetwork
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: IsInLocalNetwork
+
+PARAMETERS:
+    System.Net.IPAddress
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: IsInLocalNetwork
+
+PARAMETERS:
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: IsInPrivateAddressSpace
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: add_NetworkChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: add_RemoteAddressesChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: get_LocalSubnetsFn
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: get_RemoteApiAddresses
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: get_RemoteIPAddresses
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: remove_NetworkChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: remove_RemoteAddressesChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Net.INetworkManager
+
+METHOD: set_LocalSubnetsFn
+
+PARAMETERS:
+    System.Func`1[[System.String[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: GetPluginInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: GetPluginPageUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: OnUninstalling
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: SetAttributes
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Version
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: SetId
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: get_AssemblyFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: get_DataFolderPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: get_Version
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: set_AssemblyFilePath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: set_DataFolderPath
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin
+
+METHOD: set_Version
+
+PARAMETERS:
+    System.Version
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    MediaBrowser.Model.Serialization.IXmlSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: GetPluginInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: LoadConfiguration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: MediaBrowser.Common.Plugins.IHasPluginConfiguration.get_Configuration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: SaveConfiguration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: SetStartupInfo
+
+PARAMETERS:
+    System.Action`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: UpdateConfiguration
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.BasePluginConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_ApplicationPaths
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_AssemblyFileName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_Configuration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_ConfigurationFileName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_ConfigurationFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_ConfigurationType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_IsFirstRun
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: get_XmlSerializer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: set_ApplicationPaths
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: set_Configuration
+
+PARAMETERS:
+    TConfigurationType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: set_IsFirstRun
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.BasePlugin`1
+
+METHOD: set_XmlSerializer
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IXmlSerializer
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IHasPluginConfiguration
+
+METHOD: SetStartupInfo
+
+PARAMETERS:
+    System.Action`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IHasPluginConfiguration
+
+METHOD: UpdateConfiguration
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.BasePluginConfiguration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IHasPluginConfiguration
+
+METHOD: get_Configuration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IHasPluginConfiguration
+
+METHOD: get_ConfigurationType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IHasThumbImage
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IHasThumbImage
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: GetPluginInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: OnUninstalling
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: get_AssemblyFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: get_DataFolderPath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPlugin
+
+METHOD: get_Version
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPluginAssembly
+
+METHOD: SetAttributes
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Version
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Plugins.IPluginAssembly
+
+METHOD: SetId
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.ActionableProgress`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.ActionableProgress`1
+
+METHOD: RegisterAction
+
+PARAMETERS:
+    System.Action`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.ActionableProgress`1
+
+METHOD: Report
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.ActionableProgress`1
+
+METHOD: add_ProgressChanged
+
+PARAMETERS:
+    System.EventHandler`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.ActionableProgress`1
+
+METHOD: remove_ProgressChanged
+
+PARAMETERS:
+    System.EventHandler`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.SimpleProgress`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.SimpleProgress`1
+
+METHOD: Report
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.SimpleProgress`1
+
+METHOD: add_ProgressChanged
+
+PARAMETERS:
+    System.EventHandler`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.SimpleProgress`1
+
+METHOD: remove_ProgressChanged
+
+PARAMETERS:
+    System.EventHandler`1[T]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.WrappedProgressDouble
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.WrappedProgressDouble
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Double
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Progress.WrappedProgressDouble
+
+METHOD: Report
+
+PARAMETERS:
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.IRequiresRegistration
+
+METHOD: LoadRegistrationInfoAsync
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: GetRegistrationStatus
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: IsFeatureAllowed
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: IsFeatureAllowed
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: IsSupporter
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: RegisterAppStoreSale
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: UpdateSupporterKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.ISecurityManager
+
+METHOD: get_SupporterKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Security.PaymentRequiredException
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: CheckForUpdateResult
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Version
+    MediaBrowser.Model.Updates.PackageVersionClass
+    System.String
+    System.String
+    System.String
+    System.TimeSpan
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: CheckForUpdateResult
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject[]
+    System.Version
+    MediaBrowser.Model.Updates.PackageVersionClass
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: CheckForUpdateResult
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+    System.Version
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: GetLatestReleases
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.TimeSpan
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: GetVersion
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: IsAsset
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+Asset
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater
+
+METHOD: MatchesUpdateLevel
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+    MediaBrowser.Model.Updates.PackageVersionClass
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: <CheckForUpdateResult>b__4_0
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: <CheckForUpdateResult>b__4_1
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: <CheckForUpdateResult>b__4_2
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: <CheckForUpdateResult>b__4_4
+
+PARAMETERS:
+    MediaBrowser.Model.Updates.CheckForUpdateResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c
+
+METHOD: <CheckForUpdateResult>b__4_5
+
+PARAMETERS:
+    MediaBrowser.Model.Updates.CheckForUpdateResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass4_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass4_0
+
+METHOD: <CheckForUpdateResult>b__3
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass6_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass6_0
+
+METHOD: <GetLatestReleases>b__0
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass6_0
+
+METHOD: <GetLatestReleases>b__1
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass6_0
+
+METHOD: <GetLatestReleases>b__2
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass6_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass6_1
+
+METHOD: <GetLatestReleases>b__3
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass8_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<>c__DisplayClass8_0
+
+METHOD: <CheckForUpdateResult>b__0
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<CheckForUpdateResult>d__3
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<CheckForUpdateResult>d__3
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<GetLatestReleases>d__6
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+<GetLatestReleases>d__6
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_browser_download_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_content_type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_created_at
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_download_count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_label
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_size
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_state
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_updated_at
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_uploader
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_browser_download_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_content_type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_created_at
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_download_count
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_label
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_size
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_state
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_updated_at
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_uploader
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Asset
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_avatar_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_events_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_followers_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_following_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_gists_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_gravatar_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_html_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_login
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_organizations_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_received_events_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_repos_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_site_admin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_starred_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_subscriptions_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_avatar_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_events_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_followers_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_following_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_gists_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_gravatar_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_html_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_login
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_organizations_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_received_events_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_repos_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_site_admin
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_starred_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_subscriptions_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_assets
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_assets_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_author
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_body
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_created_at
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_draft
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_html_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_prerelease
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_published_at
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_tag_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_tarball_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_target_commitish
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_upload_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: get_zipball_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_assets
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Common.Updates.GithubUpdater+Asset, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_assets_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_author
+
+PARAMETERS:
+    MediaBrowser.Common.Updates.GithubUpdater+Author
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_body
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_created_at
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_draft
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_html_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_prerelease
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_published_at
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_tag_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_tarball_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_target_commitish
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_upload_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+RootObject
+
+METHOD: set_zipball_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_avatar_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_events_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_followers_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_following_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_gists_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_gravatar_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_html_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_login
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_organizations_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_received_events_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_repos_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_site_admin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_starred_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_subscriptions_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_avatar_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_events_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_followers_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_following_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_gists_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_gravatar_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_html_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_login
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_organizations_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_received_events_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_repos_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_site_admin
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_starred_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_subscriptions_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: GetAvailablePackages
+
+PARAMETERS:
+    System.Threading.CancellationToken
+    System.Boolean
+    System.String
+    System.Version
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: GetAvailablePluginUpdates
+
+PARAMETERS:
+    System.Version
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: GetAvailablePluginUpdates
+
+PARAMETERS:
+    System.Version
+    MediaBrowser.Model.Logging.LogSeverity
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: GetLatestCompatibleVersion
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Version
+    MediaBrowser.Model.Updates.PackageVersionClass
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: GetPackage
+
+PARAMETERS:
+    System.String
+    System.String
+    MediaBrowser.Model.Updates.PackageVersionClass
+    System.Version
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: InstallPackage
+
+PARAMETERS:
+    MediaBrowser.Model.Updates.PackageVersionInfo
+    System.Boolean
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: UninstallPlugin
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PackageInstallationCancelled
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PackageInstallationCompleted
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PackageInstallationFailed
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationFailedEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PackageInstalling
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PluginInstalled
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PluginUninstalled
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: add_PluginUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: get_CompletedInstallations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: get_CurrentInstallations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PackageInstallationCancelled
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PackageInstallationCompleted
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PackageInstallationFailed
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationFailedEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PackageInstalling
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PluginInstalled
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PluginUninstalled
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: remove_PluginUpdated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.IInstallationManager
+
+METHOD: set_CurrentInstallations
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.Tuple`2[[MediaBrowser.Model.Updates.InstallationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Threading.CancellationTokenSource, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationEventArgs
+
+METHOD: get_InstallationInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationEventArgs
+
+METHOD: get_PackageVersionInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationEventArgs
+
+METHOD: set_InstallationInfo
+
+PARAMETERS:
+    MediaBrowser.Model.Updates.InstallationInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationEventArgs
+
+METHOD: set_PackageVersionInfo
+
+PARAMETERS:
+    MediaBrowser.Model.Updates.PackageVersionInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationFailedEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationFailedEventArgs
+
+METHOD: get_Exception
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: MediaBrowser.Common.Updates.InstallationFailedEventArgs
+
+METHOD: set_Exception
+
+PARAMETERS:
+    System.Exception
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Microsoft.CodeAnalysis.EmbeddedAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: MediaBrowser.Common.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: System.Runtime.CompilerServices.RefSafetyRulesAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

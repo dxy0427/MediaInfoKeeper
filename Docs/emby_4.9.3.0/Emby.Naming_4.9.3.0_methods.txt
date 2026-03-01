@@ -1,0 +1,6220 @@
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Audio.AlbumParser
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Audio.AlbumParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Audio.AlbumParser
+
+METHOD: ParseMultiPart
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Audio.MultiPartResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Audio.MultiPartResult
+
+METHOD: get_IsMultiPart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Audio.MultiPartResult
+
+METHOD: set_IsMultiPart
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_DateTimeFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_EnableExpressionBuilder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_EpisodeExpressionType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_Expression
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_HasGreedyNumberMatching
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_IsByDate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_IsNonEpisodeNumberOnlyVariation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_Regex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_SupportsEpisodeNumberOnly
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: get_SupportsRomanNumerals
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_DateTimeFormats
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_EnableExpressionBuilder
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_EpisodeExpressionType
+
+PARAMETERS:
+    Emby.Naming.Common.EpisodeExpressionType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_Expression
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_HasGreedyNumberMatching
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_IsByDate
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_IsNonEpisodeNumberOnlyVariation
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_SupportsEpisodeNumberOnly
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.EpisodeExpression
+
+METHOD: set_SupportsRomanNumerals
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_ExtraRule
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_ExtraType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_FileInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_FileNameWithoutExtension
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_Format3D
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_Is3D
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_IsDirectory
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_IsStub
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_MediaType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_Path
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_StubType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: get_Year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_ExtraRule
+
+PARAMETERS:
+    Emby.Naming.Video.ExtraRule
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_ExtraType
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Model.Entities.ExtraType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_FileInfo
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_Format3D
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_Is3D
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_IsDirectory
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_MediaType
+
+PARAMETERS:
+    Emby.Naming.Common.MediaType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_Path
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_StubType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.MediaFileInfo
+
+METHOD: set_Year
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingHelper
+
+METHOD: Fix
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingHelper
+
+METHOD: GetFileSystemMetadata
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingHelper
+
+METHOD: GetFileSystemMetadata
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: Compile
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: GetEpisodeWords
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: GetExtraToken
+
+PARAMETERS:
+    System.String[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: GetMainExpression
+
+PARAMETERS:
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: GetMainExpressionRegex
+
+PARAMETERS:
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: GetSeasonFolderNames
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: GetTrailerToken
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: RemoveXIfNeeded
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_AlbumStackingPrefixes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_AudioFileExtensions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_CleanDateTimeRegexes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_CleanDateTimes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_CleanStringRegexes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_CleanStrings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_EpisodeExpressions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_EpisodeWithoutSeasonExpressions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_EpisodeWithoutSeasonRegexes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_Format3DRules
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_StubFileExtensions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_StubTypes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_SubtitleDefaultFlags
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_SubtitleFileExtensions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_SubtitleFlagDelimiters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_SubtitleFolderNames
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_SubtitleForcedFlags
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_SubtitleHearingImpairedFlags
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_VideoExtraRules
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_VideoFileExtensions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_VideoFileStackingExpressions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_VideoFileStackingRegexes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: get_VideoFlagDelimiters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_AlbumStackingPrefixes
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_AudioFileExtensions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_CleanDateTimeRegexes
+
+PARAMETERS:
+    System.Text.RegularExpressions.Regex[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_CleanDateTimes
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_CleanStringRegexes
+
+PARAMETERS:
+    System.Text.RegularExpressions.Regex[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_CleanStrings
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_EpisodeExpressions
+
+PARAMETERS:
+    Emby.Naming.Common.EpisodeExpression[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_EpisodeWithoutSeasonExpressions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_EpisodeWithoutSeasonRegexes
+
+PARAMETERS:
+    System.Text.RegularExpressions.Regex[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_Format3DRules
+
+PARAMETERS:
+    Emby.Naming.Video.Format3DRule[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_StubFileExtensions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_StubTypes
+
+PARAMETERS:
+    Emby.Naming.Video.StubTypeRule[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_SubtitleDefaultFlags
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_SubtitleFileExtensions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_SubtitleFlagDelimiters
+
+PARAMETERS:
+    System.Char[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_SubtitleFolderNames
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_SubtitleForcedFlags
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_SubtitleHearingImpairedFlags
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_VideoExtraRules
+
+PARAMETERS:
+    Emby.Naming.Video.ExtraRule[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_VideoFileExtensions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_VideoFileStackingExpressions
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_VideoFileStackingRegexes
+
+PARAMETERS:
+    System.Text.RegularExpressions.Regex[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions
+
+METHOD: set_VideoFlagDelimiters
+
+PARAMETERS:
+    System.Char[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions+<>c
+
+METHOD: <.cctor>b__119_0
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions+<>c__DisplayClass6_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Common.NamingOptions+<>c__DisplayClass6_0
+
+METHOD: <GetEpisodeWords>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: get_IsDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: get_IsForced
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: get_Language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: get_Path
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: set_IsDefault
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: set_IsForced
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: set_Language
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleInfo
+
+METHOD: set_Path
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser
+
+METHOD: GetFlags
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser
+
+METHOD: ParseFile
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser+<>c__DisplayClass2_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser+<>c__DisplayClass2_0
+
+METHOD: <ParseFile>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser+<>c__DisplayClass2_0
+
+METHOD: <ParseFile>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Subtitles.SubtitleParser+<>c__DisplayClass2_0
+
+METHOD: <ParseFile>b__2
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_Day
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_EndingEpsiodeNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_EpisodeNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_IsByDate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_Month
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_Path
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_SeasonNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_SeriesName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: get_Year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_Day
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_EndingEpsiodeNumber
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_EpisodeNumber
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_IsByDate
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_Month
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_Path
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_SeasonNumber
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_SeriesName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeInfo
+
+METHOD: set_Year
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: FillAdditional
+
+PARAMETERS:
+    Emby.Naming.TV.EpisodeInfo
+    Emby.Naming.TV.EpisodeResolverOptions
+    System.String
+    Emby.Naming.Common.EpisodeExpression
+    System.String
+    System.Text.RegularExpressions.Match
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: GetEpisodeInfoByDate
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Text.RegularExpressions.Match
+    Emby.Naming.Common.EpisodeExpression
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: GetEpisodeInfoByNumbers
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Text.RegularExpressions.Match
+    Emby.Naming.Common.EpisodeExpression
+    Emby.Naming.TV.EpisodeResolverOptions
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: GetMultiEpisodeExpressionRegexes
+
+PARAMETERS:
+    Emby.Naming.Common.EpisodeExpression
+    System.String
+    System.Text.RegularExpressions.Match
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: GetSeriesNameFromMatch
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: IsOnlySeparatorsBeforeMatch
+
+PARAMETERS:
+    System.Text.RegularExpressions.Match
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: Parse
+
+PARAMETERS:
+    System.String
+    System.String
+    Emby.Naming.Common.EpisodeExpression
+    Emby.Naming.TV.EpisodeResolverOptions
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    Emby.Naming.TV.EpisodeResolverOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    Emby.Naming.TV.EpisodeResolverOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    Emby.Naming.TV.EpisodeResolverOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: SeasonNumberValid
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: TrimOpenBracket
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.Char
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: TrimReleaseGroupSeriesName
+
+PARAMETERS:
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: TryExpressions
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+    Emby.Naming.TV.EpisodeResolverOptions
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver
+
+METHOD: TryParseEpisodeNumber
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    Emby.Naming.Common.EpisodeExpression
+    Emby.Naming.TV.EpisodeResolverOptions
+    System.Int32&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolver+<>c
+
+METHOD: <FillAdditional>b__23_0
+
+PARAMETERS:
+    System.Tuple`2[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_AllowGreedyNumberMatching
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_AllowMatchingByEpisodeNumberOnly
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_AllowParsingParentDirectoryName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_DefaultSeasonNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_EnableExtendedInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_EnableOptimisticExpressions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: get_EpisodeExpressionTypes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_AllowGreedyNumberMatching
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_AllowMatchingByEpisodeNumberOnly
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_AllowParsingParentDirectoryName
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_DefaultSeasonNumber
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_EnableExtendedInfo
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_EnableOptimisticExpressions
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.EpisodeResolverOptions
+
+METHOD: set_EpisodeExpressionTypes
+
+PARAMETERS:
+    Emby.Naming.Common.EpisodeExpressionType[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParser
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParser
+
+METHOD: GetSeasonNumberFromPath
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParser
+
+METHOD: Parse
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: get_IsSeasonFolder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: get_SeasonNumber
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: get_Success
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: set_IsSeasonFolder
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: set_SeasonNumber
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.TV.SeasonPathParserResult
+
+METHOD: set_Success
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeParser
+
+METHOD: Clean
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeParser
+
+METHOD: Clean
+
+PARAMETERS:
+    System.String
+    System.Text.RegularExpressions.Regex
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeParser
+
+METHOD: CleanInternal
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: get_HasChanged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: get_Year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: set_HasChanged
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanDateTimeResult
+
+METHOD: set_Year
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanStringParser
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanStringParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanStringParser
+
+METHOD: Clean
+
+PARAMETERS:
+    System.String
+    System.Text.RegularExpressions.Regex[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.CleanStringParser
+
+METHOD: Clean
+
+PARAMETERS:
+    System.String
+    System.Text.RegularExpressions.Regex
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResolver
+
+METHOD: GetExtraInfo
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    Emby.Naming.Common.MediaType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResolver
+
+METHOD: GetExtraInfo
+
+PARAMETERS:
+    Emby.Naming.Video.ExtraResult
+    System.String
+    Emby.Naming.Video.ExtraRule
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResult
+
+METHOD: get_ExtraType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResult
+
+METHOD: get_Rule
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResult
+
+METHOD: set_ExtraType
+
+PARAMETERS:
+    System.Nullable`1[[MediaBrowser.Model.Entities.ExtraType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraResult
+
+METHOD: set_Rule
+
+PARAMETERS:
+    Emby.Naming.Video.ExtraRule
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: get_ExtraType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: get_MediaTypes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: get_Regex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: get_RuleType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: get_Token
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: set_ExtraType
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.ExtraType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: set_MediaTypes
+
+PARAMETERS:
+    Emby.Naming.Common.MediaType[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: set_RuleType
+
+PARAMETERS:
+    Emby.Naming.Video.ExtraRuleType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.ExtraRule
+
+METHOD: set_Token
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: ContainsFile
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: get_Files
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: get_IsDirectoryStack
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: set_Files
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Common.MediaFileInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: set_IsDirectoryStack
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FileStack
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FlagParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.FlagParser
+
+METHOD: GetFlags
+
+PARAMETERS:
+    System.String
+    System.Char[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DParser
+
+METHOD: Parse
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DParser
+
+METHOD: Parse
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DParser
+
+METHOD: Parse
+
+PARAMETERS:
+    System.String[]
+    Emby.Naming.Video.Format3DRule
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DParser+<>c__DisplayClass4_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DParser+<>c__DisplayClass4_0
+
+METHOD: <Parse>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DResult
+
+METHOD: get_Format3D
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DResult
+
+METHOD: get_Is3D
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DResult
+
+METHOD: set_Format3D
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DResult
+
+METHOD: set_Is3D
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DRule
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DRule
+
+METHOD: get_PreceedingToken
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DRule
+
+METHOD: get_Token
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DRule
+
+METHOD: set_PreceedingToken
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.Format3DRule
+
+METHOD: set_Token
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+    MediaBrowser.Model.IO.IFileSystem
+    System.Collections.Generic.IComparer`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+    System.Collections.Generic.IComparer`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: <ResolveDirectories>b__5_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: <ResolveFiles>b__6_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: FindMatch
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.Text.RegularExpressions.Regex
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: GetRegexInput
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Common.MediaFileInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: ResolveDirectories
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: ResolveFiles
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver
+
+METHOD: ToMediaFileInfo
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResolver+<>c
+
+METHOD: <Resolve>b__9_0
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResult
+
+METHOD: get_Stacks
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StackResult
+
+METHOD: set_Stacks
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Video.FileStack, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubResolver
+
+METHOD: ResolveFile
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubTypeRule
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubTypeRule
+
+METHOD: get_StubType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubTypeRule
+
+METHOD: get_Token
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubTypeRule
+
+METHOD: set_StubType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.StubTypeRule
+
+METHOD: set_Token
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_AlternateVersions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_Extras
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_Files
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_NamedFromFolder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_OriginalName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: get_Year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_AlternateVersions
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Video.VideoInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_Extras
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Common.MediaFileInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_Files
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Common.MediaFileInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_Name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_NamedFromFolder
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_OriginalName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoInfo
+
+METHOD: set_Year
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+    MediaBrowser.Model.IO.IFileSystem
+    System.Collections.Generic.IComparer`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: GetExtras
+
+PARAMETERS:
+    System.Collections.Generic.IList`1[[Emby.Naming.Common.MediaFileInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: GetExtras
+
+PARAMETERS:
+    System.Collections.Generic.IList`1[[Emby.Naming.Common.MediaFileInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: GetVideosGroupedByVersion
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Video.VideoInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Naming.Video.VideoResolver
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: HaveSameYear
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Video.VideoInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: IsEligibleForMultiVersion
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver
+
+METHOD: ResolveToResult
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: <GetVideosGroupedByVersion>b__6_0
+
+PARAMETERS:
+    Emby.Naming.Video.VideoInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: <GetVideosGroupedByVersion>b__6_1
+
+PARAMETERS:
+    Emby.Naming.Video.VideoInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: <HaveSameYear>b__7_0
+
+PARAMETERS:
+    Emby.Naming.Video.VideoInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: <ResolveToResult>b__5_1
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: <ResolveToResult>b__5_6
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c
+
+METHOD: <ResolveToResult>b__5_9
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: <ResolveToResult>b__0
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: <ResolveToResult>b__10
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: <ResolveToResult>b__4
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: <ResolveToResult>b__5
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: <ResolveToResult>b__7
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_0
+
+METHOD: <ResolveToResult>b__8
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_1
+
+METHOD: <ResolveToResult>b__2
+
+PARAMETERS:
+    Emby.Naming.Video.FileStack
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_2
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolver+<>c__DisplayClass5_2
+
+METHOD: <ResolveToResult>b__3
+
+PARAMETERS:
+    Emby.Naming.Common.MediaFileInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolverResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolverResult
+
+METHOD: get_Items
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolverResult
+
+METHOD: get_UnusedFiles
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolverResult
+
+METHOD: set_Items
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Naming.Video.VideoInfo, Emby.Naming, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoListResolverResult
+
+METHOD: set_UnusedFiles
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Naming.Common.NamingOptions
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: CleanDateTime
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: CleanString
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: IsVideoFile
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: Resolve
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: ResolveDirectory
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Naming.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Naming.Video.VideoResolver
+
+METHOD: ResolveFile
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

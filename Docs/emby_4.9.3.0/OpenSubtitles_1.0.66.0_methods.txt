@@ -1,0 +1,5488 @@
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.ConfigurationExtension
+
+METHOD: GetOpenSubtitleConfiguration
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IConfigurationManager
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Hasher
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Hasher
+
+METHOD: ComputeMovieHash
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Security.IEncryptionManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.Security.ISecurityManager
+    MediaBrowser.Controller.IO.IIOManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: CheckRateLimit
+
+PARAMETERS:
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: CreateHttpRequestOptions
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: DecryptPassword
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: DownloadSubtitlesToString
+
+PARAMETERS:
+    System.String
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: FindAnyMatch
+
+PARAMETERS:
+    System.String
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: FindBestLanguage
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.CultureDto
+    System.String
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: FindExactMatch
+
+PARAMETERS:
+    System.String
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: GetOpenSubtitlesLanguages
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: GetResponse
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: GetResponse
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+    System.String
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: GetSubtitles
+
+PARAMETERS:
+    System.String
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: HasConfiguredLogin
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: Login
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: NormalizeImdbId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: NormalizeLanguage
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.CultureDto
+    OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: NormalizeLanguage
+
+PARAMETERS:
+    MediaBrowser.Model.Globalization.CultureDto
+    System.String
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: OnErrorCode
+
+PARAMETERS:
+    System.Net.HttpStatusCode
+    MediaBrowser.Common.Net.HttpResponseInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: OnHttpException
+
+PARAMETERS:
+    MediaBrowser.Model.Net.HttpException
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: ProcessErrorBody
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: RefreshPremiereInfo
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: ResetLoginToDefaults
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: Search
+
+PARAMETERS:
+    MediaBrowser.Controller.Subtitles.SubtitleSearchRequest
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: SearchInternal
+
+PARAMETERS:
+    MediaBrowser.Controller.Subtitles.SubtitleSearchRequest
+    System.Boolean
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: SearchSubtitlesAsync
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery[]
+    OpenSubtitles.OpenSubtitleOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: ToHexadecimal
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader
+
+METHOD: processResults
+
+PARAMETERS:
+    System.String
+    System.Int64
+    OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c
+
+METHOD: <NormalizeLanguage>b__38_0
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c
+
+METHOD: <processResults>b__43_0
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c
+
+METHOD: <processResults>b__43_1
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c
+
+METHOD: <processResults>b__43_2
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c__DisplayClass43_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c__DisplayClass43_0
+
+METHOD: <processResults>b__3
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c__DisplayClass55_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c__DisplayClass55_0
+
+METHOD: <SearchInternal>b__0
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteSubtitleInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<>c__DisplayClass55_0
+
+METHOD: <SearchInternal>b__1
+
+PARAMETERS:
+    MediaBrowser.Model.Providers.RemoteSubtitleInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<CheckRateLimit>d__48
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<CheckRateLimit>d__48
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<DownloadSubtitlesToString>d__32
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<DownloadSubtitlesToString>d__32
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<GetOpenSubtitlesLanguages>d__46
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<GetOpenSubtitlesLanguages>d__46
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<GetResponse>d__49
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<GetResponse>d__49
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<GetSubtitles>d__31
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<GetSubtitles>d__31
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<Login>d__37
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<Login>d__37
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<OnErrorCode>d__52
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<OnErrorCode>d__52
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<RefreshPremiereInfo>d__34
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<RefreshPremiereInfo>d__34
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<Search>d__53
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<Search>d__53
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<SearchInternal>d__55
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<SearchInternal>d__55
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<SearchSubtitlesAsync>d__44
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+<SearchSubtitlesAsync>d__44
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_ai_translated
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_comments
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_download_count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_feature_details
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_files
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_foreign_parts_only
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_fps
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_from_trusted
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_hd
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_hearing_impaired
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_legacy_subtitle_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_machine_translated
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_moviehash_match
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_new_download_count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_ratings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_related_links
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_release
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_subtitle_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_upload_date
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_uploader
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: get_votes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_ai_translated
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_comments
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_download_count
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_feature_details
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_files
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+File, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_foreign_parts_only
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_fps
+
+PARAMETERS:
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_from_trusted
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_hd
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_hearing_impaired
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_language
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_legacy_subtitle_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_machine_translated
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_moviehash_match
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_new_download_count
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_ratings
+
+PARAMETERS:
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_related_links
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+RelatedLink, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_release
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_subtitle_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_upload_date
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_uploader
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+METHOD: set_votes
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: get_attributes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: get_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: get_type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: set_attributes
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+Attributes
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: set_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Datum
+
+METHOD: set_type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_feature_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_feature_type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_imdb_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_movie_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_title
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_tmdb_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: get_year
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_feature_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_feature_type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_imdb_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_movie_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_title
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_tmdb_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
+
+METHOD: set_year
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: get_cd_number
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: get_file_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: get_file_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: set_cd_number
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: set_file_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+File
+
+METHOD: set_file_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: get_data
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: get_page
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: get_per_page
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: get_total_count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: get_total_pages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: set_data
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+Datum, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: set_page
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: set_per_page
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: set_total_count
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
+
+METHOD: set_total_pages
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: get_message
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: get_remaining
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: get_requests
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: get_reset_time
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: get_reset_time_utc
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: get_status
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: set_message
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: set_remaining
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: set_requests
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: set_reset_time
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: set_reset_time_utc
+
+PARAMETERS:
+    System.DateTime
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleError
+
+METHOD: set_status
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_Episode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_Filename
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_ImdbId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_MovieByteSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_MovieHash
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_Query
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_Season
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: get_SubLangaugeId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_Episode
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_Filename
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_ImdbId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_MovieByteSize
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_MovieHash
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_Query
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_Season
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleQuery
+
+METHOD: set_SubLangaugeId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleSearchResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleStruct
+
+METHOD: get_Members
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleStruct
+
+METHOD: set_Members
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleValue
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Object
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleValue
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleValue
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleValue
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleValue
+
+METHOD: set_Type
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleValue
+
+METHOD: set_Value
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_file_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_link
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_message
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_remaining
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_requests
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_reset_time
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: get_reset_time_utc
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_file_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_link
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_message
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_remaining
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_requests
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_reset_time
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesDownloadResult
+
+METHOD: set_reset_time_utc
+
+PARAMETERS:
+    System.DateTime
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
+
+METHOD: get_language_code
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
+
+METHOD: get_language_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
+
+METHOD: set_language_code
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
+
+METHOD: set_language_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguagesResponse
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguagesResponse
+
+METHOD: get_data
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguagesResponse
+
+METHOD: set_data
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: get_base_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: get_status
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: get_token
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: get_user
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: set_base_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: set_status
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: set_token
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLoginResult
+
+METHOD: set_user
+
+PARAMETERS:
+    OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: get_episode_number
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: get_imdb_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: get_languages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: get_moviehash
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: get_query
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: get_season_number
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: set_episode_number
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: set_imdb_id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: set_languages
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: set_moviehash
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: set_query
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery
+
+METHOD: set_season_number
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery+<>c__DisplayClass24_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesQuery+<>c__DisplayClass24_0
+
+METHOD: <ToString>b__0
+
+PARAMETERS:
+    System.Reflection.PropertyInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: get_allowed_downloads
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: get_allowed_translations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: get_ext_installed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: get_level
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: get_user_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: get_vip
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: set_allowed_downloads
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: set_allowed_translations
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: set_ext_installed
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: set_level
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: set_user_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
+
+METHOD: set_vip
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: get_img_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: get_label
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: get_url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: set_img_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: set_label
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+RelatedLink
+
+METHOD: set_url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: get_name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: get_rank
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: get_uploader_id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: set_name
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: set_rank
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
+
+METHOD: set_uploader_id
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleConfigurationFactory
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleConfigurationFactory
+
+METHOD: GetConfigurations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Security.IEncryptionManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.Security.ISecurityManager
+    MediaBrowser.Controller.IO.IIOManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: EncryptPassword
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: GetOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: GetSubtitles
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: Search
+
+PARAMETERS:
+    MediaBrowser.Controller.Subtitles.SubtitleSearchRequest
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: _config_NamedConfigurationUpdating
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: get_Features
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleDownloader
+
+METHOD: get_SupportedMediaTypes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleOptions
+
+METHOD: get_PasswordHash
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleOptions
+
+METHOD: get_Username
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleOptions
+
+METHOD: set_PasswordHash
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitleOptions
+
+METHOD: set_Username
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitlesConfigurationStore
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.OpenSubtitlesConfigurationStore
+
+METHOD: Validate
+
+PARAMETERS:
+    System.Object
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_ApiKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_ApiKeyFree
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_Instance
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_UserAgent
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: get_UserAgentFree
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin
+
+METHOD: set_Instance
+
+PARAMETERS:
+    OpenSubtitles.Plugin
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin+<>c__DisplayClass9_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin+<>c__DisplayClass9_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: OpenSubtitles.dll
+DLL_VERSION: 1.0.66.0
+
+TYPE: OpenSubtitles.Plugin+<>c__DisplayClass9_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

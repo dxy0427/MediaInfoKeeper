@@ -1,0 +1,2218 @@
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Connect.IConnectManager
+    MediaBrowser.Controller.Session.ISessionManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService
+
+METHOD: Any
+
+PARAMETERS:
+    Emby.Server.Connect.Api.DeleteConnectLink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Server.Connect.Api.GetPendingGuests
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Server.Connect.Api.GetLocalUser
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Server.Connect.Api.CreateConnectLink
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService+<Get>d__6
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService+<Get>d__6
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService+<Post>d__3
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.ConnectService+<Post>d__3
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.CreateConnectLink
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.CreateConnectLink
+
+METHOD: get_ConnectUsername
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.CreateConnectLink
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.CreateConnectLink
+
+METHOD: set_ConnectUsername
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.CreateConnectLink
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.DeleteConnectLink
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.DeleteConnectLink
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.DeleteConnectLink
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.Guid
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.GetLocalUser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.GetLocalUser
+
+METHOD: get_ConnectUserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.GetLocalUser
+
+METHOD: set_ConnectUserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.Api.GetPendingGuests
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectAuthenticationExchangeResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectAuthenticationExchangeResult
+
+METHOD: get_AccessToken
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectAuthenticationExchangeResult
+
+METHOD: get_LocalUserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectAuthenticationExchangeResult
+
+METHOD: set_AccessToken
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectAuthenticationExchangeResult
+
+METHOD: set_LocalUserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectData
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectData
+
+METHOD: get_AccessKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectData
+
+METHOD: get_ServerId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectData
+
+METHOD: set_AccessKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectData
+
+METHOD: set_ServerId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectEntryPoint
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Net.INetworkManager
+    MediaBrowser.Controller.Connect.IConnectManager
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Controller.Security.IEncryptionManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectEntryPoint
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectEntryPoint
+
+METHOD: Run
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: AnyUsersLinkedToConnect
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: Authenticate
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: CacheData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: CancelAuthorizationByConnectUserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: CreateServerRegistration
+
+PARAMETERS:
+    System.String[]
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: GetConnectReportingIdentifier
+
+PARAMETERS:
+    System.String
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: GetConnectUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: GetConnectUser
+
+PARAMETERS:
+    Emby.Server.Connect.ConnectUserQuery
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: GetExceptionToThrow
+
+PARAMETERS:
+    System.Exception
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: GetLocalUser
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: GetUserFromExchangeToken
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: IsAuthorizationTokenValid
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: LinkUser
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: LinkUserInternal
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: LoadCachedData
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: NetworkManager_NetworkChanged
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: NetworkManager_RemoteAddressesChanged
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: RefreshAuthorizations
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: RefreshAuthorizations
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.Server.Connect.ServerUserAuthorizationResponse, Emby.Server.Connect, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: RefreshAuthorizationsInternal
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: RemoveConnect
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: RemoveConnect
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.User
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: SetApplicationHeader
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: SetServerAccessToken
+
+PARAMETERS:
+    MediaBrowser.Common.Net.HttpRequestOptions
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: Start
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.Security.IEncryptionManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.Net.INetworkManager
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: UpdateConnectInfo
+
+PARAMETERS:
+    System.Boolean
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: UpdateConnectInfoAfterConfigChange
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: UpdateConnectInfoInternal
+
+PARAMETERS:
+    System.Boolean
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: UpdateServerRegistration
+
+PARAMETERS:
+    System.String[]
+    System.String
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: get_CacheFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: get_ConnectAccessKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: get_ConnectServerId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager
+
+METHOD: get_XApplicationValue
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<>c__DisplayClass47_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<>c__DisplayClass47_0
+
+METHOD: <RefreshAuthorizations>b__0
+
+PARAMETERS:
+    Emby.Server.Connect.ServerUserAuthorizationResponse
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<Authenticate>d__43
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<Authenticate>d__43
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<CancelAuthorizationByConnectUserId>d__42
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<CancelAuthorizationByConnectUserId>d__42
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<CreateServerRegistration>d__27
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<CreateServerRegistration>d__27
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<GetConnectUser>d__39
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<GetConnectUser>d__39
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<LinkUser>d__35
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<LinkUser>d__35
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<LinkUserInternal>d__36
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<LinkUserInternal>d__36
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<LoadCachedData>d__33
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<LoadCachedData>d__33
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<RefreshAuthorizations>d__46
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<RefreshAuthorizations>d__46
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<RefreshAuthorizationsInternal>d__45
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<RefreshAuthorizationsInternal>d__45
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<RemoveConnect>d__38
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<RemoveConnect>d__38
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<UpdateConnectInfo>d__21
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<UpdateConnectInfo>d__21
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<UpdateConnectInfoInternal>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<UpdateConnectInfoInternal>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<UpdateServerRegistration>d__28
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectManager+<UpdateServerRegistration>d__28
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectUserQuery
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectUserQuery
+
+METHOD: get_Email
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectUserQuery
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectUserQuery
+
+METHOD: set_Email
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ConnectUserQuery
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Connect.IConnectManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: Execute
+
+PARAMETERS:
+    System.Threading.CancellationToken
+    System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: GetDefaultTriggers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_Category
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_IsEnabled
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_IsHidden
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_IsLogged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.RefreshAuthorizationsScheduledTask
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerRegistrationResponse
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerRegistrationResponse
+
+METHOD: get_AccessKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerRegistrationResponse
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerRegistrationResponse
+
+METHOD: set_AccessKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerRegistrationResponse
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerUserAuthorizationResponse
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerUserAuthorizationResponse
+
+METHOD: get_AcceptStatus
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerUserAuthorizationResponse
+
+METHOD: get_UserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerUserAuthorizationResponse
+
+METHOD: set_AcceptStatus
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Server.Connect.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Server.Connect.ServerUserAuthorizationResponse
+
+METHOD: set_UserId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

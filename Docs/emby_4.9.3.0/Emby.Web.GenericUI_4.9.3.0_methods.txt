@@ -1,0 +1,8130 @@
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.GetUIViewData
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.GetUIViewData
+
+METHOD: get_ClientLocale
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.GetUIViewData
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.GetUIViewData
+
+METHOD: set_ClientLocale
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.GetUIViewData
+
+METHOD: set_PageId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: get_ClientLocale
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: get_CommandId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: get_Data
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: get_ItemId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: set_ClientLocale
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: set_CommandId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: set_Data
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: set_ItemId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+METHOD: set_PageId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Net.IHttpResultFactory
+    MediaBrowser.Controller.Net.IAuthorizationContext
+    Emby.Web.GenericUI.Model.Interfaces.IUIPagesManager
+    MediaBrowser.Controller.Library.IUserManager
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Model.Globalization.ILocalizationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Web.GenericUI.Api.Endpoints.GetUIViewData
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Web.GenericUI.Api.Endpoints.RunUICommand
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService
+
+METHOD: get_Request
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService
+
+METHOD: set_Request
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService+<Get>d__11
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService+<Get>d__11
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService+<Post>d__12
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Api.GenericUIApiService+<Post>d__12
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.ApiHelpers
+
+METHOD: Ellipsis
+
+PARAMETERS:
+    System.String
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.ApiHelpers
+
+METHOD: GetErrorResponse
+
+PARAMETERS:
+    System.String
+    System.Net.HttpStatusCode
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.ApiHelpers
+
+METHOD: GetErrorResponse
+
+PARAMETERS:
+    System.Net.Http.HttpResponseMessage
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.ApiHelpers
+
+METHOD: SerializeToJson
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.CommonBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.System.IServiceRoot
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.CommonBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.System.IServiceRoot
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.Extensions
+
+METHOD: GetOptions
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginUIView
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.Extensions
+
+METHOD: IsNotEmpty
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.Extensions
+
+METHOD: ToUiDialogSize
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.Enums.DialogSize
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.Extensions
+
+METHOD: ToUiQueryCloseAction
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.Enums.QueryCloseAction
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.Extensions
+
+METHOD: ToUiWizardHidingBehavior
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.Enums.WizardHidingBehavior
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Net.HttpStatusCode
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: Write
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IResponse
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: WriteToAsync
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IResponse
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_ContentType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_Cookies
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_Headers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_RequestContext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_Status
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_StatusCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: get_StatusMessage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: set_ContentType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: set_RequestContext
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: set_Status
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: set_StatusCode
+
+PARAMETERS:
+    System.Net.HttpStatusCode
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpErrorResult
+
+METHOD: set_StatusMessage
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: Write
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IResponse
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: WriteToAsync
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IResponse
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_ContentType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_Cookies
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_Headers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_RequestContext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_Status
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_StatusCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: get_StatusMessage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: set_ContentType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: set_RequestContext
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: set_Status
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: set_StatusCode
+
+PARAMETERS:
+    System.Net.HttpStatusCode
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult
+
+METHOD: set_StatusMessage
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult+<Write>d__27
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Common.HttpSuccessResult+<Write>d__27
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.System.IServiceRoot
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: CheckUserAuthorization
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: CreateDefaultPageView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: CurrentUIViewOnUIViewInfoChanged
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: GetOrCreatePageHost
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginUIView
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: GetUIView
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: Initialize
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: InitializeCore
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: NotifyPageChangeDelayed
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: SetcurrentView
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: add_UIPageInfoChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: get_CurrentUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: get_IsInitialized
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: remove_UIPageInfoChanged
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: set_CurrentUIView
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+METHOD: set_IsInitialized
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<>c__DisplayClass24_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<>c__DisplayClass24_0
+
+METHOD: <NotifyPageChangeDelayed>b__0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<>c__DisplayClass24_0+<<NotifyPageChangeDelayed>b__0>d
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<>c__DisplayClass24_0+<<NotifyPageChangeDelayed>b__0>d
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<GetUIView>d__19
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<GetUIView>d__19
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<RunCommand>d__20
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<RunCommand>d__20
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<SetcurrentView>d__28
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase+<SetcurrentView>d__28
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.System.IServiceRoot
+    MediaBrowser.Common.Plugins.IPlugin
+    MediaBrowser.Model.Plugins.UI.IPluginUIPageController
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: BuildPageId
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+    MediaBrowser.Model.Plugins.UI.IPluginUIPageController
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: CheckUserAuthorization
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: CreateDefaultPageView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: GetRegistration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: InitializeCore
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: get_Plugin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+METHOD: get_PluginUIPageController
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost+<CreateDefaultPageView>d__9
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost+<CreateDefaultPageView>d__9
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: AddTabPageInformation
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.UIViewInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: GetControllerHost
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: GetPluginUIPageRegistrations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: GetUIPage
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: RegisterPageController
+
+PARAMETERS:
+    Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: RegisterPageController
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+    MediaBrowser.Model.Plugins.UI.IPluginUIPageController
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: RegisterPluginPageControllers
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: RunUICommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.String
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager
+
+METHOD: UpdateTabPageInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c
+
+METHOD: <GetPluginUIPageRegistrations>b__11_0
+
+PARAMETERS:
+    Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c
+
+METHOD: <UpdateTabPageInfo>b__7_0
+
+PARAMETERS:
+    Emby.Web.GenericUI.Control.PageHosts.PluginPageControllerHost
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c__DisplayClass7_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c__DisplayClass7_0
+
+METHOD: <UpdateTabPageInfo>b__1
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginUIPageRegistration
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c__DisplayClass9_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c__DisplayClass9_0
+
+METHOD: <AddTabPageInformation>b__0
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.UITabPageInfoList
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.UIPagesManager+<>c__DisplayClass9_0
+
+METHOD: <AddTabPageInformation>b__1
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.UITabPageInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginDialogView
+    System.String
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    MediaBrowser.Model.System.IServiceRoot
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: CreateUIViewHost
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginUIView
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: OnCancelCommand
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: OnOkCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: PluginDialogViewInfoChanged
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Plugins.UI.Views.IPluginUIView, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: UpdateCommands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_DialogSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_QueryCloseAction
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_ShowDialogFullScreen
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost+<RunCommand>d__26
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginDialogViewHost+<RunCommand>d__26
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginPageView
+    System.String
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    MediaBrowser.Model.System.IServiceRoot
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: CreateUIViewHost
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginUIView
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: OnSaveCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: PluginDialogViewInfoChanged
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Plugins.UI.Views.IPluginUIView, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: UpdateCommands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_QueryCloseAction
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_UseAllScreenSpace
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost+<OnSaveCommand>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost+<OnSaveCommand>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost+<RunCommand>d__24
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginPageViewHost+<RunCommand>d__24
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginWizardView
+    System.String
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    MediaBrowser.Model.System.IServiceRoot
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: <>n__0
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: CreateStageHost
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginUIView
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: OnCancelCommand
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: OnFinishCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: OnNextCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: PluginUIViewInfoChanged
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Plugins.UI.Views.IPluginUIView, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: UpdateCommands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: get_WizardHidingBehavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost+<OnFinishCommand>d__25
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost+<OnFinishCommand>d__25
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost+<OnNextCommand>d__24
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost+<OnNextCommand>d__24
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost+<RunCommand>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Control.ViewHosts.PluginWizardViewHost+<RunCommand>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIPagesManager
+
+METHOD: AddTabPageInformation
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.UIViewInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIPagesManager
+
+METHOD: GetUIPage
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIPagesManager
+
+METHOD: RegisterPageController
+
+PARAMETERS:
+    Emby.Web.GenericUI.Control.PageHosts.PageControllerHostBase
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIPagesManager
+
+METHOD: RegisterPluginPageControllers
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIPagesManager
+
+METHOD: RunUICommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.String
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: add_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_Commands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_IsInSequence
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_RedirectViewUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_ShowDialogFullScreen
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_SubCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: get_ViewType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: remove_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.PluginUIPageRegistration
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Common.Plugins.IPlugin
+    System.String
+    MediaBrowser.Model.Plugins.UI.IPluginUIPageController
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.PluginUIPageRegistration
+
+METHOD: get_Href
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.PluginUIPageRegistration
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.PluginUIPageRegistration
+
+METHOD: get_PageInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.PluginUIPageRegistration
+
+METHOD: get_Plugin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.PluginUIPageRegistration
+
+METHOD: get_PluginUIPageController
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Enums.UICommandType
+    System.Boolean
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Enums.UICommandType
+    System.String
+    System.Boolean
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Boolean
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_CommandId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_CommandType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_ConfirmationPrompt
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_IsEnabled
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_IsVisible
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: get_SetFocus
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_Caption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_CommandId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_CommandType
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Enums.UICommandType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_ConfirmationPrompt
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_IsEnabled
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_IsVisible
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UICommand
+
+METHOD: set_SetFocus
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Plugins.IPluginUIPageRegistration
+    System.Int32
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.String
+    System.String
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: get_DisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: get_Href
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: get_Index
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: get_NavKey
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfo
+
+METHOD: set_NavKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UITabPageInfoList
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_Commands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_EditObjectContainer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_IsInSequence
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_IsPageChangeInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_RedirectViewUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_ShowDialogFullScreen
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_SubCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_TabPageInfos
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: get_ViewType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: set_IsPageChangeInfo
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.UIViewInfo
+
+METHOD: set_TabPageInfos
+
+PARAMETERS:
+    System.Collections.Generic.IList`1[[Emby.Web.GenericUI.Model.UITabPageInfo, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Plugins.UI.Views.IPluginDialogView
+    MediaBrowser.Model.System.IServiceRoot
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: GetDefaultOKButtonCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: GetOKButtonCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: OnCancelCommand
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: OnOkCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: RaiseInfoChanged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: UpdateCommands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: add_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_AllowCancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_AllowOk
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_Commands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_EditObjectContainer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_IsInSequence
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_OriginalUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_RedirectViewUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_ShowDialogFullScreen
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_SubCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: get_ViewType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: remove_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_AllowCancel
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_AllowOk
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_Caption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_RedirectViewUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_SubCaption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase+<RunCommand>d__66
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.DialogViewBase+<RunCommand>d__66
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+    MediaBrowser.Model.System.IServiceRoot
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: OnBackCommand
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: OnContentDataChanged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: OnSaveCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: RaiseInfoChanged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: UpdateCommands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: add_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_AllowBack
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_AllowSave
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_Commands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_EditObjectContainer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_IsInSequence
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_PreviousUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_RedirectViewUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_ShowBack
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_ShowDialogFullScreen
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_ShowSave
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_SubCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: get_ViewType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: remove_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_AllowBack
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_AllowSave
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_Caption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_RedirectViewUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_ShowBack
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_ShowSave
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_SubCaption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase+<RunCommand>d__65
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PageViewBase+<RunCommand>d__65
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    MediaBrowser.Model.Plugins.UI.Views.IPluginUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: OnUIViewInfoChanged
+
+PARAMETERS:
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Plugins.UI.Views.IPluginUIView, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: add_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Plugins.UI.Views.IPluginUIView, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_RedirectViewUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_SubCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_UIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: remove_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Plugins.UI.Views.IPluginUIView, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: set_RedirectViewUrl
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.PluginUIViewPointer
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+    MediaBrowser.Model.System.IServiceRoot
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: IsCommandAllowed
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: OnCancelCommand
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: OnDialogResult
+
+PARAMETERS:
+    Emby.Web.GenericUI.Model.Interfaces.IUIView
+    System.Boolean
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: OnFinishCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: OnNextCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: RaiseInfoChanged
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: RunCommand
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: UpdateCommands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: UpdateVisibility
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: add_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_AllowBack
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_AllowCancel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_AllowFinish
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_AllowNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_Caption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_Commands
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_ContentData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_EditObjectContainer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_FocusFinish
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_FocusNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_HelpUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_IsInSequence
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_OriginalUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_PageId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_PluginId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_PluginUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_PreviousUIView
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_RedirectViewUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_ShowDialogFullScreen
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_SubCaption
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_User
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_ViewId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: get_ViewType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: remove_UIViewInfoChanged
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Web.GenericUI.Model.Interfaces.IUIView, Emby.Web.GenericUI, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_AllowBack
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_AllowCancel
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_AllowFinish
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_AllowNext
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_Caption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_ContentData
+
+PARAMETERS:
+    MediaBrowser.Model.GenericEdit.IEditableObject
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_FocusFinish
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_FocusNext
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_SubCaption
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase
+
+METHOD: set_User
+
+PARAMETERS:
+    MediaBrowser.Model.Dto.UserDto
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase+<RunCommand>d__75
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Model.Views.WizardViewBase+<RunCommand>d__75
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Back
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Cancel
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Command___0___is_not_allowed_at_this_stage
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Command___0___is_not_allowed_at_this_stage1
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Command_is_not_allowed_at_this_stage
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Command_is_not_implemented
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Culture
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Finish
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Next
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_No_active_setup_stage
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_OK
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_ResourceManager
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Save
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get_Unable_to_create_stage_host_for__0_
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: get__0__is_not_initialized_yet
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Web.GenericUI.Properties.Resources
+
+METHOD: set_Culture
+
+PARAMETERS:
+    System.Globalization.CultureInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Microsoft.CodeAnalysis.EmbeddedAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Web.GenericUI.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: System.Runtime.CompilerServices.RefSafetyRulesAttribute
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

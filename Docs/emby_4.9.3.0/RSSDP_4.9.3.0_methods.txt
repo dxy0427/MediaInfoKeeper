@@ -1,0 +1,3794 @@
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceAvailableEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceAvailableEventArgs
+
+METHOD: get_DiscoveredDevice
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceAvailableEventArgs
+
+METHOD: get_IsNewlyDiscovered
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceAvailableEventArgs
+
+METHOD: get_LocalIpAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceAvailableEventArgs
+
+METHOD: set_LocalIpAddress
+
+PARAMETERS:
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    Rssdp.ISsdpCommunicationsServer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: AddNotificationTypeFilter
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: RemoveNotificationTypeFilter
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: StartInternal
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: _DeviceLocator_DeviceUnavailable
+
+PARAMETERS:
+    Rssdp.DeviceUnavailableEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: add_DeviceDiscovered
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: add_DeviceDiscoveredInternal
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: add_DeviceLeft
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: deviceLocator_DeviceAvailable
+
+PARAMETERS:
+    Rssdp.DeviceAvailableEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: remove_DeviceDiscovered
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: remove_DeviceDiscoveredInternal
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceDiscovery
+
+METHOD: remove_DeviceLeft
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceEventArgs
+
+METHOD: get_Device
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceUnavailableEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceUnavailableEventArgs
+
+METHOD: get_DiscoveredDevice
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DeviceUnavailableEventArgs
+
+METHOD: get_Expired
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: get_CacheLifetime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: get_DescriptionLocation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: get_IsExpired
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: get_LastUpdated
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: get_NotificationType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: get_Usn
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: set_CacheLifetime
+
+PARAMETERS:
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: set_DescriptionLocation
+
+PARAMETERS:
+    System.Uri
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: set_LastUpdated
+
+PARAMETERS:
+    System.DateTimeOffset
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: set_NotificationType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DiscoveredSsdpDevice
+
+METHOD: set_Usn
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DisposableManagedObjectBase
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DisposableManagedObjectBase
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DisposableManagedObjectBase
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DisposableManagedObjectBase
+
+METHOD: ThrowIfDisposed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DisposableManagedObjectBase
+
+METHOD: get_IsDisposed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.DisposableManagedObjectBase
+
+METHOD: set_IsDisposed
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: CombineQuotedSegments
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.ReadOnlySpan`1[[System.Range, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32
+    System.Int32
+    System.Int32&
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: IsContentHeader
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: Parse
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: Parse
+
+PARAMETERS:
+    T
+    System.Net.Http.Headers.HttpHeaders
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: ParseHeader
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Net.Http.Headers.HttpHeaders
+    System.Net.Http.Headers.HttpHeaders
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: ParseHeaders
+
+PARAMETERS:
+    System.Net.Http.Headers.HttpHeaders
+    System.Net.Http.Headers.HttpHeaders
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.ReadOnlySpan`1[[System.Range, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: ParseHttpVersion
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: ParseStatusLine
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpParserBase`1
+
+METHOD: ParseValues
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpRequestParser
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpRequestParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpRequestParser
+
+METHOD: IsContentHeader
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpRequestParser
+
+METHOD: Parse
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpRequestParser
+
+METHOD: ParseStatusLine
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Net.Http.HttpRequestMessage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpResponseParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpResponseParser
+
+METHOD: IsContentHeader
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpResponseParser
+
+METHOD: Parse
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.HttpResponseParser
+
+METHOD: ParseStatusLine
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Net.Http.HttpResponseMessage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.IEnumerableExtensions
+
+METHOD: SelectManyRecursive
+
+PARAMETERS:
+    System.Collections.Generic.IEnumerable`1[T]
+    System.Func`2[T,System.Collections.Generic.IEnumerable`1[T]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.IEnumerableExtensions+<>c__DisplayClass0_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.IEnumerableExtensions+<>c__DisplayClass0_0`1
+
+METHOD: <SelectManyRecursive>b__0
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: BeginListeningForBroadcasts
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: SendMessage
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: SendMulticastMessage
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: add_RequestReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: add_ResponseReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: remove_RequestReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ISsdpCommunicationsServer
+
+METHOD: remove_ResponseReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.RequestReceivedEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Net.Http.HttpRequestMessage
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.RequestReceivedEventArgs
+
+METHOD: get_LocalIpAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.RequestReceivedEventArgs
+
+METHOD: get_Message
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.RequestReceivedEventArgs
+
+METHOD: get_ReceivedFrom
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.RequestReceivedEventArgs
+
+METHOD: set_LocalIpAddress
+
+PARAMETERS:
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ResponseReceivedEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Net.Http.HttpResponseMessage
+    System.Net.EndPoint
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ResponseReceivedEventArgs
+
+METHOD: get_LocalIpAddress
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ResponseReceivedEventArgs
+
+METHOD: get_Message
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ResponseReceivedEventArgs
+
+METHOD: get_ReceivedFrom
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.ResponseReceivedEventArgs
+
+METHOD: set_LocalIpAddress
+
+PARAMETERS:
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Net.ISocketFactory
+    MediaBrowser.Common.Net.INetworkManager
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.System.IEnvironmentInfo
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: BeginListeningForBroadcasts
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: BeginReceive
+
+PARAMETERS:
+    System.Net.Sockets.Socket
+    System.Net.Sockets.SocketAsyncEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: BuildMessage
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: CreateSsdpUdpSocket
+
+PARAMETERS:
+    System.Net.IPAddress
+    System.Int32
+    System.Net.IPAddress[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: FilterSockets
+
+PARAMETERS:
+    System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]][]
+    System.Net.IPAddress
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: GetLocalIpAddresses
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: ProcessMessage
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: ProcessReceiveSocketAsyncEventArgs_Completed
+
+PARAMETERS:
+    System.Object
+    System.Net.Sockets.SocketAsyncEventArgs
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: SendFromSocket
+
+PARAMETERS:
+    System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+    System.Memory`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Net.IPEndPoint
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: SendMessage
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: SendMulticastMessage
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    System.Int32
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: SendToAsync
+
+PARAMETERS:
+    System.Net.Sockets.Socket
+    System.Memory`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Net.IPEndPoint
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: SetReuseAddress
+
+PARAMETERS:
+    System.Net.Sockets.Socket
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: StopListeningForResponses
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: add_RequestReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: add_ResponseReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: receiveSocketAsyncEventArgs_Completed
+
+PARAMETERS:
+    System.Object
+    System.Net.Sockets.SocketAsyncEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: remove_RequestReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: remove_ResponseReceived
+
+PARAMETERS:
+    System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: sendSocketAsyncEventArgs_Completed
+
+PARAMETERS:
+    System.Object
+    System.Net.Sockets.SocketAsyncEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer
+
+METHOD: setsockopt
+
+PARAMETERS:
+    System.Int32
+    System.Int32
+    System.Int32
+    System.Void*
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c
+
+METHOD: <SendMessage>b__18_0
+
+PARAMETERS:
+    System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass16_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass16_0
+
+METHOD: <BeginListeningForBroadcasts>b__0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass20_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass20_0
+
+METHOD: <SendToAsync>b__0
+
+PARAMETERS:
+    System.Object
+    System.Net.Sockets.SocketAsyncEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass23_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass23_0
+
+METHOD: <FilterSockets>b__0
+
+PARAMETERS:
+    System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass23_0
+
+METHOD: <FilterSockets>b__1
+
+PARAMETERS:
+    System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass23_0
+
+METHOD: <FilterSockets>b__2
+
+PARAMETERS:
+    System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass32_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<>c__DisplayClass32_0
+
+METHOD: <CreateSsdpUdpSocket>b__0
+
+PARAMETERS:
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<BeginListeningForBroadcasts>d__16
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<BeginListeningForBroadcasts>d__16
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<SendFromSocket>d__19
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<SendFromSocket>d__19
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<SendMessage>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<SendMessage>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<SendMulticastMessage>d__21
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpCommunicationsServer+<SendMulticastMessage>d__21
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpConstants
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: .ctor
+
+PARAMETERS:
+    Rssdp.ISsdpCommunicationsServer
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: AddNotificationTypeFilter
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: AddOrUpdateDiscoveredDevice
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: BroadcastDiscoverMessage
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: CacheAgeFromHeader
+
+PARAMETERS:
+    System.Net.Http.Headers.CacheControlHeaderValue
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: CommsServer_RequestReceived
+
+PARAMETERS:
+    System.Object
+    Rssdp.RequestReceivedEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: CommsServer_ResponseReceived
+
+PARAMETERS:
+    System.Object
+    Rssdp.ResponseReceivedEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: DeviceDied
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: DeviceDied
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice[]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: DisposeBroadcastTimer
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: FindExistingDeviceNotification
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Rssdp.DiscoveredSsdpDevice, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: FindExistingDeviceNotifications
+
+PARAMETERS:
+    System.Collections.Generic.IList`1[[Rssdp.DiscoveredSsdpDevice, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: GetFirstHeaderStringValue
+
+PARAMETERS:
+    System.String
+    System.Net.Http.Headers.HttpHeaders
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: GetFirstHeaderUriValue
+
+PARAMETERS:
+    System.String
+    System.Net.Http.Headers.HttpHeaders
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: GetNotificationTypeFilters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: OnBroadcastTimerCallback
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: OnDeviceAvailable
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice
+    System.Boolean
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: OnDeviceUnavailable
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: ProcessAliveNotification
+
+PARAMETERS:
+    System.Net.Http.HttpRequestMessage
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: ProcessByeByeNotification
+
+PARAMETERS:
+    System.Net.Http.HttpRequestMessage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: ProcessNotificationMessage
+
+PARAMETERS:
+    System.Net.Http.HttpRequestMessage
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: ProcessSearchResponseMessage
+
+PARAMETERS:
+    System.Net.Http.HttpResponseMessage
+    System.Net.IPAddress
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: RemoveExpiredDevicesFromCache
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: RemoveNotificationTypeFilter
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: SearchAsync
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: Start
+
+PARAMETERS:
+    System.TimeSpan
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: StartListeningForNotifications
+
+PARAMETERS:
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: Stop
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator
+
+METHOD: StopListeningForNotifications
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<>c
+
+METHOD: <RemoveExpiredDevicesFromCache>b__32_0
+
+PARAMETERS:
+    Rssdp.DiscoveredSsdpDevice
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<OnBroadcastTimerCallback>d__12
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<OnBroadcastTimerCallback>d__12
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<SearchAsync>d__13
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDeviceLocator+<SearchAsync>d__13
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: .ctor
+
+PARAMETERS:
+    Rssdp.ISsdpCommunicationsServer
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.System.IEnvironmentInfo
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: AddDevices
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Ssdp.SsdpRootDevice, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: CommsServer_RequestReceived
+
+PARAMETERS:
+    System.Object
+    Rssdp.RequestReceivedEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: GetAllDevicesAsFlatEnumerable
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: GetDeviceCacheSeconds
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: GetFirstHeaderValue
+
+PARAMETERS:
+    System.Net.Http.Headers.HttpRequestHeaders
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: GetUsn
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: ProcessSearchRequest
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: RemoveDevices
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Ssdp.SsdpRootDevice, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendAliveNotification
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendAliveNotifications
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendAllAliveNotifications
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendByeByeNotification
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendByeByeNotifications
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendDeviceSearchResponses
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Ssdp.SsdpDevice
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: SendSearchResponse
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Ssdp.SsdpDevice
+    System.String
+    System.Net.IPEndPoint
+    System.Net.IPAddress
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: StartBroadcastingAliveMessages
+
+PARAMETERS:
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: StopBroadcastingAliveMessages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: WriteTrace
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher
+
+METHOD: WriteTrace
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Ssdp.SsdpDevice
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<>c
+
+METHOD: <GetAllDevicesAsFlatEnumerable>b__19_0
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<>c__DisplayClass18_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<>c__DisplayClass18_0
+
+METHOD: <ProcessSearchRequest>b__0
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<>c__DisplayClass18_0
+
+METHOD: <ProcessSearchRequest>b__1
+
+PARAMETERS:
+    MediaBrowser.Model.Ssdp.SsdpDevice
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<AddDevices>d__15
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<AddDevices>d__15
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<ProcessSearchRequest>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<ProcessSearchRequest>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<RemoveDevices>d__16
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<RemoveDevices>d__16
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendAliveNotifications>d__25
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendAliveNotifications>d__25
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendAllAliveNotifications>d__24
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendAllAliveNotifications>d__24
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendDeviceSearchResponses>d__20
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendDeviceSearchResponses>d__20
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendSearchResponse>d__23
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: RSSDP.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Rssdp.SsdpDevicePublisher+<SendSearchResponse>d__23
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

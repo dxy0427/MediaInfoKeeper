@@ -1,0 +1,2256 @@
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlDataCache
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: Equals
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvChannel
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_AlternateNames
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_DisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Icon
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Number
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_AlternateNames
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_DisplayName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Icon
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvIcon
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Number
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Height
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Source
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Width
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Height
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Source
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Type
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.ImageType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Width
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin+<>c__DisplayClass8_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvPlugin+<>c__DisplayClass8_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.IZipClient
+    MediaBrowser.Controller.Library.IMediaSourceManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ClearProgramCaches
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ExtractFirstFileFromGz
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ExtractFirstFileFromXZ
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ExtractGz
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: FindXmlFile
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetChannels
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetChannels
+
+PARAMETERS:
+    Emby.XmlTV.XmlDataCache
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetLanguage
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetLineups
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetPrograms
+
+PARAMETERS:
+    Emby.XmlTV.XmlDataCache
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.TimeSpan
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetProgramsAsync
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetXml
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetXmlDataCache
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetXmlDataCacheInternal
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: UnzipIfNeeded
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: Validate
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_CachePathFolderName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_SetupUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: set_CachePathFolderName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: <FindXmlFile>b__27_0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: <FindXmlFile>b__27_1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<ExtractFirstFileFromXZ>d__24
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<ExtractFirstFileFromXZ>d__24
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetChannels>d__34
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetChannels>d__34
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetProgramsAsync>d__30
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetProgramsAsync>d__30
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXml>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXml>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCache>d__29
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCache>d__29
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCacheInternal>d__28
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCacheInternal>d__28
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<UnzipIfNeeded>d__23
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<UnzipIfNeeded>d__23
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: AddValuesWithLanguage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: CreateStreamReader
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: CreateXmlTextReader
+
+PARAMETERS:
+    System.IO.StreamReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: FillImages
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvIcon, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetAspectRatio
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvIcon
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetChannel
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetChannels
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetImage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvIcon, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetProgramme
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.TimeSpan
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetProgrammes
+
+PARAMETERS:
+    System.IO.Stream
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.TimeSpan
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetValueWithLanguage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetValuesWithLanguage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: MakeFullUrl
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseDate
+
+PARAMETERS:
+    System.String
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseEpisodeDataForOnScreen
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseEpisodeDataForProgramId
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseEpisodeDataForXmlTvNs
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseImdbSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseMovieDbSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseSxxExxEpisodeNumberSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseSxxExxEpisodeNumberSystem
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseTmsEpisodeSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseTvdbSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessCopyrightDate
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.TimeSpan
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessEpisodeNum
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessIconNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessImageNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessPreviouslyShown
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.TimeSpan
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessQuality
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessRating
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessSeriesId
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessStarRating
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessVideo
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: SetChannelNumber
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvChannel
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+<>c
+
+METHOD: <GetChannel>b__7_0
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: get_Language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: set_Language
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.XmlTV.dll
+DLL_VERSION: 1.2.1.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: set_Value
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

@@ -1,0 +1,4701 @@
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumExternalId
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumExternalId
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.IHasProviderIds
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumExternalId
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumExternalId
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumExternalId
+
+METHOD: get_UrlFormatString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumExternalId
+
+METHOD: get_Website
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteImageFetchOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    AudioDb.AudioDbAlbumProvider+Album
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider+<GetImages>d__5
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumImageProvider+<GetImages>d__5
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: EnsureInfo
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetAlbumDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetAlbumDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetAlbumInfoPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.AlbumInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.AlbumInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.AlbumInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: GetSupportedExternalIdentifiers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: ProcessResult
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.Audio.MusicAlbum
+    AudioDb.AudioDbAlbumProvider+Album
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+<EnsureInfo>d__14
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+<EnsureInfo>d__14
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+<GetMetadata>d__9
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+<GetMetadata>d__9
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_idAlbum
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_idArtist
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_intLoved
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_intSales
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_intScore
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_intYearReleased
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strAlbum
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strAlbumCDart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strAlbumThumb
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strAmazonID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strArtist
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionCN
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionDE
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionEN
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionES
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionFR
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionHU
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionIL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionIT
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionJP
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionNL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionNO
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionPL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionPT
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionRU
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strDescriptionSE
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strGenre
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strItunesID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strLocation
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strLocked
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strMood
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strMusicBrainzArtistID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strMusicBrainzID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strReleaseFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strReview
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strSpeed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strSubGenre
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: get_strTheme
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_idAlbum
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_idArtist
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_intLoved
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_intSales
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_intScore
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_intYearReleased
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strAlbum
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strAlbumCDart
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strAlbumThumb
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strAmazonID
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strArtist
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionCN
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionDE
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionEN
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionES
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionFR
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionHU
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionIL
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionIT
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionJP
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionNL
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionNO
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionPL
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionPT
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionRU
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strDescriptionSE
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strGenre
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strItunesID
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strLocation
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strLocked
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strMood
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strMusicBrainzArtistID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strMusicBrainzID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strReleaseFormat
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strReview
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strSpeed
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strSubGenre
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+Album
+
+METHOD: set_strTheme
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+RootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+RootObject
+
+METHOD: get_album
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbAlbumProvider+RootObject
+
+METHOD: set_album
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[AudioDb.AudioDbAlbumProvider+Album, AudioDb, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistExternalId
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistExternalId
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.IHasProviderIds
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistExternalId
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistExternalId
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistExternalId
+
+METHOD: get_UrlFormatString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistExternalId
+
+METHOD: get_Website
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.Net.IHttpClient
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteImageFetchOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    AudioDb.AudioDbArtistProvider+Artist
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: GetSupportedImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider+<GetImages>d__5
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistImageProvider+<GetImages>d__5
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: EnsureArtistInfo
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetArtistDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetArtistDataPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetArtistInfoPath
+
+PARAMETERS:
+    MediaBrowser.Common.Configuration.IApplicationPaths
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetImageResponse
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.ArtistInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetMetadata
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ArtistInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetSearchResults
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ArtistInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: GetSupportedExternalIdentifiers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: ProcessResult
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.Audio.MusicArtist
+    AudioDb.AudioDbArtistProvider+Artist
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+<EnsureArtistInfo>d__15
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+<EnsureArtistInfo>d__15
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+<GetMetadata>d__10
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+<GetMetadata>d__10
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_idArtist
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_idLabel
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_intBornYear
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_intDiedYear
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_intFormedYear
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_intMembers
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtist
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistAlternate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistBanner
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistFanart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistFanart2
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistFanart3
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistLogo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strArtistThumb
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyCN
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyDE
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyEN
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyES
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyFR
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyHU
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyIL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyIT
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyJP
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyNL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyNO
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyPL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyPT
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographyRU
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strBiographySE
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strCountry
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strCountryCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strDisbanded
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strFacebook
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strGender
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strGenre
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strLastFMChart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strLocked
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strMusicBrainzID
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strSubGenre
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strTwitter
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: get_strWebsite
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_idArtist
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_idLabel
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_intBornYear
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_intDiedYear
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_intFormedYear
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_intMembers
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtist
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistAlternate
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistBanner
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistFanart
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistFanart2
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistFanart3
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistLogo
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strArtistThumb
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyCN
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyDE
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyEN
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyES
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyFR
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyHU
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyIL
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyIT
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyJP
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyNL
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyNO
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyPL
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyPT
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographyRU
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strBiographySE
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strCountry
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strCountryCode
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strDisbanded
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strFacebook
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strGender
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strGenre
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strLastFMChart
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strLocked
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strMusicBrainzID
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strSubGenre
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strTwitter
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+Artist
+
+METHOD: set_strWebsite
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+RootObject
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+RootObject
+
+METHOD: get_artists
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbArtistProvider+RootObject
+
+METHOD: set_artists
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[AudioDb.AudioDbArtistProvider+Artist, AudioDb, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherAlbumExternalId
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherAlbumExternalId
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.IHasProviderIds
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherAlbumExternalId
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherAlbumExternalId
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherAlbumExternalId
+
+METHOD: get_UrlFormatString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherAlbumExternalId
+
+METHOD: get_Website
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherArtistExternalId
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherArtistExternalId
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.IHasProviderIds
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherArtistExternalId
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherArtistExternalId
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherArtistExternalId
+
+METHOD: get_UrlFormatString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.AudioDbOtherArtistExternalId
+
+METHOD: get_Website
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Extensions
+
+METHOD: GetMusicBrainzArtistId
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.ArtistInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Extensions
+
+METHOD: GetReleaseGroupId
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.AlbumInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Extensions+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Extensions+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Extensions+<>c
+
+METHOD: <GetReleaseGroupId>b__0_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Providers.SongInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Extensions+<>c
+
+METHOD: <GetReleaseGroupId>b__0_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.System.IEnvironmentInfo
+    MediaBrowser.Common.IApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: GetMonoVersion
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: AudioDb.dll
+DLL_VERSION: 1.0.20.0
+
+TYPE: AudioDb.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

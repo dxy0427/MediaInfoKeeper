@@ -1,0 +1,4935 @@
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.DxVaDecoderBehavior
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.DxVaDecoderBehavior
+
+METHOD: CalcHwState
+
+PARAMETERS:
+    Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
+    Emby.Ffmpeg.Model.Input.InputStreamVideo
+    Emby.Server.MediaEncoding.Codecs.Common.Types.VideoProcessingState
+    Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.DxVaDecoderBehavior
+
+METHOD: TranslatePixelFormat
+
+PARAMETERS:
+    Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
+    Emby.Ffmpeg.Model.Input.InputStreamVideo
+    Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.DxVaDecoderCommands
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.DxVaDecoderCommands
+
+METHOD: SetupVideoDecoder
+
+PARAMETERS:
+    Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
+    Emby.Ffmpeg.Model.FfmpegCommand
+    Emby.Ffmpeg.Model.Input.InputStreamVideo
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Av1ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderAv1Dxva
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.AvcProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderH264Dxva
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.HevcProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderHevcDxva
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Mpeg2ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderMP2Dxva
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Vc1ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVC1Dxva
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Vp9ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Codecs.VideoDecoderVp9Dxva
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.Dx11VaDecoderBehavior
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.Dx11VaDecoderBehavior
+
+METHOD: CalcHwState
+
+PARAMETERS:
+    Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
+    Emby.Ffmpeg.Model.Input.InputStreamVideo
+    Emby.Server.MediaEncoding.Codecs.Common.Types.VideoProcessingState
+    Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.Dx11VaDecoderBehavior
+
+METHOD: TranslatePixelFormat
+
+PARAMETERS:
+    Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
+    Emby.Ffmpeg.Model.Input.InputStreamVideo
+    Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.Dx11vaDecoderCommands
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.Dx11vaDecoderCommands
+
+METHOD: SetupVideoDecoder
+
+PARAMETERS:
+    Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
+    Emby.Ffmpeg.Model.FfmpegCommand
+    Emby.Ffmpeg.Model.Input.InputStreamVideo
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Av1ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderAv1Dx11va
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.AvcProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderH264Dx11va
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.HevcProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderHevcDx11va
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Mpeg2ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderMP2Dx11va
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Vc1ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVC1Dx11va
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: .ctor
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+    Emby.Media.Model.Types.Vp9ProfileWithLevelList
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: CreateFfmpegDecoder
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehavior.get_Behavior
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_DefaultPriority
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_FrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_IsEnabledByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_IsHardwareCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_SecondaryFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.CodecsDx11.VideoDecoderVp9Dx11va
+
+METHOD: get_SecondaryFrameworkCodec
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateCodec
+
+PARAMETERS:
+    Emby.Media.Model.Enums.VideoMediaTypes
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateProfileLevelListAv1
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateProfileLevelListAvc
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateProfileLevelListHevc
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateProfileLevelListMpeg2
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateProfileLevelListVc1
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateProfileLevelListVp9
+
+PARAMETERS:
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: CreateVideoDecoder
+
+PARAMETERS:
+    Emby.Media.Model.Enums.VideoMediaTypes
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator
+
+METHOD: GetHighestLevelByResolution
+
+PARAMETERS:
+    Emby.Media.Model.Types.Resolution
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c
+
+METHOD: <CreateCodec>b__5_0
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Mappings.DecoderIds
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c__7`1
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c__7`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c__7`1
+
+METHOD: <GetHighestLevelByResolution>b__7_1
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c__DisplayClass7_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c__DisplayClass7_0`1
+
+METHOD: <GetHighestLevelByResolution>b__0
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreator+<>c__DisplayClass7_0`1
+
+METHOD: <GetHighestLevelByResolution>b__2
+
+PARAMETERS:
+    Emby.Media.Model.Types.ResolutionWithRate
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreatorDx11
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreatorDx11
+
+METHOD: CreateCodec
+
+PARAMETERS:
+    Emby.Media.Model.Enums.VideoMediaTypes
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreatorDx11
+
+METHOD: CreateVideoDecoder
+
+PARAMETERS:
+    Emby.Media.Model.Enums.VideoMediaTypes
+    System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreatorDx11+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreatorDx11+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderCreatorDx11+<>c
+
+METHOD: <CreateCodec>b__4_0
+
+PARAMETERS:
+    Emby.Codecs.Dxva.Mappings.DecoderIds
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    SharpDX.Direct3D9.Direct3D
+    Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+    SharpDX.Direct3D9.DisplayMode
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator
+
+METHOD: CreatePresentationParams
+
+PARAMETERS:
+    SharpDX.Direct3D9.Format
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator
+
+METHOD: DoCodecs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator+<>c
+
+METHOD: <DoCodecs>b__6_0
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator+<>c
+
+METHOD: <DoCodecs>b__6_2
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator+<>c__DisplayClass6_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumerator+<>c__DisplayClass6_0
+
+METHOD: <DoCodecs>b__1
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    SharpDX.DXGI.Adapter1
+    Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11
+
+METHOD: DoCodecs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11+<>c
+
+METHOD: <DoCodecs>b__5_0
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11+<>c
+
+METHOD: <DoCodecs>b__5_2
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11+<>c__DisplayClass5_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DecoderEnumeratorDX11+<>c__DisplayClass5_0
+
+METHOD: <DoCodecs>b__1
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetailsDetector
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetailsDetector
+
+METHOD: CheckDecoderDetails
+
+PARAMETERS:
+    SharpDX.MediaFoundation.DirectX.VideoDecoderService
+    Emby.Media.Model.Enums.VideoMediaTypes
+    System.Collections.Generic.IList`1[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetailsDetector
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetailsDetectorDX11
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetailsDetectorDX11
+
+METHOD: CheckDecoderDetails
+
+PARAMETERS:
+    SharpDX.Direct3D11.VideoDevice
+    Emby.Media.Model.Enums.VideoMediaTypes
+    System.Collections.Generic.IList`1[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetailsDetectorDX11
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Serialization.IJsonSerializer
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Debug
+
+PARAMETERS:
+    System.String
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Debug
+
+PARAMETERS:
+    System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Error
+
+PARAMETERS:
+    System.String
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Error
+
+PARAMETERS:
+    System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: ErrorException
+
+PARAMETERS:
+    System.String
+    System.Exception
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Fatal
+
+PARAMETERS:
+    System.String
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: FatalException
+
+PARAMETERS:
+    System.String
+    System.Exception
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: GetJsonString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Info
+
+PARAMETERS:
+    System.String
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Info
+
+PARAMETERS:
+    System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Log
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.LogSeverity
+    System.String
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Log
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.LogSeverity
+    System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: LogMultiline
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Logging.LogSeverity
+    System.Text.StringBuilder
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: LogMultiline
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Logging.LogSeverity
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Warn
+
+PARAMETERS:
+    System.String
+    System.Object[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.DetectionLogger
+
+METHOD: Warn
+
+PARAMETERS:
+    System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.MainDetector
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.MainDetector
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.MainDetector
+
+METHOD: DoCodecs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.MainDetectorDX11
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.MainDetectorDX11
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Detection.MainDetectorDX11
+
+METHOD: DoCodecs
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Model.System.IEnvironmentInfo
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.MediaEncoding.IFfmpegManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: GetCodecList
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: GetCodecListInternal
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: IsApplicable
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: get_DetectionOutput
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: get_Version
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11VaCodecProvider
+
+METHOD: set_DetectionOutput
+
+PARAMETERS:
+    Emby.Media.Model.DiagnosticsModel.CodecDetectionOutput
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11va
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11va
+
+METHOD: get_Dx11vaDecodersDefaultBasePriority
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11va
+
+METHOD: get_Dx11vaDecodersEnableByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11va
+
+METHOD: set_Dx11vaDecodersDefaultBasePriority
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dx11va
+
+METHOD: set_Dx11vaDecodersEnableByDefault
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dxva
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dxva
+
+METHOD: get_DxvaDecodersDefaultBasePriority
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dxva
+
+METHOD: get_DxvaDecodersEnableByDefault
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dxva
+
+METHOD: set_DxvaDecodersDefaultBasePriority
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Dxva
+
+METHOD: set_DxvaDecodersEnableByDefault
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogManager
+    MediaBrowser.Model.System.IEnvironmentInfo
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.MediaEncoding.IFfmpegManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: CheckIsDx11VaAvailable
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: GetCodecList
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: GetCodecListInternal
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: IsApplicable
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: get_DetectionOutput
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: get_Version
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.DxvaCodecProvider
+
+METHOD: set_DetectionOutput
+
+PARAMETERS:
+    Emby.Media.Model.DiagnosticsModel.CodecDetectionOutput
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Guid[]
+    Emby.Codecs.Dxva.Interfaces.IDxvaDeviceInfo
+    System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoCodecCommands
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_ColorFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_CommandGenerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_DecoderGuids
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_DeviceInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaCodecInfo
+
+METHOD: get_SecondaryCodecTag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+    System.Int32
+    System.String
+    System.String
+    System.Version
+    System.Int32
+    System.String
+    Emby.Server.MediaEncoding.Codecs.Common.Interfaces.ICodecDeviceCapabilities
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+
+METHOD: FromAdapterInfo
+
+PARAMETERS:
+    SharpDX.Direct3D9.AdapterInformation
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+
+METHOD: FromAdapterInfo
+
+PARAMETERS:
+    SharpDX.DXGI.Adapter1
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
+
+METHOD: get_HardwareContextFramework
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodec
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodec
+
+METHOD: get_DxvaCodecInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_ColorFormats
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_CommandGenerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_DecoderGuids
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_DeviceInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
+
+METHOD: get_SecondaryCodecTag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.ColorMaps
+
+METHOD: GetFormatGuidFromFormatId
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.ColorMaps
+
+METHOD: get_ColorMap
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.ColorMaps
+
+METHOD: get_DxgiColorMap
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.ColorMaps+<>c__DisplayClass0_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.ColorMaps+<>c__DisplayClass0_0
+
+METHOD: <GetFormatGuidFromFormatId>b__0
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[Emby.Codecs.Dxva.Mappings.WindowsColorFormats, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.DecoderMaps
+
+METHOD: get_DecoderMediaTypeMap
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions
+
+METHOD: GetLevelResolutions
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions
+
+METHOD: GetResolutionsToCheck
+
+PARAMETERS:
+    Emby.Media.Model.Enums.VideoMediaTypes
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions
+
+METHOD: get_DefaultCheckList
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c
+
+METHOD: <GetResolutionsToCheck>b__0_0
+
+PARAMETERS:
+    Emby.Media.Model.Types.Resolution
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c__1`1
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c__1`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c__1`1
+
+METHOD: <GetLevelResolutions>b__1_0
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c__1`1
+
+METHOD: <GetLevelResolutions>b__1_1
+
+PARAMETERS:
+    Emby.Media.Model.Types.Resolution
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Codecs.Dxva.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.Codecs.Dxva.Mappings.Resolutions+<>c__1`1
+
+METHOD: <GetLevelResolutions>b__1_2
+
+PARAMETERS:
+    Emby.Media.Model.Types.ResolutionWithRate
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

@@ -1,0 +1,7141 @@
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    SQLitePCL.pretty.IBindParameter
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_stmt
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: Bind
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: BindNull
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: BindZeroBlob
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterImpl
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCL.pretty.StatementImpl
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: ContainsKey
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: GetBindParameterIndex
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: TryGetValue
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.IBindParameter&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: get_Count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: get_Item
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: get_Item
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: get_Keys
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary
+
+METHOD: get_Values
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<>c
+
+METHOD: <get_Keys>b__10_0
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCL.pretty.IBindParameter, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<>c
+
+METHOD: <get_Values>b__12_0
+
+PARAMETERS:
+    System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCL.pretty.IBindParameter, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<GetEnumerator>d__14
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<GetEnumerator>d__14
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<GetEnumerator>d__14
+
+METHOD: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,SQLitePCL.pretty.IBindParameter>>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<GetEnumerator>d__14
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<GetEnumerator>d__14
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.BindParameterOrderedDictionary+<GetEnumerator>d__14
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: CompareTo
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: Create
+
+PARAMETERS:
+    SQLitePCL.pretty.StatementImpl
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: Equals
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: System.IComparable.CompareTo
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: TryOrDefault
+
+PARAMETERS:
+    System.Func`1[T]
+    T
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: get_DatabaseName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: get_DeclaredType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: get_OriginName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: get_TableName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: op_Equality
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: op_GreaterThan
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: op_GreaterThanOrEqual
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: op_Inequality
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: op_LessThan
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo
+
+METHOD: op_LessThanOrEqual
+
+PARAMETERS:
+    SQLitePCL.pretty.ColumnInfo
+    SQLitePCL.pretty.ColumnInfo
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo+<>c__DisplayClass7_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo+<>c__DisplayClass7_0
+
+METHOD: <Create>b__0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo+<>c__DisplayClass7_0
+
+METHOD: <Create>b__1
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnInfo+<>c__DisplayClass7_0
+
+METHOD: <Create>b__2
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCL.pretty.StatementImpl
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl
+
+METHOD: GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl
+
+METHOD: get_Count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl
+
+METHOD: get_Item
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl+<GetEnumerator>d__6
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl+<GetEnumerator>d__6
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl+<GetEnumerator>d__6
+
+METHOD: System.Collections.Generic.IEnumerator<SQLitePCL.pretty.ColumnInfo>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl+<GetEnumerator>d__6
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl+<GetEnumerator>d__6
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ColumnsListImpl+<GetEnumerator>d__6
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseBackupImpl
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_backup
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseBackupImpl
+
+METHOD: <.ctor>b__5_0
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseBackupImpl
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseBackupImpl
+
+METHOD: Step
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseBackupImpl
+
+METHOD: get_PageCount
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseBackupImpl
+
+METHOD: get_RemainingPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: Backup
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: Backup
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+    System.String
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: BeginTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    SQLitePCL.pretty.TransactionMode
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: CommitTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: Execute
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: Execute
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: ExecuteAll
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: ExecuteAll
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String[]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: ExecuteAll
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: GetFileName
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: PrepareAll
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: PrepareAllEnumerator
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: ReleaseTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: RollbackTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: RollbackTransactionTo
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: RunInTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.Action`1[[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+    SQLitePCL.pretty.TransactionMode
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: RunInTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.Action`1[[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: RunInTransaction
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.Func`2[SQLitePCL.pretty.IDatabaseConnection,T]
+    SQLitePCL.pretty.TransactionMode
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: SaveTransactionPoint
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: Vacuum
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection
+
+METHOD: WalCheckPoint
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c
+
+METHOD: <.cctor>b__24_0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c__DisplayClass21_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c__DisplayClass21_0
+
+METHOD: <RunInTransaction>b__0
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c__DisplayClass9_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<>c__DisplayClass9_0
+
+METHOD: <PrepareAll>b__0
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<PrepareAllEnumerator>d__8
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<PrepareAllEnumerator>d__8
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<PrepareAllEnumerator>d__8
+
+METHOD: System.Collections.Generic.IEnumerator<SQLitePCL.pretty.IStatement>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<PrepareAllEnumerator>d__8
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<PrepareAllEnumerator>d__8
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseConnection+<PrepareAllEnumerator>d__8
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseProfileEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseProfileEventArgs
+
+METHOD: Create
+
+PARAMETERS:
+    System.String
+    System.TimeSpan
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseProfileEventArgs
+
+METHOD: get_ExecutionTime
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseProfileEventArgs
+
+METHOD: get_Statement
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseTraceEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseTraceEventArgs
+
+METHOD: Create
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseTraceEventArgs
+
+METHOD: get_Statement
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCL.pretty.ActionCode
+    System.String
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+METHOD: Create
+
+PARAMETERS:
+    SQLitePCL.pretty.ActionCode
+    System.String
+    System.String
+    System.Int64
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+METHOD: get_Action
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+METHOD: get_Database
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+METHOD: get_RowId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+METHOD: get_Table
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DelegatingEnumerable`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Func`1[System.Collections.Generic.IEnumerator`1[T]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DelegatingEnumerable`1
+
+METHOD: GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.DelegatingEnumerable`1
+
+METHOD: System.Collections.IEnumerable.GetEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Byte[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: Bind
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: BindNull
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: BindZeroBlob
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IBindParameter
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseBackup
+
+METHOD: Step
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseBackup
+
+METHOD: get_PageCount
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseBackup
+
+METHOD: get_RemainingPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: Clone
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: Close
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: GetCachedStatement
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: GetTableColumnMetadata
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: Interrupt
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: IsDatabaseReadOnly
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    System.String
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: Status
+
+PARAMETERS:
+    SQLitePCL.pretty.DatabaseConnectionStatusCode
+    System.Int32&
+    System.Int32&
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: WalCheckPoint
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.WalCheckPointMode
+    System.Int32&
+    System.Int32&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: get_Changes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: get_IsAutoCommit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: get_IsReadOnly
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: get_LastInsertedRowId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IDatabaseConnection
+
+METHOD: get_TotalChanges
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IReadOnlyOrderedDictionary`2
+
+METHOD: get_Item
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetBlob
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetBoolean
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetDouble
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetFloat
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetInt
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetInt64
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetReadOnlySpanChar
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetSQLiteType
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: GetString
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IResultSet
+
+METHOD: IsDBNull
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: ClearBindings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: Status
+
+PARAMETERS:
+    SQLitePCL.pretty.StatementStatusCode
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: get_BindParameters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: get_Columns
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: get_IsBusy
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: get_IsReadOnly
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.IStatement
+
+METHOD: get_SQL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCL.pretty.StatementImpl
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetBlob
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetBoolean
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetColumnInfo
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetDouble
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetFloat
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetInt
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetInt64
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetReadOnlySpanChar
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetSQLiteType
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: GetString
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: IsDBNull
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.ResultSetImpl
+
+METHOD: get_Count
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLBuilder
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLBuilder
+
+METHOD: BeginTransactionWithMode
+
+PARAMETERS:
+    SQLitePCL.pretty.TransactionMode
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLBuilder
+
+METHOD: GetBytes
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLBuilder
+
+METHOD: Release
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLBuilder
+
+METHOD: RollbackTransactionTo
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLBuilder
+
+METHOD: SavePoint
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: CompileOptionUsed
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: CompilerOptionsEnumerator
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: IsCompleteStatement
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: Open
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.ConnectionFlags
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: Open
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.ConnectionFlags
+    System.String
+    System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.delegate_collation, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Action`2[[System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.sqlite3_context, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: Open
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.ConnectionFlags
+    System.String
+    System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.delegate_collation, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Action`2[[System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.sqlite3_context, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: ResetMemoryHighWater
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: Status
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteStatusCode
+    System.Int32&
+    System.Int32&
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: get_CompilerOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: get_MemoryHighWater
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: get_MemoryUsed
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: get_SourceId
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: get_Version
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3
+
+METHOD: set_EnableSharedCache
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3+<CompilerOptionsEnumerator>d__0
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3+<CompilerOptionsEnumerator>d__0
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3+<CompilerOptionsEnumerator>d__0
+
+METHOD: System.Collections.Generic.IEnumerator<System.String>.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3+<CompilerOptionsEnumerator>d__0
+
+METHOD: System.Collections.IEnumerator.Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3+<CompilerOptionsEnumerator>d__0
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLite3+<CompilerOptionsEnumerator>d__0
+
+METHOD: System.IDisposable.Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: <EnableProfiling>b__35_0
+
+PARAMETERS:
+    System.Object
+    System.String
+    System.Int64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: BackupInit
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.SQLiteDatabaseConnection
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Clone
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Close
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: DisposeCachedStatements
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: DisposeParentCachedStatements
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: EnableProfiling
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Finalize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: GetCachedStatement
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: GetTableColumnMetadata
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Interrupt
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: IsDatabaseReadOnly
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Optimize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: OptimizeBeforeClose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    System.String
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: PrepareStatement
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: Status
+
+PARAMETERS:
+    SQLitePCL.pretty.DatabaseConnectionStatusCode
+    System.Int32&
+    System.Int32&
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: TryGetFileName
+
+PARAMETERS:
+    System.String
+    System.String&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: WalCheckPoint
+
+PARAMETERS:
+    System.String
+    SQLitePCL.pretty.WalCheckPointMode
+    System.Int32&
+    System.Int32&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: add_Disposing
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: add_Rollback
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: add_Trace
+
+PARAMETERS:
+    System.EventHandler`1[[SQLitePCL.pretty.DatabaseTraceEventArgs, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: add_Update
+
+PARAMETERS:
+    System.EventHandler`1[[SQLitePCL.pretty.DatabaseUpdateEventArgs, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_Changes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_IsAutoCommit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_IsDisposed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_IsReadOnly
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_LastInsertedRowId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_OnClosed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_OnClosing
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_OnDisposed
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_OnOptimizing
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_OptimizeOnClose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_ParentConnection
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_PragmaAnalysisLimit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: get_TotalChanges
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: remove_Disposing
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: remove_Rollback
+
+PARAMETERS:
+    System.EventHandler
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: remove_Trace
+
+PARAMETERS:
+    System.EventHandler`1[[SQLitePCL.pretty.DatabaseTraceEventArgs, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: remove_Update
+
+PARAMETERS:
+    System.EventHandler`1[[SQLitePCL.pretty.DatabaseUpdateEventArgs, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_IsReadOnly
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_OnClosed
+
+PARAMETERS:
+    System.Action`1[[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_OnClosing
+
+PARAMETERS:
+    System.Action`1[[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_OnDisposed
+
+PARAMETERS:
+    System.Action`1[[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_OnOptimizing
+
+PARAMETERS:
+    System.Action`1[[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_OptimizeOnClose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_ParentConnection
+
+PARAMETERS:
+    SQLitePCL.pretty.SqliteConnectionInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: set_PragmaAnalysisLimit
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection
+
+METHOD: sqlite3_db_config
+
+PARAMETERS:
+    System.Int32
+    System.Int32
+    System.Int32&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection+<>c
+
+METHOD: <.ctor>b__34_0
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection+<>c
+
+METHOD: <.ctor>b__34_1
+
+PARAMETERS:
+    System.Object
+    SQLitePCL.pretty.DatabaseTraceEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection+<>c
+
+METHOD: <.ctor>b__34_2
+
+PARAMETERS:
+    System.Object
+    SQLitePCL.pretty.DatabaseUpdateEventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnection+<>c
+
+METHOD: <.ctor>b__34_3
+
+PARAMETERS:
+    System.Object
+    System.EventArgs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Func`6[[SQLitePCL.pretty.ActionCode, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCL.pretty.AuthorizerReturnCode, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+    System.TimeSpan
+    System.Func`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    SQLitePCL.pretty.ConnectionFlags
+    System.Func`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32
+    System.String
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Tuple`2[[SQLitePCLEx.delegate_function_aggregate_step, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[SQLitePCLEx.delegate_function_aggregate_final, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Action`2[[System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.sqlite3_context, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.delegate_collation, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: <Build>b__17_0
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: <Build>b__17_1
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: <Build>b__17_2
+
+PARAMETERS:
+    System.Object
+    System.Int32
+    System.String
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: Build
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: Create
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.delegate_collation, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Action`2[[System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.sqlite3_context, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32
+    System.Func`6[[SQLitePCL.pretty.ActionCode, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCL.pretty.AuthorizerReturnCode, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+    System.TimeSpan
+    System.Func`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    SQLitePCL.pretty.ConnectionFlags
+    System.Func`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32
+    System.Boolean
+    System.Boolean
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: Create
+
+PARAMETERS:
+    System.String
+    System.Int32
+    System.Func`6[[SQLitePCL.pretty.ActionCode, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCL.pretty.AuthorizerReturnCode, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+    System.TimeSpan
+    System.Func`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    SQLitePCL.pretty.ConnectionFlags
+    System.Func`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32
+    System.String
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Tuple`2[[SQLitePCLEx.delegate_function_aggregate_step, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[SQLitePCLEx.delegate_function_aggregate_final, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.IDictionary`2[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Action`2[[System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.sqlite3_context, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCLEx.delegate_collation, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.Boolean
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    System.Int32
+    SQLitePCLEx.delegate_function_aggregate_step
+    SQLitePCLEx.delegate_function_aggregate_final
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    System.Int32
+    T
+    System.Func`3[T,System.Collections.Generic.IReadOnlyList`1[SQLitePCLEx.sqlite3_value],T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`3[T,System.Collections.Generic.IReadOnlyList`1[SQLitePCLEx.sqlite3_value],T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`2[T,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`3[T,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`4[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`5[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`6[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`7[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`8[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`9[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder
+
+METHOD: WithAggregateFunc
+
+PARAMETERS:
+    System.String
+    T
+    System.Func`10[T,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,SQLitePCLEx.sqlite3_value,T]
+    System.Action`2[T,SQLitePCLEx.sqlite3_context]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 1
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass17_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass17_0
+
+METHOD: <Build>b__3
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.Object
+    SQLitePCLEx.sqlite3_value[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass20_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass20_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.Object
+    SQLitePCLEx.sqlite3_value[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass20_0`1
+
+METHOD: <WithAggregateFunc>b__1
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass22_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass22_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass23_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass23_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass24_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass24_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass25_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass25_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass26_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass26_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass27_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass27_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass28_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass28_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass29_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass29_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass30_0`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+<>c__DisplayClass30_0`1
+
+METHOD: <WithAggregateFunc>b__0
+
+PARAMETERS:
+    T
+    System.Collections.Generic.IReadOnlyList`1[[SQLitePCLEx.sqlite3_value, SQLitePCLRawEx.core, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+CtxState`1
+
+METHOD: .ctor
+
+PARAMETERS:
+    T
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteDatabaseConnectionBuilder+CtxState`1
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCL.pretty.ErrorCode
+    SQLitePCL.pretty.ErrorCode
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: CheckOk
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: CheckOk
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: CheckOk
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_stmt
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: Create
+
+PARAMETERS:
+    System.Int32
+    System.Int32
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: Create
+
+PARAMETERS:
+    SQLitePCL.pretty.ErrorCode
+    SQLitePCL.pretty.ErrorCode
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: get_ErrorCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteException
+
+METHOD: get_ExtendedErrorCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteValue
+
+METHOD: SetResult
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteValue
+
+METHOD: SetResult
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteValue
+
+METHOD: SetResult
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.Int64
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteValue
+
+METHOD: SetResult
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteValue
+
+METHOD: SetResult
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_context
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: CompareTo
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: CompareTo
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: Equals
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: Of
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: ToInt
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: get_Major
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: get_Minor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: get_Release
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: op_Equality
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: op_GreaterThan
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: op_GreaterThanOrEqual
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: op_Inequality
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: op_LessThan
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SQLiteVersion
+
+METHOD: op_LessThanOrEqual
+
+PARAMETERS:
+    SQLitePCL.pretty.SQLiteVersion
+    SQLitePCL.pretty.SQLiteVersion
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SqliteConnectionInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Func`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SQLitePCL.pretty.IDatabaseConnection, SQLitePCL.pretty, Version=1.2.2.0, Culture=neutral, PublicKeyToken=null]]
+    System.Boolean
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SqliteConnectionInfo
+
+METHOD: Clone
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SqliteConnectionInfo
+
+METHOD: Close
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SqliteConnectionInfo
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SqliteConnectionInfo
+
+METHOD: DisposeCachedStatements
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.SqliteConnectionInfo
+
+METHOD: GetCachedStatement
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: .ctor
+
+PARAMETERS:
+    SQLitePCLEx.sqlite3_stmt
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: ClearBindings
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: Status
+
+PARAMETERS:
+    SQLitePCL.pretty.StatementStatusCode
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: System.Collections.IEnumerator.get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_BindParameters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_Columns
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_Current
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_IsBusy
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_IsReadOnly
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_SQL
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.StatementImpl
+
+METHOD: get_sqlite3_stmt
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: CompareTo
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: CompareTo
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: Equals
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: get_CollationSequence
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: get_DeclaredType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: get_HasNotNullConstraint
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: get_IsAutoIncrement
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: get_IsPrimaryKeyPart
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: op_Equality
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: op_GreaterThan
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: op_GreaterThanOrEqual
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: op_Inequality
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: op_LessThan
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: SQLitePCL.pretty.dll
+DLL_VERSION: 1.2.2.0
+
+TYPE: SQLitePCL.pretty.TableColumnMetadata
+
+METHOD: op_LessThanOrEqual
+
+PARAMETERS:
+    SQLitePCL.pretty.TableColumnMetadata
+    SQLitePCL.pretty.TableColumnMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

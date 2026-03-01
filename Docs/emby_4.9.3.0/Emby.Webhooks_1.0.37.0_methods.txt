@@ -1,0 +1,981 @@
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.BodyPartInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.BodyPartInfo
+
+METHOD: get_ContentType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.BodyPartInfo
+
+METHOD: get_Data
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.BodyPartInfo
+
+METHOD: set_ContentType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.BodyPartInfo
+
+METHOD: set_Data
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.GetSampleJson
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.GetSampleJson
+
+METHOD: get_EnableMultipartFormData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.GetSampleJson
+
+METHOD: set_EnableMultipartFormData
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationSampleInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationSampleInfo
+
+METHOD: get_ContentType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationSampleInfo
+
+METHOD: get_Parts
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationSampleInfo
+
+METHOD: set_ContentType
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationSampleInfo
+
+METHOD: set_Parts
+
+PARAMETERS:
+    Emby.Webhooks.BodyPartInfo[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Controller.Net.IAuthorizationContext
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.Webhooks.GetSampleJson
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: GetData
+
+PARAMETERS:
+    System.Net.Http.HttpContent
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: GetSampleNotificationRequest
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Webhooks.ReceiveNotificationTest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: get_Request
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi
+
+METHOD: set_Request
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi+<Get>d__10
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi+<Get>d__10
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi+<GetData>d__11
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.NotificationsApi+<GetData>d__11
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Common.Net.IHttpClient
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: GetDefaultOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: GetHttpContent
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: GetHttpRequestOptions
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: SendNotification
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: get_Key
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: get_Plugin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: get_PremiereFeatureName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Notifier
+
+METHOD: get_SetupModuleUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: get_NotificationSetupModuleUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin+<>c__DisplayClass12_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin+<>c__DisplayClass12_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.Plugin+<>c__DisplayClass12_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.ReceiveNotificationTest
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.WebHookInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.WebHookInfo
+
+METHOD: get_EnableMultipartFormData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.WebHookInfo
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.WebHookInfo
+
+METHOD: set_EnableMultipartFormData
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.Webhooks.dll
+DLL_VERSION: 1.0.37.0
+
+TYPE: Emby.Webhooks.WebHookInfo
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

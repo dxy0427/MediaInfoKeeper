@@ -1,0 +1,990 @@
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityLogNotifier
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Activity.IActivityManager
+    MediaBrowser.Model.Globalization.ILocalizationManager
+    MediaBrowser.Model.Logging.ILogger
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityLogNotifier
+
+METHOD: GetConfiguredNotifications
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityLogNotifier
+
+METHOD: SendNotification
+
+PARAMETERS:
+    Emby.Notifications.InternalNotificationRequest
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityLogNotifier
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Activity.IActivityRepository
+    MediaBrowser.Controller.Library.IUserManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: Create
+
+PARAMETERS:
+    MediaBrowser.Model.Activity.ActivityLogEntry
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: add_EntryCreated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: remove_EntryCreated
+
+PARAMETERS:
+    System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.IO.IFileSystem
+    System.Func`1[[MediaBrowser.Controller.Library.IUserManager, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: Create
+
+PARAMETERS:
+    MediaBrowser.Model.Activity.ActivityLogEntry
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: GetActivityLogTypeId
+
+PARAMETERS:
+    SQLitePCL.pretty.IDatabaseConnection
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: GetEntry
+
+PARAMETERS:
+    SQLitePCL.pretty.IResultSet
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: Initialize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: InitializeInternal
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: ParseItemId
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: ParseUserId
+
+PARAMETERS:
+    System.String
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: Update
+
+PARAMETERS:
+    MediaBrowser.Model.Activity.ActivityLogEntry
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: get_FileSystem
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: get_OptimizeOnConnectionClose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: get_PragmaAnalysisLimit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityRepository
+
+METHOD: set_FileSystem
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Activity.IActivityManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogService
+
+METHOD: Get
+
+PARAMETERS:
+    Emby.ActivityLog.Api.GetActivityLogs
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogService
+
+METHOD: get_Request
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogService
+
+METHOD: set_Request
+
+PARAMETERS:
+    MediaBrowser.Model.Services.IRequest
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogWebSocketListener
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.Activity.IActivityManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogWebSocketListener
+
+METHOD: Dispose
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogWebSocketListener
+
+METHOD: GetDataToSend
+
+PARAMETERS:
+    MediaBrowser.Controller.Net.IWebSocketConnection
+    MediaBrowser.Controller.Net.WebSocketListenerState
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogWebSocketListener
+
+METHOD: _activityManager_EntryCreated
+
+PARAMETERS:
+    System.Object
+    MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.ActivityLogWebSocketListener
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: get_EnableTotalRecordCount
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: get_HasUserId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: get_Limit
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: get_MinDate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: get_StartIndex
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: set_EnableTotalRecordCount
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: set_HasUserId
+
+PARAMETERS:
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: set_Limit
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: set_MinDate
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.Api.GetActivityLogs
+
+METHOD: set_StartIndex
+
+PARAMETERS:
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

@@ -1,0 +1,1165 @@
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: <>f__AnonymousType0`2
+
+METHOD: .ctor
+
+PARAMETERS:
+    <file>j__TPar
+    <idx>j__TPar
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: <>f__AnonymousType0`2
+
+METHOD: Equals
+
+PARAMETERS:
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: <>f__AnonymousType0`2
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: <>f__AnonymousType0`2
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: <>f__AnonymousType0`2
+
+METHOD: get_file
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: <>f__AnonymousType0`2
+
+METHOD: get_idx
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Controller.Library.ILibraryManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.CollectionFolderLocalImageProvider+<>c
+
+METHOD: <GetImages>b__10_0
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.EpisodeLocalLocalImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.EpisodeLocalLocalImageProvider
+
+METHOD: GetFilesFromParentFolder
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.EpisodeLocalLocalImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.EpisodeLocalLocalImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.EpisodeLocalLocalImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.EpisodeLocalLocalImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.InternalMetadataFolderImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Controller.Library.ILibraryManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.InternalMetadataFolderImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.InternalMetadataFolderImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.InternalMetadataFolderImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.InternalMetadataFolderImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Controller.Library.ILibraryManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: AddImage
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    System.String
+    System.Boolean
+    System.Boolean
+    MediaBrowser.Model.Entities.ImageType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: AddImage
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    MediaBrowser.Model.Entities.ImageType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: AddImage
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+    MediaBrowser.Model.Entities.ImageType
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: GetFiles
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Boolean
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: GetFiles
+
+PARAMETERS:
+    System.String[]
+    System.Boolean
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: GetImage
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.String
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: GetImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.String[]
+    System.Boolean
+    System.Boolean
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: PopulateBackdrops
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.String
+    System.Boolean
+    System.Boolean
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: PopulateBackdrops
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.String
+    System.Boolean
+    System.String
+    System.String
+    System.Boolean
+    MediaBrowser.Model.Entities.ImageType
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: PopulateBackdropsFromExtraFanart
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Providers.IDirectoryService
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: PopulateImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.Boolean
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: PopulatePrimaryImages
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.IO.FileSystemMetadata[]
+    System.String
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: PopulateSeasonImagesFromSeasonOrSeriesFolder
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.TV.Season
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Model.Configuration.LibraryOptions
+    System.Collections.Generic.List`1[[MediaBrowser.Controller.Providers.LocalImageInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Controller.Providers.IDirectoryService
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: Supports
+
+PARAMETERS:
+    MediaBrowser.Controller.Entities.BaseItem
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider
+
+METHOD: get_Order
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <.cctor>b__32_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <.cctor>b__32_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <.cctor>b__32_2
+
+PARAMETERS:
+    System.String
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_2
+
+PARAMETERS:
+    System.ValueTuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_3
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.ValueTuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_4
+
+PARAMETERS:
+    <>f__AnonymousType0`2[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_5
+
+PARAMETERS:
+    <>f__AnonymousType0`2[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <GetFiles>b__12_6
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <PopulateBackdrops>b__24_0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c
+
+METHOD: <PopulateBackdropsFromExtraFanart>b__25_1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c__DisplayClass25_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.LocalMetadata.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.LocalMetadata.Images.LocalImageProvider+<>c__DisplayClass25_0
+
+METHOD: <PopulateBackdropsFromExtraFanart>b__0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+

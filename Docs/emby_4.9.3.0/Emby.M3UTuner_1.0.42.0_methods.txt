@@ -1,0 +1,3957 @@
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.ForgotPassword
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.ForgotPassword
+
+METHOD: get_EnteredUsername
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.ForgotPassword
+
+METHOD: set_EnteredUsername
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.ForgotPasswordPin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.ForgotPasswordPin
+
+METHOD: get_Pin
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.ForgotPasswordPin
+
+METHOD: set_Pin
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Serialization.IJsonSerializer
+    MediaBrowser.Controller.Library.IUserDataManager
+    MediaBrowser.Controller.Session.ISessionManager
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Api.ForgotPassword
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService
+
+METHOD: Post
+
+PARAMETERS:
+    Emby.Api.ForgotPasswordPin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService+<Post>d__6
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService+<Post>d__6
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService+<Post>d__7
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.Api.UserService+<Post>d__7
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: get_EpgUrls
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: get_HttpRequestHeaders
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: get_TvgId
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: set_EpgUrls
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: set_HttpRequestHeaders
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.ProviderIdDictionary
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UChannelInfo
+
+METHOD: set_TvgId
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.IO.IIOManager
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Controller.IServerApplicationHost
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.IZipClient
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: ClearProgramCaches
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: CreateMediaSourceInfo
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    MediaBrowser.Controller.LiveTv.ChannelInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetChannelStreamMediaSources
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    MediaBrowser.Controller.Entities.BaseItem
+    MediaBrowser.Controller.LiveTv.ChannelInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetChannelsInternal
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetDefaultConfiguration
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetFullChannelIdPrefix
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetProgramsInternal
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetReferrer
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    MediaBrowser.Controller.LiveTv.ChannelInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: GetUserAgent
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    MediaBrowser.Controller.LiveTv.ChannelInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: ModifyChannelPath
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: OnSaved
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    System.Boolean
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: SupportsGuideData
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: ValdidateOptions
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: get_SetupUrl
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost
+
+METHOD: get_UseTunerHostIdAsPrefix
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<>c__DisplayClass26_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<>c__DisplayClass26_0
+
+METHOD: <GetProgramsInternal>b__0
+
+PARAMETERS:
+    MediaBrowser.Controller.LiveTv.ChannelInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<>c__DisplayClass26_0
+
+METHOD: <GetProgramsInternal>b__1
+
+PARAMETERS:
+    MediaBrowser.Controller.LiveTv.ChannelInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<GetChannelStreamMediaSources>d__19
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<GetChannelStreamMediaSources>d__19
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<GetChannelsInternal>d__16
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<GetChannelsInternal>d__16
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<GetProgramsInternal>d__26
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<GetProgramsInternal>d__26
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<ValdidateOptions>d__18
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerHost+<ValdidateOptions>d__18
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: GetPages
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: GetTranslations
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin+<>c__DisplayClass9_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin+<>c__DisplayClass9_0
+
+METHOD: <GetTranslations>b__0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3UTunerPlugin+<>c__DisplayClass9_0
+
+METHOD: <GetTranslations>b__1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Controller.IO.IIOManager
+    MediaBrowser.Controller.IServerApplicationHost
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ContainsAny
+
+PARAMETERS:
+    System.String[]
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: GetChannelInfo
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    Emby.M3UTuner.M3uProviderOptions
+    Emby.M3UTuner.M3UInfo
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: GetChannelNames
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: GetChannelNumber
+
+PARAMETERS:
+    System.String
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: GetListings
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: GetM3UInfo
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    Emby.M3UTuner.M3uProviderOptions
+    System.IO.TextReader
+    System.String
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: GetTags
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: IsValidChannelNumber
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: Parse
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.TunerHostInfo
+    System.String
+    System.String
+    System.String
+    System.String
+    Emby.M3UTuner.M3uProviderOptions
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ParseExtGrp
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ParseExtInf
+
+PARAMETERS:
+    System.String
+    System.String&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ParseExtM3U
+
+PARAMETERS:
+    System.String
+    Emby.M3UTuner.M3UInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ParseTvgUrls
+
+PARAMETERS:
+    System.String[]
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ParseUrlLine
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser
+
+METHOD: ParseVlcOpts
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.Entities.ProviderIdDictionary
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<>c
+
+METHOD: <GetTags>b__16_0
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<>c
+
+METHOD: <GetTags>b__16_1
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<>c__DisplayClass6_0
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<>c__DisplayClass6_0
+
+METHOD: <Parse>b__0
+
+PARAMETERS:
+    Emby.M3UTuner.M3UChannelInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<GetM3UInfo>d__9
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<GetM3UInfo>d__9
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<Parse>d__6
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uParser+<Parse>d__6
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: get_AdditionalTags
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: get_ImportGuideData
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: get_RequiredTags
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: get_XmlOptions
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: set_AdditionalTags
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: set_ImportGuideData
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: set_RequiredTags
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.M3uProviderOptions
+
+METHOD: set_XmlOptions
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.StringCompatibility
+
+METHOD: Contains
+
+PARAMETERS:
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.StringCompatibility
+
+METHOD: IndexOf
+
+PARAMETERS:
+    System.String
+    System.Char
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.StringCompatibility
+
+METHOD: Replace
+
+PARAMETERS:
+    System.String
+    System.String
+    System.String
+    System.StringComparison
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.M3UTuner.StringCompatibility
+
+METHOD: StartsWith
+
+PARAMETERS:
+    System.String
+    System.Char
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlDataCache
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: Equals
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvChannel
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: GetHashCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_AlternateNames
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_DisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Icon
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Number
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: get_Url
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_AlternateNames
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_DisplayName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Icon
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvIcon
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Id
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Number
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvChannel
+
+METHOD: set_Url
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Height
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Source
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: get_Width
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Height
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Source
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Type
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.ImageType
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvIcon
+
+METHOD: set_Width
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Configuration.IServerConfigurationManager
+    MediaBrowser.Common.Net.IHttpClient
+    MediaBrowser.Model.Logging.ILogger
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.IZipClient
+    MediaBrowser.Controller.Library.IMediaSourceManager
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ClearProgramCaches
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ExtractFirstFileFromGz
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ExtractFirstFileFromXZ
+
+PARAMETERS:
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: ExtractGz
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: FindXmlFile
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetChannels
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetChannels
+
+PARAMETERS:
+    Emby.XmlTV.XmlDataCache
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetLanguage
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetLineups
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetPrograms
+
+PARAMETERS:
+    Emby.XmlTV.XmlDataCache
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.TimeSpan
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetProgramsAsync
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetXml
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.String
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetXmlDataCache
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: GetXmlDataCacheInternal
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: UnzipIfNeeded
+
+PARAMETERS:
+    System.String
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: True
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: Validate
+
+PARAMETERS:
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_CachePathFolderName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: get_Type
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider
+
+METHOD: set_CachePathFolderName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: <FindXmlFile>b__25_0
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<>c
+
+METHOD: <FindXmlFile>b__25_1
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<ExtractFirstFileFromXZ>d__22
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<ExtractFirstFileFromXZ>d__22
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetChannels>d__32
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetChannels>d__32
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetProgramsAsync>d__28
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetProgramsAsync>d__28
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXml>d__20
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXml>d__20
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCache>d__27
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCache>d__27
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCacheInternal>d__26
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<GetXmlDataCacheInternal>d__26
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<UnzipIfNeeded>d__21
+
+METHOD: MoveNext
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvProvider+<UnzipIfNeeded>d__21
+
+METHOD: SetStateMachine
+
+PARAMETERS:
+    System.Runtime.CompilerServices.IAsyncStateMachine
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.Logging.ILogger
+    System.String
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: AddValuesWithLanguage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.M3UTuner, Version=1.0.42.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: CreateStreamReader
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: CreateXmlTextReader
+
+PARAMETERS:
+    System.IO.StreamReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: FillImages
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvIcon, Emby.M3UTuner, Version=1.0.42.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetAspectRatio
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvIcon
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetChannel
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetChannels
+
+PARAMETERS:
+    System.IO.Stream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetImage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvIcon, Emby.M3UTuner, Version=1.0.42.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.Entities.ImageType
+    System.Double
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetProgramme
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.TimeSpan
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetProgrammes
+
+PARAMETERS:
+    System.IO.Stream
+    System.String
+    System.DateTimeOffset
+    System.DateTimeOffset
+    System.TimeSpan
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+    MediaBrowser.Model.LiveTv.ListingsProviderInfo
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetValueWithLanguage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.M3UTuner, Version=1.0.42.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: GetValuesWithLanguage
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.M3UTuner, Version=1.0.42.0, Culture=neutral, PublicKeyToken=null]]
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: MakeFullUrl
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.String
+    MediaBrowser.Model.MediaInfo.MediaProtocol
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseDate
+
+PARAMETERS:
+    System.String
+    System.TimeSpan
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseEpisodeDataForOnScreen
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseEpisodeDataForProgramId
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseEpisodeDataForXmlTvNs
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseImdbSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseMovieDbSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseSxxExxEpisodeNumberSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseSxxExxEpisodeNumberSystem
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseTmsEpisodeSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ParseTvdbSystem
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessCopyrightDate
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.TimeSpan
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessEpisodeNum
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessIconNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessImageNode
+
+PARAMETERS:
+    System.Xml.XmlReader
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessPreviouslyShown
+
+PARAMETERS:
+    System.Xml.XmlReader
+    System.TimeSpan
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessQuality
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessRating
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessSeriesId
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessStarRating
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: ProcessVideo
+
+PARAMETERS:
+    System.Xml.XmlReader
+    MediaBrowser.Controller.LiveTv.ProgramInfo
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader
+
+METHOD: SetChannelNumber
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvChannel
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+<>c
+
+METHOD: <GetChannel>b__7_0
+
+PARAMETERS:
+    Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: get_Language
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: get_Value
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: set_Language
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: Emby.M3UTuner.dll
+DLL_VERSION: 1.0.42.0
+
+TYPE: Emby.XmlTV.XmlTvReader+ValueWithLanguage
+
+METHOD: set_Value
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+

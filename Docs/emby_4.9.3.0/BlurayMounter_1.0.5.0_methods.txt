@@ -1,0 +1,4943 @@
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: <PrivateImplementationDetails>
+
+METHOD: ComputeStringHash
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_AutosaveReport
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_EnableSSIF
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_ExtendedStreamDiagnostics
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_FilterLoopingPlaylists
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_FilterShortPlaylists
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_FilterShortPlaylistsValue
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_GenerateFrameDataFile
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_GenerateStreamDiagnostics
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_GenerateTextSummary
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_KeepStreamOrder
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_LastPath
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_UseImagePrefix
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDInfoSettings
+
+METHOD: get_UseImagePrefixValue
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: CompareStreamFiles
+
+PARAMETERS:
+    BDInfo.TSStreamFile
+    BDInfo.TSStreamFile
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: GetDirectory
+
+PARAMETERS:
+    System.String
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: GetFilePaths
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: GetFiles
+
+PARAMETERS:
+    System.String
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: GetVolumeLabel
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: Scan
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: add_PlaylistFileScanError
+
+PARAMETERS:
+    BDInfo.BDROM+OnPlaylistFileScanError
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: add_StreamClipFileScanError
+
+PARAMETERS:
+    BDInfo.BDROM+OnStreamClipFileScanError
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: add_StreamFileScanError
+
+PARAMETERS:
+    BDInfo.BDROM+OnStreamFileScanError
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: remove_PlaylistFileScanError
+
+PARAMETERS:
+    BDInfo.BDROM+OnPlaylistFileScanError
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: remove_StreamClipFileScanError
+
+PARAMETERS:
+    BDInfo.BDROM+OnStreamClipFileScanError
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM
+
+METHOD: remove_StreamFileScanError
+
+PARAMETERS:
+    BDInfo.BDROM+OnStreamFileScanError
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnPlaylistFileScanError
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Object
+    System.IntPtr
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnPlaylistFileScanError
+
+METHOD: BeginInvoke
+
+PARAMETERS:
+    BDInfo.TSPlaylistFile
+    System.Exception
+    System.AsyncCallback
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnPlaylistFileScanError
+
+METHOD: EndInvoke
+
+PARAMETERS:
+    System.IAsyncResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnPlaylistFileScanError
+
+METHOD: Invoke
+
+PARAMETERS:
+    BDInfo.TSPlaylistFile
+    System.Exception
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamClipFileScanError
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Object
+    System.IntPtr
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamClipFileScanError
+
+METHOD: BeginInvoke
+
+PARAMETERS:
+    BDInfo.TSStreamClipFile
+    System.Exception
+    System.AsyncCallback
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamClipFileScanError
+
+METHOD: EndInvoke
+
+PARAMETERS:
+    System.IAsyncResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamClipFileScanError
+
+METHOD: Invoke
+
+PARAMETERS:
+    BDInfo.TSStreamClipFile
+    System.Exception
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamFileScanError
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Object
+    System.IntPtr
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamFileScanError
+
+METHOD: BeginInvoke
+
+PARAMETERS:
+    BDInfo.TSStreamFile
+    System.Exception
+    System.AsyncCallback
+    System.Object
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamFileScanError
+
+METHOD: EndInvoke
+
+PARAMETERS:
+    System.IAsyncResult
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BDROM+OnStreamFileScanError
+
+METHOD: Invoke
+
+PARAMETERS:
+    BDInfo.TSStreamFile
+    System.Exception
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer
+
+METHOD: AddAudioStream
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    BDInfo.TSAudioStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer
+
+METHOD: AddSubtitleStream
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    BDInfo.TSTextStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer
+
+METHOD: AddSubtitleStream
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    BDInfo.TSGraphicsStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer
+
+METHOD: AddVideoStream
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+    BDInfo.TSVideoStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer
+
+METHOD: GetDiscInfo
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer+<>c
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer+<>c
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer+<>c
+
+METHOD: <GetDiscInfo>b__2_0
+
+PARAMETERS:
+    BDInfo.TSPlaylistFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer+<>c
+
+METHOD: <GetDiscInfo>b__2_1
+
+PARAMETERS:
+    BDInfo.TSPlaylistFile
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BdInfoExaminer+<>c
+
+METHOD: <GetDiscInfo>b__2_2
+
+PARAMETERS:
+    BDInfo.TSStreamClip
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: get_Chapters
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: get_Files
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: get_MediaStreams
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: get_PlaylistName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: get_RunTimeTicks
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: set_Chapters
+
+PARAMETERS:
+    System.Double[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: set_Files
+
+PARAMETERS:
+    System.String[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: set_MediaStreams
+
+PARAMETERS:
+    MediaBrowser.Model.Entities.MediaStream[]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: set_PlaylistName
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.BlurayDiscInfo
+
+METHOD: set_RunTimeTicks
+
+PARAMETERS:
+    System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.LanguageCodes
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.LanguageCodes
+
+METHOD: GetName
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSAudioStream
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSAudioStream
+
+METHOD: Clone
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSAudioStream
+
+METHOD: ConvertSampleRate
+
+PARAMETERS:
+    BDInfo.TSSampleRate
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSAudioStream
+
+METHOD: get_ChannelDescription
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSAudioStream
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAC3
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAC3
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAC3
+
+METHOD: AC3ChanMap
+
+PARAMETERS:
+    System.Int32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAC3
+
+METHOD: EmdfPayloadConfig
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAC3
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSAudioStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAVC
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecAVC
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSVideoStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecDTS
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecDTS
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecDTS
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSAudioStream
+    BDInfo.TSStreamBuffer
+    System.Int64
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecDTSHD
+
+METHOD: .cctor
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecDTSHD
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecDTSHD
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSAudioStream
+    BDInfo.TSStreamBuffer
+    System.Int64
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: AccessUnitDelimiter
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: ColourPrimaries
+
+PARAMETERS:
+    System.Byte
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: HRDParameters
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    System.Boolean
+    System.UInt32
+    BDInfo.TSCodecHEVC+XXLCommon&
+    BDInfo.TSCodecHEVC+XXL&
+    BDInfo.TSCodecHEVC+XXL&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: MatrixCoefficients
+
+PARAMETERS:
+    System.Byte
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: PicParameterSet
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: ProfileTierLevel
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: ScalingListData
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSVideoStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: Sei
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiAlternativeTransferCharacteristics
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessageActiveParametersSets
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessageBufferingPeriod
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    System.UInt32&
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessageBufferingPeriodXXL
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    BDInfo.TSCodecHEVC+XXLCommon
+    System.Boolean
+    BDInfo.TSCodecHEVC+XXL
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessageLightLevel
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessageMasteringDisplayColourVolume
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessagePicTiming
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    System.UInt32&
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeiMessageRecoveryPoint
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SeqParameterSet
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: ShortTermRefPicSets
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: SubLayerHrdParameters
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    BDInfo.TSCodecHEVC+XXLCommon
+    System.Byte
+    System.Byte
+    System.UInt32
+    BDInfo.TSCodecHEVC+XXL&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: TransferCharacteristics
+
+PARAMETERS:
+    System.Byte
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: VUIParameters
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+    BDInfo.TSCodecHEVC+VideoParamSetStruct
+    BDInfo.TSCodecHEVC+VUIParametersStruct&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: VideoParameterSet
+
+PARAMETERS:
+    BDInfo.TSStreamBuffer
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_ExtendedData
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_ExtendedFormatInfo
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_LightLevelAvailable
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_MasteringDisplayColorPrimaries
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_MasteringDisplayLuminance
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_MaximumContentLightLevel
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_MaximumFrameAverageLightLevel
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_PicParameterSets
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_PreferredTransferCharacteristics
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_SeqParameterSets
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_VUIParameterSets
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: get_VideoParamSets
+
+PARAMETERS:
+    (none)
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_ExtendedData
+
+PARAMETERS:
+    BDInfo.TSCodecHEVC+ExtendedDataSet
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_ExtendedFormatInfo
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_LightLevelAvailable
+
+PARAMETERS:
+    System.Boolean
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_MasteringDisplayColorPrimaries
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_MasteringDisplayLuminance
+
+PARAMETERS:
+    System.String
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_MaximumContentLightLevel
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_MaximumFrameAverageLightLevel
+
+PARAMETERS:
+    System.UInt32
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_PicParameterSets
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+PicParameterSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_PreferredTransferCharacteristics
+
+PARAMETERS:
+    System.Byte
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_SeqParameterSets
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+SeqParameterSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_VUIParameterSets
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+VUIParametersStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC
+
+METHOD: set_VideoParamSets
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+VideoParamSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+ExtendedDataSet
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+PicParameterSetStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+PicParameterSetStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+SeqParameterSetStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+SeqParameterSetStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    BDInfo.TSCodecHEVC+VUIParametersStruct
+    System.UInt32
+    System.Boolean
+    System.UInt32
+    System.UInt32
+    System.UInt32
+    System.UInt32
+    System.UInt32
+    System.UInt32
+    System.UInt32
+    System.UInt32
+    System.Byte
+    System.Byte
+    System.Boolean
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+SeqParameterSetStruct
+
+METHOD: get_ChromaArrayType
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+SeqParameterSetStruct
+
+METHOD: get_CpbDpbDelaysPresentFlag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+SeqParameterSetStruct
+
+METHOD: get_NalHrdBpPresentFlag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+SeqParameterSetStruct
+
+METHOD: get_VclHrdPbPresentFlag
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+VUIParametersStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+VUIParametersStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    BDInfo.TSCodecHEVC+XXL
+    BDInfo.TSCodecHEVC+XXL
+    BDInfo.TSCodecHEVC+XXLCommon
+    System.UInt32
+    System.UInt32
+    System.UInt16
+    System.UInt16
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Byte
+    System.Boolean
+    System.Boolean
+    System.Boolean
+    System.Boolean
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+VideoParamSetStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+VideoParamSetStruct
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.UInt16
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+XXL
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+XXL
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+XXLData, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+XXLCommon
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+XXLCommon
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Boolean
+    System.UInt16
+    System.UInt16
+    System.UInt16
+    System.UInt16
+    System.UInt16
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecHEVC+XXLData
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.UInt64
+    System.UInt64
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecLPCM
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecLPCM
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSAudioStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecMPEG2
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecMPEG2
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSVideoStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecMVC
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecMVC
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSVideoStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecTrueHD
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecTrueHD
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSAudioStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecVC1
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSCodecVC1
+
+METHOD: Scan
+
+PARAMETERS:
+    BDInfo.TSVideoStream
+    BDInfo.TSStreamBuffer
+    System.String&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSDescriptor
+
+METHOD: .ctor
+
+PARAMETERS:
+    System.Byte
+    System.Byte
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSDescriptor
+
+METHOD: Clone
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSGraphicsStream
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSGraphicsStream
+
+METHOD: Clone
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSInterleavedFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPacketParser
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    BDInfo.BDROM
+    MediaBrowser.Model.IO.FileSystemMetadata
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    BDInfo.BDROM
+    System.String
+    System.Collections.Generic.List`1[[BDInfo.TSStreamClip, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: ClearBitrates
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: CompareAudioStreams
+
+PARAMETERS:
+    BDInfo.TSAudioStream
+    BDInfo.TSAudioStream
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: CompareGraphicsStreams
+
+PARAMETERS:
+    BDInfo.TSGraphicsStream
+    BDInfo.TSGraphicsStream
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: CompareTextStreams
+
+PARAMETERS:
+    BDInfo.TSTextStream
+    BDInfo.TSTextStream
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: CompareVideoStreams
+
+PARAMETERS:
+    BDInfo.TSVideoStream
+    BDInfo.TSVideoStream
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: CreatePlaylistStream
+
+PARAMETERS:
+    System.Byte[]
+    System.Int32&
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: GetFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: GetStreamTypeSortIndex
+
+PARAMETERS:
+    BDInfo.TSStreamType
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: Initialize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: LoadStreamClips
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: ReadInt16
+
+PARAMETERS:
+    System.Byte[]
+    System.Int32&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: ReadInt32
+
+PARAMETERS:
+    System.Byte[]
+    System.Int32&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: Scan
+
+PARAMETERS:
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BDInfo.TSStreamFile, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+    System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BDInfo.TSStreamClipFile, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_FileSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_InterleavedFileSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_IsValid
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_TotalAngleBitRate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_TotalAngleLength
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_TotalAngleSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_TotalBitRate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_TotalLength
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSPlaylistFile
+
+METHOD: get_TotalSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: Clone
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: CopyTo
+
+PARAMETERS:
+    BDInfo.TSStream
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: ToString
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_CodecAltName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_CodecName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_CodecShortName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_IsAudioStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_IsGraphicsStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_IsTextStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_IsVideoStream
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_LanguageCode
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: get_PacketSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStream
+
+METHOD: set_LanguageCode
+
+PARAMETERS:
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: Add
+
+PARAMETERS:
+    System.Byte[]
+    System.Int32
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: BSSkipBits
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: BSSkipBytes
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: BSSkipNextByte
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: BeginRead
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: DataBitStreamRemain
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: DataBitStreamRemainBytes
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: EndRead
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadBits2
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadBits4
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadBits8
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadBool
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadByte
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadBytes
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: ReadExp
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: Reset
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: Seek
+
+PARAMETERS:
+    System.Int64
+    System.IO.SeekOrigin
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: SkipExp
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: SkipExpMulti
+
+PARAMETERS:
+    System.Int32
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: get_Length
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamBuffer
+
+METHOD: get_Position
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClip
+
+METHOD: .ctor
+
+PARAMETERS:
+    BDInfo.TSStreamFile
+    BDInfo.TSStreamClipFile
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClip
+
+METHOD: IsCompatible
+
+PARAMETERS:
+    BDInfo.TSStreamClip
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClip
+
+METHOD: get_DisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClip
+
+METHOD: get_PacketBitRate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClip
+
+METHOD: get_PacketSize
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClipFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamClipFile
+
+METHOD: Scan
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamDiagnostics
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Model.IO.FileSystemMetadata
+    MediaBrowser.Model.IO.IFileSystem
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: CreateStream
+
+PARAMETERS:
+    System.UInt16
+    System.Byte
+    System.Collections.Generic.List`1[[BDInfo.TSDescriptor, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: GetFilePath
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: Scan
+
+PARAMETERS:
+    System.Collections.Generic.List`1[[BDInfo.TSPlaylistFile, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
+    System.Boolean
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: ScanStream
+
+PARAMETERS:
+    BDInfo.TSStream
+    BDInfo.TSStreamState
+    BDInfo.TSStreamBuffer
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: UpdateStreamBitrate
+
+PARAMETERS:
+    System.UInt16
+    System.UInt16
+    System.UInt64
+    System.UInt64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: UpdateStreamBitrates
+
+PARAMETERS:
+    System.UInt16
+    System.UInt64
+    System.UInt64
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamFile
+
+METHOD: get_DisplayName
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSStreamState
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSTextStream
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSTextStream
+
+METHOD: Clone
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: Clone
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: get_FrameRate
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: get_VideoFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: set_FrameRate
+
+PARAMETERS:
+    BDInfo.TSFrameRate
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.TSVideoStream
+
+METHOD: set_VideoFormat
+
+PARAMETERS:
+    BDInfo.TSVideoFormat
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.ToolBox
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.ToolBox
+
+METHOD: FormatFileSize
+
+PARAMETERS:
+    System.Double
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.ToolBox
+
+METHOD: ReadString
+
+PARAMETERS:
+    System.Byte[]
+    System.Int32
+    System.Int32&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BDInfo.ToolBox
+
+METHOD: ReadString
+
+PARAMETERS:
+    System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Int32&
+
+STATIC: True
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.BlurayMounter
+
+METHOD: .ctor
+
+PARAMETERS:
+    MediaBrowser.Controller.Library.IMediaSourceManager
+    MediaBrowser.Controller.MediaEncoding.IMediaEncoder
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.BlurayMounter
+
+METHOD: CanMount
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.BlurayMounter
+
+METHOD: Dispose
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.BlurayMounter
+
+METHOD: Mount
+
+PARAMETERS:
+    MediaBrowser.Model.IO.IFileSystem
+    MediaBrowser.Model.IO.FileSystemMetadata
+    System.String
+    System.Threading.CancellationToken
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.BlurayMounter
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.Plugin
+
+METHOD: .ctor
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: True
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.Plugin
+
+METHOD: GetThumbImage
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.Plugin
+
+METHOD: get_Description
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.Plugin
+
+METHOD: get_Id
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.Plugin
+
+METHOD: get_Name
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
+====================================================
+DLL_NAME: BlurayMounter.dll
+DLL_VERSION: 1.0.5.0
+
+TYPE: BlurayMounter.Plugin
+
+METHOD: get_ThumbImageFormat
+
+PARAMETERS:
+    (none)
+
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: True
+====================================================
+
