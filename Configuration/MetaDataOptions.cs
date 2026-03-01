@@ -65,6 +65,10 @@ namespace MediaInfoKeeper.Configuration
         [Description("开启后支持按 TMDB 剧集组映射刮削剧集元数据（需在剧集外部ID中填写 TmdbEg，或启用本地剧集组文件）。")]
         public bool EnableMovieDbEpisodeGroup { get; set; } = true;
 
+        [DisplayName("优先原语言海报")]
+        [Description("开启后优先原语言图片结果（支持 TMDB / TVDB / Fanart）。")]
+        public bool EnableOriginalPoster { get; set; } = false;
+
         [DisplayName("启用本地剧集组文件")]
         [Description("开启后在剧集目录读取 episodegroup.json；当在线剧集组可用时会自动写入本地文件用于后续复用。")]
         public bool EnableLocalEpisodeGroup { get; set; } = false;
@@ -143,19 +147,20 @@ namespace MediaInfoKeeper.Configuration
             }
 
             AddGroup("",
-                nameof(EnableMetadataProvidersWatcher));
-
-            AddGroup("标题中文别名",
-                nameof(EnableAlternativeTitleFallback),
-                nameof(EnableTvdbFallback),
-                nameof(FallbackLanguages),
-                nameof(TvdbFallbackLanguages),
+                nameof(EnableMetadataProvidersWatcher),
+                nameof(EnableOriginalPoster),
                 nameof(BlockNonFallbackLanguage));
 
-            AddGroup("剧集组刮削",
+            AddGroup("TMDB",
+                nameof(EnableAlternativeTitleFallback),
+                nameof(FallbackLanguages),
                 nameof(EnableMovieDbEpisodeGroup),
                 nameof(EnableLocalEpisodeGroup));
 
+            AddGroup("TVDB",
+                nameof(EnableTvdbFallback),
+                nameof(TvdbFallbackLanguages));
+            
             var remaining = new List<EditorBase>();
             foreach (var item in root.EditorItems)
             {

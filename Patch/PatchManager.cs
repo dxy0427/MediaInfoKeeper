@@ -67,6 +67,15 @@ namespace MediaInfoKeeper.Patch
                     MovieDbEpisodeGroup.IsWaiting ? "waiting for MovieDb assembly" : null,
                     MovieDbEpisodeGroup.IsWaiting);
 
+                Register("OriginalPoster");
+                OriginalPoster.Initialize(logger, safeOptions.MetaData.EnableOriginalPoster);
+                UpdateTracker(
+                    "OriginalPoster",
+                    safeOptions.MetaData.EnableOriginalPoster,
+                    OriginalPoster.IsReady,
+                    OriginalPoster.IsWaiting ? "waiting for MovieDb assembly" : null,
+                    OriginalPoster.IsWaiting);
+
                 Register("UnlockIntroSkip");
                 IntroUnlock.Initialize(logger, safeOptions.IntroSkip.UnlockIntroSkip);
                 IntroUnlock.Configure(safeOptions);
@@ -111,6 +120,7 @@ namespace MediaInfoKeeper.Patch
             MovieDbTitle.Configure(safeOptions.MetaData.EnableAlternativeTitleFallback);
             TvdbTitle.Configure(safeOptions.MetaData.EnableTvdbFallback);
             MovieDbEpisodeGroup.Configure(safeOptions.MetaData.EnableMovieDbEpisodeGroup, safeOptions.MetaData.EnableLocalEpisodeGroup);
+            OriginalPoster.Configure(safeOptions.MetaData.EnableOriginalPoster);
             IntroMarkerProtect.Configure(safeOptions.IntroSkip.ProtectIntroMarkers);
 
             UpdateTracker("FfprobeGuard", safeOptions.MainPage.DisableSystemFfprobe, FfprobeGuard.IsReady, null);
@@ -122,6 +132,8 @@ namespace MediaInfoKeeper.Patch
                 TvdbTitle.IsWaiting ? "waiting for Tvdb assembly" : null, TvdbTitle.IsWaiting);
             UpdateTracker("MovieDbEpisodeGroup", safeOptions.MetaData.EnableMovieDbEpisodeGroup, MovieDbEpisodeGroup.IsReady,
                 MovieDbEpisodeGroup.IsWaiting ? "waiting for MovieDb assembly" : null, MovieDbEpisodeGroup.IsWaiting);
+            UpdateTracker("OriginalPoster", safeOptions.MetaData.EnableOriginalPoster, OriginalPoster.IsReady,
+                OriginalPoster.IsWaiting ? "waiting for MovieDb assembly" : null, OriginalPoster.IsWaiting);
             UpdateTracker("UnlockIntroSkip", safeOptions.IntroSkip.UnlockIntroSkip, IntroUnlock.IsReady, null);
             UpdateTracker("IntroMarkerProtect", safeOptions.IntroSkip.ProtectIntroMarkers, IntroMarkerProtect.IsReady, null);
             UpdateTracker("ProxyServer", safeOptions.Proxy.EnableProxyServer, ProxyServer.IsReady,
