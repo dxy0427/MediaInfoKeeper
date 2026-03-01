@@ -74,6 +74,21 @@ namespace MediaInfoKeeper.Services
             return item.GetMediaStreams().Any(i => i.Type == MediaStreamType.Video || i.Type == MediaStreamType.Audio);
         }
 
+        /// <summary>判断条目是否执行过刷新。</summary>
+        public bool IsItemRefreshedRecently(BaseItem item)
+        {
+            if (item == null)
+                return false;
+
+            var last = item.DateLastRefreshed;
+
+            // 从未刷新过
+            if (last == DateTimeOffset.MinValue)
+                return false;
+
+            return last >= DateTimeOffset.UtcNow.AddMinutes(-10);
+        }
+
         /// <summary>根据配置判断条目是否属于选定媒体库。</summary>
         public bool IsItemInScope(BaseItem item)
         {

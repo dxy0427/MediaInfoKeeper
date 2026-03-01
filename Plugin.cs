@@ -48,8 +48,6 @@ namespace MediaInfoKeeper
         public static IntroScanService IntroScanService { get; private set; }
 
         private static readonly SemaphoreSlim IntroScanSemaphore = new SemaphoreSlim(1, 1);
-        private static readonly System.Collections.Concurrent.ConcurrentDictionary<Guid, DateTimeOffset> IntroScanQueueTimes
-            = new System.Collections.Concurrent.ConcurrentDictionary<Guid, DateTimeOffset>();
 
         private readonly Guid id = new Guid("874D7056-072D-43A4-16DD-BC32665B9563");
         private readonly ILogger logger;
@@ -411,7 +409,6 @@ namespace MediaInfoKeeper
                         this.logger.Info("恢复失败，初次入库，开始提取媒体信息");
 
                         // 触发一次刷新以提取 MediaInfo。
-                        e.Item.DateLastRefreshed = new DateTimeOffset();
                         using (FfprobeGuard.Allow())
                         {
                             // 构建用于媒体信息提取的刷新参数与库选项。
@@ -655,63 +652,44 @@ namespace MediaInfoKeeper
                 return;
             }
 
-            var episodeId = episode.Id;
-            IntroScanQueueTimes.TryAdd(episodeId, DateTimeOffset.UtcNow);
             _ = Task.Run(async () =>
             {
                 var semaphoreHeld = false;
-                await IntroScanSemaphore.WaitAsync().ConfigureAwait(false);
-                semaphoreHeld = true;
                 try
                 {
-                    this.logger.Info($"{source} 片头扫描: 新的扫描任务");
+                    this.logger.Info($"{source} 片头扫描: 新的扫描任务 {episode.FileName ?? episode.Path}");
+
                     if (IntroScanService.HasIntroMarkers(episode))
                     {
-                        this.logger.Info($"{source} 片头扫描跳过: {episode.Path} 已存在片头标记");
+                        this.logger.Info($"{source} 片头扫描跳过: {episode.FileName ?? episode.Path} 已存在片头标记");
                         return;
                     }
 
-                    var enqueueTime = IntroScanQueueTimes.TryGetValue(episodeId, out var storedTime)
-                        ? storedTime
-                        : DateTimeOffset.UtcNow;
-                    var elapsed = DateTimeOffset.UtcNow - enqueueTime;
-                    var remainingDelay = TimeSpan.FromMinutes(2) - elapsed;
-                    if (remainingDelay > TimeSpan.Zero)
+                    if (!LibraryService.IsItemRefreshedRecently(episode))
                     {
-                        this.logger.Info($"{source} 片头扫描: 延迟 {Math.Ceiling(remainingDelay.TotalSeconds)} 秒后触发片头检测，等待Emby读取Strm文件内容  {episode.Path} InternalId: {episode.InternalId}");
-                        // 释放信号量，让后续项目可以先执行。
-                        if (semaphoreHeld)
+                        this.logger.Info($"{source} 片头扫描: 条目10分钟内未刷新，先执行刷新 {episode.FileName ?? episode.Path} InternalId: {episode.InternalId}");
+                        episode = await MediaInfoService.TryRefreshEpisodeForIntroScanAsync(episode, source + "Pre").ConfigureAwait(false);
+                        if (episode == null)
                         {
-                            IntroScanSemaphore.Release();
-                            semaphoreHeld = false;
+                            return;
                         }
-
-                        await Task.Delay(remainingDelay, CancellationToken.None).ConfigureAwait(false);
-
-                        await IntroScanSemaphore.WaitAsync().ConfigureAwait(false);
-                        semaphoreHeld = true;
                     }
                     else
                     {
-                        this.logger.Info($"{source} 片头扫描: 已排队 {Math.Floor(elapsed.TotalSeconds)} 秒，直接触发片头检测  {episode.Path} InternalId: {episode.InternalId}");
+                        this.logger.Info($"{source} 片头扫描: 条目10分钟内已刷新已刷新，加入扫描队列 {episode.Path} InternalId: {episode.InternalId}");
                     }
 
-                    var originalEpisodePath = episode.Path;
-                    episode = this.libraryManager.GetItemById(episode.InternalId) as Episode;
-                    if (episode == null)
-                    {
-                        this.logger.Warn($"{source} 片头扫描: 重新获取 {originalEpisodePath} Episode 失败，放弃扫描");
-                        return;
-                    }
+                    await IntroScanSemaphore.WaitAsync().ConfigureAwait(false);
+                    semaphoreHeld = true;
 
-                    this.logger.Info($"{source} 片头扫描: 触发片头检测");
+                    this.logger.Info($"{source} 片头扫描: 开始片头检测 {episode.FileName ?? episode.Path} InternalId: {episode.InternalId}");
                     await IntroScanService
                         .ScanEpisodesAsync(new List<Episode> { episode }, CancellationToken.None, null)
                         .ConfigureAwait(false);
 
                     if (!IntroScanService.HasIntroMarkers(episode))
                     {
-                        this.logger.Info($"{source} 片头扫描: 未生成标记，5 分钟后重试 1 次");
+                        this.logger.Info($"{source} 片头扫描: 未生成标记，2 分钟后重试 1 次");
                         // 释放信号量，让后续项目可以先执行。
                         if (semaphoreHeld)
                         {
@@ -719,12 +697,11 @@ namespace MediaInfoKeeper
                             semaphoreHeld = false;
                         }
 
-                        await Task.Delay(TimeSpan.FromMinutes(5), CancellationToken.None)
+                        await Task.Delay(TimeSpan.FromMinutes(2), CancellationToken.None)
                             .ConfigureAwait(false);
 
                         await IntroScanSemaphore.WaitAsync().ConfigureAwait(false);
                         semaphoreHeld = true;
-                        episode = this.libraryManager.GetItemById(episode.InternalId) as Episode;
                         await IntroScanService
                             .ScanEpisodesAsync(new List<Episode> { episode }, CancellationToken.None, null)
                             .ConfigureAwait(false);
@@ -738,7 +715,6 @@ namespace MediaInfoKeeper
                 }
                 finally
                 {
-                    IntroScanQueueTimes.TryRemove(episodeId, out _);
                     if (semaphoreHeld)
                     {
                         IntroScanSemaphore.Release();

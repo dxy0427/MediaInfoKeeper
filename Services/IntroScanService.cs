@@ -44,7 +44,10 @@ namespace MediaInfoKeeper.Services
 
             var total = episodes.Count;
             var current = 0;
-            this.logger.Info($"片头扫描开始，总条目 {total}");
+            if (progress != null)
+            {
+                this.logger.Info($"片头扫描开始，总条目 {total}");
+            }
 
             foreach (var episode in episodes)
             {
@@ -106,7 +109,10 @@ namespace MediaInfoKeeper.Services
                 progress?.Report(current / (double)total * 100);
             }
 
-            this.logger.Info($"扫描完成，条目数 {total}");
+            if (progress != null)
+            {
+                this.logger.Info($"扫描完成，条目数 {total}");
+            }
         }
 
         public bool HasIntroMarkers(BaseItem item)

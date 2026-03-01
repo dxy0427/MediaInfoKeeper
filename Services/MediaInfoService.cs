@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using MediaInfoKeeper.Patch;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Persistence;
@@ -69,6 +70,53 @@ namespace MediaInfoKeeper.Services
                 EnableThumbnailImageExtraction = false,
                 EnableSubtitleDownloading = false
             };
+        }
+
+        /// <summary>为片头扫描执行最小刷新，确保条目进入可扫描状态。</summary>
+        public async Task<Episode> TryRefreshEpisodeForIntroScanAsync(Episode episode, string source)
+        {
+            if (episode == null)
+            {
+                return null;
+            }
+
+            try
+            {
+                var metadataRefreshOptions = new MetadataRefreshOptions(new DirectoryService(this.logger, this.fileSystem))
+                {
+                    EnableRemoteContentProbe = true,
+                    MetadataRefreshMode = MetadataRefreshMode.ValidationOnly,
+                    ReplaceAllMetadata = false,
+                    ImageRefreshMode = MetadataRefreshMode.ValidationOnly,
+                    ReplaceAllImages = false,
+                    EnableThumbnailImageExtraction = false,
+                    EnableSubtitleDownloading = false
+                };
+                var collectionFolders = (BaseItem[])this.libraryManager.GetCollectionFolders(episode);
+                var libraryOptions = this.libraryManager.GetLibraryOptions(episode);
+                using (FfprobeGuard.Allow())
+                {
+                    episode.DateLastRefreshed = new DateTimeOffset();
+                    await Plugin.ProviderManager
+                        .RefreshSingleItem(episode, metadataRefreshOptions, collectionFolders, libraryOptions, CancellationToken.None)
+                        .ConfigureAwait(false);
+                }
+
+                if (!Plugin.LibraryService.IsItemRefreshedRecently(episode))
+                {
+                    this.logger.Warn($"{source} 片头扫描: 刷新结束但状态仍为未刷新，放弃进入扫描队列 {episode.Path} InternalId: {episode.InternalId}");
+                    return null;
+                }
+
+                return episode;
+            }
+            catch (Exception ex)
+            {
+                this.logger.Error($"{source} 片头扫描: 未刷新条目触发刷新失败 {episode.Path} InternalId: {episode.InternalId}");
+                this.logger.Error(ex.Message);
+                this.logger.Debug(ex.StackTrace);
+                return null;
+            }
         }
 
         /// <summary>根据配置计算媒体条目的 JSON 保存路径。</summary>
