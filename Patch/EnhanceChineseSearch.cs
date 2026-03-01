@@ -135,20 +135,17 @@ namespace MediaInfoKeeper.Patch
                             typeof(bool)
                         },
                         null);
-                    createSearchTerm = VersionedMethodResolver.Resolve(
+                    createSearchTerm = PatchMethodResolver.Resolve(
                         sqliteItemRepository,
                         resolverVersion,
-                        new[]
+                        new MethodSignatureProfile
                         {
-                            new MethodSignatureProfile
-                            {
-                                Name = "sqliteitemrepository-createsearchterm-exact",
-                                MethodName = "CreateSearchTerm",
-                                BindingFlags = BindingFlags.NonPublic | BindingFlags.Static,
-                                ParameterTypes = new[] { typeof(string), typeof(bool) },
-                                ReturnType = typeof(string),
-                                IsStatic = true
-                            }
+                            Name = "sqliteitemrepository-createsearchterm-exact",
+                            MethodName = "CreateSearchTerm",
+                            BindingFlags = BindingFlags.NonPublic | BindingFlags.Static,
+                            ParameterTypes = new[] { typeof(string), typeof(bool) },
+                            ReturnType = typeof(string),
+                            IsStatic = true
                         },
                         logger,
                         "EnhanceChineseSearch.CreateSearchTerm");
@@ -156,19 +153,16 @@ namespace MediaInfoKeeper.Patch
                     {
                         LogMethodCandidates(sqliteItemRepository, "CreateSearchTerm");
                     }
-                    cacheIdsFromTextParams = VersionedMethodResolver.Resolve(
+                    cacheIdsFromTextParams = PatchMethodResolver.Resolve(
                         sqliteItemRepository,
                         resolverVersion,
-                        new[]
+                        new MethodSignatureProfile
                         {
-                            new MethodSignatureProfile
-                            {
-                                Name = "sqliteitemrepository-cacheidsfromtextparams-exact",
-                                MethodName = "CacheIdsFromTextParams",
-                                BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
-                                ParameterTypes = new[] { typeof(InternalItemsQuery), typeof(IDatabaseConnection) },
-                                IsStatic = false
-                            }
+                            Name = "sqliteitemrepository-cacheidsfromtextparams-exact",
+                            MethodName = "CacheIdsFromTextParams",
+                            BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
+                            ParameterTypes = new[] { typeof(InternalItemsQuery), typeof(IDatabaseConnection) },
+                            IsStatic = false
                         },
                         logger,
                         "EnhanceChineseSearch.CacheIdsFromTextParams");

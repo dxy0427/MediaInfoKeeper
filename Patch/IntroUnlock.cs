@@ -44,35 +44,29 @@ namespace MediaInfoKeeper.Patch
                 var embyProviders = Assembly.Load("Emby.Providers");
                 var audioFingerprintManager = embyProviders?.GetType("Emby.Providers.Markers.AudioFingerprintManager");
                 var providersVersion = embyProviders?.GetName().Version;
-                isIntroDetectionSupported = VersionedMethodResolver.Resolve(
+                isIntroDetectionSupported = PatchMethodResolver.Resolve(
                     audioFingerprintManager,
                     providersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "audiofingerprintmanager-isintrodetectionsupported-exact",
-                            MethodName = "IsIntroDetectionSupported",
-                            BindingFlags = BindingFlags.Public | BindingFlags.Instance,
-                            ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions) }
-                        }
+                        Name = "audiofingerprintmanager-isintrodetectionsupported-exact",
+                        MethodName = "IsIntroDetectionSupported",
+                        BindingFlags = BindingFlags.Public | BindingFlags.Instance,
+                        ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions) }
                     },
                     logger,
                     "UnlockIntroSkip.IsIntroDetectionSupported");
 
                 var markerScheduledTask = embyProviders?.GetType("Emby.Providers.Markers.MarkerScheduledTask");
-                createQueryForEpisodeIntroDetection = VersionedMethodResolver.Resolve(
+                createQueryForEpisodeIntroDetection = PatchMethodResolver.Resolve(
                     markerScheduledTask,
                     providersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "markerscheduledtask-createqueryforepisodeintrodetection-exact",
-                            MethodName = "CreateQueryForEpisodeIntroDetection",
-                            BindingFlags = BindingFlags.Public | BindingFlags.Static,
-                            ParameterTypes = new[] { typeof(LibraryOptions) }
-                        }
+                        Name = "markerscheduledtask-createqueryforepisodeintrodetection-exact",
+                        MethodName = "CreateQueryForEpisodeIntroDetection",
+                        BindingFlags = BindingFlags.Public | BindingFlags.Static,
+                        ParameterTypes = new[] { typeof(LibraryOptions) }
                     },
                     logger,
                     "UnlockIntroSkip.CreateQueryForEpisodeIntroDetection");

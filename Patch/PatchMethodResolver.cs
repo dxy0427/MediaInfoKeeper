@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using MediaBrowser.Model.Logging;
@@ -15,7 +14,7 @@ namespace MediaInfoKeeper.Patch
         public BindingFlags BindingFlags { get; set; } =
             BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
 
-        public Type[] ParameterTypes { get; set; }
+        public Type[] ParameterTypes { get; set; } = Type.EmptyTypes;
 
         public Type ReturnType { get; set; }
 
@@ -24,16 +23,16 @@ namespace MediaInfoKeeper.Patch
         public Func<MethodInfo, bool> Predicate { get; set; }
     }
 
-    public static class VersionedMethodResolver
+    public static class PatchMethodResolver
     {
         public static MethodInfo Resolve(
             Type type,
-            Version assemblyVersion,
-            IEnumerable<MethodSignatureProfile> exactProfiles,
+            Version versionForLog,
+            MethodSignatureProfile exactProfile,
             ILogger logger,
             string context)
         {
-            var method = TryResolve(type, assemblyVersion, exactProfiles, "exact", logger, context);
+            var method = TryResolve(type, versionForLog, exactProfile, "exact", logger, context);
             if (method != null)
             {
                 return method;
@@ -43,69 +42,54 @@ namespace MediaInfoKeeper.Patch
                 logger,
                 context ?? "MethodResolve",
                 type?.FullName ?? "<null>",
-                assemblyVersion?.ToString() ?? "<unknown>");
+                versionForLog?.ToString() ?? "<unknown>");
             return null;
         }
 
         private static MethodInfo TryResolve(
             Type type,
-            Version assemblyVersion,
-            IEnumerable<MethodSignatureProfile> profiles,
+            Version versionForLog,
+            MethodSignatureProfile profile,
             string level,
             ILogger logger,
             string context)
         {
-            if (type == null || profiles == null)
+            if (type == null || !IsValidProfile(profile))
             {
                 return null;
             }
 
-            foreach (var profile in profiles.Where(p => p != null).ToArray())
+            var method = ResolveSingle(type, profile);
+            if (method == null)
             {
-                var method = ResolveSingle(type, profile);
-                if (method == null)
-                {
-                    continue;
-                }
-
-                PatchLog.ResolveHit(
-                    logger,
-                    context ?? "MethodResolve",
-                    level,
-                    profile.Name ?? profile.MethodName ?? "unknown",
-                    BuildSignature(method),
-                    assemblyVersion?.ToString() ?? "<unknown>");
-                return method;
+                return null;
             }
 
-            return null;
+            PatchLog.ResolveHit(
+                logger,
+                context ?? "MethodResolve",
+                level,
+                profile.Name ?? profile.MethodName ?? "unknown",
+                BuildSignature(method),
+                versionForLog?.ToString() ?? "<unknown>");
+            return method;
         }
 
         private static MethodInfo ResolveSingle(Type type, MethodSignatureProfile profile)
         {
-            if (type == null || profile == null || string.IsNullOrWhiteSpace(profile.MethodName))
+            if (type == null || !IsValidProfile(profile))
             {
                 return null;
             }
 
-            if (profile.ParameterTypes != null)
-            {
-                var method = type.GetMethod(
-                    profile.MethodName,
-                    profile.BindingFlags,
-                    null,
-                    profile.ParameterTypes,
-                    null);
+            var method = type.GetMethod(
+                profile.MethodName,
+                profile.BindingFlags,
+                null,
+                profile.ParameterTypes,
+                null);
 
-                if (IsMatch(method, profile))
-                {
-                    return method;
-                }
-            }
-
-            return type.GetMethods(profile.BindingFlags)
-                .Where(m => string.Equals(m.Name, profile.MethodName, StringComparison.Ordinal))
-                .FirstOrDefault(m => IsMatch(m, profile));
+            return IsMatch(method, profile) ? method : null;
         }
 
         private static bool IsMatch(MethodInfo method, MethodSignatureProfile profile)
@@ -125,24 +109,33 @@ namespace MediaInfoKeeper.Patch
                 return false;
             }
 
-            if (profile.ParameterTypes != null)
+            if (profile.ParameterTypes == null)
             {
-                var parameters = method.GetParameters().Select(p => p.ParameterType).ToArray();
-                if (parameters.Length != profile.ParameterTypes.Length)
+                return false;
+            }
+
+            var parameters = method.GetParameters().Select(p => p.ParameterType).ToArray();
+            if (parameters.Length != profile.ParameterTypes.Length)
+            {
+                return false;
+            }
+
+            for (var i = 0; i < parameters.Length; i++)
+            {
+                if (parameters[i] != profile.ParameterTypes[i])
                 {
                     return false;
-                }
-
-                for (var i = 0; i < parameters.Length; i++)
-                {
-                    if (parameters[i] != profile.ParameterTypes[i])
-                    {
-                        return false;
-                    }
                 }
             }
 
             return profile.Predicate == null || profile.Predicate(method);
+        }
+
+        private static bool IsValidProfile(MethodSignatureProfile profile)
+        {
+            return profile != null &&
+                   !string.IsNullOrWhiteSpace(profile.MethodName) &&
+                   profile.ParameterTypes != null;
         }
 
         private static string BuildSignature(MethodInfo method)

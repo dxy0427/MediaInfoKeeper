@@ -16,7 +16,7 @@ namespace MediaInfoKeeper.Patch
         private static readonly AsyncLocal<long> AllowSaveItem = new AsyncLocal<long>();
         private static Harmony harmony;
         private static ILogger logger;
-        private static MethodInfo[] saveChapters = Array.Empty<MethodInfo>();
+        private static MethodInfo saveChapters;
         private static MethodInfo deleteChapters;
         private static bool isEnabled;
         private static bool isPatched;
@@ -39,60 +39,34 @@ namespace MediaInfoKeeper.Patch
                 var sqliteItemRepository =
                     embyServerImplementationsAssembly.GetType("Emby.Server.Implementations.Data.SqliteItemRepository");
                 var version = embyServerImplementationsAssembly.GetName().Version;
-                var saveChaptersWithClearFlag = VersionedMethodResolver.Resolve(
+                saveChapters = PatchMethodResolver.Resolve(
                     sqliteItemRepository,
                     version,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "sqliteitemrepository-savechapters-with-clear-flag",
-                            MethodName = "SaveChapters",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
-                                           BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(long), typeof(bool), typeof(List<ChapterInfo>) }
-                        }
+                        Name = "sqliteitemrepository-savechapters-with-clear-flag",
+                        MethodName = "SaveChapters",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
+                                       BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(long), typeof(bool), typeof(List<ChapterInfo>) }
                     },
                     logger,
                     "IntroMarkerProtect.SaveChapters(bool)");
-                var saveChaptersWithoutClearFlag = VersionedMethodResolver.Resolve(
+                deleteChapters = PatchMethodResolver.Resolve(
                     sqliteItemRepository,
                     version,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "sqliteitemrepository-savechapters-without-clear-flag",
-                            MethodName = "SaveChapters",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
-                                           BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(long), typeof(List<ChapterInfo>) }
-                        }
-                    },
-                    logger,
-                    "IntroMarkerProtect.SaveChapters");
-                saveChapters = new[] { saveChaptersWithClearFlag, saveChaptersWithoutClearFlag }
-                    .Where(m => m != null)
-                    .Distinct()
-                    .ToArray();
-                deleteChapters = VersionedMethodResolver.Resolve(
-                    sqliteItemRepository,
-                    version,
-                    new[]
-                    {
-                        new MethodSignatureProfile
-                        {
-                            Name = "sqliteitemrepository-deletechapters-exact",
-                            MethodName = "DeleteChapters",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
-                                           BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(long), typeof(MarkerType[]) }
-                        }
+                        Name = "sqliteitemrepository-deletechapters-exact",
+                        MethodName = "DeleteChapters",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
+                                       BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(long), typeof(MarkerType[]) }
                     },
                     logger,
                     "IntroMarkerProtect.DeleteChapters");
 
-                if (saveChapters.Length == 0 || deleteChapters == null)
+                if (saveChapters == null || deleteChapters == null)
                 {
                     PatchLog.InitFailed(logger, nameof(IntroMarkerProtect), "目标方法缺失");
                     return;
@@ -147,11 +121,8 @@ namespace MediaInfoKeeper.Patch
                 return;
             }
 
-            foreach (var saveChaptersMethod in saveChapters)
-            {
-                harmony.Patch(saveChaptersMethod,
-                    prefix: new HarmonyMethod(typeof(IntroMarkerProtect), nameof(SaveChaptersPrefix)));
-            }
+            harmony.Patch(saveChapters,
+                prefix: new HarmonyMethod(typeof(IntroMarkerProtect), nameof(SaveChaptersPrefix)));
             harmony.Patch(deleteChapters,
                 prefix: new HarmonyMethod(typeof(IntroMarkerProtect), nameof(DeleteChaptersPrefix)));
             isPatched = true;
@@ -164,10 +135,7 @@ namespace MediaInfoKeeper.Patch
                 return;
             }
 
-            foreach (var saveChaptersMethod in saveChapters)
-            {
-                harmony.Unpatch(saveChaptersMethod, HarmonyPatchType.Prefix, harmony.Id);
-            }
+            harmony.Unpatch(saveChapters, HarmonyPatchType.Prefix, harmony.Id);
             harmony.Unpatch(deleteChapters, HarmonyPatchType.Prefix, harmony.Id);
             isPatched = false;
         }

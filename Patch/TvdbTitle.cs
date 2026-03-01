@@ -202,86 +202,71 @@ namespace MediaInfoKeeper.Patch
             }
 
             var entryPoint = assembly.GetType("Tvdb.EntryPoint", false);
-            convertToTvdbLanguages = VersionedMethodResolver.Resolve(
+            convertToTvdbLanguages = PatchMethodResolver.Resolve(
                 entryPoint,
                 version,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                    {
-                        Name = "entrypoint-converttotvdblanguages-exact",
-                        MethodName = "ConvertToTvdbLanguages",
-                        BindingFlags = BindingFlags.Instance | BindingFlags.Public,
-                        ParameterTypes = new[] { typeof(ItemLookupInfo) }
-                    }
+                    Name = "entrypoint-converttotvdblanguages-exact",
+                    MethodName = "ConvertToTvdbLanguages",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.Public,
+                    ParameterTypes = new[] { typeof(ItemLookupInfo) }
                 },
                 logger,
                 "TvdbTitle.ConvertToTvdbLanguages");
 
             var translations = assembly.GetType("Tvdb.Translations", false);
-            getTranslation = VersionedMethodResolver.Resolve(
+            getTranslation = PatchMethodResolver.Resolve(
                 translations,
                 version,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                        {
-                            Name = "translations-gettranslation-exact",
-                            MethodName = "GetTranslation",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { nameTranslationList, typeof(string[]), translationField, typeof(bool) }
-                        }
+                    Name = "translations-gettranslation-exact",
+                    MethodName = "GetTranslation",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
+                    ParameterTypes = new[] { nameTranslationList, typeof(string[]), translationField, typeof(bool) }
                     },
                     logger,
                 "TvdbTitle.GetTranslation");
 
             var tvdbMovieProvider = assembly.GetType("Tvdb.TvdbMovieProvider", false);
-            addMovieInfo = VersionedMethodResolver.Resolve(
+            addMovieInfo = PatchMethodResolver.Resolve(
                 tvdbMovieProvider,
                 version,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                        {
-                            Name = "tvdbmovieprovider-addmovieinfo-exact",
-                            MethodName = "AddMovieInfo",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(MetadataResult<Movie>), movieData, typeof(string[]), typeof(string) }
-                        }
+                    Name = "tvdbmovieprovider-addmovieinfo-exact",
+                    MethodName = "AddMovieInfo",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
+                    ParameterTypes = new[] { typeof(MetadataResult<Movie>), movieData, typeof(string[]), typeof(string) }
                     },
                     logger,
                 "TvdbTitle.AddMovieInfo");
 
             var tvdbSeriesProvider = assembly.GetType("Tvdb.TvdbSeriesProvider", false);
-            addSeriesInfo = VersionedMethodResolver.Resolve(
+            addSeriesInfo = PatchMethodResolver.Resolve(
                 tvdbSeriesProvider,
                 version,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                        {
-                            Name = "tvdbseriesprovider-addseriesinfo-exact",
-                            MethodName = "AddSeriesInfo",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(MetadataResult<Series>), seriesData, typeof(string[]), typeof(string) }
-                        }
+                    Name = "tvdbseriesprovider-addseriesinfo-exact",
+                    MethodName = "AddSeriesInfo",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
+                    ParameterTypes = new[] { typeof(MetadataResult<Series>), seriesData, typeof(string[]), typeof(string) }
                     },
                     logger,
                 "TvdbTitle.AddSeriesInfo");
 
             var tvdbSeasonProvider = assembly.GetType("Tvdb.TvdbSeasonProvider", false);
-            getTvdbSeason = VersionedMethodResolver.Resolve(
+            getTvdbSeason = PatchMethodResolver.Resolve(
                 tvdbSeasonProvider,
                 version,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                        {
-                            Name = "tvdbseasonprovider-gettvdbseason-exact",
-                            MethodName = "GetTvdbSeason",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(SeasonInfo), typeof(IDirectoryService), typeof(CancellationToken) }
-                        }
+                    Name = "tvdbseasonprovider-gettvdbseason-exact",
+                    MethodName = "GetTvdbSeason",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                    ParameterTypes = new[] { typeof(SeasonInfo), typeof(IDirectoryService), typeof(CancellationToken) }
                     },
                     logger,
                 "TvdbTitle.GetTvdbSeason");
@@ -289,34 +274,28 @@ namespace MediaInfoKeeper.Patch
             var tvdbEpisodeProvider = assembly.GetType("Tvdb.TvdbEpisodeProvider", false);
             if (tvdbEpisodeProvider != null)
             {
-                findEpisode = VersionedMethodResolver.Resolve(
+                findEpisode = PatchMethodResolver.Resolve(
                     tvdbEpisodeProvider,
                     version,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "tvdbepisodeprovider-findepisode-exact",
-                            MethodName = "FindEpisode",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { episodesData, typeof(EpisodeInfo), typeof(int?) }
-                        }
+                        Name = "tvdbepisodeprovider-findepisode-exact",
+                        MethodName = "FindEpisode",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
+                        ParameterTypes = new[] { episodesData, typeof(EpisodeInfo), typeof(int?) }
                     },
                     logger,
                     "TvdbTitle.FindEpisode");
 
-                getEpisodeData = VersionedMethodResolver.Resolve(
+                getEpisodeData = PatchMethodResolver.Resolve(
                     tvdbEpisodeProvider,
                     version,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "tvdbepisodeprovider-getepisodedata-exact",
-                            MethodName = "GetEpisodeData",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(EpisodeInfo), typeof(bool), typeof(IDirectoryService), typeof(CancellationToken) }
-                        }
+                        Name = "tvdbepisodeprovider-getepisodedata-exact",
+                        MethodName = "GetEpisodeData",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(EpisodeInfo), typeof(bool), typeof(IDirectoryService), typeof(CancellationToken) }
                     },
                     logger,
                     "TvdbTitle.GetEpisodeData");

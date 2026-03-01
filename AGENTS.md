@@ -23,7 +23,7 @@
 - `Scripts/`: helper scripts for pulling dlls/method docs and runtime ops.
 
 ## Patch Rules
-- Always use `VersionedMethodResolver.Resolve(...)` for patch targets.
+- Always use `PatchMethodResolver.Resolve(...)` for patch targets.
 - Set explicit `ParameterTypes` whenever possible.
 - Set `ReturnType` when overload ambiguity is possible.
 - Avoid `Predicate` unless there is no stable type-based signature.

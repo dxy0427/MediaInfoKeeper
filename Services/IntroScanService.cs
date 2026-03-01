@@ -19,7 +19,6 @@ namespace MediaInfoKeeper.Services
 {
     public class IntroScanService
     {
-        private static readonly string[] ResolverNames = { "Resolve", "GetService", "TryResolve", "GetInstance", "GetExport", "GetExports" };
         private readonly object runtimeLock = new object();
         private readonly ILogger logger;
         private readonly ILibraryManager libraryManager;
@@ -193,84 +192,59 @@ namespace MediaInfoKeeper.Services
                     return null;
                 }
 
-                var createTitleFingerprintAsync = VersionedMethodResolver.Resolve(
+                var createTitleFingerprintAsync = PatchMethodResolver.Resolve(
                     managerType,
                     providersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "audiofingerprintmanager-createtitlefingerprint-async",
-                            MethodName = "CreateTitleFingerprint",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions), typeof(IDirectoryService), typeof(CancellationToken) }
-                        }
+                        Name = "audiofingerprintmanager-createtitlefingerprint-async",
+                        MethodName = "CreateTitleFingerprint",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions), typeof(IDirectoryService), typeof(CancellationToken) }
                     },
                     this.logger,
                     "IntroScanService.CreateTitleFingerprint");
-                var createTitleFingerprintSync = VersionedMethodResolver.Resolve(
+                var isIntroDetectionSupported = PatchMethodResolver.Resolve(
                     managerType,
                     providersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "audiofingerprintmanager-createtitlefingerprint-sync",
-                            MethodName = "CreateTitleFingerprint",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions), typeof(string), typeof(CancellationToken) }
-                        }
-                    },
-                    this.logger,
-                    "IntroScanService.CreateTitleFingerprintSync");
-                var isIntroDetectionSupported = VersionedMethodResolver.Resolve(
-                    managerType,
-                    providersVersion,
-                    new[]
-                    {
-                        new MethodSignatureProfile
-                        {
-                            Name = "audiofingerprintmanager-isintrodetectionsupported",
-                            MethodName = "IsIntroDetectionSupported",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions) }
-                        }
+                        Name = "audiofingerprintmanager-isintrodetectionsupported",
+                        MethodName = "IsIntroDetectionSupported",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(Episode), typeof(LibraryOptions) }
                     },
                     this.logger,
                     "IntroScanService.IsIntroDetectionSupported");
-                var getAllFingerprintFilesForSeason = VersionedMethodResolver.Resolve(
+                var getAllFingerprintFilesForSeason = PatchMethodResolver.Resolve(
                     managerType,
                     providersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "audiofingerprintmanager-getallfingerprintfilesforseason",
-                            MethodName = "GetAllFingerprintFilesForSeason",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(Season), typeof(Episode[]), typeof(LibraryOptions), typeof(IDirectoryService), typeof(CancellationToken) }
-                        }
+                        Name = "audiofingerprintmanager-getallfingerprintfilesforseason",
+                        MethodName = "GetAllFingerprintFilesForSeason",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(Season), typeof(Episode[]), typeof(LibraryOptions), typeof(IDirectoryService), typeof(CancellationToken) }
                     },
                     this.logger,
                     "IntroScanService.GetAllFingerprintFilesForSeason");
-                var updateSequencesForSeason = VersionedMethodResolver.Resolve(
+                var updateSequencesForSeason = PatchMethodResolver.Resolve(
                     managerType,
                     providersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "audiofingerprintmanager-updatesequencesforseason",
-                            MethodName = "UpdateSequencesForSeason",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[] { typeof(Season), seasonFingerprintInfoType, typeof(Episode), typeof(LibraryOptions), typeof(IDirectoryService), typeof(CancellationToken) }
-                        }
+                        Name = "audiofingerprintmanager-updatesequencesforseason",
+                        MethodName = "UpdateSequencesForSeason",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[] { typeof(Season), seasonFingerprintInfoType, typeof(Episode), typeof(LibraryOptions), typeof(IDirectoryService), typeof(CancellationToken) }
                     },
                     this.logger,
                     "IntroScanService.UpdateSequencesForSeason");
 
-                if (isIntroDetectionSupported == null || updateSequencesForSeason == null ||
-                    (createTitleFingerprintAsync == null && createTitleFingerprintSync == null))
+                if (isIntroDetectionSupported == null ||
+                    createTitleFingerprintAsync == null ||
+                    getAllFingerprintFilesForSeason == null ||
+                    updateSequencesForSeason == null)
                 {
                     this.logger.Warn("AudioFingerprintManager 关键方法缺失");
                     return null;
@@ -281,7 +255,6 @@ namespace MediaInfoKeeper.Services
                     seasonFingerprintInfoType,
                     isIntroDetectionSupported,
                     createTitleFingerprintAsync,
-                    createTitleFingerprintSync,
                     getAllFingerprintFilesForSeason,
                     updateSequencesForSeason);
                 return audioFingerprintRuntime;
@@ -306,78 +279,72 @@ namespace MediaInfoKeeper.Services
                     return service;
                 }
             }
-
-            var hostType = appHost.GetType();
-            this.logger.Debug($"服务解析 {serviceType.FullName}: AppHost 类型 {hostType.FullName}");
-
-            var hostMethods = hostType.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
-            foreach (var resolverName in ResolverNames)
+            else
             {
-                var genericResolver = hostMethods
-                    .Where(m => string.Equals(m.Name, resolverName, StringComparison.Ordinal) &&
-                                m.IsGenericMethodDefinition &&
-                                m.GetGenericArguments().Length == 1 &&
-                                m.GetParameters().Length == 0)
-                    .OrderBy(m => m.IsPublic ? 0 : 1)
-                    .FirstOrDefault();
-                if (genericResolver == null)
-                {
-                    continue;
-                }
-
-                try
-                {
-                    var result = genericResolver.MakeGenericMethod(serviceType).Invoke(appHost, null);
-                    var resolved = UnwrapExports(result);
-                    if (resolved != null)
-                    {
-                        this.logger.Debug($"服务解析 {serviceType.FullName}: AppHost.{genericResolver.Name}<T>() 成功");
-                        return resolved;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    this.logger.Debug($"服务解析 {serviceType.FullName}: AppHost.{genericResolver.Name}<T>() 失败: {ex.Message}");
-                }
+                this.logger.Debug($"服务解析提示 {serviceType.FullName}: AppHost 未实现 IServiceProvider，跳过 GetService");
             }
 
-            foreach (var resolverName in ResolverNames)
+            var resolvedByAppHost = TryResolveViaAppHost(appHost, serviceType);
+            if (resolvedByAppHost != null)
             {
-                var typeResolver = hostMethods
-                    .Where(m => string.Equals(m.Name, resolverName, StringComparison.Ordinal))
-                    .Where(m =>
-                    {
-                        var p = m.GetParameters();
-                        return p.Length == 1 && p[0].ParameterType == typeof(Type);
-                    })
-                    .OrderBy(m => m.IsPublic ? 0 : 1)
-                    .FirstOrDefault();
-                if (typeResolver == null)
-                {
-                    continue;
-                }
-
-                try
-                {
-                    var result = typeResolver.Invoke(appHost, new object[] { serviceType });
-                    var resolved = UnwrapExports(result);
-                    if (resolved != null)
-                    {
-                        this.logger.Debug($"服务解析 {serviceType.FullName}: AppHost.{typeResolver.Name}(Type) 成功");
-                        return resolved;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    this.logger.Debug($"服务解析 {serviceType.FullName}: AppHost.{typeResolver.Name}(Type) 失败: {ex.Message}");
-                }
+                this.logger.Debug($"服务解析 {serviceType.FullName}: AppHost.Resolve<T>() 成功");
+                return resolvedByAppHost;
             }
 
-            this.logger.Debug($"服务解析 {serviceType.FullName}: 未找到可用解析器");
+            this.logger.Debug($"服务解析失败 {serviceType.FullName}: IServiceProvider.GetService 与 AppHost.Resolve<T>() 均返回空");
             return null;
         }
 
-        private static object UnwrapExports(object result)
+        private object TryResolveViaAppHost(object appHost, Type serviceType)
+        {
+            var resolved = TryInvokeGenericServiceResolver(appHost, serviceType, "Resolve");
+            if (resolved != null)
+            {
+                return resolved;
+            }
+
+            resolved = TryInvokeGenericServiceResolver(appHost, serviceType, "TryResolve");
+            if (resolved != null)
+            {
+                return resolved;
+            }
+
+            resolved = TryInvokeGenericServiceResolver(appHost, serviceType, "GetExports", false);
+            if (resolved != null)
+            {
+                return resolved;
+            }
+
+            return TryInvokeGenericServiceResolver(appHost, serviceType, "GetExports", true);
+        }
+
+        private object TryInvokeGenericServiceResolver(object appHost, Type serviceType, string methodName, params object[] args)
+        {
+            try
+            {
+                var resolver = appHost.GetType()
+                    .GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                    .FirstOrDefault(m =>
+                        string.Equals(m.Name, methodName, StringComparison.Ordinal) &&
+                        m.IsGenericMethodDefinition &&
+                        m.GetGenericArguments().Length == 1 &&
+                        m.GetParameters().Length == (args?.Length ?? 0));
+                if (resolver == null)
+                {
+                    return null;
+                }
+
+                var result = resolver.MakeGenericMethod(serviceType).Invoke(appHost, args);
+                return UnwrapServiceResult(result);
+            }
+            catch (Exception ex)
+            {
+                this.logger.Debug($"服务解析失败 {serviceType.FullName}: AppHost.{methodName}<T>() 异常: {ex.Message}");
+                return null;
+            }
+        }
+
+        private static object UnwrapServiceResult(object result)
         {
             if (result == null)
             {
@@ -415,61 +382,37 @@ namespace MediaInfoKeeper.Services
             var hasLibraryOptions = libraryOptions != null;
             this.logger.Debug($"LibraryOptions loaded: null={!hasLibraryOptions}");
 
-            if (runtime.IsIntroDetectionSupported != null)
+            var supportedArgs = new object[] { episode, libraryOptions };
+            LogInvocation(runtime.IsIntroDetectionSupported, supportedArgs);
+            var supportedResult = await InvokeWithResultAsync(detector, runtime.IsIntroDetectionSupported, supportedArgs).ConfigureAwait(false);
+            if (supportedResult is bool supported && !supported)
             {
-                var supportedArgs = new object[] { episode, libraryOptions };
-                LogInvocation(runtime.IsIntroDetectionSupported, supportedArgs);
-                var supportedResult = await InvokeWithResultAsync(detector, runtime.IsIntroDetectionSupported, supportedArgs).ConfigureAwait(false);
-                if (supportedResult is bool supported && !supported)
-                {
-                    this.logger.Debug("AudioFingerprintManager.IsIntroDetectionSupported 返回 false");
-                    return false;
-                }
+                this.logger.Debug("AudioFingerprintManager.IsIntroDetectionSupported 返回 false");
+                return false;
+            }
+            this.logger.Debug($"IsIntroDetectionSupported result: {supportedResult ?? "null"}");
 
-                this.logger.Debug($"IsIntroDetectionSupported result: {supportedResult ?? "null"}");
-            }
-
-            if (runtime.CreateTitleFingerprintAsync != null)
-            {
-                this.logger.Debug("触发 CreateTitleFingerprint 生成指纹");
-                var fingerprintArgs = new object[] { episode, libraryOptions, directoryService, cancellationToken };
-                LogInvocation(runtime.CreateTitleFingerprintAsync, fingerprintArgs);
-                await InvokeWithResultAsync(detector, runtime.CreateTitleFingerprintAsync, fingerprintArgs).ConfigureAwait(false);
-            }
-            else if (runtime.CreateTitleFingerprintSync != null)
-            {
-                this.logger.Debug("触发 CreateTitleFingerprint(legacy) 生成指纹");
-                var fingerprintArgs = new object[] { episode, libraryOptions, null, cancellationToken };
-                LogInvocation(runtime.CreateTitleFingerprintSync, fingerprintArgs);
-                await InvokeWithResultAsync(detector, runtime.CreateTitleFingerprintSync, fingerprintArgs).ConfigureAwait(false);
-            }
-
-            if (runtime.UpdateSequencesForSeason == null)
-            {
-                this.logger.Debug($"AudioFingerprint workflow完成（仅生成指纹）: item={episode?.Path ?? episode?.Name}");
-                return runtime.CreateTitleFingerprintAsync != null || runtime.CreateTitleFingerprintSync != null;
-            }
+            this.logger.Debug("触发 CreateTitleFingerprint 生成指纹");
+            var fingerprintArgs = new object[] { episode, libraryOptions, directoryService, cancellationToken };
+            LogInvocation(runtime.CreateTitleFingerprintAsync, fingerprintArgs);
+            await InvokeWithResultAsync(detector, runtime.CreateTitleFingerprintAsync, fingerprintArgs).ConfigureAwait(false);
 
             var season = TryGetSeason(episode);
             if (season == null)
             {
                 this.logger.Debug("无法获取 Season，跳过 UpdateSequencesForSeason");
-                return runtime.CreateTitleFingerprintAsync != null || runtime.CreateTitleFingerprintSync != null;
+                return true;
             }
 
             this.logger.Debug($"Season resolved: {season.Name} (id={season.InternalId})");
             var seasonEpisodes = FetchSeasonEpisodes(season);
             this.logger.Debug($"Season episodes loaded: count={seasonEpisodes.Length}");
 
-            object seasonFingerprintInfo = null;
-            if (runtime.GetAllFingerprintFilesForSeason != null)
-            {
-                this.logger.Debug("触发 GetAllFingerprintFilesForSeason 收集指纹");
-                var getArgs = new object[] { season, seasonEpisodes, libraryOptions, directoryService, cancellationToken };
-                LogInvocation(runtime.GetAllFingerprintFilesForSeason, getArgs);
-                seasonFingerprintInfo = await InvokeWithResultAsync(detector, runtime.GetAllFingerprintFilesForSeason, getArgs).ConfigureAwait(false);
-                this.logger.Debug($"GetAllFingerprintFilesForSeason result type: {seasonFingerprintInfo?.GetType().FullName ?? "null"}");
-            }
+            this.logger.Debug("触发 GetAllFingerprintFilesForSeason 收集指纹");
+            var getArgs = new object[] { season, seasonEpisodes, libraryOptions, directoryService, cancellationToken };
+            LogInvocation(runtime.GetAllFingerprintFilesForSeason, getArgs);
+            var seasonFingerprintInfo = await InvokeWithResultAsync(detector, runtime.GetAllFingerprintFilesForSeason, getArgs).ConfigureAwait(false);
+            this.logger.Debug($"GetAllFingerprintFilesForSeason result type: {seasonFingerprintInfo?.GetType().FullName ?? "null"}");
 
             this.logger.Debug("触发 UpdateSequencesForSeason 生成片头序列");
             if (seasonFingerprintInfo == null && runtime.SeasonFingerprintInfoType != null && runtime.SeasonFingerprintInfoType.IsClass)
@@ -563,7 +506,6 @@ namespace MediaInfoKeeper.Services
                 Type seasonFingerprintInfoType,
                 MethodInfo isIntroDetectionSupported,
                 MethodInfo createTitleFingerprintAsync,
-                MethodInfo createTitleFingerprintSync,
                 MethodInfo getAllFingerprintFilesForSeason,
                 MethodInfo updateSequencesForSeason)
             {
@@ -571,7 +513,6 @@ namespace MediaInfoKeeper.Services
                 SeasonFingerprintInfoType = seasonFingerprintInfoType;
                 IsIntroDetectionSupported = isIntroDetectionSupported;
                 CreateTitleFingerprintAsync = createTitleFingerprintAsync;
-                CreateTitleFingerprintSync = createTitleFingerprintSync;
                 GetAllFingerprintFilesForSeason = getAllFingerprintFilesForSeason;
                 UpdateSequencesForSeason = updateSequencesForSeason;
             }
@@ -583,8 +524,6 @@ namespace MediaInfoKeeper.Services
             public MethodInfo IsIntroDetectionSupported { get; }
 
             public MethodInfo CreateTitleFingerprintAsync { get; }
-
-            public MethodInfo CreateTitleFingerprintSync { get; }
 
             public MethodInfo GetAllFingerprintFilesForSeason { get; }
 

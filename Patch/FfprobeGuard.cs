@@ -210,22 +210,19 @@ namespace MediaInfoKeeper.Patch
                 }
 
                 var assemblyVersion = mediaEncoding.GetName().Version;
-                var exactProfiles = new[]
+                var exactProfile = new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                    {
-                        Name = "runffprocess-exact",
-                        MethodName = "RunFfProcess",
-                        BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
-                                       BindingFlags.NonPublic,
-                        ParameterTypes = new[] { ffRunType, typeof(string), typeof(string), typeof(int), typeof(CancellationToken) }
-                    }
+                    Name = "runffprocess-exact",
+                    MethodName = "RunFfProcess",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public |
+                                   BindingFlags.NonPublic,
+                    ParameterTypes = new[] { ffRunType, typeof(string), typeof(string), typeof(int), typeof(CancellationToken) }
                 };
 
-                return VersionedMethodResolver.Resolve(
+                return PatchMethodResolver.Resolve(
                     mediaProbeManager,
                     assemblyVersion,
-                    exactProfiles,
+                    exactProfile,
                     logger,
                     "FfprobeGuard.RunFfProcess");
             }

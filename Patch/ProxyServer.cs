@@ -52,20 +52,17 @@ namespace MediaInfoKeeper.Patch
                     PatchLog.InitFailed(logger, nameof(ProxyServer), "HttpMessageHandlerOptions 未找到");
                     return;
                 }
-                createHttpClientHandler = VersionedMethodResolver.Resolve(
+                createHttpClientHandler = PatchMethodResolver.Resolve(
                     applicationHost,
                     embyServerImplementationsAssembly.GetName().Version,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
-                        {
-                            Name = "applicationhost-createhttpclienthandler-exact",
-                            MethodName = "CreateHttpClientHandler",
-                            BindingFlags = BindingFlags.NonPublic | BindingFlags.Instance,
-                            IsStatic = false,
-                            ParameterTypes = new[] { httpMessageHandlerOptions },
-                            ReturnType = typeof(HttpMessageHandler)
-                        }
+                        Name = "applicationhost-createhttpclienthandler-exact",
+                        MethodName = "CreateHttpClientHandler",
+                        BindingFlags = BindingFlags.NonPublic | BindingFlags.Instance,
+                        IsStatic = false,
+                        ParameterTypes = new[] { httpMessageHandlerOptions },
+                        ReturnType = typeof(HttpMessageHandler)
                     },
                     logger,
                     "ProxyServer.CreateHttpClientHandler");
@@ -169,18 +166,15 @@ namespace MediaInfoKeeper.Patch
                 PatchLog.InitFailed(logger, nameof(ProxyServer), "HttpRequestOptions 未找到");
                 return;
             }
-            movieDbGetMovieDbResponse = VersionedMethodResolver.Resolve(
+            movieDbGetMovieDbResponse = PatchMethodResolver.Resolve(
                 movieDbProviderBase,
                 movieDbAssembly.GetName().Version,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                    {
-                        Name = "moviedbproviderbase-getmoviedbresponse-exact",
-                        MethodName = "GetMovieDbResponse",
-                        BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public,
-                        ParameterTypes = new[] { httpRequestOptions }
-                    }
+                    Name = "moviedbproviderbase-getmoviedbresponse-exact",
+                    MethodName = "GetMovieDbResponse",
+                    BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public,
+                    ParameterTypes = new[] { httpRequestOptions }
                 },
                 logger,
                 "ProxyServer.GetMovieDbResponse");

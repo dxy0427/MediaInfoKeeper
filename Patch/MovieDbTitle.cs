@@ -310,20 +310,17 @@ namespace MediaInfoKeeper.Patch
                 return null;
             }
 
-            return VersionedMethodResolver.Resolve(
+            return PatchMethodResolver.Resolve(
                 type,
                 movieDbAssemblyVersion,
-                new[]
+                new MethodSignatureProfile
                 {
-                    new MethodSignatureProfile
-                    {
-                        Name = string.Format("{0}.{1}.exact", type.Name, name),
-                        MethodName = name,
-                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                        IsStatic = false,
-                        ParameterTypes = parameterTypes,
-                        ReturnType = returnType
-                    }
+                    Name = string.Format("{0}.{1}.exact", type.Name, name),
+                    MethodName = name,
+                    BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                    IsStatic = false,
+                    ParameterTypes = parameterTypes,
+                    ReturnType = returnType
                 },
                 logger,
                 string.Format("MovieDbTitle.{0}.{1}", type.Name, name));

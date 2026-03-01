@@ -169,25 +169,22 @@ namespace MediaInfoKeeper.Patch
             try
             {
                 var embyProvidersVersion = providerManager.Assembly.GetName().Version;
-                return VersionedMethodResolver.Resolve(
+                return PatchMethodResolver.Resolve(
                     providerManager,
                     embyProvidersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
+                        Name = "static-canrefresh-exact",
+                        MethodName = "CanRefresh",
+                        BindingFlags = BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[]
                         {
-                            Name = "static-canrefresh-exact",
-                            MethodName = "CanRefresh",
-                            BindingFlags = BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[]
-                            {
-                                typeof(IMetadataProvider),
-                                typeof(BaseItem),
-                                typeof(LibraryOptions),
-                                typeof(bool),
-                                typeof(bool),
-                                typeof(bool)
-                            }
+                            typeof(IMetadataProvider),
+                            typeof(BaseItem),
+                            typeof(LibraryOptions),
+                            typeof(bool),
+                            typeof(bool),
+                            typeof(bool)
                         }
                     },
                     logger,
@@ -204,25 +201,22 @@ namespace MediaInfoKeeper.Patch
             try
             {
                 var embyProvidersVersion = providerManager.Assembly.GetName().Version;
-                return VersionedMethodResolver.Resolve(
+                return PatchMethodResolver.Resolve(
                     providerManager,
                     embyProvidersVersion,
-                    new[]
+                    new MethodSignatureProfile
                     {
-                        new MethodSignatureProfile
+                        Name = "instance-canrefresh-exact",
+                        MethodName = "CanRefresh",
+                        BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                        ParameterTypes = new[]
                         {
-                            Name = "instance-canrefresh-exact",
-                            MethodName = "CanRefresh",
-                            BindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
-                            ParameterTypes = new[]
-                            {
-                                typeof(IImageProvider),
-                                typeof(BaseItem),
-                                typeof(LibraryOptions),
-                                typeof(ImageRefreshOptions),
-                                typeof(bool),
-                                typeof(bool)
-                            }
+                            typeof(IImageProvider),
+                            typeof(BaseItem),
+                            typeof(LibraryOptions),
+                            typeof(ImageRefreshOptions),
+                            typeof(bool),
+                            typeof(bool)
                         }
                     },
                     logger,
