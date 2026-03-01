@@ -574,21 +574,38 @@ namespace MediaInfoKeeper
 
                                         var displayName = target.Path ?? target.Name;
                                         var directoryService = new DirectoryService(this.logger, this.fileSystem);
-                                        var metadataRefreshOptions = MediaInfoService.GetMediaInfoRefreshOptions();
-                                        var collectionFolders = (BaseItem[])this.libraryManager.GetCollectionFolders(target);
-                                        var libraryOptions = this.libraryManager.GetLibraryOptions(target);
+                                        var workItem = this.libraryManager.GetItemById(target.InternalId) ?? target;
 
                                         try
                                         {
+                                            if (LibraryService.HasMediaInfo(workItem))
+                                            {
+                                                this.logger.Info($"OnFavorite 已存在 MediaInfo，跳过处理: {displayName}");
+                                                return;
+                                            }
+
+                                            var restoreResult = await MediaInfoService
+                                                .DeserializeMediaInfo(workItem, directoryService, "OnFavorite Restore")
+                                                .ConfigureAwait(false);
+                                            if (restoreResult == MediaInfoService.MediaInfoRestoreResult.Restored ||
+                                                restoreResult == MediaInfoService.MediaInfoRestoreResult.AlreadyExists)
+                                            {
+                                                this.logger.Info($"OnFavorite JSON 恢复成功，跳过 ffprobe: {displayName}");
+                                                return;
+                                            }
+
+                                            var metadataRefreshOptions = MediaInfoService.GetMediaInfoRefreshOptions();
+                                            var collectionFolders = (BaseItem[])this.libraryManager.GetCollectionFolders(workItem);
+                                            var libraryOptions = this.libraryManager.GetLibraryOptions(workItem);
                                             using (FfprobeGuard.Allow())
                                             {
-                                                target.DateLastRefreshed = new DateTimeOffset();
+                                                workItem.DateLastRefreshed = new DateTimeOffset();
                                                 await this.providerManager
-                                                    .RefreshSingleItem(target, metadataRefreshOptions, collectionFolders, libraryOptions, CancellationToken.None)
+                                                    .RefreshSingleItem(workItem, metadataRefreshOptions, collectionFolders, libraryOptions, CancellationToken.None)
                                                     .ConfigureAwait(false);
                                             }
 
-                                            _ = MediaInfoService.SerializeMediaInfo(target.InternalId, directoryService, true, "OnFavorite Extract");
+                                            _ = MediaInfoService.SerializeMediaInfo(workItem.InternalId, directoryService, true, "OnFavorite Extract");
                                             this.logger.Info($"OnFavorite 媒体信息提取完成: {displayName}");
                                         }
                                         catch (Exception ex)
