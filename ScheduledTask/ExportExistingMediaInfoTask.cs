@@ -81,7 +81,12 @@ namespace MediaInfoKeeper.ScheduledTask
 
         public IEnumerable<TaskTriggerInfo> GetDefaultTriggers()
         {
-            return Array.Empty<TaskTriggerInfo>();
+            yield return new TaskTriggerInfo
+            {
+                Type = TaskTriggerInfo.TriggerWeekly,
+                DayOfWeek = DayOfWeek.Thursday,
+                TimeOfDayTicks = TimeSpan.FromHours(1).Ticks
+            };
         }
 
         private List<BaseItem> FetchScopedItems()

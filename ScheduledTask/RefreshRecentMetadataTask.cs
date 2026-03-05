@@ -96,7 +96,17 @@ namespace MediaInfoKeeper.ScheduledTask
 
         public IEnumerable<TaskTriggerInfo> GetDefaultTriggers()
         {
-            return Array.Empty<TaskTriggerInfo>();
+            yield return new TaskTriggerInfo
+            {
+                Type = TaskTriggerInfo.TriggerDaily,
+                TimeOfDayTicks = TimeSpan.FromHours(4).Ticks
+            };
+
+            yield return new TaskTriggerInfo
+            {
+                Type = TaskTriggerInfo.TriggerDaily,
+                TimeOfDayTicks = TimeSpan.FromHours(16).Ticks
+            };
         }
 
         private List<BaseItem> FetchRecentItems()

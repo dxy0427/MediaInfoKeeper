@@ -61,8 +61,16 @@ namespace MediaInfoKeeper.ScheduledTask
         {
             yield return new TaskTriggerInfo
             {
-                Type = TaskTriggerInfo.TriggerInterval,
-                IntervalTicks = TimeSpan.FromDays(3).Ticks
+                Type = TaskTriggerInfo.TriggerWeekly,
+                DayOfWeek = DayOfWeek.Monday,
+                TimeOfDayTicks = TimeSpan.FromHours(2).Ticks
+            };
+
+            yield return new TaskTriggerInfo
+            {
+                Type = TaskTriggerInfo.TriggerWeekly,
+                DayOfWeek = DayOfWeek.Thursday,
+                TimeOfDayTicks = TimeSpan.FromHours(2).Ticks
             };
         }
 
