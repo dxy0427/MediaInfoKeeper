@@ -1,10 +1,8 @@
 using System;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Reflection;
 using HarmonyLib;
-using MediaInfoKeeper.Patch;
 using MediaBrowser.Model.Logging;
 
 namespace MediaInfoKeeper.Patch
@@ -21,13 +19,11 @@ namespace MediaInfoKeeper.Patch
         private static Harmony harmony;
         private static ILogger logger;
         private static MethodInfo createHttpClientHandler;
-        private static MethodInfo movieDbGetMovieDbResponse;
+        private static MethodInfo coreHttpClientSendAsyncInternal;
         private static bool isEnabled;
         private static bool isPatched;
-        private static bool isMovieDbPatched;
-        private static bool waitingForMovieDbAssembly;
         public static bool IsReady => harmony != null && isPatched;
-        public static bool IsMovieDbHookReady => isMovieDbPatched || waitingForMovieDbAssembly;
+        public static bool IsHttpClientHookReady => coreHttpClientSendAsyncInternal != null;
 
         public static void Initialize(ILogger pluginLogger, bool enable)
         {
@@ -73,9 +69,36 @@ namespace MediaInfoKeeper.Patch
                     return;
                 }
 
+                var coreHttpClientManager = embyServerImplementationsAssembly.GetType(
+                    "Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager",
+                    false);
+                var mediaBrowserCommon = Assembly.Load("MediaBrowser.Common");
+                var httpRequestOptions = mediaBrowserCommon?.GetType(
+                    "MediaBrowser.Common.Net.HttpRequestOptions",
+                    false);
+                if (httpRequestOptions == null)
+                {
+                    PatchLog.InitFailed(logger, nameof(ProxyServer), "HttpRequestOptions 未找到");
+                }
+                else
+                {
+                    coreHttpClientSendAsyncInternal = PatchMethodResolver.Resolve(
+                        coreHttpClientManager,
+                        embyServerImplementationsAssembly.GetName().Version,
+                        new MethodSignatureProfile
+                        {
+                            Name = "corehttpclientmanager-sendasyncinternal-exact",
+                            MethodName = "SendAsyncInternal",
+                            BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic,
+                            IsStatic = false,
+                            ParameterTypes = new[] { httpRequestOptions, typeof(string) }
+                        },
+                        logger,
+                        "ProxyServer.SendAsyncInternal");
+                }
+
                 harmony = new Harmony("mediainfokeeper.proxy");
                 Patch();
-                TryInstallMovieDbPatch();
             }
             catch (Exception e)
             {
@@ -109,91 +132,13 @@ namespace MediaInfoKeeper.Patch
 
             harmony.Patch(createHttpClientHandler,
                 postfix: new HarmonyMethod(typeof(ProxyServer), nameof(CreateHttpClientHandlerPostfix)));
+            if (coreHttpClientSendAsyncInternal != null)
+            {
+                harmony.Patch(
+                    coreHttpClientSendAsyncInternal,
+                    prefix: new HarmonyMethod(typeof(ProxyServer), nameof(SendAsyncInternalPrefix)));
+            }
             isPatched = true;
-        }
-
-        private static void TryInstallMovieDbPatch()
-        {
-            if (isMovieDbPatched || harmony == null)
-            {
-                return;
-            }
-
-            if (TryGetLoadedMovieDbAssembly(out var movieDbAssembly))
-            {
-                InstallMovieDbPatch(movieDbAssembly);
-                return;
-            }
-
-            if (!waitingForMovieDbAssembly)
-            {
-                AppDomain.CurrentDomain.AssemblyLoad += OnAssemblyLoad;
-                waitingForMovieDbAssembly = true;
-            }
-        }
-
-        private static bool TryGetLoadedMovieDbAssembly(out Assembly assembly)
-        {
-            assembly = AppDomain.CurrentDomain.GetAssemblies()
-                .FirstOrDefault(a => string.Equals(a.GetName().Name, "MovieDb", StringComparison.OrdinalIgnoreCase));
-            return assembly != null;
-        }
-
-        private static void OnAssemblyLoad(object sender, AssemblyLoadEventArgs args)
-        {
-            var loadedAssembly = args?.LoadedAssembly;
-            if (loadedAssembly == null ||
-                !string.Equals(loadedAssembly.GetName().Name, "MovieDb", StringComparison.OrdinalIgnoreCase))
-            {
-                return;
-            }
-
-            InstallMovieDbPatch(loadedAssembly);
-        }
-
-        private static void InstallMovieDbPatch(Assembly movieDbAssembly)
-        {
-            if (isMovieDbPatched || harmony == null || movieDbAssembly == null)
-            {
-                return;
-            }
-
-            var movieDbProviderBase = movieDbAssembly.GetType("MovieDb.MovieDbProviderBase", false);
-            var mediaBrowserCommon = Assembly.Load("MediaBrowser.Common");
-            var httpRequestOptions = mediaBrowserCommon?.GetType("MediaBrowser.Common.Net.HttpRequestOptions", false);
-            if (httpRequestOptions == null)
-            {
-                PatchLog.InitFailed(logger, nameof(ProxyServer), "HttpRequestOptions 未找到");
-                return;
-            }
-            movieDbGetMovieDbResponse = PatchMethodResolver.Resolve(
-                movieDbProviderBase,
-                movieDbAssembly.GetName().Version,
-                new MethodSignatureProfile
-                {
-                    Name = "moviedbproviderbase-getmoviedbresponse-exact",
-                    MethodName = "GetMovieDbResponse",
-                    BindingFlags = BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public,
-                    ParameterTypes = new[] { httpRequestOptions }
-                },
-                logger,
-                "ProxyServer.GetMovieDbResponse");
-
-            if (movieDbGetMovieDbResponse == null)
-            {
-                return;
-            }
-
-            harmony.Patch(
-                movieDbGetMovieDbResponse,
-                prefix: new HarmonyMethod(typeof(ProxyServer), nameof(GetMovieDbResponsePrefix)));
-            isMovieDbPatched = true;
-
-            if (waitingForMovieDbAssembly)
-            {
-                AppDomain.CurrentDomain.AssemblyLoad -= OnAssemblyLoad;
-                waitingForMovieDbAssembly = false;
-            }
         }
 
         [HarmonyPostfix]
@@ -249,11 +194,20 @@ namespace MediaInfoKeeper.Patch
         }
 
         [HarmonyPrefix]
-        private static void GetMovieDbResponsePrefix(object[] __args)
+        private static void SendAsyncInternalPrefix(object[] __args)
         {
             if (__args == null || __args.Length == 0 || __args[0] == null)
             {
                 return;
+            }
+
+            var httpMethod = __args.Length > 1 ? __args[1] as string : null;
+            var requestOptions = __args[0];
+            var urlProperty = requestOptions.GetType().GetProperty("Url", BindingFlags.Instance | BindingFlags.Public);
+            var originalUrl = urlProperty?.CanRead == true ? urlProperty.GetValue(requestOptions) as string : null;
+            if (!string.IsNullOrWhiteSpace(originalUrl))
+            {
+                logger?.Debug("Emby Network Request: {0} {1}", string.IsNullOrWhiteSpace(httpMethod) ? "UNKNOWN" : httpMethod, originalUrl);
             }
 
             var options = Plugin.Instance.Options.Proxy;
@@ -262,14 +216,11 @@ namespace MediaInfoKeeper.Patch
                 return;
             }
 
-            var requestOptions = __args[0];
-            var urlProperty = requestOptions.GetType().GetProperty("Url", BindingFlags.Instance | BindingFlags.Public);
             if (urlProperty == null || !urlProperty.CanRead || !urlProperty.CanWrite)
             {
                 return;
             }
 
-            var originalUrl = urlProperty.GetValue(requestOptions) as string;
             if (!Uri.TryCreate(originalUrl, UriKind.Absolute, out var uri))
             {
                 return;
@@ -278,6 +229,7 @@ namespace MediaInfoKeeper.Patch
             var rewritten = RewriteTmdbUri(uri, options);
             if (!ReferenceEquals(rewritten, uri) && rewritten != uri)
             {
+                logger?.Debug("TMDB 请求已替换: {0} -> {1}", originalUrl, rewritten.ToString());
                 urlProperty.SetValue(requestOptions, rewritten.ToString());
             }
         }

@@ -185,7 +185,7 @@ namespace MediaInfoKeeper.Patch
                 return "CreateHttpClientHandler 未命中";
             }
 
-            return ProxyServer.IsMovieDbHookReady ? null : "MovieDb hook not ready";
+            return ProxyServer.IsHttpClientHookReady ? null : "HttpClientManager hook not ready";
         }
 
         private static void UpdateTracker(string name, bool enabled, bool success, string notes, bool waiting = false)
