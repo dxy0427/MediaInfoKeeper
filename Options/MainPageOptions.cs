@@ -7,7 +7,7 @@ using Emby.Web.GenericEdit.Editors;
 using MediaBrowser.Model.GenericEdit;
 using MediaBrowser.Model.Attributes;
 
-namespace MediaInfoKeeper.Configuration
+namespace MediaInfoKeeper.Options
 {
     public class MainPageOptions : EditableOptionsBase
     {

@@ -1,6 +1,6 @@
 namespace MediaInfoKeeper.Options.Store
 {
-    using MediaInfoKeeper.Configuration;
+    using MediaInfoKeeper.Options;
 
     internal class MainPageOptionsStore
     {

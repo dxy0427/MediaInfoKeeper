@@ -1,7 +1,7 @@
 namespace MediaInfoKeeper.Options.Store
 {
     using System;
-    using MediaInfoKeeper.Configuration;
+    using MediaInfoKeeper.Options;
     using MediaInfoKeeper.Options.UIBaseClasses.Store;
     using MediaBrowser.Common;
     using MediaBrowser.Model.Logging;

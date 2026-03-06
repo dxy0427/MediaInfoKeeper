@@ -5,7 +5,7 @@ using Emby.Web.GenericEdit;
 using Emby.Web.GenericEdit.Common;
 using MediaBrowser.Model.Attributes;
 
-namespace MediaInfoKeeper.Configuration
+namespace MediaInfoKeeper.Options
 {
     public class EnhanceChineseSearchOptions : EditableOptionsBase
     {

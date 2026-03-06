@@ -2,7 +2,7 @@ namespace MediaInfoKeeper.Options.Store
 {
     using System;
     using MediaInfoKeeper.Patch;
-    using MediaInfoKeeper.Configuration;
+    using MediaInfoKeeper.Options;
 
     internal class EnhanceChineseSearchOptionsStore
     {

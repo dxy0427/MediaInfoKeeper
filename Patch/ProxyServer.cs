@@ -296,7 +296,7 @@ namespace MediaInfoKeeper.Patch
             }
         }
 
-        private static Uri RewriteTmdbUri(Uri uri, Configuration.ProxyOptions options)
+        private static Uri RewriteTmdbUri(Uri uri, Options.ProxyOptions options)
         {
             var replaced = uri;
 

@@ -5,7 +5,7 @@ using Emby.Web.GenericEdit;
 using Emby.Web.GenericEdit.Editors;
 using MediaBrowser.Model.GenericEdit;
 
-namespace MediaInfoKeeper.Configuration
+namespace MediaInfoKeeper.Options
 {
     public class GitHubOptions : EditableOptionsBase
     {

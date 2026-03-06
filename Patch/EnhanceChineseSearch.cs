@@ -4,7 +4,7 @@ using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Controller.Playlists;
-using MediaInfoKeeper.Configuration;
+using MediaInfoKeeper.Options;
 using SQLitePCL.pretty;
 using System;
 using System.Collections.Generic;

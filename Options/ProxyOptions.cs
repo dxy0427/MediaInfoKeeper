@@ -5,7 +5,7 @@ using MediaBrowser.Model.GenericEdit;
 using System;
 using System.Collections.Generic;
 
-namespace MediaInfoKeeper.Configuration
+namespace MediaInfoKeeper.Options
 {
     public class ProxyOptions : EditableOptionsBase
     {

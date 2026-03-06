@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using MediaInfoKeeper.Configuration;
+using MediaInfoKeeper.Options;
 using MediaInfoKeeper.Options.Store;
 using MediaInfoKeeper.Options.View;
 using MediaInfoKeeper.Patch;

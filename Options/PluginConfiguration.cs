@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Emby.Web.GenericEdit;
 
-namespace MediaInfoKeeper.Configuration
+namespace MediaInfoKeeper.Options
 {
     public class PluginConfiguration : EditableOptionsBase
     {

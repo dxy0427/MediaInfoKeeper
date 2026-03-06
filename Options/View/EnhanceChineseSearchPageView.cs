@@ -3,7 +3,7 @@ namespace MediaInfoKeeper.Options.View
     using System.Threading.Tasks;
     using MediaBrowser.Model.Plugins;
     using MediaBrowser.Model.Plugins.UI.Views;
-    using MediaInfoKeeper.Configuration;
+    using MediaInfoKeeper.Options;
     using MediaInfoKeeper.Options.Store;
     using MediaInfoKeeper.Options.UIBaseClasses.Views;
 

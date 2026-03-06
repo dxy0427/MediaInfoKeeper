@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using MediaInfoKeeper.Configuration;
+using MediaInfoKeeper.Options;
 using MediaBrowser.Model.Logging;
 
 namespace MediaInfoKeeper.Patch

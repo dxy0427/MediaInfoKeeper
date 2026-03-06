@@ -114,7 +114,7 @@ namespace MediaInfoKeeper.Patch
             }
         }
 
-        public static void Configure(MediaInfoKeeper.Configuration.PluginConfiguration options)
+        public static void Configure(MediaInfoKeeper.Options.PluginConfiguration options)
         {
             if (options?.IntroSkip == null)
             {
