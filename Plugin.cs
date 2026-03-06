@@ -295,7 +295,6 @@ namespace MediaInfoKeeper
             this.logger.Info($"忽略证书验证 设置为 {options.Proxy.IgnoreCertificateValidation}");
             this.logger.Info($"写入环境变量 设置为 {options.Proxy.WriteProxyEnvVars}");
             this.logger.Info($"启用压缩传输 设置为 {options.Proxy.EnableGzip}");
-            this.logger.Info($"启用 TMDB 域名替换 设置为 {options.Proxy.EnableAlternativeTmdb}");
             this.logger.Info($"自定义 TMDB API 域名 设置为 {(string.IsNullOrEmpty(options.Proxy.AlternativeTmdbApiUrl) ? "空" : options.Proxy.AlternativeTmdbApiUrl)}");
             this.logger.Info($"自定义 TMDB 图像域名 设置为 {(string.IsNullOrEmpty(options.Proxy.AlternativeTmdbImageUrl) ? "空" : options.Proxy.AlternativeTmdbImageUrl)}");
             this.logger.Info($"自定义 TMDB API 密钥 设置为 {(string.IsNullOrEmpty(options.Proxy.AlternativeTmdbApiKey) ? "空" : "***")}");

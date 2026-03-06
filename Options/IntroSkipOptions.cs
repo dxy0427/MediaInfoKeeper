@@ -128,14 +128,14 @@ namespace MediaInfoKeeper.Options
                 nameof(UnlockIntroSkip),
                 nameof(ScanIntroOnItemAdded),
                 nameof(ScanIntroOnFavorite),
-                nameof(ProtectIntroMarkers));
+                nameof(ProtectIntroMarkers),
+                nameof(IntroDetectionFingerprintMinutes));
 
             AddGroup("播放行为打标",
                 nameof(EnableIntroSkip),
                 nameof(MaxIntroDurationSeconds),
                 nameof(MaxCreditsDurationSeconds),
                 nameof(MinOpeningPlotDurationSeconds),
-                nameof(IntroDetectionFingerprintMinutes),
                 nameof(MarkerEnabledLibraryScope),
                 nameof(LibraryScope),
                 nameof(UserScope));

@@ -11,12 +11,20 @@ namespace MediaInfoKeeper.Options
 {
     public class MainPageOptions : EditableOptionsBase
     {
+        public enum RefreshModeOption
+        {
+            [Description("补全缺失")]
+            Fill,
+            [Description("全部替换")]
+            Replace
+        }
+
         public override string EditorTitle => "MediaInfo Keeper";
 
         public override string EditorDescription => "将媒体信息与章节保存为 JSON，并在需要时从 JSON 恢复。";
 
         [DisplayName("启用插件")]
-        [Description("启用后优先从 JSON 恢复，提取后再写入 JSON。")]
+        [Description("关闭后将不执行任何行为。")]
         public bool PlugginEnabled { get; set; } = true;
 
         [DisplayName("入库时提取媒体信息")]
@@ -72,31 +80,13 @@ namespace MediaInfoKeeper.Options
         [MaxValue(100000000)]
         public int RecentItemsLimit { get; set; } = 100;
 
-        [Browsable(false)]
-        public List<EditorSelectOption> RefreshMetadataModeOptions { get; set; } = new List<EditorSelectOption>
-        {
-            new EditorSelectOption { Value = "Fill", Name = "补全缺失" },
-            new EditorSelectOption { Value = "Replace", Name = "全部替换" }
-        };
-
         [DisplayName("元数据刷新模式")]
-        [Description("单选，选择“补全缺失”或“全部替换”元数据/图片。")]
-        [EditMultilSelect]
-        [SelectItemsSource(nameof(RefreshMetadataModeOptions))]
-        public string RefreshMetadataMode { get; set; } = "Fill";
-
-        [Browsable(false)]
-        public List<EditorSelectOption> RefreshImageModeOptions { get; set; } = new List<EditorSelectOption>
-        {
-            new EditorSelectOption { Value = "Fill", Name = "补全缺失" },
-            new EditorSelectOption { Value = "Replace", Name = "全部替换" }
-        };
+        [Description("“补全缺失”或“全部替换”元数据。")]
+        public RefreshModeOption RefreshMetadataMode { get; set; } = RefreshModeOption.Fill;
 
         [DisplayName("图片刷新模式")]
-        [Description("单选，选择“补全缺失”或“全部替换”图片。")]
-        [EditMultilSelect]
-        [SelectItemsSource(nameof(RefreshImageModeOptions))]
-        public string RefreshImageMode { get; set; } = "Fill";
+        [Description("“补全缺失”或“全部替换”图片。")]
+        public RefreshModeOption RefreshImageMode { get; set; } = RefreshModeOption.Fill;
 
         public override IEditObjectContainer CreateEditContainer()
         {

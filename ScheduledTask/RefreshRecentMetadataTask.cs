@@ -8,6 +8,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Tasks;
+using static MediaInfoKeeper.Options.MainPageOptions;
 
 namespace MediaInfoKeeper.ScheduledTask
 {
@@ -133,25 +134,13 @@ namespace MediaInfoKeeper.ScheduledTask
 
         private bool ShouldReplaceMetadata()
         {
-            var mode = Plugin.Instance.Options.MainPage.RefreshMetadataMode ?? string.Empty;
-            return HasReplaceFlag(mode);
+            return Plugin.Instance.Options.MainPage.RefreshMetadataMode == RefreshModeOption.Replace;
         }
 
         private bool ShouldReplaceImages()
         {
             var mode = Plugin.Instance.Options.MainPage.RefreshImageMode;
-            if (string.IsNullOrWhiteSpace(mode))
-            {
-                mode = Plugin.Instance.Options.MainPage.RefreshMetadataMode ?? string.Empty;
-            }
-
-            return HasReplaceFlag(mode);
-        }
-
-        private static bool HasReplaceFlag(string mode)
-        {
-            var tokens = mode.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-            return tokens.Any(v => v.Equals("Replace", StringComparison.OrdinalIgnoreCase));
+            return mode == RefreshModeOption.Replace;
         }
     }
 }

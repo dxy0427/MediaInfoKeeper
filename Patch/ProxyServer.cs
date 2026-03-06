@@ -211,7 +211,7 @@ namespace MediaInfoKeeper.Patch
             }
 
             var options = Plugin.Instance.Options.Proxy;
-            if (options == null || !options.EnableAlternativeTmdb)
+            if (options == null || !HasAnyTmdbOverride(options))
             {
                 return;
             }
@@ -321,6 +321,13 @@ namespace MediaInfoKeeper.Patch
             }
 
             return replaced;
+        }
+
+        private static bool HasAnyTmdbOverride(Options.ProxyOptions options)
+        {
+            return !string.IsNullOrWhiteSpace(options.AlternativeTmdbApiUrl) ||
+                   !string.IsNullOrWhiteSpace(options.AlternativeTmdbImageUrl) ||
+                   !string.IsNullOrWhiteSpace(options.AlternativeTmdbApiKey);
         }
 
         private static bool TryParseDomainEndpoint(string raw, out string host, out int port)
