@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Func`4[[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -46,6 +48,7 @@ PARAMETERS:
     System.Byte[]
     System.Byte[]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -64,6 +67,7 @@ METHOD: GetHashCode
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -82,6 +86,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.Generic.IEqualityComparer`1[[System.Byte[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -101,6 +106,7 @@ PARAMETERS:
     SQLitePCLEx.FuncName
     SQLitePCLEx.FuncName
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -119,6 +125,7 @@ METHOD: GetHashCode
 PARAMETERS:
     SQLitePCLEx.FuncName
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -138,6 +145,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -156,6 +164,7 @@ METHOD: get_n
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -174,6 +183,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -192,6 +202,7 @@ METHOD: set_n
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -210,6 +221,7 @@ METHOD: set_name
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -228,6 +240,7 @@ METHOD: GetNativeLibraryName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -248,6 +261,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -266,6 +280,7 @@ METHOD: sqlite3_backup_finish
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -287,6 +302,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_backup
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -305,6 +321,7 @@ METHOD: sqlite3_backup_pagecount
 PARAMETERS:
     SQLitePCLEx.sqlite3_backup
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -323,6 +340,7 @@ METHOD: sqlite3_backup_remaining
 PARAMETERS:
     SQLitePCLEx.sqlite3_backup
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -342,6 +360,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_backup
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -362,6 +381,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -382,6 +402,7 @@ PARAMETERS:
     System.Int32
     System.Double
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -402,6 +423,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -422,6 +444,7 @@ PARAMETERS:
     System.Int32
     System.Int64
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -441,6 +464,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -459,6 +483,7 @@ METHOD: sqlite3_bind_parameter_count
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -478,6 +503,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -497,6 +523,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -517,6 +544,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -537,6 +565,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -557,6 +586,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -577,6 +607,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -595,6 +626,7 @@ METHOD: sqlite3_blob_bytes
 PARAMETERS:
     SQLitePCLEx.sqlite3_blob
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -613,6 +645,7 @@ METHOD: sqlite3_blob_close
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -637,6 +670,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.sqlite3_blob&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -657,6 +691,7 @@ PARAMETERS:
     System.Span`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -676,6 +711,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_blob
     System.Int64
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -696,6 +732,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -715,6 +752,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -733,6 +771,7 @@ METHOD: sqlite3_changes
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -751,6 +790,7 @@ METHOD: sqlite3_clear_bindings
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -769,6 +809,7 @@ METHOD: sqlite3_close
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -787,6 +828,7 @@ METHOD: sqlite3_close_v2
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -806,6 +848,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -825,6 +868,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -843,6 +887,7 @@ METHOD: sqlite3_column_count
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -862,6 +907,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -881,6 +927,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -900,6 +947,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -919,6 +967,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -938,6 +987,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -957,6 +1007,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -976,6 +1027,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -995,6 +1047,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1014,6 +1067,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1033,6 +1087,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1052,6 +1107,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1071,6 +1127,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1091,6 +1148,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_commit
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1109,6 +1167,7 @@ METHOD: sqlite3_compileoption_get
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1127,6 +1186,7 @@ METHOD: sqlite3_compileoption_used
 PARAMETERS:
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1145,6 +1205,7 @@ METHOD: sqlite3_complete
 PARAMETERS:
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1163,6 +1224,7 @@ METHOD: sqlite3_config
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1182,6 +1244,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1201,6 +1264,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_log
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1222,6 +1286,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.delegate_collation
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1245,6 +1310,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.delegate_function_scalar
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1269,6 +1335,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_function_aggregate_step
     SQLitePCLEx.delegate_function_aggregate_final
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1287,6 +1354,7 @@ METHOD: sqlite3_data_count
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1307,6 +1375,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1328,6 +1397,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1350,6 +1420,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1369,6 +1440,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1387,6 +1459,7 @@ METHOD: sqlite3_db_handle
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1406,6 +1479,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1428,6 +1502,7 @@ PARAMETERS:
     System.Int32&
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1447,6 +1522,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1465,6 +1541,7 @@ METHOD: sqlite3_enable_shared_cache
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1483,6 +1560,7 @@ METHOD: sqlite3_errcode
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1501,6 +1579,7 @@ METHOD: sqlite3_errmsg
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1519,6 +1598,7 @@ METHOD: sqlite3_errstr
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1541,6 +1621,7 @@ PARAMETERS:
     System.Object
     System.IntPtr&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1559,6 +1640,7 @@ METHOD: sqlite3_extended_errcode
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1578,6 +1660,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1596,6 +1679,7 @@ METHOD: sqlite3_finalize
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1614,6 +1698,7 @@ METHOD: sqlite3_free
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1632,6 +1717,7 @@ METHOD: sqlite3_get_autocommit
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1650,6 +1736,7 @@ METHOD: sqlite3_hard_heap_limit64
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1668,6 +1755,7 @@ METHOD: sqlite3_initialize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1686,6 +1774,7 @@ METHOD: sqlite3_interrupt
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1705,6 +1794,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1725,6 +1815,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1743,6 +1834,7 @@ METHOD: sqlite3_keyword_count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1762,6 +1854,7 @@ PARAMETERS:
     System.Int32
     System.String&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1780,6 +1873,7 @@ METHOD: sqlite3_last_insert_rowid
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1798,6 +1892,7 @@ METHOD: sqlite3_libversion
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1816,6 +1911,7 @@ METHOD: sqlite3_libversion_number
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1836,6 +1932,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1857,6 +1954,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.utf8z&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1876,6 +1974,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1894,6 +1993,7 @@ METHOD: sqlite3_memory_highwater
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1912,6 +2012,7 @@ METHOD: sqlite3_memory_used
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1931,6 +2032,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.IntPtr
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1950,6 +2052,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.IntPtr&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1971,6 +2074,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1992,6 +2096,7 @@ PARAMETERS:
     System.IntPtr&
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2013,6 +2118,7 @@ PARAMETERS:
     System.IntPtr&
     SQLitePCLEx.utf8z&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2035,6 +2141,7 @@ PARAMETERS:
     System.IntPtr&
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2057,6 +2164,7 @@ PARAMETERS:
     System.IntPtr&
     SQLitePCLEx.utf8z&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2077,6 +2185,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_profile
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2098,6 +2207,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_progress
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2117,6 +2227,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2137,6 +2248,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2155,6 +2267,7 @@ METHOD: sqlite3_reset
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2174,6 +2287,7 @@ PARAMETERS:
     System.IntPtr
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2193,6 +2307,7 @@ PARAMETERS:
     System.IntPtr
     System.Double
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2212,6 +2327,7 @@ PARAMETERS:
     System.IntPtr
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2231,6 +2347,7 @@ PARAMETERS:
     System.IntPtr
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2250,6 +2367,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2268,6 +2386,7 @@ METHOD: sqlite3_result_error_nomem
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2286,6 +2405,7 @@ METHOD: sqlite3_result_error_toobig
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2305,6 +2425,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2324,6 +2445,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2342,6 +2464,7 @@ METHOD: sqlite3_result_null
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2361,6 +2484,7 @@ PARAMETERS:
     System.IntPtr
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2380,6 +2504,7 @@ PARAMETERS:
     System.IntPtr
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2399,6 +2524,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2419,6 +2545,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_rollback
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2439,6 +2566,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_authorizer
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2457,6 +2585,7 @@ METHOD: sqlite3_shutdown
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2476,6 +2605,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_snapshot
     SQLitePCLEx.sqlite3_snapshot
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2494,6 +2624,7 @@ METHOD: sqlite3_snapshot_free
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2514,6 +2645,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.IntPtr&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2534,6 +2666,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.sqlite3_snapshot
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2553,6 +2686,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2571,6 +2705,7 @@ METHOD: sqlite3_soft_heap_limit64
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2589,6 +2724,7 @@ METHOD: sqlite3_sourceid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2607,6 +2743,7 @@ METHOD: sqlite3_sql
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2628,6 +2765,7 @@ PARAMETERS:
     System.Int32&
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2646,6 +2784,7 @@ METHOD: sqlite3_step
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2664,6 +2803,7 @@ METHOD: sqlite3_stmt_busy
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2682,6 +2822,7 @@ METHOD: sqlite3_stmt_isexplain
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2700,6 +2841,7 @@ METHOD: sqlite3_stmt_readonly
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2720,6 +2862,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2739,6 +2882,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2759,6 +2903,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2785,6 +2930,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2803,6 +2949,7 @@ METHOD: sqlite3_threadsafe
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2821,6 +2968,7 @@ METHOD: sqlite3_total_changes
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2841,6 +2989,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_trace
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2861,6 +3010,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_update
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2879,6 +3029,7 @@ METHOD: sqlite3_value_blob
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2897,6 +3048,7 @@ METHOD: sqlite3_value_bytes
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2915,6 +3067,7 @@ METHOD: sqlite3_value_double
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2933,6 +3086,7 @@ METHOD: sqlite3_value_int
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2951,6 +3105,7 @@ METHOD: sqlite3_value_int64
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2969,6 +3124,7 @@ METHOD: sqlite3_value_span_char
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2987,6 +3143,7 @@ METHOD: sqlite3_value_string
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3005,6 +3162,7 @@ METHOD: sqlite3_value_text
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3023,6 +3181,7 @@ METHOD: sqlite3_value_type
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3042,6 +3201,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3061,6 +3221,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3083,6 +3244,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3102,6 +3264,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3120,6 +3283,7 @@ METHOD: to_bytespan_with_z
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3138,6 +3302,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3156,6 +3321,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3175,6 +3341,7 @@ PARAMETERS:
     System.Object
     System.Runtime.InteropServices.GCHandleType
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3193,6 +3360,7 @@ METHOD: ReleaseHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3211,6 +3379,7 @@ METHOD: get_IsInvalid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3230,6 +3399,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_authorizer
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3252,6 +3422,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3270,6 +3441,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.authorizer_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3289,6 +3461,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_collation
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3308,6 +3481,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3326,6 +3500,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.collation_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3345,6 +3520,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_commit
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3363,6 +3539,7 @@ METHOD: call
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3381,6 +3558,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.commit_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3399,6 +3577,7 @@ METHOD: get__func
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.delegate_commit
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3417,6 +3596,7 @@ METHOD: get__user_data
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3435,6 +3615,7 @@ METHOD: set__func
 PARAMETERS:
     SQLitePCLEx.delegate_commit
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3453,6 +3634,7 @@ METHOD: set__user_data
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3472,6 +3654,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3497,6 +3680,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3515,6 +3699,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3538,6 +3723,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3557,6 +3743,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3579,6 +3766,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3597,6 +3785,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3617,6 +3806,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3636,6 +3826,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3656,6 +3847,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3674,6 +3866,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3692,6 +3885,7 @@ METHOD: Invoke
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3711,6 +3905,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3733,6 +3928,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3751,6 +3947,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3771,6 +3968,7 @@ PARAMETERS:
     System.IntPtr[]
     System.IntPtr[]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3790,6 +3988,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3811,6 +4010,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3829,6 +4029,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3848,6 +4049,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3867,6 +4069,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3889,6 +4092,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3907,6 +4111,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3927,6 +4132,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.sqlite3_value[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3946,6 +4152,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3968,6 +4175,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3986,6 +4194,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4006,6 +4215,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.sqlite3_value[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4025,6 +4235,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4047,6 +4258,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4065,6 +4277,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4085,6 +4298,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4104,6 +4318,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4126,6 +4341,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4144,6 +4360,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4164,6 +4381,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4183,6 +4401,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4203,6 +4422,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4221,6 +4441,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4239,6 +4460,7 @@ METHOD: Invoke
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4258,6 +4480,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4278,6 +4501,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4296,6 +4520,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4314,6 +4539,7 @@ METHOD: Invoke
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4333,6 +4559,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4354,6 +4581,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4372,6 +4600,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4391,6 +4620,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4410,6 +4640,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4434,6 +4665,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4452,6 +4684,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4474,6 +4707,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4493,6 +4727,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_exec
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4513,6 +4748,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4531,6 +4767,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.exec_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4551,6 +4788,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_function_aggregate_final
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4570,6 +4808,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_function_scalar
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4589,6 +4828,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4609,6 +4849,7 @@ PARAMETERS:
     System.Int32
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4630,6 +4871,7 @@ PARAMETERS:
     System.Int32
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4648,6 +4890,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.function_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4667,6 +4910,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_context
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4685,6 +4929,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4703,6 +4948,7 @@ METHOD: fix_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4722,6 +4968,7 @@ PARAMETERS:
     System.IntPtr
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4740,6 +4987,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4758,6 +5006,7 @@ METHOD: ForDispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4776,6 +5025,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Func`4[[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4796,6 +5046,7 @@ PARAMETERS:
     System.Int32
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4815,6 +5066,7 @@ PARAMETERS:
     System.Byte[]
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4835,6 +5087,7 @@ PARAMETERS:
     System.Int32
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4853,6 +5106,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4872,6 +5126,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4890,6 +5145,7 @@ METHOD: RemoveCollation
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4909,6 +5165,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4928,6 +5185,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_log
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4947,6 +5205,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4965,6 +5224,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.log_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4984,6 +5244,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_profile
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5003,6 +5264,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5021,6 +5283,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.profile_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5040,6 +5303,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_progress
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5058,6 +5322,7 @@ METHOD: call
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5076,6 +5341,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.progress_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5094,6 +5360,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5112,6 +5379,7 @@ METHOD: FreezeProvider
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5130,6 +5398,7 @@ METHOD: GetNativeLibraryName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5148,6 +5417,7 @@ METHOD: SetProvider
 PARAMETERS:
     SQLitePCLEx.ISQLite3Provider
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5166,6 +5436,7 @@ METHOD: get_Provider
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.ISQLite3Provider
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5184,6 +5455,7 @@ METHOD: internal_sqlite3_backup_finish
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5202,6 +5474,7 @@ METHOD: internal_sqlite3_blob_close
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5220,6 +5493,7 @@ METHOD: internal_sqlite3_close
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5238,6 +5512,7 @@ METHOD: internal_sqlite3_close_v2
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5256,6 +5531,7 @@ METHOD: internal_sqlite3_finalize
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5274,6 +5550,7 @@ METHOD: internal_sqlite3_snapshot_free
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5295,6 +5572,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.delegate_collation
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5315,6 +5593,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5335,6 +5614,7 @@ PARAMETERS:
     System.String
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5353,6 +5633,7 @@ METHOD: sqlite3_backup_finish
 PARAMETERS:
     SQLitePCLEx.sqlite3_backup
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5374,6 +5655,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.String
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_backup
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5392,6 +5674,7 @@ METHOD: sqlite3_backup_pagecount
 PARAMETERS:
     SQLitePCLEx.sqlite3_backup
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5410,6 +5693,7 @@ METHOD: sqlite3_backup_remaining
 PARAMETERS:
     SQLitePCLEx.sqlite3_backup
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5429,6 +5713,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_backup
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5449,6 +5734,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5469,6 +5755,7 @@ PARAMETERS:
     System.Int32
     System.Double
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5489,6 +5776,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5509,6 +5797,7 @@ PARAMETERS:
     System.Int32
     System.Int64
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5528,6 +5817,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5546,6 +5836,7 @@ METHOD: sqlite3_bind_parameter_count
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5565,6 +5856,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5584,6 +5876,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5603,6 +5896,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5623,6 +5917,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5643,6 +5938,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5663,6 +5959,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5683,6 +5980,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5703,6 +6001,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5721,6 +6020,7 @@ METHOD: sqlite3_blob_bytes
 PARAMETERS:
     SQLitePCLEx.sqlite3_blob
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5739,6 +6039,7 @@ METHOD: sqlite3_blob_close
 PARAMETERS:
     SQLitePCLEx.sqlite3_blob
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5763,6 +6064,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.sqlite3_blob&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5787,6 +6089,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.sqlite3_blob&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5807,6 +6110,7 @@ PARAMETERS:
     System.Span`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5826,6 +6130,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_blob
     System.Int64
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5846,6 +6151,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5865,6 +6171,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5883,6 +6190,7 @@ METHOD: sqlite3_changes
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5901,6 +6209,7 @@ METHOD: sqlite3_clear_bindings
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5919,6 +6228,7 @@ METHOD: sqlite3_close
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5937,6 +6247,7 @@ METHOD: sqlite3_close_v2
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5956,6 +6267,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5975,6 +6287,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5993,6 +6306,7 @@ METHOD: sqlite3_column_count
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6012,6 +6326,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6031,6 +6346,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6050,6 +6366,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Double
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6069,6 +6386,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6088,6 +6406,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6107,6 +6426,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6126,6 +6446,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6145,6 +6466,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6164,6 +6486,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6183,6 +6506,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6202,6 +6526,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6221,6 +6546,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6241,6 +6567,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_commit
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6259,6 +6586,7 @@ METHOD: sqlite3_compileoption_get
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6277,6 +6605,7 @@ METHOD: sqlite3_compileoption_used
 PARAMETERS:
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6295,6 +6624,7 @@ METHOD: sqlite3_compileoption_used
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6313,6 +6643,7 @@ METHOD: sqlite3_complete
 PARAMETERS:
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6331,6 +6662,7 @@ METHOD: sqlite3_complete
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6349,6 +6681,7 @@ METHOD: sqlite3_config
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6368,6 +6701,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6387,6 +6721,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_log
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6406,6 +6741,7 @@ PARAMETERS:
     SQLitePCLEx.strdelegate_log
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6427,6 +6763,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.strdelegate_collation
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6450,6 +6787,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.delegate_function_scalar
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6474,6 +6812,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_function_aggregate_step
     SQLitePCLEx.delegate_function_aggregate_final
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6496,6 +6835,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.delegate_function_scalar
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6519,6 +6859,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_function_aggregate_step
     SQLitePCLEx.delegate_function_aggregate_final
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6537,6 +6878,7 @@ METHOD: sqlite3_data_count
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6557,6 +6899,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6578,6 +6921,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6600,6 +6944,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6619,6 +6964,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6638,6 +6984,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.String
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6656,6 +7003,7 @@ METHOD: sqlite3_db_handle
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: SQLitePCLEx.sqlite3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6675,6 +7023,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6694,6 +7043,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6716,6 +7066,7 @@ PARAMETERS:
     System.Int32&
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6735,6 +7086,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6753,6 +7105,7 @@ METHOD: sqlite3_enable_shared_cache
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6771,6 +7124,7 @@ METHOD: sqlite3_errcode
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6789,6 +7143,7 @@ METHOD: sqlite3_errmsg
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6807,6 +7162,7 @@ METHOD: sqlite3_errstr
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6829,6 +7185,7 @@ PARAMETERS:
     System.Object
     System.String&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6849,6 +7206,7 @@ PARAMETERS:
     System.String
     System.String&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6868,6 +7226,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6886,6 +7245,7 @@ METHOD: sqlite3_extended_errcode
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6905,6 +7265,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6923,6 +7284,7 @@ METHOD: sqlite3_finalize
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6941,6 +7303,7 @@ METHOD: sqlite3_get_autocommit
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6959,6 +7322,7 @@ METHOD: sqlite3_hard_heap_limit64
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6977,6 +7341,7 @@ METHOD: sqlite3_initialize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6995,6 +7360,7 @@ METHOD: sqlite3_interrupt
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7014,6 +7380,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7034,6 +7401,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7052,6 +7420,7 @@ METHOD: sqlite3_keyword_count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7071,6 +7440,7 @@ PARAMETERS:
     System.Int32
     System.String&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7089,6 +7459,7 @@ METHOD: sqlite3_last_insert_rowid
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7107,6 +7478,7 @@ METHOD: sqlite3_libversion
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7125,6 +7497,7 @@ METHOD: sqlite3_libversion_number
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7145,6 +7518,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7166,6 +7540,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.utf8z&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7185,6 +7560,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7204,6 +7580,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7222,6 +7599,7 @@ METHOD: sqlite3_memory_highwater
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7240,6 +7618,7 @@ METHOD: sqlite3_memory_used
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7259,6 +7638,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_stmt
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7278,6 +7658,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.sqlite3&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7297,6 +7678,7 @@ PARAMETERS:
     System.String
     SQLitePCLEx.sqlite3&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7318,6 +7700,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7339,6 +7722,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7359,6 +7743,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     SQLitePCLEx.sqlite3_stmt&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7379,6 +7764,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.sqlite3_stmt&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7400,6 +7786,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7421,6 +7808,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7442,6 +7830,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     SQLitePCLEx.utf8z&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7463,6 +7852,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     System.String&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7484,6 +7874,7 @@ PARAMETERS:
     System.UInt32
     SQLitePCLEx.sqlite3_stmt&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7505,6 +7896,7 @@ PARAMETERS:
     System.UInt32
     SQLitePCLEx.sqlite3_stmt&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7526,6 +7918,7 @@ PARAMETERS:
     System.UInt32
     SQLitePCLEx.sqlite3_stmt&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7548,6 +7941,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7570,6 +7964,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     SQLitePCLEx.utf8z&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7592,6 +7987,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_stmt&
     System.String&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7612,6 +8008,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_profile
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7632,6 +8029,7 @@ PARAMETERS:
     SQLitePCLEx.strdelegate_profile
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7653,6 +8051,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_progress
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7672,6 +8071,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7692,6 +8092,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7710,6 +8111,7 @@ METHOD: sqlite3_reset
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7729,6 +8131,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7748,6 +8151,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.Double
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7767,6 +8171,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7786,6 +8191,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7805,6 +8211,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7824,6 +8231,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7842,6 +8250,7 @@ METHOD: sqlite3_result_error_nomem
 PARAMETERS:
     SQLitePCLEx.sqlite3_context
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7860,6 +8269,7 @@ METHOD: sqlite3_result_error_toobig
 PARAMETERS:
     SQLitePCLEx.sqlite3_context
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7879,6 +8289,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7898,6 +8309,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7916,6 +8328,7 @@ METHOD: sqlite3_result_null
 PARAMETERS:
     SQLitePCLEx.sqlite3_context
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7935,6 +8348,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7954,6 +8368,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7973,6 +8388,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7992,6 +8408,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_context
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8012,6 +8429,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_rollback
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8032,6 +8450,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_authorizer
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8052,6 +8471,7 @@ PARAMETERS:
     SQLitePCLEx.strdelegate_authorizer
     System.Object
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8070,6 +8490,7 @@ METHOD: sqlite3_shutdown
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8089,6 +8510,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3_snapshot
     SQLitePCLEx.sqlite3_snapshot
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8107,6 +8529,7 @@ METHOD: sqlite3_snapshot_free
 PARAMETERS:
     SQLitePCLEx.sqlite3_snapshot
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8127,6 +8550,7 @@ PARAMETERS:
     System.String
     SQLitePCLEx.sqlite3_snapshot&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8147,6 +8571,7 @@ PARAMETERS:
     System.String
     SQLitePCLEx.sqlite3_snapshot
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8166,6 +8591,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8184,6 +8610,7 @@ METHOD: sqlite3_soft_heap_limit64
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8202,6 +8629,7 @@ METHOD: sqlite3_sourceid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8220,6 +8648,7 @@ METHOD: sqlite3_sql
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8241,6 +8670,7 @@ PARAMETERS:
     System.Int32&
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8259,6 +8689,7 @@ METHOD: sqlite3_step
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8277,6 +8708,7 @@ METHOD: sqlite3_stmt_busy
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8295,6 +8727,7 @@ METHOD: sqlite3_stmt_isexplain
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8313,6 +8746,7 @@ METHOD: sqlite3_stmt_readonly
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8333,6 +8767,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8359,6 +8794,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8385,6 +8821,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8403,6 +8840,7 @@ METHOD: sqlite3_threadsafe
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8421,6 +8859,7 @@ METHOD: sqlite3_total_changes
 PARAMETERS:
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8441,6 +8880,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_trace
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8461,6 +8901,7 @@ PARAMETERS:
     SQLitePCLEx.strdelegate_trace
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8481,6 +8922,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_update
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8501,6 +8943,7 @@ PARAMETERS:
     SQLitePCLEx.strdelegate_update
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8519,6 +8962,7 @@ METHOD: sqlite3_user_data
 PARAMETERS:
     SQLitePCLEx.sqlite3_context
 
+RETURN_TYPE: System.Object
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8537,6 +8981,7 @@ METHOD: sqlite3_value_blob
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8555,6 +9000,7 @@ METHOD: sqlite3_value_bytes
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8573,6 +9019,7 @@ METHOD: sqlite3_value_double
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.Double
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8591,6 +9038,7 @@ METHOD: sqlite3_value_int
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8609,6 +9057,7 @@ METHOD: sqlite3_value_int64
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8627,6 +9076,7 @@ METHOD: sqlite3_value_span_char
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8645,6 +9095,7 @@ METHOD: sqlite3_value_string
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8663,6 +9114,7 @@ METHOD: sqlite3_value_text
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8681,6 +9133,7 @@ METHOD: sqlite3_value_type
 PARAMETERS:
     SQLitePCLEx.sqlite3_value
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8700,6 +9153,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8719,6 +9173,7 @@ PARAMETERS:
     SQLitePCLEx.sqlite3
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8741,6 +9196,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8760,6 +9216,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8778,6 +9235,7 @@ METHOD: utf8_span_to_string
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8796,6 +9254,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8816,6 +9275,7 @@ PARAMETERS:
     System.Int32
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8834,6 +9294,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8853,6 +9314,7 @@ PARAMETERS:
     System.Object
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8871,6 +9333,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8891,6 +9354,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8909,6 +9373,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8931,6 +9396,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8949,6 +9415,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8969,6 +9436,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8987,6 +9455,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9007,6 +9476,7 @@ PARAMETERS:
     System.IntPtr[]
     System.IntPtr[]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9025,6 +9495,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9048,6 +9519,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9067,6 +9539,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_rollback
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9085,6 +9558,7 @@ METHOD: call
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9103,6 +9577,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.rollback_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9121,6 +9596,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9139,6 +9615,7 @@ METHOD: GetOrCreateExtra
 PARAMETERS:
     System.Func`1[T]
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -9157,6 +9634,7 @@ METHOD: New
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.sqlite3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9175,6 +9653,7 @@ METHOD: ReleaseHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9193,6 +9672,7 @@ METHOD: add_stmt
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9211,6 +9691,7 @@ METHOD: dispose_extra
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9229,6 +9710,7 @@ METHOD: enable_sqlite3_next_stmt
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9247,6 +9729,7 @@ METHOD: find_stmt
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_stmt
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9265,6 +9748,7 @@ METHOD: get_IsInvalid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9283,6 +9767,7 @@ METHOD: manual_close
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9301,6 +9786,7 @@ METHOD: manual_close_v2
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9319,6 +9805,7 @@ METHOD: remove_stmt
 PARAMETERS:
     SQLitePCLEx.sqlite3_stmt
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9337,6 +9824,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9355,6 +9843,7 @@ METHOD: From
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_backup
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9373,6 +9862,7 @@ METHOD: ReleaseHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9391,6 +9881,7 @@ METHOD: get_IsInvalid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9409,6 +9900,7 @@ METHOD: manual_close
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9427,6 +9919,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9445,6 +9938,7 @@ METHOD: From
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_blob
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9463,6 +9957,7 @@ METHOD: ReleaseHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9481,6 +9976,7 @@ METHOD: get_IsInvalid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9499,6 +9995,7 @@ METHOD: manual_close
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9517,6 +10014,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9535,6 +10033,7 @@ METHOD: get_ptr
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9553,6 +10052,7 @@ METHOD: get_user_data
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9571,6 +10071,7 @@ METHOD: set_context_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9589,6 +10090,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9607,6 +10109,7 @@ METHOD: From
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_snapshot
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9625,6 +10128,7 @@ METHOD: ReleaseHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9643,6 +10147,7 @@ METHOD: get_IsInvalid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9661,6 +10166,7 @@ METHOD: manual_close
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9679,6 +10185,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9698,6 +10205,7 @@ PARAMETERS:
     System.IntPtr
     SQLitePCLEx.sqlite3
 
+RETURN_TYPE: SQLitePCLEx.sqlite3_stmt
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9716,6 +10224,7 @@ METHOD: ReleaseHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9734,6 +10243,7 @@ METHOD: get_IsInvalid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9752,6 +10262,7 @@ METHOD: get_db
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.sqlite3
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9770,6 +10281,7 @@ METHOD: get_ptr
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9788,6 +10300,7 @@ METHOD: manual_close
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9806,6 +10319,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9824,6 +10338,7 @@ METHOD: ToBlob
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9842,6 +10357,7 @@ METHOD: ToDateTimeOffset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9860,6 +10376,7 @@ METHOD: ToDateTimeOffset
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9878,6 +10395,7 @@ METHOD: ToDouble
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9896,6 +10414,7 @@ METHOD: ToInt
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9914,6 +10433,7 @@ METHOD: ToInt64
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9932,6 +10452,7 @@ METHOD: ToSpanChar
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9950,6 +10471,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9968,6 +10490,7 @@ METHOD: Toutf8z
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9986,6 +10509,7 @@ METHOD: get_Length
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10004,6 +10528,7 @@ METHOD: get_ptr
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10023,6 +10548,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10048,6 +10574,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10066,6 +10593,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10089,6 +10617,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10108,6 +10637,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10130,6 +10660,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10148,6 +10679,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10168,6 +10700,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10187,6 +10720,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10209,6 +10743,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10227,6 +10762,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10247,6 +10783,7 @@ PARAMETERS:
     System.String[]
     System.String[]
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10266,6 +10803,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10288,6 +10826,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10306,6 +10845,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10326,6 +10866,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10345,6 +10886,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10367,6 +10909,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10385,6 +10928,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10405,6 +10949,7 @@ PARAMETERS:
     System.String
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10424,6 +10969,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10445,6 +10991,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10463,6 +11010,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10482,6 +11030,7 @@ PARAMETERS:
     System.Object
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10501,6 +11050,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10525,6 +11075,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10543,6 +11094,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10565,6 +11117,7 @@ PARAMETERS:
     System.String
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10584,6 +11137,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_trace
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10602,6 +11156,7 @@ METHOD: call
 PARAMETERS:
     SQLitePCLEx.utf8z
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10620,6 +11175,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.trace_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10639,6 +11195,7 @@ PARAMETERS:
     SQLitePCLEx.delegate_update
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10660,6 +11217,7 @@ PARAMETERS:
     SQLitePCLEx.utf8z
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10678,6 +11236,7 @@ METHOD: from_ptr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.update_hook_info
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10696,6 +11255,7 @@ METHOD: .ctor
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10714,6 +11274,7 @@ METHOD: FromIntPtr
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10732,6 +11293,7 @@ METHOD: FromPtr
 PARAMETERS:
     System.Byte*
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10751,6 +11313,7 @@ PARAMETERS:
     System.Byte*
     System.Int32
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10769,6 +11332,7 @@ METHOD: FromSpan
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10787,6 +11351,7 @@ METHOD: FromString
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10805,6 +11370,7 @@ METHOD: GetPinnableReference
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte&
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10823,6 +11389,7 @@ METHOD: GetRawBytes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10841,6 +11408,7 @@ METHOD: GetZeroTerminatedUTF8Bytes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10859,6 +11427,7 @@ METHOD: find_zero_terminator
 PARAMETERS:
     System.Byte*
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10877,6 +11446,7 @@ METHOD: get_IsEmpty
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10895,6 +11465,7 @@ METHOD: my_strlen
 PARAMETERS:
     System.Byte*
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10913,6 +11484,7 @@ METHOD: utf8_to_string
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10932,6 +11504,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10950,6 +11523,7 @@ METHOD: from_utf8_z
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10968,6 +11542,7 @@ METHOD: my_strlen
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10986,6 +11561,7 @@ METHOD: to_utf8_with_z
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11004,6 +11580,7 @@ METHOD: to_utf8z
 PARAMETERS:
     System.String
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11022,6 +11599,7 @@ METHOD: to_utf8z
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: SQLitePCLEx.utf8z
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11040,6 +11618,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11058,6 +11637,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0

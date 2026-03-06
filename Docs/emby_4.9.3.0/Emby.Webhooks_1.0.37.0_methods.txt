@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: get_ContentType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: get_Data
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: set_ContentType
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: set_Data
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: get_EnableMultipartFormData
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: set_EnableMultipartFormData
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: get_ContentType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: get_Parts
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Webhooks.BodyPartInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: set_ContentType
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: set_Parts
 PARAMETERS:
     Emby.Webhooks.BodyPartInfo[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -247,6 +260,7 @@ PARAMETERS:
     MediaBrowser.Controller.IServerApplicationHost
     MediaBrowser.Controller.Net.IAuthorizationContext
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -265,6 +279,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Webhooks.GetSampleJson
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -283,6 +298,7 @@ METHOD: GetData
 PARAMETERS:
     System.Net.Http.HttpContent
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -302,6 +318,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: Emby.Notifications.InternalNotificationRequest
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -320,6 +337,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Webhooks.ReceiveNotificationTest
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -338,6 +356,7 @@ METHOD: get_Request
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Services.IRequest
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -356,6 +375,7 @@ METHOD: set_Request
 PARAMETERS:
     MediaBrowser.Model.Services.IRequest
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -374,6 +394,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -392,6 +413,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -410,6 +432,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -428,6 +451,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -446,6 +470,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -466,6 +491,7 @@ PARAMETERS:
     MediaBrowser.Model.Serialization.IJsonSerializer
     MediaBrowser.Common.Net.IHttpClient
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -484,6 +510,7 @@ METHOD: GetDefaultOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -502,6 +529,7 @@ METHOD: GetHttpContent
 PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
 
+RETURN_TYPE: System.Net.Http.HttpContent
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -521,6 +549,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Common.Net.HttpRequestOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -540,6 +569,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -558,6 +588,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -576,6 +607,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -594,6 +626,7 @@ METHOD: get_Plugin
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Webhooks.Plugin
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -612,6 +645,7 @@ METHOD: get_PremiereFeatureName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -630,6 +664,7 @@ METHOD: get_SetupModuleUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -648,6 +683,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -666,6 +702,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -684,6 +721,7 @@ METHOD: GetPages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -702,6 +740,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -720,6 +759,7 @@ METHOD: GetTranslations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -738,6 +778,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -756,6 +797,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -774,6 +816,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -792,6 +835,7 @@ METHOD: get_NotificationSetupModuleUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -810,6 +854,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -828,6 +873,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -846,6 +892,7 @@ METHOD: <GetTranslations>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -864,6 +911,7 @@ METHOD: <GetTranslations>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -882,6 +930,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -900,6 +949,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -918,6 +968,7 @@ METHOD: get_EnableMultipartFormData
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -936,6 +987,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -954,6 +1006,7 @@ METHOD: set_EnableMultipartFormData
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -972,6 +1025,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

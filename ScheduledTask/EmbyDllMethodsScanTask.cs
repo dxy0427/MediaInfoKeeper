@@ -249,6 +249,23 @@ namespace MediaInfoKeeper.ScheduledTask
                 parameters = Array.Empty<ParameterInfo>();
             }
 
+            var returnTypeText = "Unknown";
+            try
+            {
+                if (method is ConstructorInfo)
+                {
+                    returnTypeText = "(constructor)";
+                }
+                else if (method is MethodInfo currentMethodInfo)
+                {
+                    returnTypeText = GetParameterTypeFullName(currentMethodInfo.ReturnType);
+                }
+            }
+            catch
+            {
+                returnTypeText = "Unknown";
+            }
+
             writer.WriteLine("====================================================");
             writer.WriteLine($"DLL_NAME: {dllName}");
             writer.WriteLine($"DLL_VERSION: {dllVersion}");
@@ -270,6 +287,7 @@ namespace MediaInfoKeeper.ScheduledTask
                 }
             }
             writer.WriteLine();
+            writer.WriteLine($"RETURN_TYPE: {returnTypeText}");
             writer.WriteLine($"STATIC: {method.IsStatic}");
             writer.WriteLine($"CONSTRUCTOR: {method is ConstructorInfo}");
             writer.WriteLine($"GENERIC: {(method is MethodInfo methodInfo ? methodInfo.GetGenericArguments().Length : 0)}");

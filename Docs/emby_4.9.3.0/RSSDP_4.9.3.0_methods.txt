@@ -10,6 +10,7 @@ PARAMETERS:
     Rssdp.DiscoveredSsdpDevice
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -28,6 +29,7 @@ METHOD: get_DiscoveredDevice
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Rssdp.DiscoveredSsdpDevice
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -46,6 +48,7 @@ METHOD: get_IsNewlyDiscovered
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -64,6 +67,7 @@ METHOD: get_LocalIpAddress
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.IPAddress
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -82,6 +86,7 @@ METHOD: set_LocalIpAddress
 PARAMETERS:
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -102,6 +107,7 @@ PARAMETERS:
     MediaBrowser.Controller.Configuration.IServerConfigurationManager
     Rssdp.ISsdpCommunicationsServer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -120,6 +126,7 @@ METHOD: AddNotificationTypeFilter
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -138,6 +145,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -156,6 +164,7 @@ METHOD: RemoveNotificationTypeFilter
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -174,6 +183,7 @@ METHOD: StartInternal
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -192,6 +202,7 @@ METHOD: _DeviceLocator_DeviceUnavailable
 PARAMETERS:
     Rssdp.DeviceUnavailableEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -210,6 +221,7 @@ METHOD: add_DeviceDiscovered
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -228,6 +240,7 @@ METHOD: add_DeviceDiscoveredInternal
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -246,6 +259,7 @@ METHOD: add_DeviceLeft
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -264,6 +278,7 @@ METHOD: deviceLocator_DeviceAvailable
 PARAMETERS:
     Rssdp.DeviceAvailableEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -282,6 +297,7 @@ METHOD: remove_DeviceDiscovered
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -300,6 +316,7 @@ METHOD: remove_DeviceDiscoveredInternal
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -318,6 +335,7 @@ METHOD: remove_DeviceLeft
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Dlna.UpnpNotificationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -336,6 +354,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Ssdp.SsdpDevice
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -354,6 +373,7 @@ METHOD: get_Device
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Ssdp.SsdpDevice
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -373,6 +393,7 @@ PARAMETERS:
     Rssdp.DiscoveredSsdpDevice
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -391,6 +412,7 @@ METHOD: get_DiscoveredDevice
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Rssdp.DiscoveredSsdpDevice
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -409,6 +431,7 @@ METHOD: get_Expired
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -427,6 +450,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -445,6 +469,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -463,6 +488,7 @@ METHOD: get_CacheLifetime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.TimeSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -481,6 +507,7 @@ METHOD: get_DescriptionLocation
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Uri
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -499,6 +526,7 @@ METHOD: get_IsExpired
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -517,6 +545,7 @@ METHOD: get_LastUpdated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -535,6 +564,7 @@ METHOD: get_NotificationType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -553,6 +583,7 @@ METHOD: get_Usn
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -571,6 +602,7 @@ METHOD: set_CacheLifetime
 PARAMETERS:
     System.TimeSpan
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -589,6 +621,7 @@ METHOD: set_DescriptionLocation
 PARAMETERS:
     System.Uri
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -607,6 +640,7 @@ METHOD: set_LastUpdated
 PARAMETERS:
     System.DateTimeOffset
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -625,6 +659,7 @@ METHOD: set_NotificationType
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -643,6 +678,7 @@ METHOD: set_Usn
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -661,6 +697,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -679,6 +716,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -697,6 +735,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -715,6 +754,7 @@ METHOD: ThrowIfDisposed
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -733,6 +773,7 @@ METHOD: get_IsDisposed
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -751,6 +792,7 @@ METHOD: set_IsDisposed
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -769,6 +811,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -792,6 +835,7 @@ PARAMETERS:
     System.Int32&
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -810,6 +854,7 @@ METHOD: IsContentHeader
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -828,6 +873,7 @@ METHOD: Parse
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -848,6 +894,7 @@ PARAMETERS:
     System.Net.Http.Headers.HttpHeaders
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -868,6 +915,7 @@ PARAMETERS:
     System.Net.Http.Headers.HttpHeaders
     System.Net.Http.Headers.HttpHeaders
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -890,6 +938,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Range, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -908,6 +957,7 @@ METHOD: ParseHttpVersion
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Version
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -927,6 +977,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -945,6 +996,7 @@ METHOD: ParseValues
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -963,6 +1015,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -981,6 +1034,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -999,6 +1053,7 @@ METHOD: IsContentHeader
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1017,6 +1072,7 @@ METHOD: Parse
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Net.Http.HttpRequestMessage
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1036,6 +1092,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Net.Http.HttpRequestMessage
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1054,6 +1111,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1072,6 +1130,7 @@ METHOD: IsContentHeader
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1090,6 +1149,7 @@ METHOD: Parse
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Net.Http.HttpResponseMessage
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1109,6 +1169,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Net.Http.HttpResponseMessage
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1128,6 +1189,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[T]
     System.Func`2[T,System.Collections.Generic.IEnumerable`1[T]]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[T]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1146,6 +1208,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1164,6 +1227,7 @@ METHOD: <SelectManyRecursive>b__0
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1182,6 +1246,7 @@ METHOD: BeginListeningForBroadcasts
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1206,6 +1271,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1228,6 +1294,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1246,6 +1313,7 @@ METHOD: add_RequestReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1264,6 +1332,7 @@ METHOD: add_ResponseReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1282,6 +1351,7 @@ METHOD: remove_RequestReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1300,6 +1370,7 @@ METHOD: remove_ResponseReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1320,6 +1391,7 @@ PARAMETERS:
     System.Net.IPEndPoint
     System.Net.IPAddress
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1338,6 +1410,7 @@ METHOD: get_LocalIpAddress
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.IPAddress
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1356,6 +1429,7 @@ METHOD: get_Message
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.Http.HttpRequestMessage
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1374,6 +1448,7 @@ METHOD: get_ReceivedFrom
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.IPEndPoint
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1392,6 +1467,7 @@ METHOD: set_LocalIpAddress
 PARAMETERS:
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1411,6 +1487,7 @@ PARAMETERS:
     System.Net.Http.HttpResponseMessage
     System.Net.EndPoint
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1429,6 +1506,7 @@ METHOD: get_LocalIpAddress
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.IPAddress
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1447,6 +1525,7 @@ METHOD: get_Message
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.Http.HttpResponseMessage
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1465,6 +1544,7 @@ METHOD: get_ReceivedFrom
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.EndPoint
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1483,6 +1563,7 @@ METHOD: set_LocalIpAddress
 PARAMETERS:
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1505,6 +1586,7 @@ PARAMETERS:
     MediaBrowser.Model.System.IEnvironmentInfo
     MediaBrowser.Controller.IServerApplicationHost
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1523,6 +1605,7 @@ METHOD: BeginListeningForBroadcasts
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1542,6 +1625,7 @@ PARAMETERS:
     System.Net.Sockets.Socket
     System.Net.Sockets.SocketAsyncEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1561,6 +1645,7 @@ PARAMETERS:
     System.String
     System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1581,6 +1666,7 @@ PARAMETERS:
     System.Int32
     System.Net.IPAddress[]
 
+RETURN_TYPE: System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1599,6 +1685,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1618,6 +1705,7 @@ PARAMETERS:
     System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]][]
     System.Net.IPAddress
 
+RETURN_TYPE: System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]][]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1636,6 +1724,7 @@ METHOD: GetLocalIpAddresses
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1656,6 +1745,7 @@ PARAMETERS:
     System.Net.IPEndPoint
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1676,6 +1766,7 @@ PARAMETERS:
     System.Net.Sockets.SocketAsyncEventArgs
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1697,6 +1788,7 @@ PARAMETERS:
     System.Net.IPEndPoint
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1721,6 +1813,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1743,6 +1836,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1764,6 +1858,7 @@ PARAMETERS:
     System.Net.IPEndPoint
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1782,6 +1877,7 @@ METHOD: SetReuseAddress
 PARAMETERS:
     System.Net.Sockets.Socket
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1800,6 +1896,7 @@ METHOD: StopListeningForResponses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1818,6 +1915,7 @@ METHOD: add_RequestReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1836,6 +1934,7 @@ METHOD: add_ResponseReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1855,6 +1954,7 @@ PARAMETERS:
     System.Object
     System.Net.Sockets.SocketAsyncEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1873,6 +1973,7 @@ METHOD: remove_RequestReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.RequestReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1891,6 +1992,7 @@ METHOD: remove_ResponseReceived
 PARAMETERS:
     System.EventHandler`1[[Rssdp.ResponseReceivedEventArgs, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1910,6 +2012,7 @@ PARAMETERS:
     System.Object
     System.Net.Sockets.SocketAsyncEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1932,6 +2035,7 @@ PARAMETERS:
     System.Void*
     System.UInt32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1950,6 +2054,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1968,6 +2073,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1986,6 +2092,7 @@ METHOD: <SendMessage>b__18_0
 PARAMETERS:
     System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2004,6 +2111,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2022,6 +2130,7 @@ METHOD: <BeginListeningForBroadcasts>b__0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2040,6 +2149,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2059,6 +2169,7 @@ PARAMETERS:
     System.Object
     System.Net.Sockets.SocketAsyncEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2077,6 +2188,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2095,6 +2207,7 @@ METHOD: <FilterSockets>b__0
 PARAMETERS:
     System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2113,6 +2226,7 @@ METHOD: <FilterSockets>b__1
 PARAMETERS:
     System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2131,6 +2245,7 @@ METHOD: <FilterSockets>b__2
 PARAMETERS:
     System.Tuple`3[[System.Net.Sockets.Socket, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.IPAddress, System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Sockets.SocketAsyncEventArgs, System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2149,6 +2264,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2167,6 +2283,7 @@ METHOD: <CreateSsdpUdpSocket>b__0
 PARAMETERS:
     System.Net.IPAddress
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2185,6 +2302,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2203,6 +2321,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2221,6 +2340,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2239,6 +2359,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2257,6 +2378,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2275,6 +2397,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2293,6 +2416,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2311,6 +2435,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2329,6 +2454,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2348,6 +2474,7 @@ PARAMETERS:
     Rssdp.ISsdpCommunicationsServer
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2366,6 +2493,7 @@ METHOD: AddNotificationTypeFilter
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2385,6 +2513,7 @@ PARAMETERS:
     Rssdp.DiscoveredSsdpDevice
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2404,6 +2533,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2422,6 +2552,7 @@ METHOD: CacheAgeFromHeader
 PARAMETERS:
     System.Net.Http.Headers.CacheControlHeaderValue
 
+RETURN_TYPE: System.TimeSpan
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2441,6 +2572,7 @@ PARAMETERS:
     System.Object
     Rssdp.RequestReceivedEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2460,6 +2592,7 @@ PARAMETERS:
     System.Object
     Rssdp.ResponseReceivedEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2479,6 +2612,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Boolean
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2498,6 +2632,7 @@ PARAMETERS:
     Rssdp.DiscoveredSsdpDevice[]
     System.Boolean
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2516,6 +2651,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2534,6 +2670,7 @@ METHOD: DisposeBroadcastTimer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2554,6 +2691,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: Rssdp.DiscoveredSsdpDevice
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2573,6 +2711,7 @@ PARAMETERS:
     System.Collections.Generic.IList`1[[Rssdp.DiscoveredSsdpDevice, RSSDP, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: Rssdp.DiscoveredSsdpDevice[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2592,6 +2731,7 @@ PARAMETERS:
     System.String
     System.Net.Http.Headers.HttpHeaders
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2611,6 +2751,7 @@ PARAMETERS:
     System.String
     System.Net.Http.Headers.HttpHeaders
 
+RETURN_TYPE: System.Uri
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2629,6 +2770,7 @@ METHOD: GetNotificationTypeFilters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2647,6 +2789,7 @@ METHOD: OnBroadcastTimerCallback
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2667,6 +2810,7 @@ PARAMETERS:
     System.Boolean
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2686,6 +2830,7 @@ PARAMETERS:
     Rssdp.DiscoveredSsdpDevice
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2705,6 +2850,7 @@ PARAMETERS:
     System.Net.Http.HttpRequestMessage
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2723,6 +2869,7 @@ METHOD: ProcessByeByeNotification
 PARAMETERS:
     System.Net.Http.HttpRequestMessage
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2742,6 +2889,7 @@ PARAMETERS:
     System.Net.Http.HttpRequestMessage
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2761,6 +2909,7 @@ PARAMETERS:
     System.Net.Http.HttpResponseMessage
     System.Net.IPAddress
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2779,6 +2928,7 @@ METHOD: RemoveExpiredDevicesFromCache
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2797,6 +2947,7 @@ METHOD: RemoveNotificationTypeFilter
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2815,6 +2966,7 @@ METHOD: SearchAsync
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2834,6 +2986,7 @@ PARAMETERS:
     System.TimeSpan
     System.TimeSpan
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2852,6 +3005,7 @@ METHOD: StartListeningForNotifications
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2870,6 +3024,7 @@ METHOD: Stop
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2888,6 +3043,7 @@ METHOD: StopListeningForNotifications
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2906,6 +3062,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2924,6 +3081,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2942,6 +3100,7 @@ METHOD: <RemoveExpiredDevicesFromCache>b__32_0
 PARAMETERS:
     Rssdp.DiscoveredSsdpDevice
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2960,6 +3119,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2978,6 +3138,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2996,6 +3157,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3014,6 +3176,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3036,6 +3199,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Controller.IServerApplicationHost
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3055,6 +3219,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Ssdp.SsdpRootDevice, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3074,6 +3239,7 @@ PARAMETERS:
     System.Object
     Rssdp.RequestReceivedEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3092,6 +3258,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3110,6 +3277,7 @@ METHOD: GetAllDevicesAsFlatEnumerable
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Ssdp.SsdpDevice, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3128,6 +3296,7 @@ METHOD: GetDeviceCacheSeconds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3147,6 +3316,7 @@ PARAMETERS:
     System.Net.Http.Headers.HttpRequestHeaders
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3166,6 +3336,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3188,6 +3359,7 @@ PARAMETERS:
     System.Net.IPAddress
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3207,6 +3379,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Ssdp.SsdpRootDevice, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3228,6 +3401,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3248,6 +3422,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3266,6 +3441,7 @@ METHOD: SendAllAliveNotifications
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3287,6 +3463,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3307,6 +3484,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3329,6 +3507,7 @@ PARAMETERS:
     System.Net.IPAddress
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3352,6 +3531,7 @@ PARAMETERS:
     System.Net.IPAddress
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3370,6 +3550,7 @@ METHOD: StartBroadcastingAliveMessages
 PARAMETERS:
     System.TimeSpan
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3388,6 +3569,7 @@ METHOD: StopBroadcastingAliveMessages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3406,6 +3588,7 @@ METHOD: WriteTrace
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3425,6 +3608,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Model.Ssdp.SsdpDevice
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3443,6 +3627,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3461,6 +3646,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3479,6 +3665,7 @@ METHOD: <GetAllDevicesAsFlatEnumerable>b__19_0
 PARAMETERS:
     MediaBrowser.Model.Ssdp.SsdpDevice
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Ssdp.SsdpDevice, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3497,6 +3684,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3515,6 +3703,7 @@ METHOD: <ProcessSearchRequest>b__0
 PARAMETERS:
     MediaBrowser.Model.Ssdp.SsdpDevice
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3533,6 +3722,7 @@ METHOD: <ProcessSearchRequest>b__1
 PARAMETERS:
     MediaBrowser.Model.Ssdp.SsdpDevice
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3551,6 +3741,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3569,6 +3760,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3587,6 +3779,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3605,6 +3798,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3623,6 +3817,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3641,6 +3836,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3659,6 +3855,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3677,6 +3874,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3695,6 +3893,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3713,6 +3912,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3731,6 +3931,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3749,6 +3950,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3767,6 +3969,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3785,6 +3988,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

@@ -12,6 +12,7 @@ PARAMETERS:
     System.String[]
     System.StringSplitOptions
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -33,6 +34,7 @@ PARAMETERS:
     System.Char[]
     System.StringSplitOptions
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0

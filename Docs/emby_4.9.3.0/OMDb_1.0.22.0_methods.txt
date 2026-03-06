@@ -13,6 +13,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Controller.Configuration.IServerConfigurationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -32,6 +33,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -51,6 +53,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.RemoteImageFetchOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -71,6 +74,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -89,6 +93,7 @@ METHOD: GetSupportedImages
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -107,6 +112,7 @@ METHOD: Supports
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -125,6 +131,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -143,6 +150,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -161,6 +169,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -179,6 +188,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -203,6 +213,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Controller.Configuration.IServerConfigurationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -222,6 +233,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.ItemLookupInfo
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -240,6 +252,7 @@ METHOD: FilterValid
 PARAMETERS:
     OMDb.Common.OmdbItemProvider+SearchResult
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -259,6 +272,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -278,6 +292,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.TrailerInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Trailer, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -297,6 +312,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.EpisodeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -316,6 +332,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.TrailerInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Trailer, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -335,6 +352,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.EpisodeInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Episode, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -354,6 +372,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.SeriesInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Series, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -373,6 +392,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.SeriesInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.TV.Series, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -392,6 +412,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.RemoteMetadataFetchOptions`1[[MediaBrowser.Controller.Providers.MovieInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Movies.Movie, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -411,6 +432,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.MovieInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Providers.MetadataResult`1[[MediaBrowser.Controller.Entities.Movies.Movie, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -430,6 +452,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.ItemLookupInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -450,6 +473,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.IDirectoryService
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[MediaBrowser.Controller.Providers.MetadataResult`1[T]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -468,6 +492,7 @@ METHOD: GetNormalizedName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -487,6 +512,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.SeriesInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSearchResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -506,6 +532,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.MovieInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSearchResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -526,6 +553,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSearchResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -545,6 +573,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.EpisodeInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSearchResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -564,6 +593,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.TrailerInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSearchResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -585,6 +615,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSearchResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -604,6 +635,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.SeriesInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -622,6 +654,7 @@ METHOD: GetSupportedExternalIdentifiers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -643,6 +676,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[OMDb.Common.OmdbItemProvider+SearchResult, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -666,6 +700,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[OMDb.Common.OmdbItemProvider+SearchResult, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -689,6 +724,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[OMDb.Common.OmdbItemProvider+SearchResult, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -707,6 +743,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -725,6 +762,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -743,6 +781,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -761,6 +800,7 @@ METHOD: <GetSearchResultsInternal>b__0
 PARAMETERS:
     OMDb.Common.OmdbItemProvider+SearchResult
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -779,6 +819,7 @@ METHOD: <GetSearchResultsInternal>b__1
 PARAMETERS:
     OMDb.Common.OmdbItemProvider+SearchResult
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteSearchResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -797,6 +838,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -815,6 +857,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -833,6 +876,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -851,6 +895,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -869,6 +914,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -887,6 +933,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -905,6 +952,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -923,6 +971,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -941,6 +990,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -959,6 +1009,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -977,6 +1028,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -995,6 +1047,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1013,6 +1066,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1031,6 +1085,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1049,6 +1104,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1067,6 +1123,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1085,6 +1142,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1103,6 +1161,7 @@ METHOD: GetYear
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1121,6 +1180,7 @@ METHOD: GetYears
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1139,6 +1199,7 @@ METHOD: get_Actors
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1157,6 +1218,7 @@ METHOD: get_Awards
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1175,6 +1237,7 @@ METHOD: get_Country
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1193,6 +1256,7 @@ METHOD: get_Director
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1211,6 +1275,7 @@ METHOD: get_Episode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1229,6 +1294,7 @@ METHOD: get_Genre
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1247,6 +1313,7 @@ METHOD: get_Language
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1265,6 +1332,7 @@ METHOD: get_Metascore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1283,6 +1351,7 @@ METHOD: get_Plot
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1301,6 +1370,7 @@ METHOD: get_Poster
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1319,6 +1389,7 @@ METHOD: get_Rated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1337,6 +1408,7 @@ METHOD: get_Released
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1355,6 +1427,7 @@ METHOD: get_Response
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1373,6 +1446,7 @@ METHOD: get_Runtime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1391,6 +1465,7 @@ METHOD: get_Season
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1409,6 +1484,7 @@ METHOD: get_Title
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1427,6 +1503,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1445,6 +1522,7 @@ METHOD: get_Writer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1463,6 +1541,7 @@ METHOD: get_Year
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1481,6 +1560,7 @@ METHOD: get_imdbID
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1499,6 +1579,7 @@ METHOD: get_imdbRating
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1517,6 +1598,7 @@ METHOD: get_imdbVotes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1535,6 +1617,7 @@ METHOD: get_seriesID
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1553,6 +1636,7 @@ METHOD: set_Actors
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1571,6 +1655,7 @@ METHOD: set_Awards
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1589,6 +1674,7 @@ METHOD: set_Country
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1607,6 +1693,7 @@ METHOD: set_Director
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1625,6 +1712,7 @@ METHOD: set_Episode
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1643,6 +1731,7 @@ METHOD: set_Genre
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1661,6 +1750,7 @@ METHOD: set_Language
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1679,6 +1769,7 @@ METHOD: set_Metascore
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1697,6 +1788,7 @@ METHOD: set_Plot
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1715,6 +1807,7 @@ METHOD: set_Poster
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1733,6 +1826,7 @@ METHOD: set_Rated
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1751,6 +1845,7 @@ METHOD: set_Released
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1769,6 +1864,7 @@ METHOD: set_Response
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1787,6 +1883,7 @@ METHOD: set_Runtime
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1805,6 +1902,7 @@ METHOD: set_Season
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1823,6 +1921,7 @@ METHOD: set_Title
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1841,6 +1940,7 @@ METHOD: set_Type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1859,6 +1959,7 @@ METHOD: set_Writer
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1877,6 +1978,7 @@ METHOD: set_Year
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1895,6 +1997,7 @@ METHOD: set_imdbID
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1913,6 +2016,7 @@ METHOD: set_imdbRating
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1931,6 +2035,7 @@ METHOD: set_imdbVotes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1949,6 +2054,7 @@ METHOD: set_seriesID
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1967,6 +2073,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1985,6 +2092,7 @@ METHOD: get_Search
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[OMDb.Common.OmdbItemProvider+SearchResult, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2003,6 +2111,7 @@ METHOD: set_Search
 PARAMETERS:
     System.Collections.Generic.List`1[[OMDb.Common.OmdbItemProvider+SearchResult, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2025,6 +2134,7 @@ PARAMETERS:
     MediaBrowser.Common.IApplicationHost
     MediaBrowser.Controller.Configuration.IServerConfigurationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2048,6 +2158,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.IDirectoryService
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2074,6 +2185,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.IDirectoryService
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2092,6 +2204,7 @@ METHOD: GetDataFilePath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2112,6 +2225,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2132,6 +2246,7 @@ PARAMETERS:
     MediaBrowser.Common.IApplicationHost
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2152,6 +2267,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.IDirectoryService
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[OMDb.Common.OmdbProvider+RootObject, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2171,6 +2287,7 @@ PARAMETERS:
     System.String
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2192,6 +2309,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.IDirectoryService
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[OMDb.Common.OmdbProvider+SeasonRootObject, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2210,6 +2328,7 @@ METHOD: IsValidSeries
 PARAMETERS:
     System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2229,6 +2348,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.MetadataResult`1[T]
     OMDb.Common.OmdbProvider+RootObject
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2247,6 +2367,7 @@ METHOD: ParsePeople
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2265,6 +2386,7 @@ METHOD: ParseYear
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int32[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2283,6 +2405,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2301,6 +2424,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2319,6 +2443,7 @@ METHOD: <ParseAdditionalMetadata>b__17_0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2337,6 +2462,7 @@ METHOD: <ParseAdditionalMetadata>b__17_1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2355,6 +2481,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2373,6 +2500,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2391,6 +2519,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2409,6 +2538,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2427,6 +2557,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2445,6 +2576,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2463,6 +2595,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2481,6 +2614,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2499,6 +2633,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2517,6 +2652,7 @@ METHOD: get_Source
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2535,6 +2671,7 @@ METHOD: get_Value
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2553,6 +2690,7 @@ METHOD: set_Source
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2571,6 +2709,7 @@ METHOD: set_Value
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2589,6 +2728,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2607,6 +2747,7 @@ METHOD: GetRottenTomatoScore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2625,6 +2766,7 @@ METHOD: GetYear
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2643,6 +2785,7 @@ METHOD: GetYears
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2661,6 +2804,7 @@ METHOD: get_Actors
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2679,6 +2823,7 @@ METHOD: get_Awards
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2697,6 +2842,7 @@ METHOD: get_BoxOffice
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2715,6 +2861,7 @@ METHOD: get_Country
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2733,6 +2880,7 @@ METHOD: get_DVD
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2751,6 +2899,7 @@ METHOD: get_Director
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2769,6 +2918,7 @@ METHOD: get_Episode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2787,6 +2937,7 @@ METHOD: get_Genre
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2805,6 +2956,7 @@ METHOD: get_Language
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2823,6 +2975,7 @@ METHOD: get_Metascore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2841,6 +2994,7 @@ METHOD: get_Plot
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2859,6 +3013,7 @@ METHOD: get_Poster
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2877,6 +3032,7 @@ METHOD: get_Production
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2895,6 +3051,7 @@ METHOD: get_Rated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2913,6 +3070,7 @@ METHOD: get_Ratings
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[OMDb.Common.OmdbProvider+OmdbRating, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2931,6 +3089,7 @@ METHOD: get_Released
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2949,6 +3108,7 @@ METHOD: get_Response
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2967,6 +3127,7 @@ METHOD: get_Runtime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2985,6 +3146,7 @@ METHOD: get_Title
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3003,6 +3165,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3021,6 +3184,7 @@ METHOD: get_Website
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3039,6 +3203,7 @@ METHOD: get_Writer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3057,6 +3222,7 @@ METHOD: get_Year
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3075,6 +3241,7 @@ METHOD: get_imdbID
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3093,6 +3260,7 @@ METHOD: get_imdbRating
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3111,6 +3279,7 @@ METHOD: get_imdbVotes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3129,6 +3298,7 @@ METHOD: set_Actors
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3147,6 +3317,7 @@ METHOD: set_Awards
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3165,6 +3336,7 @@ METHOD: set_BoxOffice
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3183,6 +3355,7 @@ METHOD: set_Country
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3201,6 +3374,7 @@ METHOD: set_DVD
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3219,6 +3393,7 @@ METHOD: set_Director
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3237,6 +3412,7 @@ METHOD: set_Episode
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3255,6 +3431,7 @@ METHOD: set_Genre
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3273,6 +3450,7 @@ METHOD: set_Language
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3291,6 +3469,7 @@ METHOD: set_Metascore
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3309,6 +3488,7 @@ METHOD: set_Plot
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3327,6 +3507,7 @@ METHOD: set_Poster
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3345,6 +3526,7 @@ METHOD: set_Production
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3363,6 +3545,7 @@ METHOD: set_Rated
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3381,6 +3564,7 @@ METHOD: set_Ratings
 PARAMETERS:
     System.Collections.Generic.List`1[[OMDb.Common.OmdbProvider+OmdbRating, OMDb, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3399,6 +3583,7 @@ METHOD: set_Released
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3417,6 +3602,7 @@ METHOD: set_Response
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3435,6 +3621,7 @@ METHOD: set_Runtime
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3453,6 +3640,7 @@ METHOD: set_Title
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3471,6 +3659,7 @@ METHOD: set_Type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3489,6 +3678,7 @@ METHOD: set_Website
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3507,6 +3697,7 @@ METHOD: set_Writer
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3525,6 +3716,7 @@ METHOD: set_Year
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3543,6 +3735,7 @@ METHOD: set_imdbID
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3561,6 +3754,7 @@ METHOD: set_imdbRating
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3579,6 +3773,7 @@ METHOD: set_imdbVotes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3597,6 +3792,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3615,6 +3811,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3633,6 +3830,7 @@ METHOD: <GetRottenTomatoScore>b__106_0
 PARAMETERS:
     OMDb.Common.OmdbProvider+OmdbRating
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3651,6 +3849,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3669,6 +3868,7 @@ METHOD: get_Episodes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OMDb.Common.OmdbProvider+RootObject[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3687,6 +3887,7 @@ METHOD: get_Response
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3705,6 +3906,7 @@ METHOD: get_Season
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3723,6 +3925,7 @@ METHOD: get_Title
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3741,6 +3944,7 @@ METHOD: get_seriesID
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3759,6 +3963,7 @@ METHOD: get_totalSeasons
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3777,6 +3982,7 @@ METHOD: set_Episodes
 PARAMETERS:
     OMDb.Common.OmdbProvider+RootObject[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3795,6 +4001,7 @@ METHOD: set_Response
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3813,6 +4020,7 @@ METHOD: set_Season
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3831,6 +4039,7 @@ METHOD: set_Title
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3849,6 +4058,7 @@ METHOD: set_seriesID
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3867,6 +4077,7 @@ METHOD: set_totalSeasons
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3885,6 +4096,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3903,6 +4115,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3921,6 +4134,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3939,6 +4153,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3957,6 +4172,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3975,6 +4191,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

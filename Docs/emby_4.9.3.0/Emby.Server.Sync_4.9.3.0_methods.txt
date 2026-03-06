@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: get_ItemIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: set_ItemIds
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -243,6 +256,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -261,6 +275,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -279,6 +294,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -297,6 +313,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -315,6 +332,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -333,6 +351,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -351,6 +370,7 @@ METHOD: get_Category
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[MediaBrowser.Model.Sync.SyncCategory, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -369,6 +389,7 @@ METHOD: get_ExcludeProviders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -387,6 +408,7 @@ METHOD: get_ExcludeTargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -405,6 +427,7 @@ METHOD: get_IncludeProviders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -423,6 +446,7 @@ METHOD: get_ItemIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -441,6 +465,7 @@ METHOD: get_ParentId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -459,6 +484,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -477,6 +503,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -495,6 +522,7 @@ METHOD: set_Category
 PARAMETERS:
     System.Nullable`1[[MediaBrowser.Model.Sync.SyncCategory, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -513,6 +541,7 @@ METHOD: set_ExcludeProviders
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -531,6 +560,7 @@ METHOD: set_ExcludeTargetIds
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -549,6 +579,7 @@ METHOD: set_IncludeProviders
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -567,6 +598,7 @@ METHOD: set_ItemIds
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -585,6 +617,7 @@ METHOD: set_ParentId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -603,6 +636,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -621,6 +655,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -639,6 +674,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -657,6 +693,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -675,6 +712,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -693,6 +731,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -711,6 +750,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -729,6 +769,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -747,6 +788,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -765,6 +807,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -783,6 +826,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -801,6 +845,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -819,6 +864,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -837,6 +883,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -855,6 +902,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -873,6 +921,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -891,6 +940,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -909,6 +959,7 @@ METHOD: get_ExcludeTargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -927,6 +978,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -945,6 +997,7 @@ METHOD: get_TargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -963,6 +1016,7 @@ METHOD: set_ExcludeTargetIds
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -981,6 +1035,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -999,6 +1054,7 @@ METHOD: set_TargetIds
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1017,6 +1073,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1035,6 +1092,7 @@ METHOD: get_ItemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1053,6 +1111,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1071,6 +1130,7 @@ METHOD: set_ItemId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1089,6 +1149,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1107,6 +1168,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1125,6 +1187,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1143,6 +1206,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1161,6 +1225,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1179,6 +1244,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1197,6 +1263,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1215,6 +1282,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1233,6 +1301,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1251,6 +1320,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1269,6 +1339,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1287,6 +1358,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1305,6 +1377,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1323,6 +1396,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1342,6 +1416,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Entities.BaseItem, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Server.Sync.SyncManager
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncJobOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1360,6 +1435,7 @@ METHOD: GetSyncOptions
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncCategory
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobOption[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1378,6 +1454,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1396,6 +1473,7 @@ METHOD: <Get>b__4_2
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1414,6 +1492,7 @@ METHOD: <Get>b__4_3
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1432,6 +1511,7 @@ METHOD: Any
 PARAMETERS:
     Emby.Server.Sync.Api.CancelSyncJob
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1450,6 +1530,7 @@ METHOD: Any
 PARAMETERS:
     Emby.Server.Sync.Api.CancelItems
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1468,6 +1549,7 @@ METHOD: Any
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncJobItemFile
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1486,6 +1568,7 @@ METHOD: Any
 PARAMETERS:
     Emby.Server.Sync.Api.CancelSyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1504,6 +1587,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncTargets
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1522,6 +1606,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncJobs
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1540,6 +1625,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncJobItems
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1558,6 +1644,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncJob
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1576,6 +1663,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncDialogOptions
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1594,6 +1682,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetReadySyncItems
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1612,6 +1701,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncJobItemAdditionalFile
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1630,6 +1720,7 @@ METHOD: ParseId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1648,6 +1739,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.GetSyncStatus
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1666,6 +1758,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.CreateSyncJob
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1684,6 +1777,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.ReportSyncJobItemTransferred
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1702,6 +1796,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.ReportOfflineActions
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1720,6 +1815,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.SyncData
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1738,6 +1834,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.UpdateSyncJob
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1756,6 +1853,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.EnableSyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1774,6 +1872,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.MarkJobItemForRemoval
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1792,6 +1891,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Server.Sync.Api.UnmarkJobItemForRemoval
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1810,6 +1910,7 @@ METHOD: ReportSyncJobItemTransferFailed
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1828,6 +1929,7 @@ METHOD: get_SyncManager
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.SyncManager
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1846,6 +1948,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1864,6 +1967,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1882,6 +1986,7 @@ METHOD: <Any>b__10_0
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1900,6 +2005,7 @@ METHOD: <Get>b__14_1
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1918,6 +2024,7 @@ METHOD: <Get>b__14_3
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1936,6 +2043,7 @@ METHOD: <Get>b__4_0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1954,6 +2062,7 @@ METHOD: <Get>b__4_1
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1972,6 +2081,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1990,6 +2100,7 @@ METHOD: <Any>b__0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2008,6 +2119,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2026,6 +2138,7 @@ METHOD: <Get>b__0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2044,6 +2157,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2062,6 +2176,7 @@ METHOD: <Get>b__2
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2080,6 +2195,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2098,6 +2214,7 @@ METHOD: <Get>b__0
 PARAMETERS:
     Emby.Server.Sync.Model.ItemFileInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2116,6 +2233,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2134,6 +2252,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2152,6 +2271,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2170,6 +2290,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2188,6 +2309,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2206,6 +2328,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2224,6 +2347,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2242,6 +2366,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2260,6 +2385,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2278,6 +2404,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2296,6 +2423,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Controller.Devices.IDeviceManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2315,6 +2443,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2336,6 +2465,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Dlna.DeviceProfile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2354,6 +2484,7 @@ METHOD: GetProfileOptions
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncProfileOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2372,6 +2503,7 @@ METHOD: GetQualityOptions
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncQualityOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2393,6 +2525,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2411,6 +2544,7 @@ METHOD: GetSyncTargets
 PARAMETERS:
     MediaBrowser.Controller.Sync.SyncTargetQuery
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2429,6 +2563,7 @@ METHOD: ToSyncTarget
 PARAMETERS:
     MediaBrowser.Model.Devices.DeviceInfo
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncTarget
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2447,6 +2582,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2465,6 +2601,7 @@ METHOD: get_SupportsRemoteSync
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2486,6 +2623,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2505,6 +2643,7 @@ PARAMETERS:
     System.String
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2524,6 +2663,7 @@ PARAMETERS:
     System.String
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2542,6 +2682,7 @@ METHOD: GetCodecForProfile
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2562,6 +2703,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Controller.Library.ILibraryMonitor
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2583,6 +2725,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2601,6 +2744,7 @@ METHOD: EnsurePathIsUnique
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2621,6 +2765,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2643,6 +2788,7 @@ PARAMETERS:
     System.String[]
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: MediaBrowser.Controller.Sync.SyncedFileInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2664,6 +2810,7 @@ PARAMETERS:
     System.Boolean
     MediaBrowser.Model.Sync.SyncJob
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2682,6 +2829,7 @@ METHOD: GetSyncTargets
 PARAMETERS:
     MediaBrowser.Controller.Sync.SyncTargetQuery
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2707,6 +2855,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Sync.SyncedFileInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2732,6 +2881,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Sync.SyncedFileInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2750,6 +2900,7 @@ METHOD: TryDelete
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2768,6 +2919,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2786,6 +2938,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2804,6 +2957,7 @@ METHOD: <GetSyncTargets>b__0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2828,6 +2982,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
     MediaBrowser.Model.Cryptography.ICryptoProvider
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2847,6 +3002,7 @@ PARAMETERS:
     System.Threading.CancellationToken
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2865,6 +3021,7 @@ METHOD: GetDefaultTriggers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Tasks.TaskTriggerInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2883,6 +3040,7 @@ METHOD: get_Category
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2901,6 +3059,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2919,6 +3078,7 @@ METHOD: get_IsEnabled
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2937,6 +3097,7 @@ METHOD: get_IsHidden
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2955,6 +3116,7 @@ METHOD: get_IsLogged
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2973,6 +3135,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2991,6 +3154,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3009,6 +3173,7 @@ METHOD: get_SyncManager
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.SyncManager
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3027,6 +3192,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3045,6 +3211,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3063,6 +3230,7 @@ METHOD: GetProfileOptions
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncProfileOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3081,6 +3249,7 @@ METHOD: GetQualityOptions
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncQualityOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3102,6 +3271,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3120,6 +3290,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3143,6 +3314,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3168,6 +3340,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3187,6 +3360,7 @@ PARAMETERS:
     System.String
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3207,6 +3381,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3225,6 +3400,7 @@ METHOD: GetEpisodeName
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3247,6 +3423,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3267,6 +3444,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3288,6 +3466,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3311,6 +3490,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: System.String[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3329,6 +3509,7 @@ METHOD: GetSongName
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3349,6 +3530,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3374,6 +3556,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3395,6 +3578,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3422,6 +3606,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Sync.SyncedFileInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3448,6 +3633,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3469,6 +3655,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3489,6 +3676,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3512,6 +3700,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3530,6 +3719,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3548,6 +3738,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3566,6 +3757,7 @@ METHOD: <GetDirectoryPath>b__17_1
 PARAMETERS:
     MediaBrowser.Model.Dto.LinkedItemInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3584,6 +3776,7 @@ METHOD: <SendSubtitles>b__13_0
 PARAMETERS:
     Emby.Server.Sync.Model.ItemFileInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3602,6 +3795,7 @@ METHOD: <SendSubtitles>b__13_1
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3620,6 +3814,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3638,6 +3833,7 @@ METHOD: <GetDirectoryPath>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3656,6 +3852,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3674,6 +3871,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3692,6 +3890,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3710,6 +3909,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3728,6 +3928,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3746,6 +3947,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3764,6 +3966,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3782,6 +3985,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3800,6 +4004,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3818,6 +4023,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3836,6 +4042,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3854,6 +4061,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3872,6 +4080,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3890,6 +4099,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3908,6 +4118,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3926,6 +4137,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3944,6 +4156,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3962,6 +4175,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3980,6 +4194,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3998,6 +4213,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4016,6 +4232,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4034,6 +4251,7 @@ METHOD: get_Job
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJob
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4052,6 +4270,7 @@ METHOD: get_JobItems
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobItem[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4070,6 +4289,7 @@ METHOD: set_Job
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4088,6 +4308,7 @@ METHOD: set_JobItems
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4106,6 +4327,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4124,6 +4346,7 @@ METHOD: get_ImageType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4142,6 +4365,7 @@ METHOD: get_Index
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4160,6 +4384,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4178,6 +4403,7 @@ METHOD: get_Path
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4196,6 +4422,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.ItemFileType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4214,6 +4441,7 @@ METHOD: set_ImageType
 PARAMETERS:
     System.Nullable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4232,6 +4460,7 @@ METHOD: set_Index
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4250,6 +4479,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4268,6 +4498,7 @@ METHOD: set_Path
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4286,6 +4517,7 @@ METHOD: set_Type
 PARAMETERS:
     Emby.Server.Sync.Model.ItemFileType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4304,6 +4536,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4322,6 +4555,7 @@ METHOD: get_InternalTargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4340,6 +4574,7 @@ METHOD: get_LocalItemIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4358,6 +4593,7 @@ METHOD: set_InternalTargetIds
 PARAMETERS:
     System.Int64[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4376,6 +4612,7 @@ METHOD: set_LocalItemIds
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4394,6 +4631,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4412,6 +4650,7 @@ METHOD: get_ItemIdsToRemove
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4430,6 +4669,7 @@ METHOD: set_ItemIdsToRemove
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4448,6 +4688,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4466,6 +4707,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobOption[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4484,6 +4726,7 @@ METHOD: get_ProfileOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncProfileOption[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4502,6 +4745,7 @@ METHOD: get_QualityOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncQualityOption[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4520,6 +4764,7 @@ METHOD: get_Targets
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncTarget[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4538,6 +4783,7 @@ METHOD: set_Options
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobOption[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4556,6 +4802,7 @@ METHOD: set_ProfileOptions
 PARAMETERS:
     Emby.Server.Sync.Model.SyncProfileOption[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4574,6 +4821,7 @@ METHOD: set_QualityOptions
 PARAMETERS:
     Emby.Server.Sync.Model.SyncQualityOption[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4592,6 +4840,7 @@ METHOD: set_Targets
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4610,6 +4859,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4628,6 +4878,7 @@ METHOD: get_Job
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJob
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4646,6 +4897,7 @@ METHOD: get_JobItems
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobItem[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4664,6 +4916,7 @@ METHOD: set_Job
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4682,6 +4935,7 @@ METHOD: set_JobItems
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4700,6 +4954,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4718,6 +4973,7 @@ METHOD: get_AdditionalFiles
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.ItemFileInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4736,6 +4992,7 @@ METHOD: get_DateCreated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4754,6 +5011,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4772,6 +5030,7 @@ METHOD: get_InternalTargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4790,6 +5049,7 @@ METHOD: get_ItemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4808,6 +5068,7 @@ METHOD: get_ItemName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4826,6 +5087,7 @@ METHOD: get_JobId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4844,6 +5106,7 @@ METHOD: get_MediaSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Dto.MediaSourceInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4862,6 +5125,7 @@ METHOD: get_MediaSourceId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4880,6 +5144,7 @@ METHOD: get_OutputPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4898,6 +5163,7 @@ METHOD: get_PrimaryImageItemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4916,6 +5182,7 @@ METHOD: get_PrimaryImageTag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4934,6 +5201,7 @@ METHOD: get_Progress
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4952,6 +5220,7 @@ METHOD: get_Status
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJobItemStatus
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4970,6 +5239,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4988,6 +5258,7 @@ METHOD: get_TemporaryPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5006,6 +5277,7 @@ METHOD: set_AdditionalFiles
 PARAMETERS:
     Emby.Server.Sync.Model.ItemFileInfo[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5024,6 +5296,7 @@ METHOD: set_DateCreated
 PARAMETERS:
     System.DateTimeOffset
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5042,6 +5315,7 @@ METHOD: set_Id
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5060,6 +5334,7 @@ METHOD: set_InternalTargetId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5078,6 +5353,7 @@ METHOD: set_ItemId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5096,6 +5372,7 @@ METHOD: set_ItemName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5114,6 +5391,7 @@ METHOD: set_JobId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5132,6 +5410,7 @@ METHOD: set_MediaSource
 PARAMETERS:
     MediaBrowser.Model.Dto.MediaSourceInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5150,6 +5429,7 @@ METHOD: set_MediaSourceId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5168,6 +5448,7 @@ METHOD: set_OutputPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5186,6 +5467,7 @@ METHOD: set_PrimaryImageItemId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5204,6 +5486,7 @@ METHOD: set_PrimaryImageTag
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5222,6 +5505,7 @@ METHOD: set_Progress
 PARAMETERS:
     System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5240,6 +5524,7 @@ METHOD: set_Status
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobItemStatus
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5258,6 +5543,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5276,6 +5562,7 @@ METHOD: set_TemporaryPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5294,6 +5581,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5312,6 +5600,7 @@ METHOD: get_AddMetadata
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5330,6 +5619,7 @@ METHOD: get_EnableTotalRecordCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5348,6 +5638,7 @@ METHOD: get_InternalTargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5366,6 +5657,7 @@ METHOD: get_ItemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5384,6 +5676,7 @@ METHOD: get_JobId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5402,6 +5695,7 @@ METHOD: get_Limit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5420,6 +5714,7 @@ METHOD: get_StartIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5438,6 +5733,7 @@ METHOD: get_Statuses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJobItemStatus[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5456,6 +5752,7 @@ METHOD: set_AddMetadata
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5474,6 +5771,7 @@ METHOD: set_EnableTotalRecordCount
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5492,6 +5790,7 @@ METHOD: set_InternalTargetIds
 PARAMETERS:
     System.Int64[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5510,6 +5809,7 @@ METHOD: set_ItemId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5528,6 +5828,7 @@ METHOD: set_JobId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5546,6 +5847,7 @@ METHOD: set_Limit
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5564,6 +5866,7 @@ METHOD: set_StartIndex
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5582,6 +5885,7 @@ METHOD: set_Statuses
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobItemStatus[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5600,6 +5904,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5618,6 +5923,7 @@ METHOD: get_EnableTotalRecordCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5636,6 +5942,7 @@ METHOD: get_ExcludeInternalTargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5654,6 +5961,7 @@ METHOD: get_ExcludeProviders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5672,6 +5980,7 @@ METHOD: get_IncludeProviders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5690,6 +5999,7 @@ METHOD: get_InternalTargetIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5708,6 +6018,7 @@ METHOD: get_ItemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5726,6 +6037,7 @@ METHOD: get_Limit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5744,6 +6056,7 @@ METHOD: get_StartIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5762,6 +6075,7 @@ METHOD: get_Statuses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJobStatus[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5780,6 +6094,7 @@ METHOD: get_SyncNewContent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5798,6 +6113,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5816,6 +6132,7 @@ METHOD: set_EnableTotalRecordCount
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5834,6 +6151,7 @@ METHOD: set_ExcludeInternalTargetIds
 PARAMETERS:
     System.Int64[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5852,6 +6170,7 @@ METHOD: set_ExcludeProviders
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5870,6 +6189,7 @@ METHOD: set_IncludeProviders
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5888,6 +6208,7 @@ METHOD: set_InternalTargetIds
 PARAMETERS:
     System.Int64[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5906,6 +6227,7 @@ METHOD: set_ItemId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5924,6 +6246,7 @@ METHOD: set_Limit
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5942,6 +6265,7 @@ METHOD: set_StartIndex
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5960,6 +6284,7 @@ METHOD: set_Statuses
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobStatus[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5978,6 +6303,7 @@ METHOD: set_SyncNewContent
 PARAMETERS:
     System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5996,6 +6322,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6014,6 +6341,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6032,6 +6360,7 @@ METHOD: get_AudioCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6050,6 +6379,7 @@ METHOD: get_Bitrate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6068,6 +6398,7 @@ METHOD: get_Category
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[MediaBrowser.Model.Sync.SyncCategory, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6086,6 +6417,7 @@ METHOD: get_Container
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6104,6 +6436,7 @@ METHOD: get_Downloaded
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6122,6 +6455,7 @@ METHOD: get_ItemIds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6140,6 +6474,7 @@ METHOD: get_ItemLimit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6158,6 +6493,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6176,6 +6512,7 @@ METHOD: get_ParentId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6194,6 +6531,7 @@ METHOD: get_Profile
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6212,6 +6550,7 @@ METHOD: get_Quality
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6230,6 +6569,7 @@ METHOD: get_SyncNewContent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6248,6 +6588,7 @@ METHOD: get_TargetId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6266,6 +6607,7 @@ METHOD: get_UnwatchedOnly
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6284,6 +6626,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6302,6 +6645,7 @@ METHOD: get_VideoCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6320,6 +6664,7 @@ METHOD: set_AudioCodec
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6338,6 +6683,7 @@ METHOD: set_Bitrate
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6356,6 +6702,7 @@ METHOD: set_Category
 PARAMETERS:
     System.Nullable`1[[MediaBrowser.Model.Sync.SyncCategory, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6374,6 +6721,7 @@ METHOD: set_Container
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6392,6 +6740,7 @@ METHOD: set_Downloaded
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6410,6 +6759,7 @@ METHOD: set_ItemIds
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6428,6 +6778,7 @@ METHOD: set_ItemLimit
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6446,6 +6797,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6464,6 +6816,7 @@ METHOD: set_ParentId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6482,6 +6835,7 @@ METHOD: set_Profile
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6500,6 +6854,7 @@ METHOD: set_Quality
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6518,6 +6873,7 @@ METHOD: set_SyncNewContent
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6536,6 +6892,7 @@ METHOD: set_TargetId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6554,6 +6911,7 @@ METHOD: set_UnwatchedOnly
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6572,6 +6930,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6590,6 +6949,7 @@ METHOD: set_VideoCodec
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6608,6 +6968,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6626,6 +6987,7 @@ METHOD: get_EnableFullSpeedTranscoding
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6644,6 +7006,7 @@ METHOD: get_TemporaryPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6662,6 +7025,7 @@ METHOD: set_EnableFullSpeedTranscoding
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6680,6 +7044,7 @@ METHOD: set_TemporaryPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6698,6 +7063,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6716,6 +7082,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6734,6 +7101,7 @@ METHOD: get_EnableQualityOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6752,6 +7120,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6770,6 +7139,7 @@ METHOD: get_IsDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6788,6 +7158,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6806,6 +7177,7 @@ METHOD: set_Description
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6824,6 +7196,7 @@ METHOD: set_EnableQualityOptions
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6842,6 +7215,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6860,6 +7234,7 @@ METHOD: set_IsDefault
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6878,6 +7253,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6896,6 +7272,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6914,6 +7291,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6932,6 +7310,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6950,6 +7329,7 @@ METHOD: get_IsDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6968,6 +7348,7 @@ METHOD: get_IsOriginalQuality
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6986,6 +7367,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7004,6 +7386,7 @@ METHOD: set_Description
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7022,6 +7405,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7040,6 +7424,7 @@ METHOD: set_IsDefault
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7058,6 +7443,7 @@ METHOD: set_IsOriginalQuality
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7076,6 +7462,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7094,6 +7481,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7112,6 +7500,7 @@ METHOD: get_AdditionalFiles
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.Model.ItemFileInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7130,6 +7519,7 @@ METHOD: get_Item
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Dto.BaseItemDto
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7148,6 +7538,7 @@ METHOD: get_OriginalFileName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7166,6 +7557,7 @@ METHOD: get_ServerId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7184,6 +7576,7 @@ METHOD: get_SyncJobDateCreated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7202,6 +7595,7 @@ METHOD: get_SyncJobId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7220,6 +7614,7 @@ METHOD: get_SyncJobItemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7238,6 +7633,7 @@ METHOD: get_SyncJobName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7256,6 +7652,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7274,6 +7671,7 @@ METHOD: set_AdditionalFiles
 PARAMETERS:
     Emby.Server.Sync.Model.ItemFileInfo[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7292,6 +7690,7 @@ METHOD: set_Item
 PARAMETERS:
     MediaBrowser.Model.Dto.BaseItemDto
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7310,6 +7709,7 @@ METHOD: set_OriginalFileName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7328,6 +7728,7 @@ METHOD: set_ServerId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7346,6 +7747,7 @@ METHOD: set_SyncJobDateCreated
 PARAMETERS:
     System.DateTimeOffset
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7364,6 +7766,7 @@ METHOD: set_SyncJobId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7382,6 +7785,7 @@ METHOD: set_SyncJobItemId
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7400,6 +7804,7 @@ METHOD: set_SyncJobName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7418,6 +7823,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7436,6 +7842,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7454,6 +7861,7 @@ METHOD: get_Progress
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7472,6 +7880,7 @@ METHOD: get_Status
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[MediaBrowser.Model.Sync.SyncJobItemStatus, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7490,6 +7899,7 @@ METHOD: set_Progress
 PARAMETERS:
     System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7508,6 +7918,7 @@ METHOD: set_Status
 PARAMETERS:
     System.Nullable`1[[MediaBrowser.Model.Sync.SyncJobItemStatus, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7531,6 +7942,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7551,6 +7963,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7569,6 +7982,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7587,6 +8001,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7605,6 +8020,7 @@ METHOD: <Sync>b__7_0
 PARAMETERS:
     MediaBrowser.Controller.Sync.IServerSyncProvider
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[System.Tuple`2[[MediaBrowser.Controller.Sync.IServerSyncProvider, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7623,6 +8039,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7641,6 +8058,7 @@ METHOD: <Sync>b__1
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Tuple`2[[MediaBrowser.Controller.Sync.IServerSyncProvider, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7659,6 +8077,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7677,6 +8096,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7699,6 +8119,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7718,6 +8139,7 @@ PARAMETERS:
     System.Threading.CancellationToken
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7736,6 +8158,7 @@ METHOD: GetDefaultTriggers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Tasks.TaskTriggerInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7754,6 +8177,7 @@ METHOD: get_Category
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7772,6 +8196,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7790,6 +8215,7 @@ METHOD: get_IsEnabled
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7808,6 +8234,7 @@ METHOD: get_IsHidden
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7826,6 +8253,7 @@ METHOD: get_IsLogged
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7844,6 +8272,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7862,6 +8291,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7880,6 +8310,7 @@ METHOD: get_ServerSyncProviders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Controller.Sync.IServerSyncProvider[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7898,6 +8329,7 @@ METHOD: get_SyncManager
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.SyncManager
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7916,6 +8348,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7934,6 +8367,7 @@ METHOD: GetConfigurations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.ConfigurationStore, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7966,6 +8400,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IMediaSourceManager
     MediaBrowser.Controller.MediaEncoding.IFfmpegManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7985,6 +8420,7 @@ PARAMETERS:
     System.Threading.CancellationToken
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8005,6 +8441,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8023,6 +8460,7 @@ METHOD: GetDefaultTriggers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Tasks.TaskTriggerInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8041,6 +8479,7 @@ METHOD: get_Category
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8059,6 +8498,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8077,6 +8517,7 @@ METHOD: get_IsEnabled
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8095,6 +8536,7 @@ METHOD: get_IsHidden
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8113,6 +8555,7 @@ METHOD: get_IsLogged
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8131,6 +8574,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8149,6 +8593,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8167,6 +8612,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8185,6 +8631,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8203,6 +8650,7 @@ METHOD: GetSyncOptions
 PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncOptions
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8221,6 +8669,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8240,6 +8689,7 @@ PARAMETERS:
     System.Int64
     System.String
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8260,6 +8710,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8278,6 +8729,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8297,6 +8749,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8315,6 +8768,7 @@ METHOD: get_ChainedToken
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.CancellationToken
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8336,6 +8790,7 @@ PARAMETERS:
     System.Double
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8354,6 +8809,7 @@ METHOD: Report
 PARAMETERS:
     System.Double
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8372,6 +8828,7 @@ METHOD: get_StatusToReport
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJobItemStatus
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8390,6 +8847,7 @@ METHOD: set_StatusToReport
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobItemStatus
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8408,6 +8866,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8426,6 +8885,7 @@ METHOD: get_AllowConversion
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8444,6 +8904,7 @@ METHOD: get_DeviceProfile
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Dlna.DeviceProfile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8462,6 +8923,7 @@ METHOD: get_SkipIfConversionNotNeeded
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8480,6 +8942,7 @@ METHOD: set_AllowConversion
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8498,6 +8961,7 @@ METHOD: set_DeviceProfile
 PARAMETERS:
     MediaBrowser.Model.Dlna.DeviceProfile
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8516,6 +8980,7 @@ METHOD: set_SkipIfConversionNotNeeded
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8549,6 +9014,7 @@ PARAMETERS:
     MediaBrowser.Common.Security.ISecurityManager
     MediaBrowser.Controller.MediaEncoding.IFfmpegManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8570,6 +9036,7 @@ PARAMETERS:
     MediaBrowser.Model.Dlna.StreamInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8591,6 +9058,7 @@ PARAMETERS:
     MediaBrowser.Model.Dlna.RequestedStreamInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Server.Sync.Model.ItemFileInfo, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8614,6 +9082,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8636,6 +9105,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.User
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8655,6 +9125,7 @@ PARAMETERS:
     System.Int64[]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8675,6 +9146,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
     MediaBrowser.Controller.Sync.ISyncProvider
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8699,6 +9171,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Dlna.StreamInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8720,6 +9193,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Dto.MediaSourceInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8748,6 +9222,7 @@ PARAMETERS:
     MediaBrowser.Model.Data.IDataContext
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8774,6 +9249,7 @@ PARAMETERS:
     MediaBrowser.Model.Data.IDataContext
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8800,6 +9276,7 @@ PARAMETERS:
     MediaBrowser.Model.Data.IDataContext
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Int64[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8818,6 +9295,7 @@ METHOD: GetPossibleTemporaryPaths
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8838,6 +9316,7 @@ PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8857,6 +9336,7 @@ PARAMETERS:
     System.String
     System.Int64
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8875,6 +9355,7 @@ METHOD: GetTemporaryPath
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8893,6 +9374,7 @@ METHOD: GetTemporaryPath
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8918,6 +9400,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Dlna.StreamInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8936,6 +9419,7 @@ METHOD: HandleDeletedSyncFiles
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8954,6 +9438,7 @@ METHOD: IsPreviousConversion
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8975,6 +9460,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8993,6 +9479,7 @@ METHOD: RequiresExtraction
 PARAMETERS:
     MediaBrowser.Model.Dlna.RequestedStreamInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9013,6 +9500,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobItemStatus
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9032,6 +9520,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9052,6 +9541,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.Photo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9078,6 +9568,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9098,6 +9589,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9119,6 +9611,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9140,6 +9633,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9167,6 +9661,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9186,6 +9681,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9205,6 +9701,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9224,6 +9721,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9242,6 +9740,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9260,6 +9759,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9278,6 +9778,7 @@ METHOD: <ConvertSubtitles>b__35_0
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9296,6 +9797,7 @@ METHOD: <ConvertSubtitles>b__35_1
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9314,6 +9816,7 @@ METHOD: <EnsureJobItems>b__19_0
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9332,6 +9835,7 @@ METHOD: <EnsureJobItems>b__19_1
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9350,6 +9854,7 @@ METHOD: <EnsureJobItems>b__19_2
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9368,6 +9873,7 @@ METHOD: <EnsureJobItems>b__19_3
 PARAMETERS:
     MediaBrowser.Model.Dlna.RequestedStreamInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9386,6 +9892,7 @@ METHOD: <GetItemIdsForSync>b__24_0
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9404,6 +9911,7 @@ METHOD: <SyncVideo>b__33_0
 PARAMETERS:
     MediaBrowser.Model.Dlna.RequestedStreamInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9422,6 +9930,7 @@ METHOD: <UpdateJobStatus>b__22_0
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9440,6 +9949,7 @@ METHOD: <UpdateJobStatus>b__22_1
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9458,6 +9968,7 @@ METHOD: <UpdateJobStatus>b__22_2
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9476,6 +9987,7 @@ METHOD: <UpdateJobStatus>b__22_3
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9494,6 +10006,7 @@ METHOD: <UpdateJobStatus>b__22_4
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9512,6 +10025,7 @@ METHOD: <UpdateJobStatus>b__22_5
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9530,6 +10044,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9548,6 +10063,7 @@ METHOD: <ConvertSubtitles>b__0
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9566,6 +10082,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9584,6 +10101,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9602,6 +10120,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9620,6 +10139,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9638,6 +10158,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9656,6 +10177,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9674,6 +10196,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9692,6 +10215,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9710,6 +10234,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9728,6 +10253,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9746,6 +10272,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9764,6 +10291,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9782,6 +10310,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9800,6 +10329,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9818,6 +10348,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9836,6 +10367,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9854,6 +10386,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9872,6 +10405,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9890,6 +10424,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9908,6 +10443,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9926,6 +10462,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9944,6 +10481,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9962,6 +10500,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9980,6 +10519,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9998,6 +10538,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10016,6 +10557,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10034,6 +10576,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10052,6 +10595,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10070,6 +10614,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10088,6 +10633,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10106,6 +10652,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10124,6 +10671,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10163,6 +10711,7 @@ PARAMETERS:
     MediaBrowser.Model.Tasks.ITaskManager
     MediaBrowser.Controller.MediaEncoding.IFfmpegManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10181,6 +10730,7 @@ METHOD: AddParts
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Sync.ISyncProvider, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10201,6 +10751,7 @@ PARAMETERS:
     System.Int64[]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10221,6 +10772,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10240,6 +10792,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10259,6 +10812,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10278,6 +10832,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Server.Sync.Model.SyncJobCreationResult, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10300,6 +10855,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.User
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Server.Sync.Model.SyncJobCreationResult, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10318,6 +10874,7 @@ METHOD: FillMetadata
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10336,6 +10893,7 @@ METHOD: FillMetadata
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10356,6 +10914,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10374,6 +10933,7 @@ METHOD: GetDefaultName
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10393,6 +10953,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     MediaBrowser.Model.Sync.SyncJob
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10413,6 +10974,7 @@ PARAMETERS:
     MediaBrowser.Controller.Dto.IDtoService
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: MediaBrowser.Model.Dto.BaseItemDto
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10433,6 +10995,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10452,6 +11015,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJob
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10471,6 +11035,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobItem
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10490,6 +11055,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItemQuery
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10509,6 +11075,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncedItem
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10528,6 +11095,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItemQuery
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10547,6 +11115,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobQuery
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10566,6 +11135,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10585,6 +11155,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncProfileOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10603,6 +11174,7 @@ METHOD: GetProfileOptions
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncProfileOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10623,6 +11195,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncProfileOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10641,6 +11214,7 @@ METHOD: GetQualityOptions
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncQualityOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10660,6 +11234,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncQualityOption, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10679,6 +11254,7 @@ PARAMETERS:
     System.Int64[]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Emby.Server.Sync.Model.SyncedItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10698,6 +11274,7 @@ PARAMETERS:
     System.Int64[]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Server.Sync.Model.SyncJobItem[], Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10718,6 +11295,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10739,6 +11317,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10757,6 +11336,7 @@ METHOD: GetSyncJobProcessor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobProcessor
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10775,6 +11355,7 @@ METHOD: GetSyncProvider
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Controller.Sync.ISyncProvider
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10794,6 +11375,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10814,6 +11396,7 @@ PARAMETERS:
     System.String[]
     System.String[]
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10833,6 +11416,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10851,6 +11435,7 @@ METHOD: GetSyncTargets
 PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10870,6 +11455,7 @@ PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
     System.Int64
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10888,6 +11474,7 @@ METHOD: GetTargetsWithReadySyncItems
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10908,6 +11495,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.SyncJobOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10926,6 +11514,7 @@ METHOD: IsLibraryItemAvailable
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10944,6 +11533,7 @@ METHOD: OnItemCanceled
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10963,6 +11553,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
     MediaBrowser.Controller.Sync.ISyncProvider
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10981,6 +11572,7 @@ METHOD: OnSyncJobItemCreated
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11000,6 +11592,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     MediaBrowser.Model.Sync.SyncJobUpdateReason
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11019,6 +11612,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11037,6 +11631,7 @@ METHOD: ReportOfflineAction
 PARAMETERS:
     MediaBrowser.Model.Users.UserAction
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11055,6 +11650,7 @@ METHOD: ReportOfflineActions
 PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Users.UserAction, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11073,6 +11669,7 @@ METHOD: ReportOfflinePlayedItem
 PARAMETERS:
     MediaBrowser.Model.Users.UserAction
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11093,6 +11690,7 @@ PARAMETERS:
     System.Double
     MediaBrowser.Model.Sync.SyncJobItemStatus
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11111,6 +11709,7 @@ METHOD: ReportSyncJobItemTransferBeginning
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11129,6 +11728,7 @@ METHOD: ReportSyncJobItemTransferFailed
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11147,6 +11747,7 @@ METHOD: ReportSyncJobItemTransferred
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11166,6 +11767,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncDataRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncDataResponse
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11185,6 +11787,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncDataRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncDataResponse
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11204,6 +11807,7 @@ PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11222,6 +11826,7 @@ METHOD: UpdateSyncJobItemInternal
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11240,6 +11845,7 @@ METHOD: add_SyncJobCancelled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11258,6 +11864,7 @@ METHOD: add_SyncJobCreated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobCreationResult, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11276,6 +11883,7 @@ METHOD: add_SyncJobItemCancelled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11294,6 +11902,7 @@ METHOD: add_SyncJobItemCreated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11312,6 +11921,7 @@ METHOD: add_SyncJobItemUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11330,6 +11940,7 @@ METHOD: add_SyncJobUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Sync.SyncJobUpdateReason, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11348,6 +11959,7 @@ METHOD: get_ServerSyncProviders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Controller.Sync.IServerSyncProvider[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11366,6 +11978,7 @@ METHOD: remove_SyncJobCancelled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11384,6 +11997,7 @@ METHOD: remove_SyncJobCreated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobCreationResult, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11402,6 +12016,7 @@ METHOD: remove_SyncJobItemCancelled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11420,6 +12035,7 @@ METHOD: remove_SyncJobItemCreated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11438,6 +12054,7 @@ METHOD: remove_SyncJobItemUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11456,6 +12073,7 @@ METHOD: remove_SyncJobUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Sync.SyncJobUpdateReason, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11474,6 +12092,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11492,6 +12111,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11510,6 +12130,7 @@ METHOD: <CreateJob>b__47_0
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11528,6 +12149,7 @@ METHOD: <CreateJob>b__48_0
 PARAMETERS:
     Emby.Server.Sync.Model.SyncQualityOption
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11546,6 +12168,7 @@ METHOD: <CreateJob>b__48_1
 PARAMETERS:
     Emby.Server.Sync.Model.SyncQualityOption
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11564,6 +12187,7 @@ METHOD: <CreateJob>b__48_2
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11582,6 +12206,7 @@ METHOD: <CreateJob>b__48_3
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11600,6 +12225,7 @@ METHOD: <FillMetadata>b__54_1
 PARAMETERS:
     MediaBrowser.Model.Dto.LinkedItemInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11618,6 +12244,7 @@ METHOD: <FillMetadata>b__54_2
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11636,6 +12263,7 @@ METHOD: <FillMetadata>b__55_0
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11654,6 +12282,7 @@ METHOD: <GetJobItemInfo>b__70_0
 PARAMETERS:
     Emby.Server.Sync.Model.ItemFileInfo
 
+RETURN_TYPE: Emby.Server.Sync.Model.ItemFileInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11672,6 +12301,7 @@ METHOD: <GetReadySyncItems>b__77_1
 PARAMETERS:
     Emby.Server.Sync.Model.SyncedItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11690,6 +12320,7 @@ METHOD: <GetReadySyncItems>b__77_2
 PARAMETERS:
     Emby.Server.Sync.Model.SyncedItem
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11708,6 +12339,7 @@ METHOD: <GetSyncTargets>b__58_3
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11726,6 +12358,7 @@ METHOD: <GetTargetsWithReadySyncItems>b__78_0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11744,6 +12377,7 @@ METHOD: <GetTargetsWithReadySyncItems>b__78_2
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11762,6 +12396,7 @@ METHOD: <ReportOfflineActions>b__73_1
 PARAMETERS:
     MediaBrowser.Model.Users.UserAction
 
+RETURN_TYPE: System.ValueTuple`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.Users.UserActionType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11780,6 +12415,7 @@ METHOD: <ReportOfflineActions>b__73_2
 PARAMETERS:
     System.Linq.IGrouping`2[[System.ValueTuple`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.Users.UserActionType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MediaBrowser.Model.Users.UserAction, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Users.UserAction, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11798,6 +12434,7 @@ METHOD: <ReportOfflineActions>b__73_4
 PARAMETERS:
     MediaBrowser.Model.Users.UserAction
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11816,6 +12453,7 @@ METHOD: <SyncData>b__79_0
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11834,6 +12472,7 @@ METHOD: <SyncData>b__79_1
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11852,6 +12491,7 @@ METHOD: <SyncDataUsingSyncJobItemIds>b__80_0
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11870,6 +12510,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11888,6 +12529,7 @@ METHOD: <FillMetadata>b__0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11906,6 +12548,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11924,6 +12567,7 @@ METHOD: <GetSyncTargets>b__0
 PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11942,6 +12586,7 @@ METHOD: <GetSyncTargets>b__1
 PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11960,6 +12605,7 @@ METHOD: <GetSyncTargets>b__2
 PARAMETERS:
     MediaBrowser.Controller.Sync.ISyncProvider
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Sync.SyncTarget, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11978,6 +12624,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11996,6 +12643,7 @@ METHOD: <GetSyncTargets>b__0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncTarget
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12014,6 +12662,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12032,6 +12681,7 @@ METHOD: <GetSyncTargets>b__0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncTarget
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12050,6 +12700,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12068,6 +12719,7 @@ METHOD: <GetSyncTargets>b__0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncTarget
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncTarget
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12086,6 +12738,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12104,6 +12757,7 @@ METHOD: <ReportOfflineActions>b__0
 PARAMETERS:
     MediaBrowser.Model.Users.UserAction
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12122,6 +12776,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12140,6 +12795,7 @@ METHOD: <ReportOfflineActions>b__3
 PARAMETERS:
     MediaBrowser.Model.Users.UserAction
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12158,6 +12814,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12176,6 +12833,7 @@ METHOD: <GetReadySyncItems>b__0
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncedItem
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12194,6 +12852,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12212,6 +12871,7 @@ METHOD: <GetTargetsWithReadySyncItems>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12230,6 +12890,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12248,6 +12909,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12266,6 +12928,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12284,6 +12947,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12302,6 +12966,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12320,6 +12985,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12338,6 +13004,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12356,6 +13023,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12374,6 +13042,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Controller.Session.ISessionManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12392,6 +13061,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12410,6 +13080,7 @@ METHOD: Run
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12429,6 +13100,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12448,6 +13120,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobCreationResult, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12467,6 +13140,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12486,6 +13160,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12505,6 +13180,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Sync.SyncJobUpdateReason, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12523,6 +13199,7 @@ METHOD: get_SyncManager
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.SyncManager
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12541,6 +13218,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12559,6 +13237,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12577,6 +13256,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12595,6 +13275,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12613,6 +13294,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12631,6 +13313,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12649,6 +13332,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12667,6 +13351,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12685,6 +13370,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12703,6 +13389,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12727,6 +13414,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.ILibraryManager
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -12745,6 +13433,7 @@ METHOD: Create
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12763,6 +13452,7 @@ METHOD: DeleteJob
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12781,6 +13471,7 @@ METHOD: DeleteJobItem
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12800,6 +13491,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJob
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12819,6 +13511,7 @@ PARAMETERS:
     SQLitePCL.pretty.IResultSet
     System.Int32
 
+RETURN_TYPE: MediaBrowser.Model.Sync.SyncJob
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12838,6 +13531,7 @@ PARAMETERS:
     System.Int64
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobItem
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12857,6 +13551,7 @@ PARAMETERS:
     SQLitePCL.pretty.IResultSet
     System.Int32
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobItem
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12876,6 +13571,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItemQuery
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12897,6 +13593,7 @@ PARAMETERS:
     System.Func`3[SQLitePCL.pretty.IResultSet,System.Int32,T]
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12916,6 +13613,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItemQuery
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[Emby.Server.Sync.Model.SyncJobItem, Emby.Server.Sync, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12935,6 +13633,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobQuery
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Sync.SyncJob, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12954,6 +13653,7 @@ PARAMETERS:
     SQLitePCL.pretty.IResultSet
     System.Int32
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12974,6 +13674,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12995,6 +13696,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13015,6 +13717,7 @@ PARAMETERS:
     System.Int64[]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13033,6 +13736,7 @@ METHOD: Initialize
 PARAMETERS:
     SQLitePCL.pretty.IDatabaseConnection
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13052,6 +13756,7 @@ PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13070,6 +13775,7 @@ METHOD: Save
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJob
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13088,6 +13794,7 @@ METHOD: Update
 PARAMETERS:
     Emby.Server.Sync.Model.SyncJobItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13106,6 +13813,7 @@ METHOD: get_IsExternallyOwnedDatabase
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13124,6 +13832,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13142,6 +13851,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13160,6 +13870,7 @@ METHOD: <GetJobs>b__19_0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobStatus
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13178,6 +13889,7 @@ METHOD: <GetTargetsWithReadySyncItems>b__21_0
 PARAMETERS:
     MediaBrowser.Model.Sync.SyncJobItemStatus
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13201,6 +13913,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Controller.Library.ILibraryManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13224,6 +13937,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Dto.MediaSourceInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13243,6 +13957,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Model.Dto.MediaSourceInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13262,6 +13977,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.Threading.CancellationToken
 
+RETURN_TYPE: Emby.Server.Sync.Model.SyncJobItem[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13281,6 +13997,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13301,6 +14018,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.ILiveStream, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Library.ILiveStream, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13319,6 +14037,7 @@ METHOD: get_SyncManager
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.Sync.SyncManager
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13337,6 +14056,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13355,6 +14075,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13373,6 +14094,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13391,6 +14113,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

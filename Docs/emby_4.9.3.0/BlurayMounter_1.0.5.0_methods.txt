@@ -9,6 +9,7 @@ METHOD: ComputeStringHash
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: get_AutosaveReport
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: get_EnableSSIF
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: get_ExtendedStreamDiagnostics
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: get_FilterLoopingPlaylists
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: get_FilterShortPlaylists
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: get_FilterShortPlaylistsValue
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: get_GenerateFrameDataFile
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: get_GenerateStreamDiagnostics
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: get_GenerateTextSummary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: get_KeepStreamOrder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: get_LastPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: get_UseImagePrefix
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -243,6 +256,7 @@ METHOD: get_UseImagePrefixValue
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -262,6 +276,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -281,6 +296,7 @@ PARAMETERS:
     BDInfo.TSStreamFile
     BDInfo.TSStreamFile
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -301,6 +317,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     System.Int32
 
+RETURN_TYPE: MediaBrowser.Model.IO.FileSystemMetadata
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -320,6 +337,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -339,6 +357,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -357,6 +376,7 @@ METHOD: GetVolumeLabel
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -375,6 +395,7 @@ METHOD: Scan
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -393,6 +414,7 @@ METHOD: add_PlaylistFileScanError
 PARAMETERS:
     BDInfo.BDROM+OnPlaylistFileScanError
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -411,6 +433,7 @@ METHOD: add_StreamClipFileScanError
 PARAMETERS:
     BDInfo.BDROM+OnStreamClipFileScanError
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -429,6 +452,7 @@ METHOD: add_StreamFileScanError
 PARAMETERS:
     BDInfo.BDROM+OnStreamFileScanError
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -447,6 +471,7 @@ METHOD: remove_PlaylistFileScanError
 PARAMETERS:
     BDInfo.BDROM+OnPlaylistFileScanError
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -465,6 +490,7 @@ METHOD: remove_StreamClipFileScanError
 PARAMETERS:
     BDInfo.BDROM+OnStreamClipFileScanError
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -483,6 +509,7 @@ METHOD: remove_StreamFileScanError
 PARAMETERS:
     BDInfo.BDROM+OnStreamFileScanError
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -502,6 +529,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -523,6 +551,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -541,6 +570,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -560,6 +590,7 @@ PARAMETERS:
     BDInfo.TSPlaylistFile
     System.Exception
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -579,6 +610,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -600,6 +632,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -618,6 +651,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -637,6 +671,7 @@ PARAMETERS:
     BDInfo.TSStreamClipFile
     System.Exception
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -656,6 +691,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -677,6 +713,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -695,6 +732,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -714,6 +752,7 @@ PARAMETERS:
     BDInfo.TSStreamFile
     System.Exception
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -732,6 +771,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -751,6 +791,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     BDInfo.TSAudioStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -770,6 +811,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     BDInfo.TSTextStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -789,6 +831,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     BDInfo.TSGraphicsStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -808,6 +851,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Entities.MediaStream, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     BDInfo.TSVideoStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -826,6 +870,7 @@ METHOD: GetDiscInfo
 PARAMETERS:
     System.String
 
+RETURN_TYPE: BDInfo.BlurayDiscInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -844,6 +889,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -862,6 +908,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -880,6 +927,7 @@ METHOD: <GetDiscInfo>b__2_0
 PARAMETERS:
     BDInfo.TSPlaylistFile
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -898,6 +946,7 @@ METHOD: <GetDiscInfo>b__2_1
 PARAMETERS:
     BDInfo.TSPlaylistFile
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -916,6 +965,7 @@ METHOD: <GetDiscInfo>b__2_2
 PARAMETERS:
     BDInfo.TSStreamClip
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -934,6 +984,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -952,6 +1003,7 @@ METHOD: get_Chapters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Double[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -970,6 +1022,7 @@ METHOD: get_Files
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -988,6 +1041,7 @@ METHOD: get_MediaStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Entities.MediaStream[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1006,6 +1060,7 @@ METHOD: get_PlaylistName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1024,6 +1079,7 @@ METHOD: get_RunTimeTicks
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1042,6 +1098,7 @@ METHOD: set_Chapters
 PARAMETERS:
     System.Double[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1060,6 +1117,7 @@ METHOD: set_Files
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1078,6 +1136,7 @@ METHOD: set_MediaStreams
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1096,6 +1155,7 @@ METHOD: set_PlaylistName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1114,6 +1174,7 @@ METHOD: set_RunTimeTicks
 PARAMETERS:
     System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1132,6 +1193,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1150,6 +1212,7 @@ METHOD: GetName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1168,6 +1231,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1186,6 +1250,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1204,6 +1269,7 @@ METHOD: ConvertSampleRate
 PARAMETERS:
     BDInfo.TSSampleRate
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1222,6 +1288,7 @@ METHOD: get_ChannelDescription
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1240,6 +1307,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1258,6 +1326,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1276,6 +1345,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1294,6 +1364,7 @@ METHOD: AC3ChanMap
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Byte
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1312,6 +1383,7 @@ METHOD: EmdfPayloadConfig
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1332,6 +1404,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1350,6 +1423,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1370,6 +1444,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1388,6 +1463,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1406,6 +1482,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1427,6 +1504,7 @@ PARAMETERS:
     System.Int64
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1445,6 +1523,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1463,6 +1542,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1484,6 +1564,7 @@ PARAMETERS:
     System.Int64
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1502,6 +1583,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1520,6 +1602,7 @@ METHOD: AccessUnitDelimiter
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1538,6 +1621,7 @@ METHOD: ColourPrimaries
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1561,6 +1645,7 @@ PARAMETERS:
     BDInfo.TSCodecHEVC+XXL&
     BDInfo.TSCodecHEVC+XXL&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1579,6 +1664,7 @@ METHOD: MatrixCoefficients
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1597,6 +1683,7 @@ METHOD: PicParameterSet
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1616,6 +1703,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1634,6 +1722,7 @@ METHOD: ScalingListData
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1654,6 +1743,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1672,6 +1762,7 @@ METHOD: Sei
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1690,6 +1781,7 @@ METHOD: SeiAlternativeTransferCharacteristics
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1708,6 +1800,7 @@ METHOD: SeiMessageActiveParametersSets
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1728,6 +1821,7 @@ PARAMETERS:
     System.UInt32&
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1750,6 +1844,7 @@ PARAMETERS:
     BDInfo.TSCodecHEVC+XXL
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1768,6 +1863,7 @@ METHOD: SeiMessageLightLevel
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1786,6 +1882,7 @@ METHOD: SeiMessageMasteringDisplayColourVolume
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1806,6 +1903,7 @@ PARAMETERS:
     System.UInt32&
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1824,6 +1922,7 @@ METHOD: SeiMessageRecoveryPoint
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1842,6 +1941,7 @@ METHOD: SeqParameterSet
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1861,6 +1961,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1884,6 +1985,7 @@ PARAMETERS:
     System.UInt32
     BDInfo.TSCodecHEVC+XXL&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1902,6 +2004,7 @@ METHOD: TransferCharacteristics
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1922,6 +2025,7 @@ PARAMETERS:
     BDInfo.TSCodecHEVC+VideoParamSetStruct
     BDInfo.TSCodecHEVC+VUIParametersStruct&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1940,6 +2044,7 @@ METHOD: VideoParameterSet
 PARAMETERS:
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1958,6 +2063,7 @@ METHOD: get_ExtendedData
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSCodecHEVC+ExtendedDataSet
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1976,6 +2082,7 @@ METHOD: get_ExtendedFormatInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1994,6 +2101,7 @@ METHOD: get_LightLevelAvailable
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2012,6 +2120,7 @@ METHOD: get_MasteringDisplayColorPrimaries
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2030,6 +2139,7 @@ METHOD: get_MasteringDisplayLuminance
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2048,6 +2158,7 @@ METHOD: get_MaximumContentLightLevel
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2066,6 +2177,7 @@ METHOD: get_MaximumFrameAverageLightLevel
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2084,6 +2196,7 @@ METHOD: get_PicParameterSets
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+PicParameterSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2102,6 +2215,7 @@ METHOD: get_PreferredTransferCharacteristics
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2120,6 +2234,7 @@ METHOD: get_SeqParameterSets
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+SeqParameterSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2138,6 +2253,7 @@ METHOD: get_VUIParameterSets
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+VUIParametersStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2156,6 +2272,7 @@ METHOD: get_VideoParamSets
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+VideoParamSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2174,6 +2291,7 @@ METHOD: set_ExtendedData
 PARAMETERS:
     BDInfo.TSCodecHEVC+ExtendedDataSet
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2192,6 +2310,7 @@ METHOD: set_ExtendedFormatInfo
 PARAMETERS:
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2210,6 +2329,7 @@ METHOD: set_LightLevelAvailable
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2228,6 +2348,7 @@ METHOD: set_MasteringDisplayColorPrimaries
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2246,6 +2367,7 @@ METHOD: set_MasteringDisplayLuminance
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2264,6 +2386,7 @@ METHOD: set_MaximumContentLightLevel
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2282,6 +2405,7 @@ METHOD: set_MaximumFrameAverageLightLevel
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2300,6 +2424,7 @@ METHOD: set_PicParameterSets
 PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+PicParameterSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2318,6 +2443,7 @@ METHOD: set_PreferredTransferCharacteristics
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2336,6 +2462,7 @@ METHOD: set_SeqParameterSets
 PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+SeqParameterSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2354,6 +2481,7 @@ METHOD: set_VUIParameterSets
 PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+VUIParametersStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2372,6 +2500,7 @@ METHOD: set_VideoParamSets
 PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+VideoParamSetStruct, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2390,6 +2519,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2408,6 +2538,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2430,6 +2561,7 @@ PARAMETERS:
     System.Byte
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2448,6 +2580,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2485,6 +2618,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2503,6 +2637,7 @@ METHOD: get_ChromaArrayType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2521,6 +2656,7 @@ METHOD: get_CpbDpbDelaysPresentFlag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2539,6 +2675,7 @@ METHOD: get_NalHrdBpPresentFlag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2557,6 +2694,7 @@ METHOD: get_VclHrdPbPresentFlag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2575,6 +2713,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2610,6 +2749,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2628,6 +2768,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2646,6 +2787,7 @@ METHOD: .ctor
 PARAMETERS:
     System.UInt16
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2664,6 +2806,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2682,6 +2825,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSCodecHEVC+XXLData, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2700,6 +2844,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2723,6 +2868,7 @@ PARAMETERS:
     System.UInt16
     System.UInt16
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2743,6 +2889,7 @@ PARAMETERS:
     System.UInt64
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2761,6 +2908,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2781,6 +2929,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2799,6 +2948,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2819,6 +2969,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2837,6 +2988,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2857,6 +3009,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2875,6 +3028,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2895,6 +3049,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2913,6 +3068,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2933,6 +3089,7 @@ PARAMETERS:
     BDInfo.TSStreamBuffer
     System.String&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2952,6 +3109,7 @@ PARAMETERS:
     System.Byte
     System.Byte
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2970,6 +3128,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSDescriptor
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2988,6 +3147,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3006,6 +3166,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3024,6 +3185,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3042,6 +3204,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3062,6 +3225,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3083,6 +3247,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSStreamClip, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3101,6 +3266,7 @@ METHOD: ClearBitrates
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3120,6 +3286,7 @@ PARAMETERS:
     BDInfo.TSAudioStream
     BDInfo.TSAudioStream
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3139,6 +3306,7 @@ PARAMETERS:
     BDInfo.TSGraphicsStream
     BDInfo.TSGraphicsStream
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3158,6 +3326,7 @@ PARAMETERS:
     BDInfo.TSTextStream
     BDInfo.TSTextStream
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3177,6 +3346,7 @@ PARAMETERS:
     BDInfo.TSVideoStream
     BDInfo.TSVideoStream
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3196,6 +3366,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32&
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3214,6 +3385,7 @@ METHOD: GetFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3232,6 +3404,7 @@ METHOD: GetStreamTypeSortIndex
 PARAMETERS:
     BDInfo.TSStreamType
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3250,6 +3423,7 @@ METHOD: Initialize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3268,6 +3442,7 @@ METHOD: LoadStreamClips
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3287,6 +3462,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3306,6 +3482,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3325,6 +3502,7 @@ PARAMETERS:
     System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BDInfo.TSStreamFile, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
     System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BDInfo.TSStreamClipFile, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3343,6 +3521,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3361,6 +3540,7 @@ METHOD: get_FileSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3379,6 +3559,7 @@ METHOD: get_InterleavedFileSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3397,6 +3578,7 @@ METHOD: get_IsValid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3415,6 +3597,7 @@ METHOD: get_TotalAngleBitRate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3433,6 +3616,7 @@ METHOD: get_TotalAngleLength
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3451,6 +3635,7 @@ METHOD: get_TotalAngleSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3469,6 +3654,7 @@ METHOD: get_TotalBitRate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3487,6 +3673,7 @@ METHOD: get_TotalLength
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3505,6 +3692,7 @@ METHOD: get_TotalSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3523,6 +3711,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3541,6 +3730,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3559,6 +3749,7 @@ METHOD: CopyTo
 PARAMETERS:
     BDInfo.TSStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3577,6 +3768,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3595,6 +3787,7 @@ METHOD: get_CodecAltName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3613,6 +3806,7 @@ METHOD: get_CodecName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3631,6 +3825,7 @@ METHOD: get_CodecShortName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3649,6 +3844,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3667,6 +3863,7 @@ METHOD: get_IsAudioStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3685,6 +3882,7 @@ METHOD: get_IsGraphicsStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3703,6 +3901,7 @@ METHOD: get_IsTextStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3721,6 +3920,7 @@ METHOD: get_IsVideoStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3739,6 +3939,7 @@ METHOD: get_LanguageCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3757,6 +3958,7 @@ METHOD: get_PacketSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3775,6 +3977,7 @@ METHOD: set_LanguageCode
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3793,6 +3996,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3813,6 +4017,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3831,6 +4036,7 @@ METHOD: BSSkipBits
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3849,6 +4055,7 @@ METHOD: BSSkipBytes
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3867,6 +4074,7 @@ METHOD: BSSkipNextByte
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3885,6 +4093,7 @@ METHOD: BeginRead
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3903,6 +4112,7 @@ METHOD: DataBitStreamRemain
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3921,6 +4131,7 @@ METHOD: DataBitStreamRemainBytes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3939,6 +4150,7 @@ METHOD: EndRead
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3957,6 +4169,7 @@ METHOD: ReadBits2
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.UInt16
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3975,6 +4188,7 @@ METHOD: ReadBits4
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3993,6 +4207,7 @@ METHOD: ReadBits8
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4011,6 +4226,7 @@ METHOD: ReadBool
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4029,6 +4245,7 @@ METHOD: ReadByte
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4047,6 +4264,7 @@ METHOD: ReadBytes
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4065,6 +4283,7 @@ METHOD: ReadExp
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4083,6 +4302,7 @@ METHOD: Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4102,6 +4322,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4120,6 +4341,7 @@ METHOD: SkipExp
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4138,6 +4360,7 @@ METHOD: SkipExpMulti
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4156,6 +4379,7 @@ METHOD: get_Length
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4174,6 +4398,7 @@ METHOD: get_Position
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4193,6 +4418,7 @@ PARAMETERS:
     BDInfo.TSStreamFile
     BDInfo.TSStreamClipFile
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4211,6 +4437,7 @@ METHOD: IsCompatible
 PARAMETERS:
     BDInfo.TSStreamClip
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4229,6 +4456,7 @@ METHOD: get_DisplayName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4247,6 +4475,7 @@ METHOD: get_PacketBitRate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4265,6 +4494,7 @@ METHOD: get_PacketSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4284,6 +4514,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4302,6 +4533,7 @@ METHOD: Scan
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4320,6 +4552,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4339,6 +4572,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4359,6 +4593,7 @@ PARAMETERS:
     System.Byte
     System.Collections.Generic.List`1[[BDInfo.TSDescriptor, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4377,6 +4612,7 @@ METHOD: GetFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4396,6 +4632,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[BDInfo.TSPlaylistFile, BlurayMounter, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null]]
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4416,6 +4653,7 @@ PARAMETERS:
     BDInfo.TSStreamState
     BDInfo.TSStreamBuffer
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4437,6 +4675,7 @@ PARAMETERS:
     System.UInt64
     System.UInt64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4457,6 +4696,7 @@ PARAMETERS:
     System.UInt64
     System.UInt64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4475,6 +4715,7 @@ METHOD: get_DisplayName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4493,6 +4734,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4511,6 +4753,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4529,6 +4772,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4547,6 +4791,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4565,6 +4810,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4583,6 +4829,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4601,6 +4848,7 @@ METHOD: get_FrameRate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSFrameRate
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4619,6 +4867,7 @@ METHOD: get_VideoFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: BDInfo.TSVideoFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4637,6 +4886,7 @@ METHOD: set_FrameRate
 PARAMETERS:
     BDInfo.TSFrameRate
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4655,6 +4905,7 @@ METHOD: set_VideoFormat
 PARAMETERS:
     BDInfo.TSVideoFormat
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4673,6 +4924,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4691,6 +4943,7 @@ METHOD: FormatFileSize
 PARAMETERS:
     System.Double
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4711,6 +4964,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4730,6 +4984,7 @@ PARAMETERS:
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Int32&
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4749,6 +5004,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IMediaSourceManager
     MediaBrowser.Controller.MediaEncoding.IMediaEncoder
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4769,6 +5025,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4787,6 +5044,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4808,6 +5066,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.IO.MediaMount, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4826,6 +5085,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4844,6 +5104,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4862,6 +5123,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4880,6 +5142,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4898,6 +5161,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4916,6 +5180,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4934,6 +5199,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

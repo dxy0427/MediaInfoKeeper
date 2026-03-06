@@ -12,6 +12,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -33,6 +34,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -54,6 +56,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -73,6 +76,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -93,6 +97,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -111,6 +116,7 @@ METHOD: GetSupportedImages
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -134,6 +140,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -152,6 +159,7 @@ METHOD: Supports
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -170,6 +178,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -188,6 +197,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -206,6 +216,7 @@ METHOD: get_ProviderName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -224,6 +235,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -242,6 +254,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -260,6 +273,7 @@ METHOD: <PopulateImages>b__15_1
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteImageInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -278,6 +292,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -296,6 +311,7 @@ METHOD: <PopulateImages>b__0
 PARAMETERS:
     Fanart.FanartSeriesProvider+Image
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteImageInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -314,6 +330,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -332,6 +349,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -350,6 +368,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -368,6 +387,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -389,6 +409,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -411,6 +432,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -430,6 +452,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -450,6 +473,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -468,6 +492,7 @@ METHOD: GetSupportedImages
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -490,6 +515,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -508,6 +534,7 @@ METHOD: Supports
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -526,6 +553,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -544,6 +572,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -562,6 +591,7 @@ METHOD: get_ProviderName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -580,6 +610,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -598,6 +629,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -616,6 +648,7 @@ METHOD: <PopulateImages>b__14_1
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteImageInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -634,6 +667,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -652,6 +686,7 @@ METHOD: <AddImages>b__0
 PARAMETERS:
     Fanart.FanartArtistProvider+Album
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -670,6 +705,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -688,6 +724,7 @@ METHOD: <PopulateImages>b__0
 PARAMETERS:
     Fanart.FanartArtistProvider+FanartArtistImage
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteImageInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -706,6 +743,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -724,6 +762,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -742,6 +781,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -760,6 +800,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -781,6 +822,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -801,6 +843,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -820,6 +863,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -839,6 +883,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -858,6 +903,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -876,6 +922,7 @@ METHOD: GetArtistDataPath
 PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -895,6 +942,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -914,6 +962,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -934,6 +983,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -952,6 +1002,7 @@ METHOD: GetSupportedImages
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -974,6 +1025,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -992,6 +1044,7 @@ METHOD: Supports
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1010,6 +1063,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1028,6 +1082,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1046,6 +1101,7 @@ METHOD: get_ProviderName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1064,6 +1120,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1082,6 +1139,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1100,6 +1158,7 @@ METHOD: <PopulateImages>b__17_1
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteImageInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1118,6 +1177,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1136,6 +1196,7 @@ METHOD: <PopulateImages>b__0
 PARAMETERS:
     Fanart.FanartArtistProvider+FanartArtistImage
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteImageInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1154,6 +1215,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1172,6 +1234,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1190,6 +1253,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1208,6 +1272,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1226,6 +1291,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1244,6 +1310,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1262,6 +1329,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1280,6 +1348,7 @@ METHOD: get_albumcover
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1298,6 +1367,7 @@ METHOD: get_cdart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1316,6 +1386,7 @@ METHOD: get_release_group_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1334,6 +1405,7 @@ METHOD: set_albumcover
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1352,6 +1424,7 @@ METHOD: set_cdart
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1370,6 +1443,7 @@ METHOD: set_release_group_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1388,6 +1462,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1406,6 +1481,7 @@ METHOD: get_disc
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1424,6 +1500,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1442,6 +1519,7 @@ METHOD: get_lang
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1460,6 +1538,7 @@ METHOD: get_likes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1478,6 +1557,7 @@ METHOD: get_size
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1496,6 +1576,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1514,6 +1595,7 @@ METHOD: set_disc
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1532,6 +1614,7 @@ METHOD: set_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1550,6 +1633,7 @@ METHOD: set_lang
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1568,6 +1652,7 @@ METHOD: set_likes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1586,6 +1671,7 @@ METHOD: set_size
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1604,6 +1690,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1622,6 +1709,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1640,6 +1728,7 @@ METHOD: get_albums
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+Album, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1658,6 +1747,7 @@ METHOD: get_artistbackground
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1676,6 +1766,7 @@ METHOD: get_artistthumb
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1694,6 +1785,7 @@ METHOD: get_hdmusicarts
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1712,6 +1804,7 @@ METHOD: get_hdmusiclogo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1730,6 +1823,7 @@ METHOD: get_mbid_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1748,6 +1842,7 @@ METHOD: get_musicarts
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1766,6 +1861,7 @@ METHOD: get_musicbanner
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1784,6 +1880,7 @@ METHOD: get_musiclogo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1802,6 +1899,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1820,6 +1918,7 @@ METHOD: set_albums
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+Album, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1838,6 +1937,7 @@ METHOD: set_artistbackground
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1856,6 +1956,7 @@ METHOD: set_artistthumb
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1874,6 +1975,7 @@ METHOD: set_hdmusicarts
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1892,6 +1994,7 @@ METHOD: set_hdmusiclogo
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1910,6 +2013,7 @@ METHOD: set_mbid_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1928,6 +2032,7 @@ METHOD: set_musicarts
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1946,6 +2051,7 @@ METHOD: set_musicbanner
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1964,6 +2070,7 @@ METHOD: set_musiclogo
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartArtistProvider+FanartArtistImage, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1982,6 +2089,7 @@ METHOD: set_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2000,6 +2108,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2018,6 +2127,7 @@ METHOD: GetConfigurations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.ConfigurationStore, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2039,6 +2149,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2059,6 +2170,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2079,6 +2191,7 @@ PARAMETERS:
     Fanart.FanartMovieImageProvider+RootObject
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2098,6 +2211,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2117,6 +2231,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2135,6 +2250,7 @@ METHOD: GetFanartJsonPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2154,6 +2270,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2174,6 +2291,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2193,6 +2311,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2211,6 +2330,7 @@ METHOD: GetMoviesDataPath
 PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2229,6 +2349,7 @@ METHOD: GetSupportedImages
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2248,6 +2369,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2266,6 +2388,7 @@ METHOD: NormalizeLanguage
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2288,6 +2411,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2306,6 +2430,7 @@ METHOD: Supports
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2324,6 +2449,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2342,6 +2468,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2360,6 +2487,7 @@ METHOD: get_ProviderName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2378,6 +2506,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2396,6 +2525,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2414,6 +2544,7 @@ METHOD: <PopulateImages>b__18_1
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteImageInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2432,6 +2563,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2450,6 +2582,7 @@ METHOD: <PopulateImages>b__0
 PARAMETERS:
     Fanart.FanartMovieImageProvider+Image
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteImageInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2468,6 +2601,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2486,6 +2620,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2504,6 +2639,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2522,6 +2658,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2540,6 +2677,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2558,6 +2696,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2576,6 +2715,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2594,6 +2734,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2612,6 +2753,7 @@ METHOD: get_lang
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2630,6 +2772,7 @@ METHOD: get_likes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2648,6 +2791,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2666,6 +2810,7 @@ METHOD: set_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2684,6 +2829,7 @@ METHOD: set_lang
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2702,6 +2848,7 @@ METHOD: set_likes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2720,6 +2867,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2738,6 +2886,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2756,6 +2905,7 @@ METHOD: get_hdmovieclearart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2774,6 +2924,7 @@ METHOD: get_hdmovielogo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2792,6 +2943,7 @@ METHOD: get_imdb_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2810,6 +2962,7 @@ METHOD: get_movieart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2828,6 +2981,7 @@ METHOD: get_moviebackground
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2846,6 +3000,7 @@ METHOD: get_moviebanner
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2864,6 +3019,7 @@ METHOD: get_moviedisc
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2882,6 +3038,7 @@ METHOD: get_movielogo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2900,6 +3057,7 @@ METHOD: get_movieposter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2918,6 +3076,7 @@ METHOD: get_moviethumb
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2936,6 +3095,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2954,6 +3114,7 @@ METHOD: get_tmdb_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2972,6 +3133,7 @@ METHOD: set_hdmovieclearart
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2990,6 +3152,7 @@ METHOD: set_hdmovielogo
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3008,6 +3171,7 @@ METHOD: set_imdb_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3026,6 +3190,7 @@ METHOD: set_movieart
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3044,6 +3209,7 @@ METHOD: set_moviebackground
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3062,6 +3228,7 @@ METHOD: set_moviebanner
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3080,6 +3247,7 @@ METHOD: set_moviedisc
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3098,6 +3266,7 @@ METHOD: set_movielogo
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3116,6 +3285,7 @@ METHOD: set_movieposter
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3134,6 +3304,7 @@ METHOD: set_moviethumb
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartMovieImageProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3152,6 +3323,7 @@ METHOD: set_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3170,6 +3342,7 @@ METHOD: set_tmdb_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3188,6 +3361,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3206,6 +3380,7 @@ METHOD: get_UserApiKey
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3224,6 +3399,7 @@ METHOD: set_UserApiKey
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3245,6 +3421,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3265,6 +3442,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3285,6 +3463,7 @@ PARAMETERS:
     Fanart.FanartSeriesProvider+RootObject
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3304,6 +3483,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3323,6 +3503,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3341,6 +3522,7 @@ METHOD: GetFanartJsonPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3359,6 +3541,7 @@ METHOD: GetFanartOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Fanart.FanartOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3378,6 +3561,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3398,6 +3582,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteImageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3417,6 +3602,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3435,6 +3621,7 @@ METHOD: GetSeriesDataPath
 PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3453,6 +3640,7 @@ METHOD: GetSupportedImages
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Entities.ImageType, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3476,6 +3664,7 @@ PARAMETERS:
     System.Int32
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3494,6 +3683,7 @@ METHOD: Supports
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3512,6 +3702,7 @@ METHOD: get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Fanart.FanartSeriesProvider
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3530,6 +3721,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3548,6 +3740,7 @@ METHOD: get_Order
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3566,6 +3759,7 @@ METHOD: get_ProviderName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3584,6 +3778,7 @@ METHOD: set_Current
 PARAMETERS:
     Fanart.FanartSeriesProvider
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3602,6 +3797,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3620,6 +3816,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3638,6 +3835,7 @@ METHOD: <PopulateImages>b__20_1
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteImageInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3656,6 +3854,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3674,6 +3873,7 @@ METHOD: <PopulateImages>b__0
 PARAMETERS:
     Fanart.FanartSeriesProvider+Image
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteImageInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3692,6 +3892,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3710,6 +3911,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3728,6 +3930,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3746,6 +3949,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3764,6 +3968,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3782,6 +3987,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3800,6 +4006,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3818,6 +4025,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3836,6 +4044,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3854,6 +4063,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3872,6 +4082,7 @@ METHOD: get_lang
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3890,6 +4101,7 @@ METHOD: get_likes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3908,6 +4120,7 @@ METHOD: get_season
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3926,6 +4139,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3944,6 +4158,7 @@ METHOD: set_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3962,6 +4177,7 @@ METHOD: set_lang
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3980,6 +4196,7 @@ METHOD: set_likes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3998,6 +4215,7 @@ METHOD: set_season
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4016,6 +4234,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4034,6 +4253,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4052,6 +4272,7 @@ METHOD: get_characterart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4070,6 +4291,7 @@ METHOD: get_clearart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4088,6 +4310,7 @@ METHOD: get_clearlogo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4106,6 +4329,7 @@ METHOD: get_hdclearart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4124,6 +4348,7 @@ METHOD: get_hdtvlogo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4142,6 +4367,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4160,6 +4386,7 @@ METHOD: get_seasonbanner
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4178,6 +4405,7 @@ METHOD: get_seasonposter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4196,6 +4424,7 @@ METHOD: get_seasonthumb
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4214,6 +4443,7 @@ METHOD: get_showbackground
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4232,6 +4462,7 @@ METHOD: get_thetvdb_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4250,6 +4481,7 @@ METHOD: get_tvbanner
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4268,6 +4500,7 @@ METHOD: get_tvposter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4286,6 +4519,7 @@ METHOD: get_tvthumb
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4304,6 +4538,7 @@ METHOD: set_characterart
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4322,6 +4557,7 @@ METHOD: set_clearart
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4340,6 +4576,7 @@ METHOD: set_clearlogo
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4358,6 +4595,7 @@ METHOD: set_hdclearart
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4376,6 +4614,7 @@ METHOD: set_hdtvlogo
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4394,6 +4633,7 @@ METHOD: set_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4412,6 +4652,7 @@ METHOD: set_seasonbanner
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4430,6 +4671,7 @@ METHOD: set_seasonposter
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4448,6 +4690,7 @@ METHOD: set_seasonthumb
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4466,6 +4709,7 @@ METHOD: set_showbackground
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4484,6 +4728,7 @@ METHOD: set_thetvdb_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4502,6 +4747,7 @@ METHOD: set_tvbanner
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4520,6 +4766,7 @@ METHOD: set_tvposter
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4538,6 +4785,7 @@ METHOD: set_tvthumb
 PARAMETERS:
     System.Collections.Generic.List`1[[Fanart.FanartSeriesProvider+Image, Fanart, Version=1.0.17.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4556,6 +4804,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4574,6 +4823,7 @@ METHOD: GetPages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4592,6 +4842,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4610,6 +4861,7 @@ METHOD: GetTranslations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4628,6 +4880,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4646,6 +4899,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4664,6 +4918,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4682,6 +4937,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4700,6 +4956,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4718,6 +4975,7 @@ METHOD: <GetTranslations>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4736,6 +4994,7 @@ METHOD: <GetTranslations>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4756,6 +5015,7 @@ PARAMETERS:
     System.Char
     System.StringComparison
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4776,6 +5036,7 @@ PARAMETERS:
     System.String
     System.StringComparison
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4796,6 +5057,7 @@ PARAMETERS:
     System.Char
     System.StringComparison
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4817,6 +5079,7 @@ PARAMETERS:
     System.String
     System.StringComparison
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4836,6 +5099,7 @@ PARAMETERS:
     System.String
     System.Char
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0

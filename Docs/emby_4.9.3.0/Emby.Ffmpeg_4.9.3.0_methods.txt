@@ -9,6 +9,7 @@ METHOD: DoubleQuote
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: EscapeUnixFilePath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: ParseAsFlags
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Nullable`1[T]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -63,6 +66,7 @@ METHOD: ToFlagsString
 PARAMETERS:
     System.Nullable`1[T]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -81,6 +85,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: <ParseAsFlags>b__0_0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: <ParseAsFlags>b__0_1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: get_Format
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IFormatProvider
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: GetConstant
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: GetConstant
 PARAMETERS:
     System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: GetConstant
 PARAMETERS:
     System.Nullable`1[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -243,6 +256,7 @@ METHOD: GetConstant
 PARAMETERS:
     System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -261,6 +275,7 @@ METHOD: ParseDouble
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Nullable`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -279,6 +294,7 @@ METHOD: ParseFloat
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Nullable`1[[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -297,6 +313,7 @@ METHOD: ParseInt32
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -315,6 +332,7 @@ METHOD: ParseInt64
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -333,6 +351,7 @@ METHOD: GetExtensionFromUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -351,6 +370,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -369,6 +389,7 @@ METHOD: get_EscapingStyle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Configuration.Enums.PathEscapingStyle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -387,6 +408,7 @@ METHOD: get_FeatureSelectors
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -405,6 +427,7 @@ METHOD: get_SpecifyDemuxerFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -423,6 +446,7 @@ METHOD: set_EscapingStyle
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.Enums.PathEscapingStyle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -441,6 +465,7 @@ METHOD: set_FeatureSelectors
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.SelectorConfiguration
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -459,6 +484,7 @@ METHOD: set_SpecifyDemuxerFormat
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -477,6 +503,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -495,6 +522,7 @@ METHOD: get_DemuxerSelector
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FeatureSelection.IDemuxerSelector
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -513,6 +541,7 @@ METHOD: get_InputProtocolSelector
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FeatureSelection.IInputProtocolSelector
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -531,6 +560,7 @@ METHOD: get_MuxerSelector
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FeatureSelection.IMuxerSelector
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -549,6 +579,7 @@ METHOD: get_OutputProtocolSelector
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FeatureSelection.IOutputProtocolSelector
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -567,6 +598,7 @@ METHOD: set_DemuxerSelector
 PARAMETERS:
     Emby.Ffmpeg.Model.FeatureSelection.IDemuxerSelector
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -585,6 +617,7 @@ METHOD: set_InputProtocolSelector
 PARAMETERS:
     Emby.Ffmpeg.Model.FeatureSelection.IInputProtocolSelector
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -603,6 +636,7 @@ METHOD: set_MuxerSelector
 PARAMETERS:
     Emby.Ffmpeg.Model.FeatureSelection.IMuxerSelector
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -621,6 +655,7 @@ METHOD: set_OutputProtocolSelector
 PARAMETERS:
     Emby.Ffmpeg.Model.FeatureSelection.IOutputProtocolSelector
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -639,6 +674,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -657,6 +693,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -676,6 +713,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Ffmpeg.Model.Containers.InputStreamContainer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -694,6 +732,7 @@ METHOD: get_Demuxer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[Emby.Ffmpeg.Lib.RegisteredDemuxers, Emby.Ffmpeg.Lib, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -712,6 +751,7 @@ METHOD: set_Demuxer
 PARAMETERS:
     System.Nullable`1[[Emby.Ffmpeg.Lib.RegisteredDemuxers, Emby.Ffmpeg.Lib, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -730,6 +770,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -748,6 +789,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -767,6 +809,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Ffmpeg.Model.Containers.OutputStreamContainer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -785,6 +828,7 @@ METHOD: get_Muxer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[Emby.Ffmpeg.Lib.RegisteredMuxers, Emby.Ffmpeg.Lib, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -803,6 +847,7 @@ METHOD: set_Muxer
 PARAMETERS:
     System.Nullable`1[[Emby.Ffmpeg.Lib.RegisteredMuxers, Emby.Ffmpeg.Lib, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -821,6 +866,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -840,6 +886,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -858,6 +905,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -876,6 +924,7 @@ METHOD: GetProtocolFromUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -895,6 +944,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -913,6 +963,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -932,6 +983,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -950,6 +1002,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -969,6 +1022,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -988,6 +1042,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1007,6 +1062,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1026,6 +1082,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1045,6 +1102,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1063,6 +1121,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1081,6 +1140,7 @@ METHOD: .ctor
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1099,6 +1159,7 @@ METHOD: AddInput
 PARAMETERS:
     Emby.Ffmpeg.Model.Containers.InputStreamContainer
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1117,6 +1178,7 @@ METHOD: AddInput
 PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputFile
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1137,6 +1199,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
     Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1155,6 +1218,7 @@ METHOD: AddOutput
 PARAMETERS:
     Emby.Ffmpeg.Model.Output.OutputFile
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1173,6 +1237,7 @@ METHOD: BuildCommandLine
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1192,6 +1257,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
     Emby.Ffmpeg.Model.Interfaces.IStreamSink
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.StreamConnection
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1211,6 +1277,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
     Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.StreamConnection
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1229,6 +1296,7 @@ METHOD: CreatInputFromContainer
 PARAMETERS:
     Emby.Ffmpeg.Model.Containers.InputStreamContainer
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1247,6 +1315,7 @@ METHOD: Disconnect
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSink
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1265,6 +1334,7 @@ METHOD: FindStreamSource
 PARAMETERS:
     System.String
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1283,6 +1353,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1301,6 +1372,7 @@ METHOD: get_Configuration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1319,6 +1391,7 @@ METHOD: get_Connections
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.ObjectModel.ReadOnlyCollection`1[[Emby.Ffmpeg.Model.FilterGraph.StreamConnection, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1337,6 +1410,7 @@ METHOD: get_Filters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1355,6 +1429,7 @@ METHOD: get_Input0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1373,6 +1448,7 @@ METHOD: get_Inputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Input.InputFile, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1391,6 +1467,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.GlobalOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1409,6 +1486,7 @@ METHOD: get_Output0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputFile
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1427,6 +1505,7 @@ METHOD: get_Outputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Output.OutputFile, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1445,6 +1524,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1463,6 +1543,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1481,6 +1562,7 @@ METHOD: <Connect>b__28_0
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1499,6 +1581,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1517,6 +1600,7 @@ METHOD: <Connect>b__1
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1535,6 +1619,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1553,6 +1638,7 @@ METHOD: BuildCommandLine
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1571,6 +1657,7 @@ METHOD: .ctor
 PARAMETERS:
     Emby.Ffmpeg.Model.FfmpegCommand
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1589,6 +1676,7 @@ METHOD: AddFilter
 PARAMETERS:
     T
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1608,6 +1696,7 @@ PARAMETERS:
     T
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1626,6 +1715,7 @@ METHOD: AddFilterInstance
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1644,6 +1734,7 @@ METHOD: BuildFilterString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1662,6 +1753,7 @@ METHOD: GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[[Emby.Ffmpeg.Model.FilterGraph.FilterInstance, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1680,6 +1772,7 @@ METHOD: System.Collections.IEnumerable.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1698,6 +1791,7 @@ METHOD: get_Count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1716,6 +1810,7 @@ METHOD: get_Item
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1735,6 +1830,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Features.Filters.FilterBase
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1753,6 +1849,7 @@ METHOD: CreateInputPinInstance
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1771,6 +1868,7 @@ METHOD: CreateOutputPinInstance
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Filters.Pins.OutputPin
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1789,6 +1887,7 @@ METHOD: get_Filter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Filters.FilterBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1807,6 +1906,7 @@ METHOD: get_FilterId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1825,6 +1925,7 @@ METHOD: get_FilterName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1843,6 +1944,7 @@ METHOD: get_InputPin0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1861,6 +1963,7 @@ METHOD: get_InputPin1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1879,6 +1982,7 @@ METHOD: get_InputPins
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.ObjectModel.ReadOnlyCollection`1[[Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1897,6 +2001,7 @@ METHOD: get_OutputPin0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1915,6 +2020,7 @@ METHOD: get_OutputPin1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1933,6 +2039,7 @@ METHOD: get_OutputPins
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.ObjectModel.ReadOnlyCollection`1[[Emby.Ffmpeg.Model.FilterGraph.Pins.OutputPinInstance, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1952,6 +2059,7 @@ PARAMETERS:
     T
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1970,6 +2078,7 @@ METHOD: get_Filter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1989,6 +2098,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
     Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2007,6 +2117,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSink.get_Feature
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2025,6 +2136,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2043,6 +2155,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.set_ConnectedSource
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2061,6 +2174,7 @@ METHOD: get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2079,6 +2193,7 @@ METHOD: get_FilterPin
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2097,6 +2212,7 @@ METHOD: get_OwnerFilter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2115,6 +2231,7 @@ METHOD: get_PinIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2133,6 +2250,7 @@ METHOD: set_ConnectedSource
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2152,6 +2270,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
     Emby.Ffmpeg.Model.Features.Filters.Pins.InputPin
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2171,6 +2290,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
     Emby.Ffmpeg.Model.Features.Filters.Pins.OutputPin
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2189,6 +2309,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSource.get_Feature
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2207,6 +2328,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSourceInternal.get_ConnectedSink
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2225,6 +2347,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSourceInternal.set_ConnectedSink
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSink
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2243,6 +2366,7 @@ METHOD: GetStreamSpecifier
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2261,6 +2385,7 @@ METHOD: get_ConnectedSink
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2279,6 +2404,7 @@ METHOD: get_FilterPin
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Filters.Pins.OutputPin
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2297,6 +2423,7 @@ METHOD: get_OwnerFilter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2315,6 +2442,7 @@ METHOD: get_PinIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2333,6 +2461,7 @@ METHOD: set_ConnectedSink
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSink
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2353,6 +2482,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
     Emby.Ffmpeg.Model.Interfaces.IStreamSink
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2371,6 +2501,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2389,6 +2520,7 @@ METHOD: get_StreamSink
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2407,6 +2539,7 @@ METHOD: get_StreamSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2427,6 +2560,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
     Emby.Ffmpeg.Model.Containers.InputStreamContainer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2448,6 +2582,7 @@ PARAMETERS:
     System.String
     System.Collections.Generic.IEnumerable`1[[Emby.Ffmpeg.Model.Input.InputStreamBase, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2469,6 +2604,7 @@ PARAMETERS:
     System.String
     System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Streams.StreamBase, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2487,6 +2623,7 @@ METHOD: <set_InputIndex>b__8_0
 PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputStreamBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2505,6 +2642,7 @@ METHOD: BuildParameters
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2523,6 +2661,7 @@ METHOD: BuildUrlParam
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2541,6 +2680,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2559,6 +2699,7 @@ METHOD: get_Audio0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputStreamAudio
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2577,6 +2718,7 @@ METHOD: get_AudioStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Input.InputStreamAudio, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2595,6 +2737,7 @@ METHOD: get_Demuxer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2613,6 +2756,7 @@ METHOD: get_InputIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2631,6 +2775,7 @@ METHOD: get_InputProtocol
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2649,6 +2794,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsInput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2667,6 +2813,7 @@ METHOD: get_Streams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Input.InputStreamBase, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2685,6 +2832,7 @@ METHOD: get_SubtitleStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Input.InputStreamSubtitle, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2703,6 +2851,7 @@ METHOD: get_Subtitles0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputStreamSubtitle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2721,6 +2870,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2739,6 +2889,7 @@ METHOD: get_Video0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputStreamVideo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2757,6 +2908,7 @@ METHOD: get_VideoStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Input.InputStreamVideo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2775,6 +2927,7 @@ METHOD: set_Demuxer
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2793,6 +2946,7 @@ METHOD: set_InputIndex
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2811,6 +2965,7 @@ METHOD: set_InputProtocol
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Protocols.InputProtocolBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2829,6 +2984,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2848,6 +3004,7 @@ PARAMETERS:
     Emby.Media.Model.Streams.AudioStream
     Emby.Ffmpeg.Model.Features.Decoders.AudioDecoderBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2866,6 +3023,7 @@ METHOD: get_Decoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.AudioDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2884,6 +3042,7 @@ METHOD: get_DecoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.DecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2902,6 +3061,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsAudioInput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2920,6 +3080,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2938,6 +3099,7 @@ METHOD: get_Stream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.AudioStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2956,6 +3118,7 @@ METHOD: get_StreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2974,6 +3137,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStreamType
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2994,6 +3158,7 @@ PARAMETERS:
     System.String
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3012,6 +3177,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSource.get_Feature
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3030,6 +3196,7 @@ METHOD: FromStream
 PARAMETERS:
     Emby.Media.Model.Streams.StreamBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3048,6 +3215,7 @@ METHOD: GetStreamSpecifier
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3066,6 +3234,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3084,6 +3253,7 @@ METHOD: get_ConnectedSink
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3102,6 +3272,7 @@ METHOD: get_Decoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.DecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3120,6 +3291,7 @@ METHOD: get_DecoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.DecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3138,6 +3310,7 @@ METHOD: get_InputIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3156,6 +3329,7 @@ METHOD: get_IsAutoDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3174,6 +3348,7 @@ METHOD: get_MediaKind
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Entities.MediaStreamType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3192,6 +3367,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3210,6 +3386,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3228,6 +3405,7 @@ METHOD: get_Stream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3246,6 +3424,7 @@ METHOD: get_StreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3264,6 +3443,7 @@ METHOD: set_InputIndex
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3282,6 +3462,7 @@ METHOD: set_IsAutoDecoder
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3301,6 +3482,7 @@ PARAMETERS:
     Emby.Media.Model.Streams.SubtitleStream
     Emby.Ffmpeg.Model.Features.Decoders.SubtitleDecoderBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3319,6 +3501,7 @@ METHOD: get_Decoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.SubtitleDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3337,6 +3520,7 @@ METHOD: get_DecoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.DecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3355,6 +3539,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsSubtitleInput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3373,6 +3558,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3391,6 +3577,7 @@ METHOD: get_Stream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.SubtitleStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3409,6 +3596,7 @@ METHOD: get_StreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3427,6 +3615,7 @@ METHOD: set_Decoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Decoders.SubtitleDecoderBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3446,6 +3635,7 @@ PARAMETERS:
     Emby.Media.Model.Streams.VideoStream
     Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3464,6 +3654,7 @@ METHOD: get_Decoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3482,6 +3673,7 @@ METHOD: get_DecoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.DecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3500,6 +3692,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsVideoInput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3518,6 +3711,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3536,6 +3730,7 @@ METHOD: get_Stream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.VideoStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3554,6 +3749,7 @@ METHOD: get_StreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3572,6 +3768,7 @@ METHOD: set_Decoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3590,6 +3787,7 @@ METHOD: get_Filters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3608,6 +3806,7 @@ METHOD: get_Inputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Input.InputFile, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3626,6 +3825,7 @@ METHOD: get_Outputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Output.OutputFile, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3644,6 +3844,7 @@ METHOD: get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3662,6 +3863,7 @@ METHOD: get_Feature
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3680,6 +3882,7 @@ METHOD: get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3698,6 +3901,7 @@ METHOD: set_ConnectedSource
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3716,6 +3920,7 @@ METHOD: GetStreamSpecifier
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3734,6 +3939,7 @@ METHOD: get_ConnectedSink
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3752,6 +3958,7 @@ METHOD: get_Feature
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3770,6 +3977,7 @@ METHOD: get_ConnectedSink
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSink
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3788,6 +3996,7 @@ METHOD: set_ConnectedSink
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSink
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3808,6 +4017,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
     Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3829,6 +4039,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
     System.Collections.Generic.IEnumerable`1[[Emby.Ffmpeg.Model.Output.OutputStreamBase, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3847,6 +4058,7 @@ METHOD: AddMapParameters
 PARAMETERS:
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3865,6 +4077,7 @@ METHOD: BuildParameters
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3883,6 +4096,7 @@ METHOD: BuildUrlParam
 PARAMETERS:
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3902,6 +4116,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
     Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3921,6 +4136,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IAudioStreamSource
     Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3940,6 +4156,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
     Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3958,6 +4175,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3976,6 +4194,7 @@ METHOD: get_Audio0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamAudio
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3994,6 +4213,7 @@ METHOD: get_AudioStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Output.OutputStreamAudio, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4012,6 +4232,7 @@ METHOD: get_Muxer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4030,6 +4251,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsOutput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4048,6 +4270,7 @@ METHOD: get_OutputProtocol
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Protocols.OutputProtocolBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4066,6 +4289,7 @@ METHOD: get_Streams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Output.OutputStreamBase, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4084,6 +4308,7 @@ METHOD: get_SubtitleStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Output.OutputStreamSubtitle, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4102,6 +4327,7 @@ METHOD: get_Subtitles0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamSubtitle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4120,6 +4346,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4138,6 +4365,7 @@ METHOD: get_Video0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamVideo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4156,6 +4384,7 @@ METHOD: get_VideoStreams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IReadOnlyList`1[[Emby.Ffmpeg.Model.Output.OutputStreamVideo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4174,6 +4403,7 @@ METHOD: set_Muxer
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Muxers.MuxerBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4193,6 +4423,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IAudioStreamSource
     Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4211,6 +4442,7 @@ METHOD: get_Encoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4229,6 +4461,7 @@ METHOD: get_EncoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.EncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4247,6 +4480,7 @@ METHOD: get_InputStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IAudioStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4265,6 +4499,7 @@ METHOD: get_InputStreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4283,6 +4518,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsAudioOutput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4301,6 +4537,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4319,6 +4556,7 @@ METHOD: set_Encoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Encoders.AudioEncoderBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4337,6 +4575,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStreamType
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4357,6 +4596,7 @@ PARAMETERS:
     System.String
     Emby.Ffmpeg.Model.Configuration.CommandConfiguration
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4375,6 +4615,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSink.get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4393,6 +4634,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSink.get_Feature
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4411,6 +4653,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4429,6 +4672,7 @@ METHOD: get_Encoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.EncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4447,6 +4691,7 @@ METHOD: get_EncoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.EncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4465,6 +4710,7 @@ METHOD: get_InputStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4483,6 +4729,7 @@ METHOD: get_InputStreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4501,6 +4748,7 @@ METHOD: get_MediaKind
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Entities.MediaStreamType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4519,6 +4767,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4537,6 +4786,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4556,6 +4806,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
     Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4574,6 +4825,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4592,6 +4844,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.set_ConnectedSource
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4610,6 +4863,7 @@ METHOD: get_Encoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4628,6 +4882,7 @@ METHOD: get_EncoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.EncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4646,6 +4901,7 @@ METHOD: get_InputStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4664,6 +4920,7 @@ METHOD: get_InputStreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4682,6 +4939,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsSubtitleOutput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4700,6 +4958,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4718,6 +4977,7 @@ METHOD: set_Encoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Encoders.SubtitleEncoderBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4736,6 +4996,7 @@ METHOD: set_InputStream
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.ISubtitleStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4755,6 +5016,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
     Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4773,6 +5035,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.get_ConnectedSource
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4791,6 +5054,7 @@ METHOD: Emby.Ffmpeg.Model.Interfaces.IStreamSinkInternal.set_ConnectedSource
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4809,6 +5073,7 @@ METHOD: get_Encoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4827,6 +5092,7 @@ METHOD: get_EncoderCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Encoders.EncoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4845,6 +5111,7 @@ METHOD: get_InputStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4863,6 +5130,7 @@ METHOD: get_InputStreamCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4881,6 +5149,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Lib.Options.OptionsVideoOutput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4899,6 +5168,7 @@ METHOD: get_OptionsCore
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4917,6 +5187,7 @@ METHOD: set_Encoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Encoders.VideoEncoderBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4935,6 +5206,7 @@ METHOD: set_InputStream
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IVideoStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4953,6 +5225,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4971,6 +5244,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4989,6 +5263,7 @@ METHOD: get_FeatureName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5007,6 +5282,7 @@ METHOD: get_FeatureType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Enums.FeatureType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5025,6 +5301,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5043,6 +5320,7 @@ METHOD: set_FeatureName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5061,6 +5339,7 @@ METHOD: set_FeatureType
 PARAMETERS:
     Emby.Ffmpeg.Model.Enums.FeatureType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5079,6 +5358,7 @@ METHOD: set_Options
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5097,6 +5377,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5115,6 +5396,7 @@ METHOD: get_Filters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5133,6 +5415,7 @@ METHOD: set_Filters
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5151,6 +5434,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5169,6 +5453,7 @@ METHOD: get_Filters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5187,6 +5472,7 @@ METHOD: get_GlobalOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5205,6 +5491,7 @@ METHOD: get_Inputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputFileInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5223,6 +5510,7 @@ METHOD: get_Outputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OutputFileInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5241,6 +5529,7 @@ METHOD: set_Filters
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5259,6 +5548,7 @@ METHOD: set_GlobalOptions
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5277,6 +5567,7 @@ METHOD: set_Inputs
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputFileInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5295,6 +5586,7 @@ METHOD: set_Outputs
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OutputFileInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5313,6 +5605,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5331,6 +5624,7 @@ METHOD: get_Filter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5349,6 +5643,7 @@ METHOD: get_FilterId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5367,6 +5662,7 @@ METHOD: get_InputPins
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputPinInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5385,6 +5681,7 @@ METHOD: set_Filter
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5403,6 +5700,7 @@ METHOD: set_FilterId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5421,6 +5719,7 @@ METHOD: set_InputPins
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputPinInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5439,6 +5738,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5457,6 +5757,7 @@ METHOD: get_Demuxer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5475,6 +5776,7 @@ METHOD: get_InputIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5493,6 +5795,7 @@ METHOD: get_InputProtocol
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5511,6 +5814,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5529,6 +5833,7 @@ METHOD: get_Streams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputStreamInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5547,6 +5852,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5565,6 +5871,7 @@ METHOD: set_Demuxer
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5583,6 +5890,7 @@ METHOD: set_InputIndex
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5601,6 +5909,7 @@ METHOD: set_InputProtocol
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5619,6 +5928,7 @@ METHOD: set_Options
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5637,6 +5947,7 @@ METHOD: set_Streams
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.InputStreamInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5655,6 +5966,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5673,6 +5985,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5691,6 +6004,7 @@ METHOD: get_ConnectedSourceId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5709,6 +6023,7 @@ METHOD: get_Index
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5727,6 +6042,7 @@ METHOD: set_ConnectedSourceId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5745,6 +6061,7 @@ METHOD: set_Index
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5763,6 +6080,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5781,6 +6099,7 @@ METHOD: get_AudioStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.AudioStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5799,6 +6118,7 @@ METHOD: get_ConnectedSinkId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5817,6 +6137,7 @@ METHOD: get_Decoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5835,6 +6156,7 @@ METHOD: get_IsAutoDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5853,6 +6175,7 @@ METHOD: get_MediaKind
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Entities.MediaStreamType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5871,6 +6194,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5889,6 +6213,7 @@ METHOD: get_SubtitleStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.SubtitleStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5907,6 +6232,7 @@ METHOD: get_VideoStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.VideoStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5925,6 +6251,7 @@ METHOD: set_AudioStream
 PARAMETERS:
     Emby.Media.Model.Streams.AudioStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5943,6 +6270,7 @@ METHOD: set_ConnectedSinkId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5961,6 +6289,7 @@ METHOD: set_Decoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5979,6 +6308,7 @@ METHOD: set_IsAutoDecoder
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5997,6 +6327,7 @@ METHOD: set_MediaKind
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStreamType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6015,6 +6346,7 @@ METHOD: set_Options
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6033,6 +6365,7 @@ METHOD: set_SubtitleStream
 PARAMETERS:
     Emby.Media.Model.Streams.SubtitleStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6051,6 +6384,7 @@ METHOD: set_VideoStream
 PARAMETERS:
     Emby.Media.Model.Streams.VideoStream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6070,6 +6404,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6088,6 +6423,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6106,6 +6442,7 @@ METHOD: get_ValueString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6124,6 +6461,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6142,6 +6480,7 @@ METHOD: set_ValueString
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6160,6 +6499,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6178,6 +6518,7 @@ METHOD: get_OptionValues
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OptionValueInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6196,6 +6537,7 @@ METHOD: set_OptionValues
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OptionValueInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6214,6 +6556,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6232,6 +6575,7 @@ METHOD: get_Muxer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6250,6 +6594,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6268,6 +6613,7 @@ METHOD: get_OutputProtocol
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6286,6 +6632,7 @@ METHOD: get_Streams
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OutputStreamInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6304,6 +6651,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6322,6 +6670,7 @@ METHOD: set_Muxer
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6340,6 +6689,7 @@ METHOD: set_Options
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6358,6 +6708,7 @@ METHOD: set_OutputProtocol
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6376,6 +6727,7 @@ METHOD: set_Streams
 PARAMETERS:
     System.Collections.Generic.List`1[[Emby.Ffmpeg.Model.Serialization.OutputStreamInfo, Emby.Ffmpeg, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6394,6 +6746,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6412,6 +6765,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6430,6 +6784,7 @@ METHOD: get_ConnectedSourceId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6448,6 +6803,7 @@ METHOD: get_Encoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6466,6 +6822,7 @@ METHOD: get_MediaKind
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Entities.MediaStreamType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6484,6 +6841,7 @@ METHOD: get_Options
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6502,6 +6860,7 @@ METHOD: get_Stream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6520,6 +6879,7 @@ METHOD: set_ConnectedSourceId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6538,6 +6898,7 @@ METHOD: set_Encoder
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6556,6 +6917,7 @@ METHOD: set_MediaKind
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStreamType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6574,6 +6936,7 @@ METHOD: set_Options
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6592,6 +6955,7 @@ METHOD: set_Stream
 PARAMETERS:
     Emby.Media.Model.Streams.StreamBase
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6611,6 +6975,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.FfmpegCommand
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6629,6 +6994,7 @@ METHOD: AppendFilter
 PARAMETERS:
     T
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6647,6 +7013,7 @@ METHOD: get_ChainInput
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6665,6 +7032,7 @@ METHOD: get_ChainOutput
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Interfaces.IStreamSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6683,6 +7051,7 @@ METHOD: get_Command
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FfmpegCommand
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6701,6 +7070,7 @@ METHOD: set_ChainOutput
 PARAMETERS:
     Emby.Ffmpeg.Model.Interfaces.IStreamSource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6719,6 +7089,7 @@ METHOD: AsStreamContainer
 PARAMETERS:
     MediaBrowser.Model.Dto.MediaSourceInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6737,6 +7108,7 @@ METHOD: AsStreamContainer
 PARAMETERS:
     Emby.Media.Model.ProbeModel.ProbeResult
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Containers.InputStreamContainer
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6755,6 +7127,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6773,6 +7146,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6791,6 +7165,7 @@ METHOD: <AsStreamContainer>b__1_0
 PARAMETERS:
     Emby.Media.Model.ProbeModel.ProbeStream
 
+RETURN_TYPE: Emby.Media.Model.Streams.StreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6809,6 +7184,7 @@ METHOD: Cast
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.Muxers.DemuxerBase
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6828,6 +7204,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[T]
     System.Int32
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6847,6 +7224,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
     Emby.Ffmpeg.Model.FfmpegCommand
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6866,6 +7244,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Options.Collections.BaseOptions
     Emby.Ffmpeg.Model.Serialization.OptionsInfo
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6884,6 +7263,7 @@ METHOD: CreateFromSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FfmpegCommand
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6902,6 +7282,7 @@ METHOD: CreateFromSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.InputFileInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputFile
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6921,6 +7302,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OutputFileInfo
     Emby.Ffmpeg.Model.FfmpegCommand
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputFile
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6939,6 +7321,7 @@ METHOD: CreateFromSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.InputStreamInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6958,6 +7341,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
     Emby.Ffmpeg.Model.FfmpegCommand
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6976,6 +7360,7 @@ METHOD: CreateFromSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FeatureInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.FeatureBase
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6995,6 +7380,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
     Emby.Ffmpeg.Model.FfmpegCommand
 
+RETURN_TYPE: Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7013,6 +7399,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7031,6 +7418,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7049,6 +7437,7 @@ METHOD: <CreateFromSerializationModel>b__1_0
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.InputStreamInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Input.InputStreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7067,6 +7456,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7085,6 +7475,7 @@ METHOD: <CreateFromSerializationModel>b__0
 PARAMETERS:
     Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Output.OutputStreamBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7103,6 +7494,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.FfmpegCommand
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FfmpegCommandInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7121,6 +7513,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FfFilterGraph
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FfFilterGraphInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7139,6 +7532,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7157,6 +7551,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Options.Collections.BaseOptions
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OptionsInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7175,6 +7570,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7193,6 +7589,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Features.FeatureBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FeatureInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7211,6 +7608,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputStreamBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.InputStreamInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7229,6 +7627,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Output.OutputStreamBase
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OutputStreamInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7247,6 +7646,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputFile
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7265,6 +7665,7 @@ METHOD: ToSerializationModel
 PARAMETERS:
     Emby.Ffmpeg.Model.Output.OutputFile
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7283,6 +7684,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7301,6 +7703,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7319,6 +7722,7 @@ METHOD: <ToSerializationModel>b__0_0
 PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputFile
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.InputFileInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7337,6 +7741,7 @@ METHOD: <ToSerializationModel>b__0_1
 PARAMETERS:
     Emby.Ffmpeg.Model.Output.OutputFile
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.OutputFileInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7355,6 +7760,7 @@ METHOD: <ToSerializationModel>b__1_0
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.FilterInstance
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.FilterInstanceInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7373,6 +7779,7 @@ METHOD: <ToSerializationModel>b__2_0
 PARAMETERS:
     Emby.Ffmpeg.Model.FilterGraph.Pins.InputPinInstance
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Serialization.InputPinInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7391,6 +7798,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7409,6 +7817,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0

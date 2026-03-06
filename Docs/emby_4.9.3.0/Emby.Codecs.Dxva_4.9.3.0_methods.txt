@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -30,6 +31,7 @@ PARAMETERS:
     Emby.Server.MediaEncoding.Codecs.Common.Types.VideoProcessingState
     Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -50,6 +52,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputStreamVideo
     Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
 
+RETURN_TYPE: Emby.Media.Model.Enums.ColorFormats
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -68,6 +71,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -89,6 +93,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputStreamVideo
     System.Boolean
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -108,6 +113,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Av1ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -126,6 +132,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -144,6 +151,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -162,6 +170,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -180,6 +189,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -198,6 +208,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -216,6 +227,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -234,6 +246,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -252,6 +265,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -270,6 +284,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -289,6 +304,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.AvcProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -307,6 +323,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -325,6 +342,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -343,6 +361,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -361,6 +380,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -379,6 +399,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -397,6 +418,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -415,6 +437,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -433,6 +456,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -451,6 +475,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -470,6 +495,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.HevcProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -488,6 +514,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -506,6 +533,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -524,6 +552,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -542,6 +571,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -560,6 +590,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -578,6 +609,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -596,6 +628,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -614,6 +647,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -632,6 +666,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -651,6 +686,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Mpeg2ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -669,6 +705,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -687,6 +724,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -705,6 +743,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -723,6 +762,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -741,6 +781,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -759,6 +800,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -777,6 +819,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -795,6 +838,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -813,6 +857,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -832,6 +877,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Vc1ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -850,6 +896,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -868,6 +915,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -886,6 +934,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -904,6 +953,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -922,6 +972,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -940,6 +991,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -958,6 +1010,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -976,6 +1029,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -994,6 +1048,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1013,6 +1068,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Vp9ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1031,6 +1087,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1049,6 +1106,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1067,6 +1125,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1085,6 +1144,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1103,6 +1163,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1121,6 +1182,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1139,6 +1201,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1157,6 +1220,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1175,6 +1239,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1193,6 +1258,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1214,6 +1280,7 @@ PARAMETERS:
     Emby.Server.MediaEncoding.Codecs.Common.Types.VideoProcessingState
     Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1234,6 +1301,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputStreamVideo
     Emby.Server.MediaEncoding.Codecs.Common.Validation.ValidationLog
 
+RETURN_TYPE: Emby.Media.Model.Enums.ColorFormats
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1252,6 +1320,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1273,6 +1342,7 @@ PARAMETERS:
     Emby.Ffmpeg.Model.Input.InputStreamVideo
     System.Boolean
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1292,6 +1362,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Av1ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1310,6 +1381,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1328,6 +1400,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1346,6 +1419,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1364,6 +1438,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1382,6 +1457,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1400,6 +1476,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1418,6 +1495,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1436,6 +1514,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1454,6 +1533,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1473,6 +1553,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.AvcProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1491,6 +1572,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1509,6 +1591,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1527,6 +1610,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1545,6 +1629,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1563,6 +1648,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1581,6 +1667,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1599,6 +1686,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1617,6 +1705,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1635,6 +1724,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1654,6 +1744,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.HevcProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1672,6 +1763,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1690,6 +1782,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1708,6 +1801,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1726,6 +1820,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1744,6 +1839,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1762,6 +1858,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1780,6 +1877,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1798,6 +1896,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1816,6 +1915,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1835,6 +1935,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Mpeg2ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1853,6 +1954,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1871,6 +1973,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1889,6 +1992,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1907,6 +2011,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1925,6 +2030,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1943,6 +2049,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1961,6 +2068,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1979,6 +2087,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1997,6 +2106,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2016,6 +2126,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Vc1ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2034,6 +2145,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2052,6 +2164,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2070,6 +2183,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2088,6 +2202,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2106,6 +2221,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2124,6 +2240,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2142,6 +2259,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2160,6 +2278,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2178,6 +2297,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2197,6 +2317,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
     Emby.Media.Model.Types.Vp9ProfileWithLevelList
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2215,6 +2336,7 @@ METHOD: CreateFfmpegDecoder
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Ffmpeg.Model.Features.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2233,6 +2355,7 @@ METHOD: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IHasVideoDecoderBehav
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoDecoderBehavior
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2251,6 +2374,7 @@ METHOD: get_DefaultPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2269,6 +2393,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2287,6 +2412,7 @@ METHOD: get_FrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2305,6 +2431,7 @@ METHOD: get_IsEnabledByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2323,6 +2450,7 @@ METHOD: get_IsHardwareCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2341,6 +2469,7 @@ METHOD: get_SecondaryFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2359,6 +2488,7 @@ METHOD: get_SecondaryFrameworkCodec
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2377,6 +2507,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2397,6 +2528,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Info.DxvaDeviceInfo
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2417,6 +2549,7 @@ PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2435,6 +2568,7 @@ METHOD: CreateProfileLevelListAv1
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Types.Av1ProfileWithLevelList
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2453,6 +2587,7 @@ METHOD: CreateProfileLevelListAvc
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Types.AvcProfileWithLevelList
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2471,6 +2606,7 @@ METHOD: CreateProfileLevelListHevc
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Types.HevcProfileWithLevelList
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2489,6 +2625,7 @@ METHOD: CreateProfileLevelListMpeg2
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Types.Mpeg2ProfileWithLevelList
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2507,6 +2644,7 @@ METHOD: CreateProfileLevelListVc1
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Types.Vc1ProfileWithLevelList
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2525,6 +2663,7 @@ METHOD: CreateProfileLevelListVp9
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Types.Vp9ProfileWithLevelList
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2545,6 +2684,7 @@ PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Codecs.Dxva.Info.DxvaCodecInfo
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2563,6 +2703,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2581,6 +2722,7 @@ METHOD: GetHighestLevelByResolution
 PARAMETERS:
     Emby.Media.Model.Types.Resolution
 
+RETURN_TYPE: System.Nullable`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2599,6 +2741,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2617,6 +2760,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2635,6 +2779,7 @@ METHOD: <CreateCodec>b__5_0
 PARAMETERS:
     Emby.Codecs.Dxva.Mappings.DecoderIds
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2653,6 +2798,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2671,6 +2817,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2689,6 +2836,7 @@ METHOD: <GetHighestLevelByResolution>b__7_1
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2707,6 +2855,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2725,6 +2874,7 @@ METHOD: <GetHighestLevelByResolution>b__0
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2743,6 +2893,7 @@ METHOD: <GetHighestLevelByResolution>b__2
 PARAMETERS:
     Emby.Media.Model.Types.ResolutionWithRate
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2763,6 +2914,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Info.DxvaDeviceInfo
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2783,6 +2935,7 @@ PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2803,6 +2956,7 @@ PARAMETERS:
     System.Collections.Generic.IDictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Codecs.Dxva.Info.DxvaCodecInfo
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.VideoCodecs.Decoders.VideoDecoderBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2821,6 +2975,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2839,6 +2994,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2857,6 +3013,7 @@ METHOD: <CreateCodec>b__4_0
 PARAMETERS:
     Emby.Codecs.Dxva.Mappings.DecoderIds
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2879,6 +3036,7 @@ PARAMETERS:
     SharpDX.Direct3D9.DisplayMode
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2897,6 +3055,7 @@ METHOD: CreatePresentationParams
 PARAMETERS:
     SharpDX.Direct3D9.Format
 
+RETURN_TYPE: SharpDX.Direct3D9.PresentParameters
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2915,6 +3074,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2933,6 +3093,7 @@ METHOD: DoCodecs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2951,6 +3112,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2969,6 +3131,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2987,6 +3150,7 @@ METHOD: <DoCodecs>b__6_0
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Enums.VideoMediaTypes
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3005,6 +3169,7 @@ METHOD: <DoCodecs>b__6_2
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Codecs.Dxva.Mappings.DecoderIds
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3023,6 +3188,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3041,6 +3207,7 @@ METHOD: <DoCodecs>b__1
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3062,6 +3229,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Info.DxvaDeviceInfo
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3080,6 +3248,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3098,6 +3267,7 @@ METHOD: DoCodecs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3116,6 +3286,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3134,6 +3305,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3152,6 +3324,7 @@ METHOD: <DoCodecs>b__5_0
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Media.Model.Enums.VideoMediaTypes
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3170,6 +3343,7 @@ METHOD: <DoCodecs>b__5_2
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Codecs.Dxva.Mappings.DecoderIds
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3188,6 +3362,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3206,6 +3381,7 @@ METHOD: <DoCodecs>b__1
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3226,6 +3402,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Info.DxvaDeviceInfo
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3246,6 +3423,7 @@ PARAMETERS:
     Emby.Media.Model.Enums.VideoMediaTypes
     System.Collections.Generic.IList`1[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3264,6 +3442,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3284,6 +3463,7 @@ PARAMETERS:
     Emby.Codecs.Dxva.Info.DxvaDeviceInfo
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3304,6 +3484,7 @@ PARAMETERS:
     Emby.Media.Model.Enums.VideoMediaTypes
     System.Collections.Generic.IList`1[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3322,6 +3503,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3341,6 +3523,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3360,6 +3543,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3378,6 +3562,7 @@ METHOD: Debug
 PARAMETERS:
     System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3397,6 +3582,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3415,6 +3601,7 @@ METHOD: Error
 PARAMETERS:
     System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3435,6 +3622,7 @@ PARAMETERS:
     System.Exception
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3454,6 +3642,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3474,6 +3663,7 @@ PARAMETERS:
     System.Exception
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3492,6 +3682,7 @@ METHOD: GetJsonString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3511,6 +3702,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3529,6 +3721,7 @@ METHOD: Info
 PARAMETERS:
     System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3549,6 +3742,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3568,6 +3762,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.LogSeverity
     System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3588,6 +3783,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.LogSeverity
     System.Text.StringBuilder
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3608,6 +3804,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.LogSeverity
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3627,6 +3824,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3645,6 +3843,7 @@ METHOD: Warn
 PARAMETERS:
     System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3664,6 +3863,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3682,6 +3882,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3700,6 +3901,7 @@ METHOD: DoCodecs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3719,6 +3921,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3737,6 +3940,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3755,6 +3959,7 @@ METHOD: DoCodecs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3776,6 +3981,7 @@ PARAMETERS:
     MediaBrowser.Model.Serialization.IJsonSerializer
     MediaBrowser.Controller.MediaEncoding.IFfmpegManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3794,6 +4000,7 @@ METHOD: GetCodecList
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3812,6 +4019,7 @@ METHOD: GetCodecListInternal
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3830,6 +4038,7 @@ METHOD: IsApplicable
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3848,6 +4057,7 @@ METHOD: get_DetectionOutput
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.DiagnosticsModel.CodecDetectionOutput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3866,6 +4076,7 @@ METHOD: get_Version
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3884,6 +4095,7 @@ METHOD: set_DetectionOutput
 PARAMETERS:
     Emby.Media.Model.DiagnosticsModel.CodecDetectionOutput
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3902,6 +4114,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3920,6 +4133,7 @@ METHOD: get_Dx11vaDecodersDefaultBasePriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3938,6 +4152,7 @@ METHOD: get_Dx11vaDecodersEnableByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3956,6 +4171,7 @@ METHOD: set_Dx11vaDecodersDefaultBasePriority
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3974,6 +4190,7 @@ METHOD: set_Dx11vaDecodersEnableByDefault
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3992,6 +4209,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4010,6 +4228,7 @@ METHOD: get_DxvaDecodersDefaultBasePriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4028,6 +4247,7 @@ METHOD: get_DxvaDecodersEnableByDefault
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4046,6 +4266,7 @@ METHOD: set_DxvaDecodersDefaultBasePriority
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4064,6 +4285,7 @@ METHOD: set_DxvaDecodersEnableByDefault
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4085,6 +4307,7 @@ PARAMETERS:
     MediaBrowser.Model.Serialization.IJsonSerializer
     MediaBrowser.Controller.MediaEncoding.IFfmpegManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4103,6 +4326,7 @@ METHOD: CheckIsDx11VaAvailable
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4121,6 +4345,7 @@ METHOD: GetCodecList
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4139,6 +4364,7 @@ METHOD: GetCodecListInternal
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.Codecs.ICodecBase, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4157,6 +4383,7 @@ METHOD: IsApplicable
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4175,6 +4402,7 @@ METHOD: get_DetectionOutput
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.DiagnosticsModel.CodecDetectionOutput
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4193,6 +4421,7 @@ METHOD: get_Version
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4211,6 +4440,7 @@ METHOD: set_DetectionOutput
 PARAMETERS:
     Emby.Media.Model.DiagnosticsModel.CodecDetectionOutput
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4233,6 +4463,7 @@ PARAMETERS:
     System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoCodecCommands
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4251,6 +4482,7 @@ METHOD: get_ColorFormats
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4269,6 +4501,7 @@ METHOD: get_CommandGenerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoCodecCommands
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4287,6 +4520,7 @@ METHOD: get_DecoderGuids
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4305,6 +4539,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4323,6 +4558,7 @@ METHOD: get_DeviceInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaDeviceInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4341,6 +4577,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4359,6 +4596,7 @@ METHOD: get_SecondaryCodecTag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4385,6 +4623,7 @@ PARAMETERS:
     Emby.Server.MediaEncoding.Codecs.Common.Interfaces.ICodecDeviceCapabilities
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4403,6 +4642,7 @@ METHOD: FromAdapterInfo
 PARAMETERS:
     SharpDX.Direct3D9.AdapterInformation
 
+RETURN_TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4422,6 +4662,7 @@ PARAMETERS:
     SharpDX.DXGI.Adapter1
     System.Int32
 
+RETURN_TYPE: Emby.Codecs.Dxva.Info.DxvaDeviceInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4440,6 +4681,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4458,6 +4700,7 @@ METHOD: get_HardwareContextFramework
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Media.Model.Enums.SecondaryFrameworks
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4476,6 +4719,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4494,6 +4738,7 @@ METHOD: get_DxvaCodecInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaCodecInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4512,6 +4757,7 @@ METHOD: get_ColorFormats
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IList`1[[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4530,6 +4776,7 @@ METHOD: get_CommandGenerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.MediaEncoding.Codecs.Common.Interfaces.IVideoCodecCommands
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4548,6 +4795,7 @@ METHOD: get_DecoderGuids
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4566,6 +4814,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4584,6 +4833,7 @@ METHOD: get_DeviceInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Codecs.Dxva.Interfaces.IDxvaDeviceInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4602,6 +4852,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4620,6 +4871,7 @@ METHOD: get_SecondaryCodecTag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4638,6 +4890,7 @@ METHOD: GetFormatGuidFromFormatId
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Nullable`1[[Emby.Codecs.Dxva.Mappings.WindowsColorFormats, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4656,6 +4909,7 @@ METHOD: get_ColorMap
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[Emby.Codecs.Dxva.Mappings.WindowsColorFormats, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4674,6 +4928,7 @@ METHOD: get_DxgiColorMap
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[SharpDX.DXGI.Format, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4692,6 +4947,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4710,6 +4966,7 @@ METHOD: <GetFormatGuidFromFormatId>b__0
 PARAMETERS:
     System.Collections.Generic.KeyValuePair`2[[Emby.Codecs.Dxva.Mappings.WindowsColorFormats, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Enums.ColorFormats, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4728,6 +4985,7 @@ METHOD: get_DecoderMediaTypeMap
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[Emby.Codecs.Dxva.Mappings.DecoderIds, Emby.Codecs.Dxva, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[Emby.Media.Model.Enums.VideoMediaTypes, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4746,6 +5004,7 @@ METHOD: GetLevelResolutions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IList`1[[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -4764,6 +5023,7 @@ METHOD: GetResolutionsToCheck
 PARAMETERS:
     Emby.Media.Model.Enums.VideoMediaTypes
 
+RETURN_TYPE: System.Collections.Generic.IList`1[[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4782,6 +5042,7 @@ METHOD: get_DefaultCheckList
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IList`1[[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4800,6 +5061,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4818,6 +5080,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4836,6 +5099,7 @@ METHOD: <GetResolutionsToCheck>b__0_0
 PARAMETERS:
     Emby.Media.Model.Types.Resolution
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4854,6 +5118,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4872,6 +5137,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4890,6 +5156,7 @@ METHOD: <GetLevelResolutions>b__1_0
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[Emby.Media.Model.Types.Resolution, Emby.Media.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4908,6 +5175,7 @@ METHOD: <GetLevelResolutions>b__1_1
 PARAMETERS:
     Emby.Media.Model.Types.Resolution
 
+RETURN_TYPE: Emby.Media.Model.Types.Resolution
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4926,6 +5194,7 @@ METHOD: <GetLevelResolutions>b__1_2
 PARAMETERS:
     Emby.Media.Model.Types.ResolutionWithRate
 
+RETURN_TYPE: Emby.Media.Model.Types.Resolution
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

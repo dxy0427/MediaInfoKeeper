@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     Grynwald.XmlDocs.MarkdownRenderer.IMarkdownConverter
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: AddToCurrentParagraph
 PARAMETERS:
     Grynwald.MarkdownGenerator.MdSpan
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: AppendBlock
 PARAMETERS:
     Grynwald.MarkdownGenerator.MdBlock
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -64,6 +67,7 @@ PARAMETERS:
     Grynwald.MarkdownGenerator.MdList
     System.Collections.Generic.IEnumerable`1[[Grynwald.XmlDocs.ListItem, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -82,6 +86,7 @@ METHOD: EndCurrentParagraph
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -100,6 +105,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.DocumentationFile
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -118,6 +124,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.NamespaceMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -136,6 +143,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TypeMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -154,6 +162,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.FieldMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -172,6 +181,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.PropertyMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -190,6 +200,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.MethodMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -208,6 +219,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.EventMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -226,6 +238,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ParameterElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -244,6 +257,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TypeParameterElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -262,6 +276,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ExceptionElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -280,6 +295,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -298,6 +314,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -316,6 +333,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TextBlock
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -334,6 +352,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.PlainTextElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -352,6 +371,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.BulletedListElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -370,6 +390,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.NumberedListElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -388,6 +409,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TableElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -406,6 +428,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.DefinitionListItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -424,6 +447,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.CElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -442,6 +466,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.CodeElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -460,6 +485,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ParameterReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -478,6 +504,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TypeParameterReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -496,6 +523,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeCodeReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -514,6 +542,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeUrlReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -532,6 +561,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SummaryElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -550,6 +580,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.RemarksElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -568,6 +599,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ValueElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -586,6 +618,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ReturnsElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -604,6 +637,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ExampleElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -622,6 +656,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.EmphasisElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -640,6 +675,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.IdiomaticElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -658,6 +694,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.BoldElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -676,6 +713,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.StrongElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -694,6 +732,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.LineBreakElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -712,6 +751,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.UnrecognizedTextElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -731,6 +771,7 @@ PARAMETERS:
     Grynwald.XmlDocs.MemberElement
     System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ExceptionElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -750,6 +791,7 @@ PARAMETERS:
     Grynwald.XmlDocs.MemberElement
     System.Collections.Generic.IReadOnlyList`1[[Grynwald.XmlDocs.ParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -768,6 +810,7 @@ METHOD: VisitSeeAlso
 PARAMETERS:
     Grynwald.XmlDocs.MemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -787,6 +830,7 @@ PARAMETERS:
     Grynwald.XmlDocs.MemberElement
     System.Collections.Generic.IReadOnlyCollection`1[[Grynwald.XmlDocs.TypeParameterElement, Grynwald.XmlDocs, Version=10.1.16.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -805,6 +849,7 @@ METHOD: get_CurrentBlock
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdContainerBlockBase
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -823,6 +868,7 @@ METHOD: get_Result
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdBlock
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -841,6 +887,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -859,6 +906,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -877,6 +925,7 @@ METHOD: <Visit>b__25_1
 PARAMETERS:
     Grynwald.XmlDocs.TableRow
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -895,6 +944,7 @@ METHOD: <Visit>b__25_3
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -913,6 +963,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -931,6 +982,7 @@ METHOD: <Visit>b__2
 PARAMETERS:
     Grynwald.XmlDocs.TableRow
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdTableRow
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -949,6 +1001,7 @@ METHOD: <Visit>b__4
 PARAMETERS:
     Grynwald.XmlDocs.TextBlock
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -968,6 +1021,7 @@ PARAMETERS:
     Grynwald.XmlDocs.TableRow
     System.Int32
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdTableRow
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -986,6 +1040,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1004,6 +1059,7 @@ METHOD: BeginNestedSpan
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1022,6 +1078,7 @@ METHOD: EndNestedSpan
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdCompositeSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1040,6 +1097,7 @@ METHOD: ThrowUnsupportedNode
 PARAMETERS:
     Grynwald.XmlDocs.DocumentationElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1058,6 +1116,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.DocumentationFile
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1076,6 +1135,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.NamespaceMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1094,6 +1154,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TypeMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1112,6 +1173,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.FieldMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1130,6 +1192,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.PropertyMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1148,6 +1211,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.MethodMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1166,6 +1230,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.EventMemberElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1184,6 +1249,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ParameterElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1202,6 +1268,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TypeParameterElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1220,6 +1287,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ExceptionElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1238,6 +1306,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeAlsoUrlReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1256,6 +1325,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeAlsoCodeReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1274,6 +1344,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.PlainTextElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1292,6 +1363,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.BulletedListElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1310,6 +1382,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.NumberedListElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1328,6 +1401,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TableElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1346,6 +1420,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SimpleListItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1364,6 +1439,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.DefinitionListItem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1382,6 +1458,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TableRow
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1400,6 +1477,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.CElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1418,6 +1496,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.CodeElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1436,6 +1515,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ParagraphElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1454,6 +1534,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.ParameterReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1472,6 +1553,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.TypeParameterReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1490,6 +1572,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeCodeReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1508,6 +1591,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.SeeUrlReferenceElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1526,6 +1610,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.EmphasisElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1544,6 +1629,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.IdiomaticElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1562,6 +1648,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.BoldElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1580,6 +1667,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.StrongElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1598,6 +1686,7 @@ METHOD: Visit
 PARAMETERS:
     Grynwald.XmlDocs.UnrecognizedTextElement
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1616,6 +1705,7 @@ METHOD: get_CurrentSpan
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdCompositeSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1634,6 +1724,7 @@ METHOD: get_Result
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdCompositeSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1652,6 +1743,7 @@ METHOD: ConvertToBlock
 PARAMETERS:
     Grynwald.XmlDocs.DocumentationElement
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdBlock
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1670,6 +1762,7 @@ METHOD: ConvertToSpan
 PARAMETERS:
     Grynwald.XmlDocs.TextElement
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1688,6 +1781,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1706,6 +1800,7 @@ METHOD: ConvertToBlock
 PARAMETERS:
     Grynwald.XmlDocs.DocumentationElement
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdBlock
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1724,6 +1819,7 @@ METHOD: ConvertToSpan
 PARAMETERS:
     Grynwald.XmlDocs.TextElement
 
+RETURN_TYPE: Grynwald.MarkdownGenerator.MdSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1742,6 +1838,7 @@ METHOD: CreateConvertToBlockVisitor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToBlockVisitor
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1760,6 +1857,7 @@ METHOD: CreateConvertToSpanVisitor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Grynwald.XmlDocs.MarkdownRenderer.ConvertToSpanVisitor
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1778,6 +1876,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1796,6 +1895,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1814,6 +1914,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1832,6 +1933,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1850,6 +1952,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0

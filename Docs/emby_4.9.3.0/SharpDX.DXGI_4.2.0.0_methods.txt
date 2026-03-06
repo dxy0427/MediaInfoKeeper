@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -28,6 +29,7 @@ PARAMETERS:
     System.Guid
     System.Int64&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -46,6 +48,7 @@ METHOD: GetDescription
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -64,6 +67,7 @@ METHOD: GetOutput
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.DXGI.Output
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -83,6 +87,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.Output&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -101,6 +106,7 @@ METHOD: GetOutputCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -119,6 +125,7 @@ METHOD: IsInterfaceSupported
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -137,6 +144,7 @@ METHOD: IsInterfaceSupported
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -155,6 +163,7 @@ METHOD: IsInterfaceSupported
 PARAMETERS:
     System.Int64&
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -174,6 +183,7 @@ PARAMETERS:
     System.Type
     System.Int64&
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -192,6 +202,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.AdapterDescription
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -210,6 +221,7 @@ METHOD: get_Outputs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Output[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -228,6 +240,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Adapter
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -246,6 +259,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -264,6 +278,7 @@ METHOD: GetDescription1
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription1&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -282,6 +297,7 @@ METHOD: get_Description1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.AdapterDescription1
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -300,6 +316,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Adapter1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -318,6 +335,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -336,6 +354,7 @@ METHOD: GetDescription2
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription2&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -354,6 +373,7 @@ METHOD: get_Description2
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.AdapterDescription2
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -372,6 +392,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Adapter2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -390,6 +411,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -409,6 +431,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.MemorySegmentGroup
 
+RETURN_TYPE: SharpDX.DXGI.QueryVideoMemoryInformation
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -427,6 +450,7 @@ METHOD: RegisterHardwareContentProtectionTeardownStatusEvent
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -445,6 +469,7 @@ METHOD: RegisterVideoMemoryBudgetChangeNotificationEvent
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -465,6 +490,7 @@ PARAMETERS:
     SharpDX.DXGI.MemorySegmentGroup
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -483,6 +509,7 @@ METHOD: UnregisterHardwareContentProtectionTeardownStatus
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -501,6 +528,7 @@ METHOD: UnregisterVideoMemoryBudgetChangeNotification
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -519,6 +547,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Adapter3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -537,6 +566,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -555,6 +585,7 @@ METHOD: GetDesc3
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription3&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -573,6 +604,7 @@ METHOD: get_Desc3
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.AdapterDescription3
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -591,6 +623,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Adapter4
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -609,6 +642,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -627,6 +661,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -645,6 +680,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -663,6 +699,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription1+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -681,6 +718,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription1+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -699,6 +737,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription1+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -717,6 +756,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription2+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -735,6 +775,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription2+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -753,6 +794,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription2+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -771,6 +813,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription3+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -789,6 +832,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription3+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -807,6 +851,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.AdapterDescription3+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -825,6 +870,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -844,6 +890,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -863,6 +910,7 @@ PARAMETERS:
     System.Void*
     System.Void*
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -883,6 +931,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -903,6 +952,7 @@ PARAMETERS:
     System.Void*
     System.Void*
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -921,6 +971,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -940,6 +991,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.DebugRloFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -958,6 +1010,7 @@ METHOD: TryCreate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.DXGIDebug
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -976,6 +1029,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.DXGIDebug
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -994,6 +1048,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1012,6 +1067,7 @@ METHOD: DisableLeakTrackingForThread
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1030,6 +1086,7 @@ METHOD: EnableLeakTrackingForThread
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1048,6 +1105,7 @@ METHOD: IsLeakTrackingEnabledForThread_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1066,6 +1124,7 @@ METHOD: TryCreate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.DXGIDebug1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1084,6 +1143,7 @@ METHOD: get_IsLeakTrackingEnabledForThread
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1102,6 +1162,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.DXGIDebug1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1120,6 +1181,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1138,6 +1200,7 @@ METHOD: GetParent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1157,6 +1220,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1177,6 +1241,7 @@ PARAMETERS:
     System.Int32&
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1197,6 +1262,7 @@ PARAMETERS:
     System.Int32
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1216,6 +1282,7 @@ PARAMETERS:
     System.Guid
     SharpDX.IUnknown
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1234,6 +1301,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.DXGIObject
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1252,6 +1320,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1270,6 +1339,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1288,6 +1358,7 @@ METHOD: TryCreateComPtr
 PARAMETERS:
     System.IntPtr&
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1307,6 +1378,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1328,6 +1400,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1348,6 +1421,7 @@ PARAMETERS:
     System.IntPtr&
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1367,6 +1441,7 @@ PARAMETERS:
     System.Guid&
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1385,6 +1460,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1403,6 +1479,7 @@ METHOD: GetColorSpace
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.MultiplaneOverlayYCbCrFlags
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1422,6 +1499,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1440,6 +1518,7 @@ METHOD: GetSourceRect
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1458,6 +1537,7 @@ METHOD: GetTargetRect
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1478,6 +1558,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1496,6 +1577,7 @@ METHOD: SetColorSpace
 PARAMETERS:
     SharpDX.DXGI.MultiplaneOverlayYCbCrFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1515,6 +1597,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1533,6 +1616,7 @@ METHOD: SetSourceRect
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1551,6 +1635,7 @@ METHOD: SetTargetRect
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1569,6 +1654,7 @@ METHOD: get_ColorSpace
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.MultiplaneOverlayYCbCrFlags
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1587,6 +1673,7 @@ METHOD: get_SourceRect
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawRectangle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1605,6 +1692,7 @@ METHOD: get_TargetRect
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawRectangle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1623,6 +1711,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.DecodeSwapChain
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1641,6 +1730,7 @@ METHOD: set_ColorSpace
 PARAMETERS:
     SharpDX.DXGI.MultiplaneOverlayYCbCrFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1659,6 +1749,7 @@ METHOD: set_SourceRect
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1677,6 +1768,7 @@ METHOD: set_TargetRect
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1695,6 +1787,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1717,6 +1810,7 @@ PARAMETERS:
     System.Nullable`1[[SharpDX.DXGI.SharedResource, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     SharpDX.DXGI.Surface&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1735,6 +1829,7 @@ METHOD: GetAdapter
 PARAMETERS:
     SharpDX.DXGI.Adapter&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1753,6 +1848,7 @@ METHOD: GetGPUThreadPriority
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1771,6 +1867,7 @@ METHOD: QueryResourceResidency
 PARAMETERS:
     SharpDX.ComObject[]
 
+RETURN_TYPE: SharpDX.DXGI.Residency[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1791,6 +1888,7 @@ PARAMETERS:
     SharpDX.DXGI.Residency[]
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1809,6 +1907,7 @@ METHOD: SetGPUThreadPriority
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1827,6 +1926,7 @@ METHOD: get_Adapter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Adapter
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1845,6 +1945,7 @@ METHOD: get_GPUThreadPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1863,6 +1964,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Device
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1881,6 +1983,7 @@ METHOD: set_GPUThreadPriority
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1899,6 +2002,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1917,6 +2021,7 @@ METHOD: GetMaximumFrameLatency
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1935,6 +2040,7 @@ METHOD: SetMaximumFrameLatency
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1953,6 +2059,7 @@ METHOD: get_MaximumFrameLatency
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1971,6 +2078,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Device1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1989,6 +2097,7 @@ METHOD: set_MaximumFrameLatency
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2007,6 +2116,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2025,6 +2135,7 @@ METHOD: EnqueueSetEvent
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2045,6 +2156,7 @@ PARAMETERS:
     SharpDX.DXGI.Resource[]
     SharpDX.DXGI.OfferResourcePriority
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2065,6 +2177,7 @@ PARAMETERS:
     SharpDX.ComArray`1[[SharpDX.DXGI.Resource, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     SharpDX.DXGI.OfferResourcePriority
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2085,6 +2198,7 @@ PARAMETERS:
     System.IntPtr
     SharpDX.DXGI.OfferResourcePriority
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2105,6 +2219,7 @@ PARAMETERS:
     SharpDX.DXGI.Resource[]
     SharpDX.Mathematics.Interop.RawBool[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2125,6 +2240,7 @@ PARAMETERS:
     SharpDX.ComArray`1[[SharpDX.DXGI.Resource, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     SharpDX.Mathematics.Interop.RawBool[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2145,6 +2261,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2163,6 +2280,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Device2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2181,6 +2299,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2199,6 +2318,7 @@ METHOD: Trim
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2217,6 +2337,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Device3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2235,6 +2356,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2256,6 +2378,7 @@ PARAMETERS:
     SharpDX.DXGI.OfferResourcePriority
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2277,6 +2400,7 @@ PARAMETERS:
     SharpDX.DXGI.OfferResourcePriority
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2298,6 +2422,7 @@ PARAMETERS:
     SharpDX.DXGI.OfferResourcePriority
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2318,6 +2443,7 @@ PARAMETERS:
     SharpDX.DXGI.Resource[]
     SharpDX.DXGI.ReclaimResourceResults[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2338,6 +2464,7 @@ PARAMETERS:
     SharpDX.ComArray`1[[SharpDX.DXGI.Resource, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     SharpDX.DXGI.ReclaimResourceResults[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2358,6 +2485,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2376,6 +2504,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Device4
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2394,6 +2523,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2412,6 +2542,7 @@ METHOD: GetDevice
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2431,6 +2562,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2449,6 +2581,7 @@ METHOD: get_DebugName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2467,6 +2600,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.DeviceChild
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2485,6 +2619,7 @@ METHOD: set_DebugName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2503,6 +2638,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2521,6 +2657,7 @@ METHOD: IsStereoEnabled_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2539,6 +2676,7 @@ METHOD: SetStereoEnabled
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2557,6 +2695,7 @@ METHOD: get_IsStereoEnabled
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2575,6 +2714,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.DisplayControl
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2593,6 +2733,7 @@ METHOD: set_StereoEnabled
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2611,6 +2752,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2629,6 +2771,7 @@ METHOD: CreateSoftwareAdapter
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Adapter
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2649,6 +2792,7 @@ PARAMETERS:
     SharpDX.DXGI.SwapChainDescription&
     SharpDX.DXGI.SwapChain
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2667,6 +2811,7 @@ METHOD: GetAdapter
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.DXGI.Adapter
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2686,6 +2831,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.Adapter&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2704,6 +2850,7 @@ METHOD: GetAdapterCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2722,6 +2869,7 @@ METHOD: GetWindowAssociation
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2741,6 +2889,7 @@ PARAMETERS:
     System.IntPtr
     SharpDX.DXGI.WindowAssociationFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2759,6 +2908,7 @@ METHOD: get_Adapters
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Adapter[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2777,6 +2927,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Factory
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2795,6 +2946,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2813,6 +2965,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2831,6 +2984,7 @@ METHOD: GetAdapter1
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.DXGI.Adapter1
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2850,6 +3004,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.Adapter1&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2868,6 +3023,7 @@ METHOD: GetAdapterCount1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2886,6 +3042,7 @@ METHOD: IsCurrent_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2904,6 +3061,7 @@ METHOD: get_Adapters1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Adapter1[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2922,6 +3080,7 @@ METHOD: get_IsCurrent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2940,6 +3099,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Factory1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2958,6 +3118,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2976,6 +3137,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2997,6 +3159,7 @@ PARAMETERS:
     SharpDX.DXGI.Output
     SharpDX.DXGI.SwapChain1
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3019,6 +3182,7 @@ PARAMETERS:
     SharpDX.DXGI.Output
     SharpDX.DXGI.SwapChain1
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3042,6 +3206,7 @@ PARAMETERS:
     SharpDX.DXGI.Output
     SharpDX.DXGI.SwapChain1
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3061,6 +3226,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3079,6 +3245,7 @@ METHOD: IsWindowedStereoEnabled_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3098,6 +3265,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3118,6 +3286,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3137,6 +3306,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3157,6 +3327,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3175,6 +3346,7 @@ METHOD: UnregisterOcclusionStatus
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3193,6 +3365,7 @@ METHOD: UnregisterStereoStatus
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3211,6 +3384,7 @@ METHOD: get_IsWindowedStereoEnabled
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3229,6 +3403,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Factory2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3247,6 +3422,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3265,6 +3441,7 @@ METHOD: GetCreationFlags
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3283,6 +3460,7 @@ METHOD: get_CreationFlags
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3301,6 +3479,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Factory3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3319,6 +3498,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3337,6 +3517,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3357,6 +3538,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3376,6 +3558,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3394,6 +3577,7 @@ METHOD: GetAdapterByLuid
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: SharpDX.DXGI.Adapter
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3412,6 +3596,7 @@ METHOD: GetWarpAdapter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Adapter
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3430,6 +3615,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Factory4
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3448,6 +3634,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3468,6 +3655,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3486,6 +3674,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Factory5
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3504,6 +3693,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3527,6 +3717,7 @@ PARAMETERS:
     SharpDX.DXGI.Output
     SharpDX.DXGI.DecodeSwapChain&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3549,6 +3740,7 @@ PARAMETERS:
     SharpDX.DXGI.Output
     SharpDX.DXGI.SwapChain1&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3567,6 +3759,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.FactoryMedia
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3585,6 +3778,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3604,6 +3798,7 @@ PARAMETERS:
     SharpDX.DXGI.Format
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3623,6 +3818,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[SharpDX.DXGI.Format, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     System.Boolean[]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3642,6 +3838,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[SharpDX.DXGI.Format, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3660,6 +3857,7 @@ METHOD: IsCompressed
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3678,6 +3876,7 @@ METHOD: IsPacked
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3696,6 +3895,7 @@ METHOD: IsSRgb
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3714,6 +3914,7 @@ METHOD: IsTypeless
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3732,6 +3933,7 @@ METHOD: IsValid
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3750,6 +3952,7 @@ METHOD: IsVideo
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3768,6 +3971,7 @@ METHOD: SizeOfInBits
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3786,6 +3990,7 @@ METHOD: SizeOfInBytes
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3804,6 +4009,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.GammaControl+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3822,6 +4028,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.GammaControl+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3840,6 +4047,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.GammaControl+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3858,6 +4066,7 @@ METHOD: get_GammaCurve
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawColor4[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3876,6 +4085,7 @@ METHOD: set_GammaCurve
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawColor4[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3894,6 +4104,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.GammaControlCapabilities+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3912,6 +4123,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.GammaControlCapabilities+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3930,6 +4142,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.GammaControlCapabilities+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3948,6 +4161,7 @@ METHOD: get_ControlPoints
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Single[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3966,6 +4180,7 @@ METHOD: set_ControlPoints
 PARAMETERS:
     System.Single[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3984,6 +4199,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.HdrMetadataHdr10+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4002,6 +4218,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.HdrMetadataHdr10+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4020,6 +4237,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.HdrMetadataHdr10+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4038,6 +4256,7 @@ METHOD: get_BluePrimary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int16[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4056,6 +4275,7 @@ METHOD: get_GreenPrimary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int16[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4074,6 +4294,7 @@ METHOD: get_RedPrimary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int16[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4092,6 +4313,7 @@ METHOD: get_WhitePoint
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int16[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4110,6 +4332,7 @@ METHOD: set_BluePrimary
 PARAMETERS:
     System.Int16[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4128,6 +4351,7 @@ METHOD: set_GreenPrimary
 PARAMETERS:
     System.Int16[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4146,6 +4370,7 @@ METHOD: set_RedPrimary
 PARAMETERS:
     System.Int16[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4164,6 +4389,7 @@ METHOD: set_WhitePoint
 PARAMETERS:
     System.Int16[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4182,6 +4408,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4200,6 +4427,7 @@ METHOD: FlushAllSurfacesWithDevice
 PARAMETERS:
     SharpDX.IUnknown
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4218,6 +4446,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.ISurfaceImageSourceManagerNative
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4236,6 +4465,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4255,6 +4485,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
     SharpDX.Mathematics.Interop.RawPoint&
 
+RETURN_TYPE: SharpDX.DXGI.Surface
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4273,6 +4504,7 @@ METHOD: EndDraw
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4291,6 +4523,7 @@ METHOD: SetDevice
 PARAMETERS:
     SharpDX.DXGI.Device
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4309,6 +4542,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.ISurfaceImageSourceNative
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4327,6 +4561,7 @@ METHOD: set_Device
 PARAMETERS:
     SharpDX.DXGI.Device
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4345,6 +4580,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4366,6 +4602,7 @@ PARAMETERS:
     System.IntPtr&
     SharpDX.Mathematics.Interop.RawPoint&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4384,6 +4621,7 @@ METHOD: EndDraw
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4402,6 +4640,7 @@ METHOD: ResumeDraw
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4420,6 +4659,7 @@ METHOD: SetDevice
 PARAMETERS:
     SharpDX.IUnknown
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4438,6 +4678,7 @@ METHOD: SuspendDraw
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4456,6 +4697,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.ISurfaceImageSourceNativeWithD2D
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4474,6 +4716,7 @@ METHOD: set_Device
 PARAMETERS:
     SharpDX.IUnknown
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4492,6 +4735,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4510,6 +4754,7 @@ METHOD: SetSwapChain
 PARAMETERS:
     SharpDX.DXGI.SwapChain
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4528,6 +4773,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.ISwapChainBackgroundPanelNative
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4546,6 +4792,7 @@ METHOD: set_SwapChain
 PARAMETERS:
     SharpDX.DXGI.SwapChain
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4564,6 +4811,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4582,6 +4830,7 @@ METHOD: SetSwapChain
 PARAMETERS:
     SharpDX.DXGI.SwapChain
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4600,6 +4849,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.ISwapChainPanelNative
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4618,6 +4868,7 @@ METHOD: set_SwapChain
 PARAMETERS:
     SharpDX.DXGI.SwapChain
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4636,6 +4887,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4654,6 +4906,7 @@ METHOD: SetSwapChainHandle
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4672,6 +4925,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.ISwapChainPanelNative2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4690,6 +4944,7 @@ METHOD: set_SwapChainHandle
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4708,6 +4963,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4726,6 +4982,7 @@ METHOD: GetUpdateRectCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4745,6 +5002,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle[]
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4763,6 +5021,7 @@ METHOD: GetVisibleBounds
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4781,6 +5040,7 @@ METHOD: Invalidate
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4799,6 +5059,7 @@ METHOD: OnUpdatesNeeded
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4817,6 +5078,7 @@ METHOD: RegisterForUpdatesNeeded
 PARAMETERS:
     SharpDX.DXGI.IVirtualSurfaceUpdatesCallbackNative
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4836,6 +5098,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4854,6 +5117,7 @@ METHOD: add_UpdatesNeeded
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4872,6 +5136,7 @@ METHOD: get_UpdateRectangles
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawRectangle[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4890,6 +5155,7 @@ METHOD: get_VisibleBounds
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawRectangle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4908,6 +5174,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.IVirtualSurfaceImageSourceNative
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4926,6 +5193,7 @@ METHOD: remove_UpdatesNeeded
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4944,6 +5212,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.DXGI.IVirtualSurfaceImageSourceNative
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4962,6 +5231,7 @@ METHOD: UpdatesNeeded
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4980,6 +5250,7 @@ METHOD: UpdatesNeeded
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4998,6 +5269,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5016,6 +5288,7 @@ METHOD: UpdatesNeeded
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5034,6 +5307,7 @@ METHOD: UpdatesNeeded_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5052,6 +5326,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.IVirtualSurfaceUpdatesCallbackNativeNative
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5070,6 +5345,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5089,6 +5365,7 @@ PARAMETERS:
     SharpDX.DXGI.InformationQueueMessageSeverity
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5111,6 +5388,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5130,6 +5408,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.InfoQueueFilter&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5149,6 +5428,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.InfoQueueFilter&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5167,6 +5447,7 @@ METHOD: ClearRetrievalFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5185,6 +5466,7 @@ METHOD: ClearStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5203,6 +5485,7 @@ METHOD: ClearStoredMessages
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5222,6 +5505,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.InformationQueueMessageCategory
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5241,6 +5525,7 @@ PARAMETERS:
     System.Guid
     System.Int32
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5260,6 +5545,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.InformationQueueMessageSeverity
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5281,6 +5567,7 @@ PARAMETERS:
     SharpDX.DXGI.InformationQueueMessage[]
     SharpDX.PointerSize&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5299,6 +5586,7 @@ METHOD: GetMessageCountLimit
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5317,6 +5605,7 @@ METHOD: GetMuteDebugOutput
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5335,6 +5624,7 @@ METHOD: GetNumMessagesAllowedByStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5353,6 +5643,7 @@ METHOD: GetNumMessagesDeniedByStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5371,6 +5662,7 @@ METHOD: GetNumMessagesDiscardedByMessageCountLimit
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5389,6 +5681,7 @@ METHOD: GetNumStoredMessages
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5407,6 +5700,7 @@ METHOD: GetNumStoredMessagesAllowedByRetrievalFilters
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5427,6 +5721,7 @@ PARAMETERS:
     SharpDX.DXGI.InfoQueueFilter[]
     SharpDX.PointerSize&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5445,6 +5740,7 @@ METHOD: GetRetrievalFilterStackSize
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5465,6 +5761,7 @@ PARAMETERS:
     SharpDX.DXGI.InfoQueueFilter[]
     SharpDX.PointerSize&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5483,6 +5780,7 @@ METHOD: GetStorageFilterStackSize
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5501,6 +5799,7 @@ METHOD: PopRetrievalFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5519,6 +5818,7 @@ METHOD: PopStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5537,6 +5837,7 @@ METHOD: PushCopyOfRetrievalFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5555,6 +5856,7 @@ METHOD: PushCopyOfStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5573,6 +5875,7 @@ METHOD: PushDenyAllRetrievalFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5591,6 +5894,7 @@ METHOD: PushDenyAllStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5609,6 +5913,7 @@ METHOD: PushEmptyRetrievalFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5627,6 +5932,7 @@ METHOD: PushEmptyStorageFilter
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5646,6 +5952,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.InfoQueueFilter&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5665,6 +5972,7 @@ PARAMETERS:
     System.Guid
     SharpDX.DXGI.InfoQueueFilter&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5685,6 +5993,7 @@ PARAMETERS:
     SharpDX.DXGI.InformationQueueMessageCategory
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5705,6 +6014,7 @@ PARAMETERS:
     System.Int32
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5725,6 +6035,7 @@ PARAMETERS:
     SharpDX.DXGI.InformationQueueMessageSeverity
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5744,6 +6055,7 @@ PARAMETERS:
     System.Guid
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5763,6 +6075,7 @@ PARAMETERS:
     System.Guid
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5781,6 +6094,7 @@ METHOD: TryCreate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.InfoQueue
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5799,6 +6113,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.InfoQueue
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5817,6 +6132,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.InformationQueueMessage+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5835,6 +6151,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.InformationQueueMessage+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5853,6 +6170,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.InformationQueueMessage+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5871,6 +6189,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.JpegAcHuffmanTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5889,6 +6208,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.JpegAcHuffmanTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5907,6 +6227,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.JpegAcHuffmanTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5925,6 +6246,7 @@ METHOD: get_CodeCounts
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5943,6 +6265,7 @@ METHOD: get_CodeValues
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5961,6 +6284,7 @@ METHOD: set_CodeCounts
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5979,6 +6303,7 @@ METHOD: set_CodeValues
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5997,6 +6322,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.JpegDeviceContextHuffmanTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6015,6 +6341,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.JpegDeviceContextHuffmanTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6033,6 +6360,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.JpegDeviceContextHuffmanTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6051,6 +6379,7 @@ METHOD: get_CodeCounts
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6069,6 +6398,7 @@ METHOD: get_CodeValues
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6087,6 +6417,7 @@ METHOD: set_CodeCounts
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6105,6 +6436,7 @@ METHOD: set_CodeValues
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6123,6 +6455,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.JpegQuantizationTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6141,6 +6474,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.JpegQuantizationTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6159,6 +6493,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.JpegQuantizationTable+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6177,6 +6512,7 @@ METHOD: get_Elements
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6195,6 +6531,7 @@ METHOD: set_Elements
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6213,6 +6550,7 @@ METHOD: GetModuleHandle
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6232,6 +6570,7 @@ PARAMETERS:
     System.IntPtr
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6252,6 +6591,7 @@ PARAMETERS:
     System.IntPtr
     SharpDX.DXGI.Kernel32+LoadLibraryFlags
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6270,6 +6610,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6289,6 +6630,7 @@ PARAMETERS:
     System.Int64
     System.Int32
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6307,6 +6649,7 @@ METHOD: Release
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6325,6 +6668,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.KeyedMutex
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6346,6 +6690,7 @@ PARAMETERS:
     SharpDX.DXGI.Rational
     SharpDX.DXGI.Format
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6364,6 +6709,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.DXGI.Format
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6382,6 +6728,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6400,6 +6747,7 @@ METHOD: Setup
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6418,6 +6766,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6436,6 +6785,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6454,6 +6804,7 @@ METHOD: CopyDisplaySurfaceTo
 PARAMETERS:
     SharpDX.DXGI.Surface
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6474,6 +6825,7 @@ PARAMETERS:
     SharpDX.DXGI.ModeDescription&
     SharpDX.IUnknown
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6494,6 +6846,7 @@ PARAMETERS:
     SharpDX.DXGI.ModeDescription
     SharpDX.DXGI.ModeDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6512,6 +6865,7 @@ METHOD: GetDescription
 PARAMETERS:
     SharpDX.DXGI.OutputDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6531,6 +6885,7 @@ PARAMETERS:
     SharpDX.DXGI.Format
     SharpDX.DXGI.DisplayModeEnumerationFlags
 
+RETURN_TYPE: SharpDX.DXGI.ModeDescription[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6552,6 +6907,7 @@ PARAMETERS:
     System.Int32&
     SharpDX.DXGI.ModeDescription[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6570,6 +6926,7 @@ METHOD: GetFrameStatistics
 PARAMETERS:
     SharpDX.DXGI.FrameStatistics&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6588,6 +6945,7 @@ METHOD: GetGammaControl
 PARAMETERS:
     SharpDX.DXGI.GammaControl&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6606,6 +6964,7 @@ METHOD: GetGammaControlCapabilities
 PARAMETERS:
     SharpDX.DXGI.GammaControlCapabilities&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6624,6 +6983,7 @@ METHOD: ReleaseOwnership
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6642,6 +7002,7 @@ METHOD: SetDisplaySurface
 PARAMETERS:
     SharpDX.DXGI.Surface
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6660,6 +7021,7 @@ METHOD: SetGammaControl
 PARAMETERS:
     SharpDX.DXGI.GammaControl&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6679,6 +7041,7 @@ PARAMETERS:
     SharpDX.IUnknown
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6697,6 +7060,7 @@ METHOD: WaitForVerticalBlank
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6715,6 +7079,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.OutputDescription
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6733,6 +7098,7 @@ METHOD: get_FrameStatistics
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.FrameStatistics
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6751,6 +7117,7 @@ METHOD: get_GammaControl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.GammaControl
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6769,6 +7136,7 @@ METHOD: get_GammaControlCapabilities
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.GammaControlCapabilities
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6787,6 +7155,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6805,6 +7174,7 @@ METHOD: set_GammaControl
 PARAMETERS:
     SharpDX.DXGI.GammaControl
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6823,6 +7193,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6841,6 +7212,7 @@ METHOD: DuplicateOutput
 PARAMETERS:
     SharpDX.IUnknown
 
+RETURN_TYPE: SharpDX.DXGI.OutputDuplication
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6861,6 +7233,7 @@ PARAMETERS:
     SharpDX.DXGI.ModeDescription1&
     SharpDX.IUnknown
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6880,6 +7253,7 @@ PARAMETERS:
     SharpDX.DXGI.Format
     SharpDX.DXGI.DisplayModeEnumerationFlags
 
+RETURN_TYPE: SharpDX.DXGI.ModeDescription1[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6901,6 +7275,7 @@ PARAMETERS:
     System.Int32&
     SharpDX.DXGI.ModeDescription1[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6919,6 +7294,7 @@ METHOD: GetDisplaySurfaceData1
 PARAMETERS:
     SharpDX.DXGI.Resource
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6937,6 +7313,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6955,6 +7332,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6973,6 +7351,7 @@ METHOD: SupportsOverlays_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6991,6 +7370,7 @@ METHOD: get_SupportsOverlays
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7009,6 +7389,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7027,6 +7408,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7046,6 +7428,7 @@ PARAMETERS:
     SharpDX.DXGI.Format
     SharpDX.IUnknown
 
+RETURN_TYPE: SharpDX.DXGI.OverlaySupportFlags
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7064,6 +7447,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7082,6 +7466,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7102,6 +7487,7 @@ PARAMETERS:
     SharpDX.DXGI.ColorSpaceType
     SharpDX.IUnknown
 
+RETURN_TYPE: SharpDX.DXGI.OverlayColorSpaceSupportFlags
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7120,6 +7506,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output4
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7138,6 +7525,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7159,6 +7547,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.Format[]
 
+RETURN_TYPE: SharpDX.DXGI.OutputDuplication
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7177,6 +7566,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output5
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7195,6 +7585,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7213,6 +7604,7 @@ METHOD: CheckHardwareCompositionSupport
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7231,6 +7623,7 @@ METHOD: GetDescription1
 PARAMETERS:
     SharpDX.DXGI.OutputDescription1&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7249,6 +7642,7 @@ METHOD: get_Description1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.OutputDescription1
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7267,6 +7661,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Output6
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7285,6 +7680,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.OutputDescription+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7303,6 +7699,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.OutputDescription+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7321,6 +7718,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.OutputDescription+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7339,6 +7737,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.DXGI.OutputDescription1+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7357,6 +7756,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.DXGI.OutputDescription1+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7375,6 +7775,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.DXGI.OutputDescription1+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7393,6 +7794,7 @@ METHOD: get_BluePrimary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Single[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7411,6 +7813,7 @@ METHOD: get_GreenPrimary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Single[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7429,6 +7832,7 @@ METHOD: get_RedPrimary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Single[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7447,6 +7851,7 @@ METHOD: get_WhitePoint
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Single[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7465,6 +7870,7 @@ METHOD: set_BluePrimary
 PARAMETERS:
     System.Single[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7483,6 +7889,7 @@ METHOD: set_GreenPrimary
 PARAMETERS:
     System.Single[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7501,6 +7908,7 @@ METHOD: set_RedPrimary
 PARAMETERS:
     System.Single[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7519,6 +7927,7 @@ METHOD: set_WhitePoint
 PARAMETERS:
     System.Single[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7537,6 +7946,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7557,6 +7967,7 @@ PARAMETERS:
     SharpDX.DXGI.OutputDuplicateFrameInformation&
     SharpDX.DXGI.Resource&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7575,6 +7986,7 @@ METHOD: GetDescription
 PARAMETERS:
     SharpDX.DXGI.OutputDuplicateDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7595,6 +8007,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle[]
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7615,6 +8028,7 @@ PARAMETERS:
     SharpDX.DXGI.OutputDuplicateMoveRectangle[]
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7636,6 +8050,7 @@ PARAMETERS:
     System.Int32&
     SharpDX.DXGI.OutputDuplicatePointerShapeInformation&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7654,6 +8069,7 @@ METHOD: MapDesktopSurface
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DataRectangle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7672,6 +8088,7 @@ METHOD: MapDesktopSurface
 PARAMETERS:
     SharpDX.DXGI.MappedRectangle&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7690,6 +8107,7 @@ METHOD: ReleaseFrame
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7710,6 +8128,7 @@ PARAMETERS:
     SharpDX.DXGI.OutputDuplicateFrameInformation&
     SharpDX.DXGI.Resource&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7728,6 +8147,7 @@ METHOD: UnMapDesktopSurface
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7746,6 +8166,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.OutputDuplicateDescription
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7764,6 +8185,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.OutputDuplication
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7782,6 +8204,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7801,6 +8224,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7819,6 +8243,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.DXGI.Rational
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7837,6 +8262,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7855,6 +8281,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7873,6 +8300,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7892,6 +8320,7 @@ PARAMETERS:
     SharpDX.DXGI.Rational
     SharpDX.DXGI.Rational
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7911,6 +8340,7 @@ PARAMETERS:
     SharpDX.DXGI.Rational
     SharpDX.DXGI.Rational
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7929,6 +8359,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7947,6 +8378,7 @@ METHOD: GetEvictionPriority
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7965,6 +8397,7 @@ METHOD: GetSharedHandle
 PARAMETERS:
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7983,6 +8416,7 @@ METHOD: GetUsage
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8001,6 +8435,7 @@ METHOD: SetEvictionPriority
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8019,6 +8454,7 @@ METHOD: get_EvictionPriority
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8037,6 +8473,7 @@ METHOD: get_SharedHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8055,6 +8492,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Resource
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8073,6 +8511,7 @@ METHOD: set_EvictionPriority
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8091,6 +8530,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8111,6 +8551,7 @@ PARAMETERS:
     SharpDX.DXGI.SharedResourceFlags
     System.Nullable`1[[SharpDX.Win32.SecurityAttributes, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8131,6 +8572,7 @@ PARAMETERS:
     SharpDX.DXGI.SharedResourceFlags
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8150,6 +8592,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.Surface2
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8168,6 +8611,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Resource1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8186,6 +8630,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8204,6 +8649,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8223,6 +8669,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8241,6 +8688,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8259,6 +8707,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8278,6 +8727,7 @@ PARAMETERS:
     SharpDX.DXGI.SwapChain
     System.Int32
 
+RETURN_TYPE: SharpDX.DXGI.Surface
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8296,6 +8746,7 @@ METHOD: GetDescription
 PARAMETERS:
     SharpDX.DXGI.SurfaceDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8314,6 +8765,7 @@ METHOD: Map
 PARAMETERS:
     SharpDX.DXGI.MapFlags
 
+RETURN_TYPE: SharpDX.DataRectangle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8333,6 +8785,7 @@ PARAMETERS:
     SharpDX.DXGI.MapFlags
     SharpDX.DataStream&
 
+RETURN_TYPE: SharpDX.DataRectangle
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8352,6 +8805,7 @@ PARAMETERS:
     SharpDX.DXGI.MappedRectangle&
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8370,6 +8824,7 @@ METHOD: Unmap
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8388,6 +8843,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.SurfaceDescription
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8406,6 +8862,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Surface
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8424,6 +8881,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8442,6 +8900,7 @@ METHOD: GetDC
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8460,6 +8919,7 @@ METHOD: ReleaseDC
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8478,6 +8938,7 @@ METHOD: ReleaseDC
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawRectangle
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8496,6 +8957,7 @@ METHOD: ReleaseDC_
 PARAMETERS:
     System.Nullable`1[[SharpDX.Mathematics.Interop.RawRectangle, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8514,6 +8976,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Surface1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8532,6 +8995,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8551,6 +9015,7 @@ PARAMETERS:
     SharpDX.DXGI.Resource1
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8571,6 +9036,7 @@ PARAMETERS:
     System.IntPtr&
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8589,6 +9055,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.Surface2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8607,6 +9074,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8627,6 +9095,7 @@ PARAMETERS:
     SharpDX.ComObject
     SharpDX.DXGI.SwapChainDescription
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8645,6 +9114,7 @@ METHOD: GetBackBuffer
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -8665,6 +9135,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8683,6 +9154,7 @@ METHOD: GetContainingOutput
 PARAMETERS:
     SharpDX.DXGI.Output&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8701,6 +9173,7 @@ METHOD: GetDescription
 PARAMETERS:
     SharpDX.DXGI.SwapChainDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8720,6 +9193,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool&
     SharpDX.DXGI.Output&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8738,6 +9212,7 @@ METHOD: GetLastPresentCount
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8757,6 +9232,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.PresentFlags
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8779,6 +9255,7 @@ PARAMETERS:
     SharpDX.DXGI.Format
     SharpDX.DXGI.SwapChainFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8797,6 +9274,7 @@ METHOD: ResizeTarget
 PARAMETERS:
     SharpDX.DXGI.ModeDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8816,6 +9294,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
     SharpDX.DXGI.Output
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8834,6 +9313,7 @@ METHOD: TryGetFrameStatistics
 PARAMETERS:
     SharpDX.DXGI.FrameStatistics&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8853,6 +9333,7 @@ PARAMETERS:
     System.Int32
     SharpDX.DXGI.PresentFlags
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8871,6 +9352,7 @@ METHOD: get_ContainingOutput
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Output
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8889,6 +9371,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.SwapChainDescription
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8907,6 +9390,7 @@ METHOD: get_FrameStatistics
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.FrameStatistics
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8925,6 +9409,7 @@ METHOD: get_IsFullScreen
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8943,6 +9428,7 @@ METHOD: get_LastPresentCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8961,6 +9447,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.SwapChain
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8979,6 +9466,7 @@ METHOD: set_IsFullScreen
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8997,6 +9485,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9020,6 +9509,7 @@ PARAMETERS:
     System.Nullable`1[[SharpDX.DXGI.SwapChainFullScreenDescription, SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     SharpDX.DXGI.Output
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9042,6 +9532,7 @@ PARAMETERS:
     SharpDX.DXGI.SwapChainDescription1&
     SharpDX.DXGI.Output
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9063,6 +9554,7 @@ PARAMETERS:
     SharpDX.DXGI.SwapChainDescription1&
     SharpDX.DXGI.Output
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9081,6 +9573,7 @@ METHOD: GetBackgroundColor
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawColor4&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9100,6 +9593,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9118,6 +9612,7 @@ METHOD: GetDescription1
 PARAMETERS:
     SharpDX.DXGI.SwapChainDescription1&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9136,6 +9631,7 @@ METHOD: GetFullscreenDescription
 PARAMETERS:
     SharpDX.DXGI.SwapChainFullScreenDescription&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9154,6 +9650,7 @@ METHOD: GetHwnd
 PARAMETERS:
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9172,6 +9669,7 @@ METHOD: GetRestrictToOutput
 PARAMETERS:
     SharpDX.DXGI.Output&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9190,6 +9688,7 @@ METHOD: GetRotation
 PARAMETERS:
     SharpDX.DXGI.DisplayModeRotation&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9208,6 +9707,7 @@ METHOD: IsTemporaryMonoSupported_
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9228,6 +9728,7 @@ PARAMETERS:
     SharpDX.DXGI.PresentFlags
     SharpDX.DXGI.PresentParameters
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9248,6 +9749,7 @@ PARAMETERS:
     SharpDX.DXGI.PresentFlags
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9266,6 +9768,7 @@ METHOD: SetBackgroundColor
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawColor4
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9284,6 +9787,7 @@ METHOD: SetRotation
 PARAMETERS:
     SharpDX.DXGI.DisplayModeRotation
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9302,6 +9806,7 @@ METHOD: get_BackgroundColor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawColor4
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9320,6 +9825,7 @@ METHOD: get_Description1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.SwapChainDescription1
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9338,6 +9844,7 @@ METHOD: get_FullscreenDescription
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.SwapChainFullScreenDescription
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9356,6 +9863,7 @@ METHOD: get_Hwnd
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9374,6 +9882,7 @@ METHOD: get_IsTemporaryMonoSupported
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9392,6 +9901,7 @@ METHOD: get_RestrictToOutput
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.Output
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9410,6 +9920,7 @@ METHOD: get_Rotation
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.DisplayModeRotation
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9428,6 +9939,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.SwapChain1
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9446,6 +9958,7 @@ METHOD: set_BackgroundColor
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawColor4
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9464,6 +9977,7 @@ METHOD: set_Rotation
 PARAMETERS:
     SharpDX.DXGI.DisplayModeRotation
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9482,6 +9996,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9500,6 +10015,7 @@ METHOD: GetFrameLatencyWaitableObject
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9518,6 +10034,7 @@ METHOD: GetMatrixTransform
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawMatrix3x2&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9536,6 +10053,7 @@ METHOD: GetMaximumFrameLatency
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9555,6 +10073,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9573,6 +10092,7 @@ METHOD: SetMatrixTransform
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawMatrix3x2&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9591,6 +10111,7 @@ METHOD: SetMaximumFrameLatency
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9610,6 +10131,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9628,6 +10150,7 @@ METHOD: get_FrameLatencyWaitableObject
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9646,6 +10169,7 @@ METHOD: get_MatrixTransform
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawMatrix3x2
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9664,6 +10188,7 @@ METHOD: get_MaximumFrameLatency
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9682,6 +10207,7 @@ METHOD: get_SourceSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Size2
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9700,6 +10226,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.SwapChain2
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9718,6 +10245,7 @@ METHOD: set_MatrixTransform
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawMatrix3x2
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9736,6 +10264,7 @@ METHOD: set_MaximumFrameLatency
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9754,6 +10283,7 @@ METHOD: set_SourceSize
 PARAMETERS:
     SharpDX.Size2
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9772,6 +10302,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9790,6 +10321,7 @@ METHOD: CheckColorSpaceSupport
 PARAMETERS:
     SharpDX.DXGI.ColorSpaceType
 
+RETURN_TYPE: SharpDX.DXGI.SwapChainColorSpaceSupportFlags
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9808,6 +10340,7 @@ METHOD: GetCurrentBackBufferIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9832,6 +10365,7 @@ PARAMETERS:
     System.Int32[]
     SharpDX.IUnknown[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9850,6 +10384,7 @@ METHOD: SetColorSpace1
 PARAMETERS:
     SharpDX.DXGI.ColorSpaceType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9868,6 +10403,7 @@ METHOD: get_CurrentBackBufferIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9886,6 +10422,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.SwapChain3
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9904,6 +10441,7 @@ METHOD: set_ColorSpace1
 PARAMETERS:
     SharpDX.DXGI.ColorSpaceType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9922,6 +10460,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9942,6 +10481,7 @@ PARAMETERS:
     System.Int32
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9960,6 +10500,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.SwapChain4
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9978,6 +10519,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9998,6 +10540,7 @@ PARAMETERS:
     System.Int32&
     System.Int32&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10016,6 +10559,7 @@ METHOD: GetFrameStatisticsMedia
 PARAMETERS:
     SharpDX.DXGI.FrameStatisticsMedia&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10034,6 +10578,7 @@ METHOD: SetPresentDuration
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10052,6 +10597,7 @@ METHOD: get_FrameStatisticsMedia
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DXGI.FrameStatisticsMedia
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10070,6 +10616,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.DXGI.SwapChainMedia
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10088,6 +10635,7 @@ METHOD: set_PresentDuration
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10106,6 +10654,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10124,6 +10673,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10142,6 +10692,7 @@ METHOD: ToIntPtr
 PARAMETERS:
     SharpDX.DXGI.IVirtualSurfaceUpdatesCallbackNative
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10160,6 +10711,7 @@ METHOD: get_GetVtbl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.CppObjectVtbl
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10178,6 +10730,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10196,6 +10749,7 @@ METHOD: UpdatesNeededImpl
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10215,6 +10769,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10235,6 +10790,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10253,6 +10809,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10271,6 +10828,7 @@ METHOD: Invoke
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: get_DisplayDateTime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: get_ImageUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: get_Level
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: set_Description
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: set_DisplayDateTime
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: set_ImageUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: set_Level
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -243,6 +256,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -261,6 +275,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -279,6 +294,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -297,6 +313,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -315,6 +332,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -333,6 +351,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -351,6 +370,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -369,6 +389,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -387,6 +408,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -405,6 +427,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -423,6 +446,7 @@ METHOD: get_NotifierKey
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -441,6 +465,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -459,6 +484,7 @@ METHOD: set_NotifierKey
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -477,6 +503,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -495,6 +522,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -513,6 +541,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -531,6 +560,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -549,6 +579,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -567,6 +598,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -585,6 +617,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -603,6 +636,7 @@ METHOD: get_UserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -621,6 +655,7 @@ METHOD: set_UserId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -639,6 +674,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -657,6 +693,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -675,6 +712,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -693,6 +731,7 @@ METHOD: get_Icon
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -711,6 +750,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -729,6 +769,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -747,6 +788,7 @@ METHOD: get_PluginId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -765,6 +807,7 @@ METHOD: get_SetupModuleUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -783,6 +826,7 @@ METHOD: set_Icon
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -801,6 +845,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -819,6 +864,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -837,6 +883,7 @@ METHOD: set_PluginId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -855,6 +902,7 @@ METHOD: set_SetupModuleUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -873,6 +921,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Controller.Notifications.INotificationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -892,6 +941,7 @@ PARAMETERS:
     Emby.Notifications.Api.AddAdminNotification
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -910,6 +960,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetNotificationTypes
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -928,6 +979,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetNotificationsSummary
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -946,6 +998,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetAllTokens
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -964,6 +1017,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetNotifications
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -982,6 +1036,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Notifications.Api.AddAdminNotification
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1000,6 +1055,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Notifications.Api.MarkRead
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1018,6 +1074,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Notifications.Api.MarkUnread
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1036,6 +1093,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1054,6 +1112,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1074,6 +1133,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IUserManager
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1092,6 +1152,7 @@ METHOD: Delete
 PARAMETERS:
     Emby.Notifications.Api.DeleteConfiguredNotification
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1110,6 +1171,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetUserNotificationServices
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1128,6 +1190,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetConfiguredNotifications
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1146,6 +1209,7 @@ METHOD: Get
 PARAMETERS:
     Emby.Notifications.Api.GetDefaultNotificationInfo
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1164,6 +1228,7 @@ METHOD: GetSampleNotificationRequest
 PARAMETERS:
     Emby.Notifications.UserNotificationInfo
 
+RETURN_TYPE: Emby.Notifications.InternalNotificationRequest
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1182,6 +1247,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Notifications.Api.SendTestNotification
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1200,6 +1266,7 @@ METHOD: Post
 PARAMETERS:
     Emby.Notifications.Api.SaveConfiguredNotification
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1218,6 +1285,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1236,6 +1304,7 @@ METHOD: <Get>b__0
 PARAMETERS:
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1254,6 +1323,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1272,6 +1342,7 @@ METHOD: <Delete>b__0
 PARAMETERS:
     Emby.Notifications.UserNotificationInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1290,6 +1361,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1308,6 +1380,7 @@ METHOD: GetNotificationTypes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Notifications.NotificationTypeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1326,6 +1399,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Controller.Notifications.INotificationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1344,6 +1418,7 @@ METHOD: GetFeatureInfos
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Features.FeatureInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1362,6 +1437,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Globalization.ILocalizationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1380,6 +1456,7 @@ METHOD: FormatValueToString
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1398,6 +1475,7 @@ METHOD: GetAllTokens
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Controller.Notifications.NotificationTokenCategory[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1416,6 +1494,7 @@ METHOD: GetBaseItemDtoTokens
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Controller.Notifications.NotificationToken[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1435,6 +1514,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.Notifications.NotificationTokenCategory
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1453,6 +1533,7 @@ METHOD: GetTokens
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Controller.Notifications.NotificationTokenCategory[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1472,6 +1553,7 @@ PARAMETERS:
     System.DateTimeOffset
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1491,6 +1573,7 @@ PARAMETERS:
     System.DateTime
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1510,6 +1593,7 @@ PARAMETERS:
     System.Object
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1529,6 +1613,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1549,6 +1634,7 @@ PARAMETERS:
     System.String
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1567,6 +1653,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1585,6 +1672,7 @@ METHOD: <GetTokens>b__0
 PARAMETERS:
     MediaBrowser.Controller.Notifications.NotificationTokenCategory
 
+RETURN_TYPE: MediaBrowser.Controller.Notifications.NotificationTokenCategory
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1603,6 +1691,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1621,6 +1710,7 @@ METHOD: <GetTokens>b__1
 PARAMETERS:
     MediaBrowser.Controller.Notifications.NotificationToken
 
+RETURN_TYPE: MediaBrowser.Controller.Notifications.NotificationToken
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1643,6 +1733,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IUserDataManager
     MediaBrowser.Model.Logging.ILogManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1661,6 +1752,7 @@ METHOD: <GetNotificationTypeInfo>b__43_0
 PARAMETERS:
     Emby.Notifications.INotificationTypeFactory
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[Emby.Notifications.NotificationTypeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1679,6 +1771,7 @@ METHOD: AddEventListeners
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1698,6 +1791,7 @@ PARAMETERS:
     Emby.Notifications.NotificationTypeInfo
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1716,6 +1810,7 @@ METHOD: ConvertToGroups
 PARAMETERS:
     MediaBrowser.Controller.Library.ItemChangeEventArgs[]
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.ItemChangeEventArgs, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1735,6 +1830,7 @@ PARAMETERS:
     System.Int32
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1753,6 +1849,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1772,6 +1869,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     System.Boolean
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1790,6 +1888,7 @@ METHOD: GetCategoryOrder
 PARAMETERS:
     Emby.Notifications.NotificationCategoryInfo
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1808,6 +1907,7 @@ METHOD: GetCategoryOrder
 PARAMETERS:
     Emby.Notifications.NotificationTypeInfo
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1826,6 +1926,7 @@ METHOD: GetCategoryOrder
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1844,6 +1945,7 @@ METHOD: GetConfiguredNotifications
 PARAMETERS:
     Emby.Notifications.INotifier
 
+RETURN_TYPE: Emby.Notifications.NotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1863,6 +1965,7 @@ PARAMETERS:
     Emby.Notifications.INotifier
     System.String
 
+RETURN_TYPE: Emby.Notifications.NotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1881,6 +1984,7 @@ METHOD: GetDtoOptions
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: MediaBrowser.Controller.Dto.DtoOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1899,6 +2003,7 @@ METHOD: GetLocalizedString
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1918,6 +2023,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: Emby.Notifications.NotificationCategoryInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1936,6 +2042,7 @@ METHOD: GetNotificationTokens
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Controller.Notifications.NotificationTokenCategory[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1954,6 +2061,7 @@ METHOD: GetNotificationTypeInfo
 PARAMETERS:
     System.String
 
+RETURN_TYPE: Emby.Notifications.NotificationTypeInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1973,6 +2081,7 @@ PARAMETERS:
     Emby.Notifications.INotificationTypeFactory
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Notifications.NotificationTypeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1992,6 +2101,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: Emby.Notifications.NotificationTypeInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2010,6 +2120,7 @@ METHOD: GetRecordingDescription
 PARAMETERS:
     MediaBrowser.Controller.LiveTv.ActiveRecordingInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2028,6 +2139,7 @@ METHOD: GetSeriesTimerDescription
 PARAMETERS:
     MediaBrowser.Controller.LiveTv.SeriesTimerInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2047,6 +2159,7 @@ PARAMETERS:
     MediaBrowser.Controller.LiveTv.TimerInfo
     MediaBrowser.Controller.LiveTv.LiveTvProgram
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2065,6 +2178,7 @@ METHOD: GroupItemUpdateNotifications
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2083,6 +2197,7 @@ METHOD: ImportDependencies
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2101,6 +2216,7 @@ METHOD: LibraryUpdateTimerCallback
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2119,6 +2235,7 @@ METHOD: RemoveEventListeners
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2138,6 +2255,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2156,6 +2274,7 @@ METHOD: Run
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2176,6 +2295,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.User
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2195,6 +2315,7 @@ PARAMETERS:
     Emby.Notifications.UserNotificationInfo
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2213,6 +2334,7 @@ METHOD: SendItemAddedNotifications
 PARAMETERS:
     MediaBrowser.Controller.Library.ItemChangeEventArgs[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2231,6 +2353,7 @@ METHOD: SendItemRemovedNotifications
 PARAMETERS:
     MediaBrowser.Controller.Library.ItemChangeEventArgs[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2249,6 +2372,7 @@ METHOD: SendItemUpdatedNotifications
 PARAMETERS:
     MediaBrowser.Controller.Library.ItemChangeEventArgs[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2267,6 +2391,7 @@ METHOD: SendNotification
 PARAMETERS:
     Emby.Notifications.NotificationRequest
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2286,6 +2411,7 @@ PARAMETERS:
     Emby.Notifications.NotificationRequest
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2305,6 +2431,7 @@ PARAMETERS:
     MediaBrowser.Model.Notifications.NotificationRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2326,6 +2453,7 @@ PARAMETERS:
     Emby.Notifications.NotificationRequest
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2347,6 +2475,7 @@ PARAMETERS:
     System.String
     Emby.Notifications.NotificationPlaybackInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2365,6 +2494,7 @@ METHOD: SendStartupNotification
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2383,6 +2513,7 @@ METHOD: Start
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2402,6 +2533,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.ItemChangeEventArgs
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.ItemChangeEventArgs, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2420,6 +2552,7 @@ METHOD: Stop
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2438,6 +2571,7 @@ METHOD: ToUserFriendlyString
 PARAMETERS:
     System.TimeSpan
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2457,6 +2591,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2476,6 +2611,7 @@ PARAMETERS:
     System.Object
     System.EventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2495,6 +2631,7 @@ PARAMETERS:
     System.Object
     System.EventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2514,6 +2651,7 @@ PARAMETERS:
     System.Object
     System.EventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2533,6 +2671,7 @@ PARAMETERS:
     System.Object
     System.EventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2552,6 +2691,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Devices.CameraImageUploadInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2571,6 +2711,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Common.Updates.InstallationFailedEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2590,6 +2731,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2609,6 +2751,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2628,6 +2771,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2647,6 +2791,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.ItemChangeEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2666,6 +2811,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.ItemChangeEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2685,6 +2831,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.ItemChangeEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2704,6 +2851,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.ActiveRecordingInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2723,6 +2871,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.ActiveRecordingInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2742,6 +2891,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.SeriesTimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2761,6 +2911,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.SeriesTimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2780,6 +2931,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.TimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2799,6 +2951,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.LiveTv.TimerEventInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2818,6 +2971,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Session.AuthenticationRequest, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2837,6 +2991,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Authentication.AuthenticationResult, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2856,6 +3011,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.PlaybackProgressEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2875,6 +3031,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.PlaybackProgressEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2894,6 +3051,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.PlaybackStopEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2913,6 +3071,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Tasks.TaskCompletionEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2932,6 +3091,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Controller.Library.UserDataSaveEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2951,6 +3111,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2970,6 +3131,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2989,6 +3151,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3008,6 +3171,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3027,6 +3191,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Controller.Entities.User, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3045,6 +3210,7 @@ METHOD: get_NotificationQueueManager
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Notifications.NotificationQueueManager
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3063,6 +3229,7 @@ METHOD: set_NotificationQueueManager
 PARAMETERS:
     Emby.Notifications.NotificationQueueManager
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3081,6 +3248,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3099,6 +3267,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3117,6 +3286,7 @@ METHOD: <GetNotificationCategories>b__38_0
 PARAMETERS:
     Emby.Notifications.NotificationTypeInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3135,6 +3305,7 @@ METHOD: <GetNotificationCategories>b__38_1
 PARAMETERS:
     System.Linq.IGrouping`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Emby.Notifications.NotificationTypeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: Emby.Notifications.NotificationCategoryInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3153,6 +3324,7 @@ METHOD: <GetNotificationCategories>b__38_2
 PARAMETERS:
     Emby.Notifications.NotificationCategoryInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3171,6 +3343,7 @@ METHOD: <GetNotificationCategories>b__38_3
 PARAMETERS:
     Emby.Notifications.NotificationTypeInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3189,6 +3362,7 @@ METHOD: <GetNotificationCategories>b__38_4
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3207,6 +3381,7 @@ METHOD: <SendNotification>b__105_0
 PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3225,6 +3400,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3243,6 +3419,7 @@ METHOD: <SendNotification>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3261,6 +3438,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3279,6 +3457,7 @@ METHOD: <GetNotificationTypes>b__0
 PARAMETERS:
     Emby.Notifications.INotificationTypeFactory
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[Emby.Notifications.NotificationTypeInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3297,6 +3476,7 @@ METHOD: <GetNotificationTypes>b__1
 PARAMETERS:
     Emby.Notifications.NotificationTypeInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3315,6 +3495,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3333,6 +3514,7 @@ METHOD: <GetConfiguredNotifications>b__0
 PARAMETERS:
     Emby.Notifications.NotificationInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3351,6 +3533,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Controller.Notifications.INotificationManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3369,6 +3552,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3387,6 +3571,7 @@ METHOD: Run
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3406,6 +3591,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Common.Security.ISecurityManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3424,6 +3610,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3443,6 +3630,7 @@ PARAMETERS:
     Emby.Notifications.INotifier
     Emby.Notifications.InternalNotificationRequest
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3463,6 +3651,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3481,6 +3670,7 @@ METHOD: StartProcessingQueue
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3499,6 +3689,7 @@ METHOD: TryDequeue
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Notifications.NotificationRequestInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3517,6 +3708,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3535,6 +3727,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3553,6 +3746,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3571,6 +3765,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3589,6 +3784,7 @@ METHOD: get_NotifierKey
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3607,6 +3803,7 @@ METHOD: get_PluginId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3625,6 +3822,7 @@ METHOD: get_ServiceName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3643,6 +3841,7 @@ METHOD: get_SetupModuleUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3661,6 +3860,7 @@ METHOD: set_NotifierKey
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3679,6 +3879,7 @@ METHOD: set_PluginId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3697,6 +3898,7 @@ METHOD: set_ServiceName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3715,6 +3917,7 @@ METHOD: set_SetupModuleUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3733,6 +3936,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3751,6 +3955,7 @@ METHOD: get_Notifications
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Notifications.UserNotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3769,6 +3974,7 @@ METHOD: set_Notifications
 PARAMETERS:
     Emby.Notifications.UserNotificationInfo[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3789,6 +3995,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogManager
     MediaBrowser.Controller.Library.IUserManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3808,6 +4015,7 @@ PARAMETERS:
     Emby.Notifications.UserNotificationInfo
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3826,6 +4034,7 @@ METHOD: FindPlugin
 PARAMETERS:
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: MediaBrowser.Common.Plugins.IPlugin
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3844,6 +4053,7 @@ METHOD: GetAvailableOutputs
 PARAMETERS:
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: Emby.Notifications.Api.NotificationServiceInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3862,6 +4072,7 @@ METHOD: GetConfiguredNotifications
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: Emby.Notifications.NotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3880,6 +4091,7 @@ METHOD: GetConfiguredNotifications
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Notifications.NotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3898,6 +4110,7 @@ METHOD: GetConfiguredNotifications
 PARAMETERS:
     System.Int64[]
 
+RETURN_TYPE: Emby.Notifications.NotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3916,6 +4129,7 @@ METHOD: GetFeatureId
 PARAMETERS:
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3934,6 +4148,7 @@ METHOD: GetServiceOutputs
 PARAMETERS:
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: Emby.Notifications.Api.NotificationServiceInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3952,6 +4167,7 @@ METHOD: GetUserNotifications
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.Notifications.UserNotificationInfo, Emby.Notifications, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3970,6 +4186,7 @@ METHOD: Run
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3989,6 +4206,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4007,6 +4225,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4025,6 +4244,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4043,6 +4263,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4061,6 +4282,7 @@ METHOD: <GetAvailableOutputs>b__15_1
 PARAMETERS:
     Emby.Notifications.Api.NotificationServiceInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4079,6 +4301,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4097,6 +4320,7 @@ METHOD: <GetUserNotifications>b__0
 PARAMETERS:
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4115,6 +4339,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4133,6 +4358,7 @@ METHOD: <FindPlugin>b__0
 PARAMETERS:
     MediaBrowser.Common.Plugins.IPlugin
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4151,6 +4377,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4169,6 +4396,7 @@ METHOD: <GetAvailableOutputs>b__0
 PARAMETERS:
     Emby.Notifications.IUserNotifier
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4188,6 +4416,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IUserManager
     System.Int64
 
+RETURN_TYPE: Emby.Notifications.UserNotificationOptions
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4208,6 +4437,7 @@ PARAMETERS:
     System.Int64
     Emby.Notifications.UserNotificationOptions
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4226,6 +4456,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4244,6 +4475,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4262,6 +4494,7 @@ METHOD: GetConfigurations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.ConfigurationStore, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: ReadAndReverseBytes
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: ReadUInt16
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt16
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: ReadUInt32
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: ParsePlayback
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: ParsePosition
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: get_PlaybackInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: DvdLib.Ifo.CellPlaybackInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: get_PositionInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: DvdLib.Ifo.CellPositionInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: set_PlaybackInfo
 PARAMETERS:
     DvdLib.Ifo.CellPlaybackInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: set_PositionInfo
 PARAMETERS:
     DvdLib.Ifo.CellPositionInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -243,6 +256,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -263,6 +277,7 @@ PARAMETERS:
     System.UInt16
     System.UInt32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -281,6 +296,7 @@ METHOD: get_ChapterNumber
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -299,6 +315,7 @@ METHOD: get_ProgramChainNumber
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt16
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -317,6 +334,7 @@ METHOD: get_ProgramNumber
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt16
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -335,6 +353,7 @@ METHOD: set_ChapterNumber
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -353,6 +372,7 @@ METHOD: set_ProgramChainNumber
 PARAMETERS:
     System.UInt16
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -371,6 +391,7 @@ METHOD: set_ProgramNumber
 PARAMETERS:
     System.UInt16
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -390,6 +411,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -408,6 +430,7 @@ METHOD: ReadTT_SRPT
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -427,6 +450,7 @@ PARAMETERS:
     System.UInt16
     System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -446,6 +470,7 @@ PARAMETERS:
     System.UInt16
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -464,6 +489,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -482,6 +508,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -500,6 +527,7 @@ METHOD: <.ctor>b__5_0
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -518,6 +546,7 @@ METHOD: <.ctor>b__5_1
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -536,6 +565,7 @@ METHOD: <.ctor>b__5_2
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -554,6 +584,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -572,6 +603,7 @@ METHOD: <ReadVTS>b__0
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -590,6 +622,7 @@ METHOD: <ReadVTS>b__1
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -608,6 +641,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -626,6 +660,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -644,6 +679,7 @@ METHOD: <ReadVTS>b__0
 PARAMETERS:
     DvdLib.Ifo.Title
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -662,6 +698,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -680,6 +717,7 @@ METHOD: <ReadVTS>b__1
 PARAMETERS:
     DvdLib.Ifo.Title
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -698,6 +736,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -716,6 +755,7 @@ METHOD: GetBCDValue
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.Byte
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -734,6 +774,7 @@ METHOD: op_Explicit
 PARAMETERS:
     DvdLib.Ifo.DvdTime
 
+RETURN_TYPE: System.TimeSpan
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -752,6 +793,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -770,6 +812,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.Generic.List`1[[DvdLib.Ifo.Cell, DvdMounter, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -788,6 +831,7 @@ METHOD: .ctor
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -806,6 +850,7 @@ METHOD: ParseHeader
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -824,6 +869,7 @@ METHOD: get_AudioStreamControl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -842,6 +888,7 @@ METHOD: get_Palette
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -860,6 +907,7 @@ METHOD: get_PlaybackMode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: DvdLib.Ifo.ProgramPlaybackMode
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -878,6 +926,7 @@ METHOD: get_PlaybackTime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: DvdLib.Ifo.DvdTime
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -896,6 +945,7 @@ METHOD: get_ProgramCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -914,6 +964,7 @@ METHOD: get_ProhibitedUserOperations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: DvdLib.Ifo.UserOperation
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -932,6 +983,7 @@ METHOD: get_StillTime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -950,6 +1002,7 @@ METHOD: get_SubpictureStreamControl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -968,6 +1021,7 @@ METHOD: set_AudioStreamControl
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -986,6 +1040,7 @@ METHOD: set_Palette
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1004,6 +1059,7 @@ METHOD: set_PlaybackMode
 PARAMETERS:
     DvdLib.Ifo.ProgramPlaybackMode
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1022,6 +1078,7 @@ METHOD: set_PlaybackTime
 PARAMETERS:
     DvdLib.Ifo.DvdTime
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1040,6 +1097,7 @@ METHOD: set_ProgramCount
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1058,6 +1116,7 @@ METHOD: set_ProhibitedUserOperations
 PARAMETERS:
     DvdLib.Ifo.UserOperation
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1076,6 +1135,7 @@ METHOD: set_StillTime
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1094,6 +1154,7 @@ METHOD: set_SubpictureStreamControl
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1112,6 +1173,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1130,6 +1192,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1149,6 +1212,7 @@ PARAMETERS:
     DvdLib.Ifo.Cell
     System.Int32
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1167,6 +1231,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1185,6 +1250,7 @@ METHOD: .ctor
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1206,6 +1272,7 @@ PARAMETERS:
     System.Boolean
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1225,6 +1292,7 @@ PARAMETERS:
     System.UInt32
     System.UInt32
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1243,6 +1311,7 @@ METHOD: ParseTT_SRPT
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1261,6 +1330,7 @@ METHOD: get_AngleCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1279,6 +1349,7 @@ METHOD: get_ChapterCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt16
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1297,6 +1368,7 @@ METHOD: get_EntryProgramChain
 PARAMETERS:
     (none)
 
+RETURN_TYPE: DvdLib.Ifo.ProgramChain
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1315,6 +1387,7 @@ METHOD: get_TitleNumber
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1333,6 +1406,7 @@ METHOD: get_VideoTitleSetNumber
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1351,6 +1425,7 @@ METHOD: set_AngleCount
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1369,6 +1444,7 @@ METHOD: set_ChapterCount
 PARAMETERS:
     System.UInt16
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1387,6 +1463,7 @@ METHOD: set_EntryProgramChain
 PARAMETERS:
     DvdLib.Ifo.ProgramChain
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1405,6 +1482,7 @@ METHOD: set_TitleNumber
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1423,6 +1501,7 @@ METHOD: set_VideoTitleSetNumber
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1441,6 +1520,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1459,6 +1539,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1478,6 +1559,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IMediaSourceManager
     MediaBrowser.Model.Logging.ILogManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1498,6 +1580,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1516,6 +1599,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1535,6 +1619,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1554,6 +1639,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     System.String
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1574,6 +1660,7 @@ PARAMETERS:
     System.String
     System.Nullable`1[[System.UInt32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1592,6 +1679,7 @@ METHOD: GetRuntime
 PARAMETERS:
     DvdLib.Ifo.Title
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1613,6 +1701,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.IO.MediaMount, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1635,6 +1724,7 @@ PARAMETERS:
     System.Func`3[[MediaBrowser.Model.IO.FileSystemMetadata, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.IO.MediaMount, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1653,6 +1743,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1671,6 +1762,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1689,6 +1781,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1707,6 +1800,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__11_0
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1725,6 +1819,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__11_1
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1743,6 +1838,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__11_2
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1761,6 +1857,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__11_4
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1779,6 +1876,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__11_5
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1797,6 +1895,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__11_6
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1815,6 +1914,7 @@ METHOD: <GetRuntime>b__10_0
 PARAMETERS:
     DvdLib.Ifo.ProgramChain
 
+RETURN_TYPE: System.TimeSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1833,6 +1933,7 @@ METHOD: <GetRuntime>b__10_1
 PARAMETERS:
     System.TimeSpan
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1851,6 +1952,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1869,6 +1971,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__7
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1887,6 +1990,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1905,6 +2009,7 @@ METHOD: <GetPrimaryPlaylistVobFiles>b__3
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1923,6 +2028,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1941,6 +2047,7 @@ METHOD: <Mount>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1959,6 +2066,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1977,6 +2085,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1995,6 +2104,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2013,6 +2123,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2031,6 +2142,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2049,6 +2161,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

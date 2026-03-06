@@ -9,6 +9,7 @@ METHOD: GetOpenSubtitleConfiguration
 PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleOptions
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: ComputeMovieHash
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -71,6 +74,7 @@ PARAMETERS:
     MediaBrowser.Common.Security.ISecurityManager
     MediaBrowser.Controller.IO.IIOManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -90,6 +94,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -111,6 +116,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Common.Net.HttpRequestOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -129,6 +135,7 @@ METHOD: DecryptPassword
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -149,6 +156,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -168,6 +176,7 @@ PARAMETERS:
     System.String
     System.String[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -188,6 +197,7 @@ PARAMETERS:
     System.String
     System.String[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +217,7 @@ PARAMETERS:
     System.String
     System.String[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -226,6 +237,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage[], OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -245,6 +257,7 @@ PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
     System.String
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -265,6 +278,7 @@ PARAMETERS:
     System.String
     System.Int32
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -285,6 +299,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Subtitles.SubtitleResponse, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -303,6 +318,7 @@ METHOD: HasConfiguredLogin
 PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -322,6 +338,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -340,6 +357,7 @@ METHOD: NormalizeImdbId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -359,6 +377,7 @@ PARAMETERS:
     MediaBrowser.Model.Globalization.CultureDto
     OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -379,6 +398,7 @@ PARAMETERS:
     System.String
     System.String[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -398,6 +418,7 @@ PARAMETERS:
     System.Net.HttpStatusCode
     MediaBrowser.Common.Net.HttpResponseInfo
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -417,6 +438,7 @@ PARAMETERS:
     MediaBrowser.Model.Net.HttpException
     System.String
 
+RETURN_TYPE: System.Exception
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -435,6 +457,7 @@ METHOD: ProcessErrorBody
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -453,6 +476,7 @@ METHOD: RefreshPremiereInfo
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -471,6 +495,7 @@ METHOD: ResetLoginToDefaults
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -491,6 +516,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSubtitleInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -512,6 +538,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Providers.RemoteSubtitleInfo[], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -532,6 +559,7 @@ PARAMETERS:
     OpenSubtitles.OpenSubtitleOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -550,6 +578,7 @@ METHOD: ToHexadecimal
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -568,6 +597,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -588,6 +618,7 @@ PARAMETERS:
     System.Int64
     OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitleApiSearchResult
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSubtitleInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -606,6 +637,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -624,6 +656,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -642,6 +675,7 @@ METHOD: <NormalizeLanguage>b__38_0
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -660,6 +694,7 @@ METHOD: <processResults>b__43_0
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+Datum
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -678,6 +713,7 @@ METHOD: <processResults>b__43_1
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+Datum
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -696,6 +732,7 @@ METHOD: <processResults>b__43_2
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+Datum
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -714,6 +751,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -732,6 +770,7 @@ METHOD: <processResults>b__3
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+Datum
 
+RETURN_TYPE: MediaBrowser.Model.Providers.RemoteSubtitleInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -750,6 +789,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -768,6 +808,7 @@ METHOD: <SearchInternal>b__0
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteSubtitleInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -786,6 +827,7 @@ METHOD: <SearchInternal>b__1
 PARAMETERS:
     MediaBrowser.Model.Providers.RemoteSubtitleInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -804,6 +846,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -822,6 +865,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -840,6 +884,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -858,6 +903,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -876,6 +922,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -894,6 +941,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -912,6 +960,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -930,6 +979,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -948,6 +998,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -966,6 +1017,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -984,6 +1036,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1002,6 +1055,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1020,6 +1074,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1038,6 +1093,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1056,6 +1112,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1074,6 +1131,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1092,6 +1150,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1110,6 +1169,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1128,6 +1188,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1146,6 +1207,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1164,6 +1226,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1182,6 +1245,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1200,6 +1264,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1218,6 +1283,7 @@ METHOD: get_ai_translated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1236,6 +1302,7 @@ METHOD: get_comments
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1254,6 +1321,7 @@ METHOD: get_download_count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1272,6 +1340,7 @@ METHOD: get_feature_details
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1290,6 +1359,7 @@ METHOD: get_files
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+File, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1308,6 +1378,7 @@ METHOD: get_foreign_parts_only
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1326,6 +1397,7 @@ METHOD: get_fps
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1344,6 +1416,7 @@ METHOD: get_from_trusted
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1362,6 +1435,7 @@ METHOD: get_hd
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1380,6 +1454,7 @@ METHOD: get_hearing_impaired
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1398,6 +1473,7 @@ METHOD: get_language
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1416,6 +1492,7 @@ METHOD: get_legacy_subtitle_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1434,6 +1511,7 @@ METHOD: get_machine_translated
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1452,6 +1530,7 @@ METHOD: get_moviehash_match
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1470,6 +1549,7 @@ METHOD: get_new_download_count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1488,6 +1568,7 @@ METHOD: get_ratings
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1506,6 +1587,7 @@ METHOD: get_related_links
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+RelatedLink, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1524,6 +1606,7 @@ METHOD: get_release
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1542,6 +1625,7 @@ METHOD: get_subtitle_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1560,6 +1644,7 @@ METHOD: get_upload_date
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1578,6 +1663,7 @@ METHOD: get_uploader
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleComDownloader+Uploader
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1596,6 +1682,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1614,6 +1701,7 @@ METHOD: get_votes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1632,6 +1720,7 @@ METHOD: set_ai_translated
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1650,6 +1739,7 @@ METHOD: set_comments
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1668,6 +1758,7 @@ METHOD: set_download_count
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1686,6 +1777,7 @@ METHOD: set_feature_details
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+FeatureDetails
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1704,6 +1796,7 @@ METHOD: set_files
 PARAMETERS:
     System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+File, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1722,6 +1815,7 @@ METHOD: set_foreign_parts_only
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1740,6 +1834,7 @@ METHOD: set_fps
 PARAMETERS:
     System.Double
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1758,6 +1853,7 @@ METHOD: set_from_trusted
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1776,6 +1872,7 @@ METHOD: set_hd
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1794,6 +1891,7 @@ METHOD: set_hearing_impaired
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1812,6 +1910,7 @@ METHOD: set_language
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1830,6 +1929,7 @@ METHOD: set_legacy_subtitle_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1848,6 +1948,7 @@ METHOD: set_machine_translated
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1866,6 +1967,7 @@ METHOD: set_moviehash_match
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1884,6 +1986,7 @@ METHOD: set_new_download_count
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1902,6 +2005,7 @@ METHOD: set_ratings
 PARAMETERS:
     System.Double
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1920,6 +2024,7 @@ METHOD: set_related_links
 PARAMETERS:
     System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+RelatedLink, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1938,6 +2043,7 @@ METHOD: set_release
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1956,6 +2062,7 @@ METHOD: set_subtitle_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1974,6 +2081,7 @@ METHOD: set_upload_date
 PARAMETERS:
     System.DateTimeOffset
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1992,6 +2100,7 @@ METHOD: set_uploader
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+Uploader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2010,6 +2119,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2028,6 +2138,7 @@ METHOD: set_votes
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2046,6 +2157,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2064,6 +2176,7 @@ METHOD: get_attributes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleComDownloader+Attributes
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2082,6 +2195,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2100,6 +2214,7 @@ METHOD: get_type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2118,6 +2233,7 @@ METHOD: set_attributes
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+Attributes
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2136,6 +2252,7 @@ METHOD: set_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2154,6 +2271,7 @@ METHOD: set_type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2172,6 +2290,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2190,6 +2309,7 @@ METHOD: get_feature_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2208,6 +2328,7 @@ METHOD: get_feature_type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2226,6 +2347,7 @@ METHOD: get_imdb_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2244,6 +2366,7 @@ METHOD: get_movie_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2262,6 +2385,7 @@ METHOD: get_title
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2280,6 +2404,7 @@ METHOD: get_tmdb_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2298,6 +2423,7 @@ METHOD: get_year
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2316,6 +2442,7 @@ METHOD: set_feature_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2334,6 +2461,7 @@ METHOD: set_feature_type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2352,6 +2480,7 @@ METHOD: set_imdb_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2370,6 +2499,7 @@ METHOD: set_movie_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2388,6 +2518,7 @@ METHOD: set_title
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2406,6 +2537,7 @@ METHOD: set_tmdb_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2424,6 +2556,7 @@ METHOD: set_year
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2442,6 +2575,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2460,6 +2594,7 @@ METHOD: get_cd_number
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2478,6 +2613,7 @@ METHOD: get_file_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2496,6 +2632,7 @@ METHOD: get_file_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2514,6 +2651,7 @@ METHOD: set_cd_number
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2532,6 +2670,7 @@ METHOD: set_file_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2550,6 +2689,7 @@ METHOD: set_file_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2568,6 +2708,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2586,6 +2727,7 @@ METHOD: get_data
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+Datum, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2604,6 +2746,7 @@ METHOD: get_page
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2622,6 +2765,7 @@ METHOD: get_per_page
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2640,6 +2784,7 @@ METHOD: get_total_count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2658,6 +2803,7 @@ METHOD: get_total_pages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2676,6 +2822,7 @@ METHOD: set_data
 PARAMETERS:
     System.Collections.Generic.List`1[[OpenSubtitles.OpenSubtitleComDownloader+Datum, OpenSubtitles, Version=1.0.66.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2694,6 +2841,7 @@ METHOD: set_page
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2712,6 +2860,7 @@ METHOD: set_per_page
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2730,6 +2879,7 @@ METHOD: set_total_count
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2748,6 +2898,7 @@ METHOD: set_total_pages
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2766,6 +2917,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2784,6 +2936,7 @@ METHOD: get_message
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2802,6 +2955,7 @@ METHOD: get_remaining
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2820,6 +2974,7 @@ METHOD: get_requests
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2838,6 +2993,7 @@ METHOD: get_reset_time
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2856,6 +3012,7 @@ METHOD: get_reset_time_utc
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTime
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2874,6 +3031,7 @@ METHOD: get_status
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2892,6 +3050,7 @@ METHOD: set_message
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2910,6 +3069,7 @@ METHOD: set_remaining
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2928,6 +3088,7 @@ METHOD: set_requests
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2946,6 +3107,7 @@ METHOD: set_reset_time
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2964,6 +3126,7 @@ METHOD: set_reset_time_utc
 PARAMETERS:
     System.DateTime
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2982,6 +3145,7 @@ METHOD: set_status
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3000,6 +3164,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3018,6 +3183,7 @@ METHOD: get_Episode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3036,6 +3202,7 @@ METHOD: get_Filename
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3054,6 +3221,7 @@ METHOD: get_ImdbId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3072,6 +3240,7 @@ METHOD: get_MovieByteSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3090,6 +3259,7 @@ METHOD: get_MovieHash
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3108,6 +3278,7 @@ METHOD: get_Query
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3126,6 +3297,7 @@ METHOD: get_Season
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3144,6 +3316,7 @@ METHOD: get_SubLangaugeId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3162,6 +3335,7 @@ METHOD: set_Episode
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3180,6 +3354,7 @@ METHOD: set_Filename
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3198,6 +3373,7 @@ METHOD: set_ImdbId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3216,6 +3392,7 @@ METHOD: set_MovieByteSize
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3234,6 +3411,7 @@ METHOD: set_MovieHash
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3252,6 +3430,7 @@ METHOD: set_Query
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3270,6 +3449,7 @@ METHOD: set_Season
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3288,6 +3468,7 @@ METHOD: set_SubLangaugeId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3306,6 +3487,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3324,6 +3506,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3342,6 +3525,7 @@ METHOD: get_Members
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3360,6 +3544,7 @@ METHOD: set_Members
 PARAMETERS:
     System.Collections.Generic.List`1[[System.Tuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3379,6 +3564,7 @@ PARAMETERS:
     System.Object
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3397,6 +3583,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3415,6 +3602,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3433,6 +3621,7 @@ METHOD: get_Value
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3451,6 +3640,7 @@ METHOD: set_Type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3469,6 +3659,7 @@ METHOD: set_Value
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3487,6 +3678,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3505,6 +3697,7 @@ METHOD: get_file_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3523,6 +3716,7 @@ METHOD: get_link
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3541,6 +3735,7 @@ METHOD: get_message
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3559,6 +3754,7 @@ METHOD: get_remaining
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3577,6 +3773,7 @@ METHOD: get_requests
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3595,6 +3792,7 @@ METHOD: get_reset_time
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3613,6 +3811,7 @@ METHOD: get_reset_time_utc
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTime
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3631,6 +3830,7 @@ METHOD: set_file_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3649,6 +3849,7 @@ METHOD: set_link
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3667,6 +3868,7 @@ METHOD: set_message
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3685,6 +3887,7 @@ METHOD: set_remaining
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3703,6 +3906,7 @@ METHOD: set_requests
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3721,6 +3925,7 @@ METHOD: set_reset_time
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3739,6 +3944,7 @@ METHOD: set_reset_time_utc
 PARAMETERS:
     System.DateTime
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3757,6 +3963,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3775,6 +3982,7 @@ METHOD: get_language_code
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3793,6 +4001,7 @@ METHOD: get_language_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3811,6 +4020,7 @@ METHOD: set_language_code
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3829,6 +4039,7 @@ METHOD: set_language_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3847,6 +4058,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3865,6 +4077,7 @@ METHOD: get_data
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3883,6 +4096,7 @@ METHOD: set_data
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesLanguage[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3901,6 +4115,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3919,6 +4134,7 @@ METHOD: get_base_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3937,6 +4153,7 @@ METHOD: get_status
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3955,6 +4172,7 @@ METHOD: get_token
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3973,6 +4191,7 @@ METHOD: get_user
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3991,6 +4210,7 @@ METHOD: set_base_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4009,6 +4229,7 @@ METHOD: set_status
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4027,6 +4248,7 @@ METHOD: set_token
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4045,6 +4267,7 @@ METHOD: set_user
 PARAMETERS:
     OpenSubtitles.OpenSubtitleComDownloader+OpenSubtitlesUser
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4063,6 +4286,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4081,6 +4305,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4099,6 +4324,7 @@ METHOD: get_episode_number
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4117,6 +4343,7 @@ METHOD: get_imdb_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4135,6 +4362,7 @@ METHOD: get_languages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4153,6 +4381,7 @@ METHOD: get_moviehash
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4171,6 +4400,7 @@ METHOD: get_query
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4189,6 +4419,7 @@ METHOD: get_season_number
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4207,6 +4438,7 @@ METHOD: set_episode_number
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4225,6 +4457,7 @@ METHOD: set_imdb_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4243,6 +4476,7 @@ METHOD: set_languages
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4261,6 +4495,7 @@ METHOD: set_moviehash
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4279,6 +4514,7 @@ METHOD: set_query
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4297,6 +4533,7 @@ METHOD: set_season_number
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4315,6 +4552,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4333,6 +4571,7 @@ METHOD: <ToString>b__0
 PARAMETERS:
     System.Reflection.PropertyInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4351,6 +4590,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4369,6 +4609,7 @@ METHOD: get_allowed_downloads
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4387,6 +4628,7 @@ METHOD: get_allowed_translations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4405,6 +4647,7 @@ METHOD: get_ext_installed
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4423,6 +4666,7 @@ METHOD: get_level
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4441,6 +4685,7 @@ METHOD: get_user_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4459,6 +4704,7 @@ METHOD: get_vip
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4477,6 +4723,7 @@ METHOD: set_allowed_downloads
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4495,6 +4742,7 @@ METHOD: set_allowed_translations
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4513,6 +4761,7 @@ METHOD: set_ext_installed
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4531,6 +4780,7 @@ METHOD: set_level
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4549,6 +4799,7 @@ METHOD: set_user_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4567,6 +4818,7 @@ METHOD: set_vip
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4585,6 +4837,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4603,6 +4856,7 @@ METHOD: get_img_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4621,6 +4875,7 @@ METHOD: get_label
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4639,6 +4894,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4657,6 +4913,7 @@ METHOD: set_img_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4675,6 +4932,7 @@ METHOD: set_label
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4693,6 +4951,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4711,6 +4970,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4729,6 +4989,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4747,6 +5008,7 @@ METHOD: get_rank
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4765,6 +5027,7 @@ METHOD: get_uploader_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4783,6 +5046,7 @@ METHOD: set_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4801,6 +5065,7 @@ METHOD: set_rank
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4819,6 +5084,7 @@ METHOD: set_uploader_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4837,6 +5103,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4855,6 +5122,7 @@ METHOD: GetConfigurations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.ConfigurationStore, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4881,6 +5149,7 @@ PARAMETERS:
     MediaBrowser.Common.Security.ISecurityManager
     MediaBrowser.Controller.IO.IIOManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4899,6 +5168,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4917,6 +5187,7 @@ METHOD: EncryptPassword
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4935,6 +5206,7 @@ METHOD: GetOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.OpenSubtitleOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4954,6 +5226,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Subtitles.SubtitleResponse, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4973,6 +5246,7 @@ PARAMETERS:
     MediaBrowser.Controller.Subtitles.SubtitleSearchRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Providers.RemoteSubtitleInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4992,6 +5266,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5010,6 +5285,7 @@ METHOD: get_Features
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Configuration.MetadataFeatures[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5028,6 +5304,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5046,6 +5323,7 @@ METHOD: get_SupportedMediaTypes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Providers.VideoContentType, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5064,6 +5342,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5082,6 +5361,7 @@ METHOD: get_PasswordHash
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5100,6 +5380,7 @@ METHOD: get_Username
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5118,6 +5399,7 @@ METHOD: set_PasswordHash
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5136,6 +5418,7 @@ METHOD: set_Username
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5154,6 +5437,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5173,6 +5457,7 @@ PARAMETERS:
     System.Object
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5191,6 +5476,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5209,6 +5495,7 @@ METHOD: GetPages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5227,6 +5514,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5245,6 +5533,7 @@ METHOD: GetTranslations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5263,6 +5552,7 @@ METHOD: get_ApiKey
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5281,6 +5571,7 @@ METHOD: get_ApiKeyFree
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5299,6 +5590,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5317,6 +5609,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5335,6 +5628,7 @@ METHOD: get_Instance
 PARAMETERS:
     (none)
 
+RETURN_TYPE: OpenSubtitles.Plugin
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5353,6 +5647,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5371,6 +5666,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5389,6 +5685,7 @@ METHOD: get_UserAgent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5407,6 +5704,7 @@ METHOD: get_UserAgentFree
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5425,6 +5723,7 @@ METHOD: set_Instance
 PARAMETERS:
     OpenSubtitles.Plugin
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5443,6 +5742,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5461,6 +5761,7 @@ METHOD: <GetTranslations>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5479,6 +5780,7 @@ METHOD: <GetTranslations>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

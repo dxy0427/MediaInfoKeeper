@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: Equals
 PARAMETERS:
     Emby.XmlTV.XmlTvChannel
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -99,6 +104,7 @@ METHOD: get_AlternateNames
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -117,6 +123,7 @@ METHOD: get_DisplayName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -135,6 +142,7 @@ METHOD: get_Icon
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.XmlTV.XmlTvIcon
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -153,6 +161,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -171,6 +180,7 @@ METHOD: get_Number
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -189,6 +199,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -207,6 +218,7 @@ METHOD: set_AlternateNames
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -225,6 +237,7 @@ METHOD: set_DisplayName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -243,6 +256,7 @@ METHOD: set_Icon
 PARAMETERS:
     Emby.XmlTV.XmlTvIcon
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -261,6 +275,7 @@ METHOD: set_Id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -279,6 +294,7 @@ METHOD: set_Number
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -297,6 +313,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -315,6 +332,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -333,6 +351,7 @@ METHOD: get_Height
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -351,6 +370,7 @@ METHOD: get_Source
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -369,6 +389,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Entities.ImageType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -387,6 +408,7 @@ METHOD: get_Width
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -405,6 +427,7 @@ METHOD: set_Height
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -423,6 +446,7 @@ METHOD: set_Source
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -441,6 +465,7 @@ METHOD: set_Type
 PARAMETERS:
     MediaBrowser.Model.Entities.ImageType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -459,6 +484,7 @@ METHOD: set_Width
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -477,6 +503,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -495,6 +522,7 @@ METHOD: GetPages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -513,6 +541,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -531,6 +560,7 @@ METHOD: GetTranslations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -549,6 +579,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -567,6 +598,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -585,6 +617,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -603,6 +636,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -621,6 +655,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -639,6 +674,7 @@ METHOD: <GetTranslations>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -657,6 +693,7 @@ METHOD: <GetTranslations>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -680,6 +717,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IZipClient
     MediaBrowser.Controller.Library.IMediaSourceManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -698,6 +736,7 @@ METHOD: ClearProgramCaches
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -716,6 +755,7 @@ METHOD: ExtractFirstFileFromGz
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -735,6 +775,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -753,6 +794,7 @@ METHOD: ExtractGz
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -771,6 +813,7 @@ METHOD: FindXmlFile
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -790,6 +833,7 @@ PARAMETERS:
     MediaBrowser.Model.LiveTv.ListingsProviderInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Controller.LiveTv.ChannelInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -808,6 +852,7 @@ METHOD: GetChannels
 PARAMETERS:
     Emby.XmlTV.XmlDataCache
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.LiveTv.ChannelInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -826,6 +871,7 @@ METHOD: GetLanguage
 PARAMETERS:
     MediaBrowser.Model.LiveTv.ListingsProviderInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -847,6 +893,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Model.Dto.NameIdPair, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -871,6 +918,7 @@ PARAMETERS:
     System.TimeSpan
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.LiveTv.ProgramInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -893,6 +941,7 @@ PARAMETERS:
     System.DateTimeOffset
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Controller.LiveTv.ProgramInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -914,6 +963,7 @@ PARAMETERS:
     MediaBrowser.Model.MediaInfo.MediaProtocol
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -933,6 +983,7 @@ PARAMETERS:
     MediaBrowser.Model.LiveTv.ListingsProviderInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.XmlTV.XmlDataCache, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -952,6 +1003,7 @@ PARAMETERS:
     MediaBrowser.Model.LiveTv.ListingsProviderInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.XmlTV.XmlDataCache, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -972,6 +1024,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -992,6 +1045,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1010,6 +1064,7 @@ METHOD: get_CachePathFolderName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1028,6 +1083,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1046,6 +1102,7 @@ METHOD: get_SetupUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1064,6 +1121,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1082,6 +1140,7 @@ METHOD: set_CachePathFolderName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1100,6 +1159,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1118,6 +1178,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1136,6 +1197,7 @@ METHOD: <FindXmlFile>b__27_0
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1154,6 +1216,7 @@ METHOD: <FindXmlFile>b__27_1
 PARAMETERS:
     MediaBrowser.Model.IO.FileSystemMetadata
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1172,6 +1235,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1190,6 +1254,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1208,6 +1273,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1226,6 +1292,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1244,6 +1311,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1262,6 +1330,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1280,6 +1349,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1298,6 +1368,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1316,6 +1387,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1334,6 +1406,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1352,6 +1425,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1370,6 +1444,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1388,6 +1463,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1406,6 +1482,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1424,6 +1501,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1444,6 +1522,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1464,6 +1543,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1482,6 +1562,7 @@ METHOD: CreateStreamReader
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.IO.StreamReader
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1500,6 +1581,7 @@ METHOD: CreateXmlTextReader
 PARAMETERS:
     System.IO.StreamReader
 
+RETURN_TYPE: System.Xml.XmlReader
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1521,6 +1603,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvIcon, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
     MediaBrowser.Model.MediaInfo.MediaProtocol
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1539,6 +1622,7 @@ METHOD: GetAspectRatio
 PARAMETERS:
     Emby.XmlTV.XmlTvIcon
 
+RETURN_TYPE: System.Double
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1557,6 +1641,7 @@ METHOD: GetChannel
 PARAMETERS:
     System.Xml.XmlReader
 
+RETURN_TYPE: Emby.XmlTV.XmlTvChannel
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1575,6 +1660,7 @@ METHOD: GetChannels
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvChannel, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1595,6 +1681,7 @@ PARAMETERS:
     MediaBrowser.Model.Entities.ImageType
     System.Double
 
+RETURN_TYPE: Emby.XmlTV.XmlTvIcon
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1620,6 +1707,7 @@ PARAMETERS:
     MediaBrowser.Model.MediaInfo.MediaProtocol
     MediaBrowser.Model.LiveTv.ListingsProviderInfo
 
+RETURN_TYPE: MediaBrowser.Controller.LiveTv.ProgramInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1646,6 +1734,7 @@ PARAMETERS:
     MediaBrowser.Model.LiveTv.ListingsProviderInfo
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.LiveTv.ProgramInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1665,6 +1754,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1684,6 +1774,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[Emby.XmlTV.XmlTvReader+ValueWithLanguage, Emby.XmlTV, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null]]
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1704,6 +1795,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Model.MediaInfo.MediaProtocol
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1723,6 +1815,7 @@ PARAMETERS:
     System.String
     System.TimeSpan
 
+RETURN_TYPE: System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1742,6 +1835,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1761,6 +1855,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1780,6 +1875,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1799,6 +1895,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1818,6 +1915,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1837,6 +1935,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1856,6 +1955,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1875,6 +1975,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1894,6 +1995,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1914,6 +2016,7 @@ PARAMETERS:
     System.TimeSpan
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1933,6 +2036,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1951,6 +2055,7 @@ METHOD: ProcessIconNode
 PARAMETERS:
     System.Xml.XmlReader
 
+RETURN_TYPE: Emby.XmlTV.XmlTvIcon
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1969,6 +2074,7 @@ METHOD: ProcessImageNode
 PARAMETERS:
     System.Xml.XmlReader
 
+RETURN_TYPE: Emby.XmlTV.XmlTvIcon
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1989,6 +2095,7 @@ PARAMETERS:
     System.TimeSpan
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2008,6 +2115,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2027,6 +2135,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2046,6 +2155,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2065,6 +2175,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2084,6 +2195,7 @@ PARAMETERS:
     System.Xml.XmlReader
     MediaBrowser.Controller.LiveTv.ProgramInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2103,6 +2215,7 @@ PARAMETERS:
     Emby.XmlTV.XmlTvChannel
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2121,6 +2234,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2139,6 +2253,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2157,6 +2272,7 @@ METHOD: <GetChannel>b__7_0
 PARAMETERS:
     Emby.XmlTV.XmlTvReader+ValueWithLanguage
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2175,6 +2291,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2193,6 +2310,7 @@ METHOD: get_Language
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2211,6 +2329,7 @@ METHOD: get_Value
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2229,6 +2348,7 @@ METHOD: set_Language
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2247,6 +2367,7 @@ METHOD: set_Value
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

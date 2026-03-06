@@ -11,6 +11,7 @@ PARAMETERS:
     MediaBrowser.Model.Globalization.ILocalizationManager
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -29,6 +30,7 @@ METHOD: GetConfiguredNotifications
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Notifications.NotificationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -48,6 +50,7 @@ PARAMETERS:
     Emby.Notifications.InternalNotificationRequest
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -66,6 +69,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -86,6 +90,7 @@ PARAMETERS:
     MediaBrowser.Model.Activity.IActivityRepository
     MediaBrowser.Controller.Library.IUserManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -104,6 +109,7 @@ METHOD: Create
 PARAMETERS:
     MediaBrowser.Model.Activity.ActivityLogEntry
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -125,6 +131,7 @@ PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -145,49 +152,7 @@ PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
-STATIC: False
-CONSTRUCTOR: False
-GENERIC: 0
-ASYNC: False
-PROPERTY_ACCESSOR: False
-====================================================
-
-====================================================
-DLL_NAME: Emby.ActivityLog.dll
-DLL_VERSION: 4.9.3.0
-
-TYPE: Emby.ActivityLog.ActivityManager
-
-METHOD: GetActivityLogEntries
-
-PARAMETERS:
-    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Boolean
-
-STATIC: False
-CONSTRUCTOR: False
-GENERIC: 0
-ASYNC: False
-PROPERTY_ACCESSOR: False
-====================================================
-
-====================================================
-DLL_NAME: Emby.ActivityLog.dll
-DLL_VERSION: 4.9.3.0
-
-TYPE: Emby.ActivityLog.ActivityManager
-
-METHOD: GetActivityLogEntries
-
-PARAMETERS:
-    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
-    System.Boolean
-
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -209,8 +174,54 @@ PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Boolean
+
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
+
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
+STATIC: False
+CONSTRUCTOR: False
+GENERIC: 0
+ASYNC: False
+PROPERTY_ACCESSOR: False
+====================================================
+
+====================================================
+DLL_NAME: Emby.ActivityLog.dll
+DLL_VERSION: 4.9.3.0
+
+TYPE: Emby.ActivityLog.ActivityManager
+
+METHOD: GetActivityLogEntries
+
+PARAMETERS:
+    System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -233,6 +244,7 @@ PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -255,6 +267,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -276,6 +289,7 @@ PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -294,6 +308,7 @@ METHOD: add_EntryCreated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -312,6 +327,7 @@ METHOD: remove_EntryCreated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -330,6 +346,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -351,6 +368,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     System.Func`1[[MediaBrowser.Controller.Library.IUserManager, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -369,6 +387,7 @@ METHOD: Create
 PARAMETERS:
     MediaBrowser.Model.Activity.ActivityLogEntry
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -391,6 +410,7 @@ PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -414,6 +434,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: MediaBrowser.Model.Querying.QueryResult`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -434,6 +455,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -453,6 +475,7 @@ PARAMETERS:
     SQLitePCL.pretty.IResultSet
     System.Int32
 
+RETURN_TYPE: MediaBrowser.Model.Activity.ActivityLogEntry
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -471,6 +494,7 @@ METHOD: Initialize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -489,6 +513,7 @@ METHOD: InitializeInternal
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -508,6 +533,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -527,6 +553,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -545,6 +572,7 @@ METHOD: Update
 PARAMETERS:
     MediaBrowser.Model.Activity.ActivityLogEntry
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -563,6 +591,7 @@ METHOD: get_FileSystem
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.IO.IFileSystem
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -581,6 +610,7 @@ METHOD: get_OptimizeOnConnectionClose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -599,6 +629,7 @@ METHOD: get_PragmaAnalysisLimit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -617,6 +648,7 @@ METHOD: set_FileSystem
 PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -635,6 +667,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Activity.IActivityManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -653,6 +686,7 @@ METHOD: Get
 PARAMETERS:
     Emby.ActivityLog.Api.GetActivityLogs
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -671,6 +705,7 @@ METHOD: get_Request
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Services.IRequest
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -689,6 +724,7 @@ METHOD: set_Request
 PARAMETERS:
     MediaBrowser.Model.Services.IRequest
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -708,6 +744,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Model.Activity.IActivityManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -726,6 +763,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -746,6 +784,7 @@ PARAMETERS:
     MediaBrowser.Controller.Net.WebSocketListenerState
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -765,6 +804,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Activity.ActivityLogEntry, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -783,6 +823,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -801,6 +842,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -819,6 +861,7 @@ METHOD: get_EnableTotalRecordCount
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -837,6 +880,7 @@ METHOD: get_HasUserId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -855,6 +899,7 @@ METHOD: get_Limit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -873,6 +918,7 @@ METHOD: get_MinDate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -891,6 +937,7 @@ METHOD: get_StartIndex
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -909,6 +956,7 @@ METHOD: set_EnableTotalRecordCount
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -927,6 +975,7 @@ METHOD: set_HasUserId
 PARAMETERS:
     System.Nullable`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -945,6 +994,7 @@ METHOD: set_Limit
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -963,6 +1013,7 @@ METHOD: set_MinDate
 PARAMETERS:
     System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -981,6 +1032,7 @@ METHOD: set_StartIndex
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

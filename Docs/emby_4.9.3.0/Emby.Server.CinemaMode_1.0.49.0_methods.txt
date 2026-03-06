@@ -17,6 +17,7 @@ PARAMETERS:
     MediaBrowser.Common.Security.ISecurityManager
     MediaBrowser.Controller.Security.IEncryptionManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -36,6 +37,7 @@ PARAMETERS:
     System.DateTimeOffset
     System.Boolean
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -54,6 +56,7 @@ METHOD: DeleteCachedRecord
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -72,6 +75,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -90,6 +94,7 @@ METHOD: GetCacheFilePath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -108,6 +113,7 @@ METHOD: GetCacheKey
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -126,6 +132,7 @@ METHOD: GetCachedRegRecord
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Security.RegRecord, Emby.Server.CinemaMode, Version=1.0.49.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -145,6 +152,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Security.RegRecord, Emby.Server.CinemaMode, Version=1.0.49.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -164,6 +172,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[Emby.Security.RegRecord, Emby.Server.CinemaMode, Version=1.0.49.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -182,6 +191,7 @@ METHOD: Run
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -201,6 +211,7 @@ PARAMETERS:
     System.String
     Emby.Security.RegRecord
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -219,6 +230,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -237,6 +249,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -255,6 +268,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -273,6 +287,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -291,6 +306,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -309,6 +325,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -327,6 +344,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -345,6 +363,7 @@ METHOD: get_expDate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -363,6 +382,7 @@ METHOD: get_featId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -381,6 +401,7 @@ METHOD: get_isTrial
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -399,6 +420,7 @@ METHOD: get_isValid
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -417,6 +439,7 @@ METHOD: get_key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -435,6 +458,7 @@ METHOD: get_lastChecked
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTimeOffset
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -453,6 +477,7 @@ METHOD: get_registered
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -471,6 +496,7 @@ METHOD: set_expDate
 PARAMETERS:
     System.DateTimeOffset
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -489,6 +515,7 @@ METHOD: set_featId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -507,6 +534,7 @@ METHOD: set_key
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -525,6 +553,7 @@ METHOD: set_lastChecked
 PARAMETERS:
     System.DateTimeOffset
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -543,6 +572,7 @@ METHOD: set_registered
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -561,6 +591,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -579,6 +610,7 @@ METHOD: get_CustomIntroPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -597,6 +629,7 @@ METHOD: get_EnableIntrosForEpisodes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -615,6 +648,7 @@ METHOD: get_EnableIntrosForMovies
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -633,6 +667,7 @@ METHOD: get_EnableIntrosForWatchedContent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -651,6 +686,7 @@ METHOD: get_EnableIntrosFromMoviesInLibrary
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -669,6 +705,7 @@ METHOD: get_EnableIntrosFromSimilarMovies
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -687,6 +724,7 @@ METHOD: get_EnableIntrosFromUpcomingTrailers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -705,6 +743,7 @@ METHOD: get_EnableIntrosParentalControl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -723,6 +762,7 @@ METHOD: get_MaximizeRandomization
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -741,6 +781,7 @@ METHOD: get_MediaInfoIntroPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -759,6 +800,7 @@ METHOD: get_TrailerLimit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -777,6 +819,7 @@ METHOD: set_CustomIntroPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -795,6 +838,7 @@ METHOD: set_EnableIntrosForEpisodes
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -813,6 +857,7 @@ METHOD: set_EnableIntrosForMovies
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -831,6 +876,7 @@ METHOD: set_EnableIntrosForWatchedContent
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -849,6 +895,7 @@ METHOD: set_EnableIntrosFromMoviesInLibrary
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -867,6 +914,7 @@ METHOD: set_EnableIntrosFromSimilarMovies
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -885,6 +933,7 @@ METHOD: set_EnableIntrosFromUpcomingTrailers
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -903,6 +952,7 @@ METHOD: set_EnableIntrosParentalControl
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -921,6 +971,7 @@ METHOD: set_MaximizeRandomization
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -939,6 +990,7 @@ METHOD: set_MediaInfoIntroPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -957,6 +1009,7 @@ METHOD: set_TrailerLimit
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -975,6 +1028,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -993,6 +1047,7 @@ METHOD: GetConfigurations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.ConfigurationStore, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1016,6 +1071,7 @@ PARAMETERS:
     MediaBrowser.Controller.Library.IMediaSourceManager
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1034,6 +1090,7 @@ METHOD: <GetMediaInfoIntrosBy3D>b__14_0
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1052,6 +1109,7 @@ METHOD: GetAllIntroFiles
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1072,6 +1130,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1090,6 +1149,7 @@ METHOD: GetCustomIntros
 PARAMETERS:
     Emby.Server.CinemaMode.CinemaModeConfiguration
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1110,6 +1170,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.User
     MediaBrowser.Controller.Library.IntrosOptions
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1129,6 +1190,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     MediaBrowser.Controller.Entities.User
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1148,6 +1210,7 @@ PARAMETERS:
     Emby.Server.CinemaMode.CinemaModeConfiguration
     MediaBrowser.Controller.Entities.BaseItem
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1167,6 +1230,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     MediaBrowser.Controller.Entities.Video
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1186,6 +1250,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1205,6 +1270,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Dto.LinkedItemInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1224,6 +1290,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1242,6 +1309,7 @@ METHOD: GetOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Server.CinemaMode.CinemaModeConfiguration
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1262,6 +1330,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     Emby.Server.CinemaMode.CinemaModeConfiguration
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Library.IntroInfo, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1281,6 +1350,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1300,6 +1370,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1318,6 +1389,7 @@ METHOD: IsVideoFile
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1336,6 +1408,7 @@ METHOD: Normalize
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1354,6 +1427,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1372,6 +1446,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1390,6 +1465,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1408,6 +1484,7 @@ METHOD: <GetCustomIntros>b__11_0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1426,6 +1503,7 @@ METHOD: <GetCustomIntros>b__11_1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Controller.Library.IntroInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1444,6 +1522,7 @@ METHOD: <GetIntros>b__7_0
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: MediaBrowser.Controller.Library.IntroInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1462,6 +1541,7 @@ METHOD: <GetMediaInfoIntros>b__12_0
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1480,6 +1560,7 @@ METHOD: <GetMediaInfoIntros>b__12_1
 PARAMETERS:
     MediaBrowser.Model.Entities.MediaStream
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1498,6 +1579,7 @@ METHOD: <GetMediaInfoIntros>b__12_2
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1516,6 +1598,7 @@ METHOD: <GetMediaInfoIntros>b__12_3
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Controller.Library.IntroInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1534,6 +1617,7 @@ METHOD: <GetMediaInfoIntros>b__12_4
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1552,6 +1636,7 @@ METHOD: <GetMediaInfoIntrosBy3D>b__14_1
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1570,6 +1655,7 @@ METHOD: <GetMediaInfoIntrosByAudioStream>b__15_1
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1588,6 +1674,7 @@ METHOD: <GetMediaInfoIntrosByTags>b__16_1
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1606,6 +1693,7 @@ METHOD: <GetMediaInfoIntrosByVideoStream>b__13_1
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1624,6 +1712,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1642,6 +1731,7 @@ METHOD: <GetMediaInfoIntrosByVideoStream>b__0
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1660,6 +1750,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1678,6 +1769,7 @@ METHOD: <GetMediaInfoIntrosByAudioStream>b__0
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1696,6 +1788,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1714,6 +1807,7 @@ METHOD: <GetMediaInfoIntrosByTags>b__0
 PARAMETERS:
     MediaBrowser.Controller.Library.IntroInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1732,6 +1826,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1750,6 +1845,7 @@ METHOD: <GetMediaInfoIntrosByTags>b__2
 PARAMETERS:
     MediaBrowser.Model.Dto.LinkedItemInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1768,6 +1864,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1786,6 +1883,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1805,6 +1903,7 @@ PARAMETERS:
     MediaBrowser.Controller.Configuration.IServerConfigurationManager
     MediaBrowser.Model.Tasks.ITaskManager
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1823,6 +1922,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1841,6 +1941,7 @@ METHOD: Run
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1860,6 +1961,7 @@ PARAMETERS:
     System.Object
     MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1879,6 +1981,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[TSource]
     System.Func`2[TSource,TKey]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[TSource]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 2
@@ -1899,6 +2002,7 @@ PARAMETERS:
     System.Func`2[TSource,TKey]
     System.Collections.Generic.IEqualityComparer`1[TKey]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[TSource]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 2
@@ -1919,6 +2023,7 @@ PARAMETERS:
     System.Func`2[TSource,TKey]
     System.Collections.Generic.IEqualityComparer`1[TKey]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[TSource]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 2
@@ -1938,6 +2043,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[TSource]
     System.Int32
 
+RETURN_TYPE: TSource[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1956,6 +2062,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1974,6 +2081,7 @@ METHOD: <>m__Finally1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1992,6 +2100,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2010,6 +2119,7 @@ METHOD: System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[TSource]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2028,6 +2138,7 @@ METHOD: System.Collections.Generic.IEnumerator<TSource>.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: TSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2046,6 +2157,7 @@ METHOD: System.Collections.IEnumerable.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2064,6 +2176,7 @@ METHOD: System.Collections.IEnumerator.Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2082,6 +2195,7 @@ METHOD: System.Collections.IEnumerator.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2100,6 +2214,7 @@ METHOD: System.IDisposable.Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2118,6 +2233,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2136,6 +2252,7 @@ METHOD: GetPages
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Plugins.PluginPageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2154,6 +2271,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2172,6 +2290,7 @@ METHOD: GetTranslations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2190,6 +2309,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2208,6 +2328,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2226,6 +2347,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2244,6 +2366,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2262,6 +2385,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2280,6 +2404,7 @@ METHOD: <GetTranslations>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2298,6 +2423,7 @@ METHOD: <GetTranslations>b__1
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.TranslationInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2316,6 +2442,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2336,6 +2463,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2355,6 +2483,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2374,6 +2503,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2392,6 +2522,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2410,6 +2541,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2430,6 +2562,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2449,6 +2582,7 @@ PARAMETERS:
     System.Threading.CancellationToken
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2467,6 +2601,7 @@ METHOD: GetDefaultTriggers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Tasks.TaskTriggerInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2485,6 +2620,7 @@ METHOD: get_Category
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2503,6 +2639,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2521,6 +2658,7 @@ METHOD: get_IsEnabled
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2539,6 +2677,7 @@ METHOD: get_IsHidden
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2557,6 +2696,7 @@ METHOD: get_IsLogged
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2575,6 +2715,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2593,6 +2734,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

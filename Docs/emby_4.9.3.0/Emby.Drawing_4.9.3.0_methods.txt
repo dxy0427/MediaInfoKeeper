@@ -9,6 +9,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: DecodeBitmap
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: DecodeGif
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: DecodeJfif
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -81,6 +85,7 @@ METHOD: DecodePng
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -101,6 +106,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.ILogger
     MediaBrowser.Model.IO.IFileSystem
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -119,6 +125,7 @@ METHOD: GetDimensions
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -139,6 +146,7 @@ PARAMETERS:
     System.Int32
     System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -157,6 +165,7 @@ METHOD: ReadLittleEndianInt16
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Int16
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -175,6 +184,7 @@ METHOD: ReadLittleEndianInt32
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -193,6 +203,7 @@ METHOD: Supports
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -215,6 +226,7 @@ PARAMETERS:
     MediaBrowser.Model.Serialization.IJsonSerializer
     System.Func`1[[MediaBrowser.Controller.Library.ILibraryManager, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -233,6 +245,7 @@ METHOD: <GetOutputFormat>b__52_0
 PARAMETERS:
     MediaBrowser.Model.Drawing.ImageFormat
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -251,6 +264,7 @@ METHOD: <GetOutputFormat>b__52_1
 PARAMETERS:
     MediaBrowser.Model.Drawing.ImageFormat
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -269,6 +283,7 @@ METHOD: AddParts
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[MediaBrowser.Controller.Providers.IImageEnhancer, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -287,6 +302,7 @@ METHOD: CheckDisposed
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -305,6 +321,7 @@ METHOD: ContainerSupportsAnimation
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -323,6 +340,7 @@ METHOD: ContainerSupportsTransparency
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -342,6 +360,7 @@ PARAMETERS:
     MediaBrowser.Controller.Drawing.ImageCollageOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -360,6 +379,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -383,6 +403,7 @@ PARAMETERS:
     MediaBrowser.Model.Entities.ImageType
     System.Int32
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -401,6 +422,7 @@ METHOD: FileSupportsTransparency
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -429,6 +451,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -449,6 +472,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -468,6 +492,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -486,6 +511,7 @@ METHOD: GetConvertedImageCachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -504,6 +530,7 @@ METHOD: GetEncodersForImage
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Controller.Drawing.IImageEncoder, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -525,6 +552,7 @@ PARAMETERS:
     System.Int32
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -549,6 +577,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.IImageEnhancer[]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.ValueTuple`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[MediaBrowser.Model.Drawing.ImageFeatures, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -567,6 +596,7 @@ METHOD: GetEnhancedImageCachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -591,6 +621,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.ValueTuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -610,6 +641,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     MediaBrowser.Controller.Entities.ItemImageInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -629,6 +661,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.PersonInfo
     MediaBrowser.Controller.Entities.ItemImageInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -648,6 +681,7 @@ PARAMETERS:
     System.Int64
     MediaBrowser.Model.Entities.ChapterInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -666,6 +700,7 @@ METHOD: GetImageCacheTag
 PARAMETERS:
     MediaBrowser.Controller.Entities.ItemImageInfo
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -686,6 +721,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.ItemImageInfo
     MediaBrowser.Controller.Providers.IImageEnhancer[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -704,6 +740,7 @@ METHOD: GetImageData
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Controller.Drawing.ImageData
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -722,6 +759,7 @@ METHOD: GetImageFeatures
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Model.Drawing.ImageFeatures, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -740,6 +778,7 @@ METHOD: GetImageOutputOrderByPreference
 PARAMETERS:
     MediaBrowser.Model.Drawing.ImageFormat
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -759,6 +798,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     MediaBrowser.Controller.Entities.ItemImageInfo
 
+RETURN_TYPE: System.ValueTuple`2[[MediaBrowser.Model.Drawing.ImageSize, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -777,6 +817,7 @@ METHOD: GetImageSize
 PARAMETERS:
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageSize
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -796,6 +837,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.ValueTuple`2[[MediaBrowser.Model.Drawing.ImageSize, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -816,6 +858,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.ValueTuple`2[[MediaBrowser.Model.Drawing.ImageSize, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -834,6 +877,7 @@ METHOD: GetInputFormat
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -853,6 +897,7 @@ PARAMETERS:
     MediaBrowser.Model.Drawing.ImageFormat
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -873,6 +918,7 @@ PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Model.Drawing.ImageFeatures, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
     MediaBrowser.Controller.Drawing.ImageProcessingOptions
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -891,6 +937,7 @@ METHOD: GetResizedImageCachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -909,6 +956,7 @@ METHOD: GetSizeProviderPriority
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -928,6 +976,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.BaseItem
     MediaBrowser.Model.Entities.ImageType
 
+RETURN_TYPE: MediaBrowser.Controller.Providers.IImageEnhancer[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -946,6 +995,7 @@ METHOD: GetSupportedFileExtensions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -965,6 +1015,7 @@ PARAMETERS:
     MediaBrowser.Controller.Entities.ItemImageInfo
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -986,6 +1037,7 @@ PARAMETERS:
     System.String
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.ValueTuple`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1004,6 +1056,7 @@ METHOD: GetSupportedImageOutputFormats
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1024,6 +1077,7 @@ PARAMETERS:
     MediaBrowser.Model.Drawing.ImageSize
     System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1044,6 +1098,7 @@ PARAMETERS:
     System.IO.Stream
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1063,6 +1118,7 @@ PARAMETERS:
     MediaBrowser.Controller.Drawing.ImageProcessingOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Tuple`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1081,6 +1137,7 @@ METHOD: SetImageEncoders
 PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Controller.Drawing.IImageEncoder, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1099,6 +1156,7 @@ METHOD: SupportsOrientation
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1118,6 +1176,7 @@ PARAMETERS:
     System.Object
     System.EventArgs
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1136,6 +1195,7 @@ METHOD: get_ImageEncoders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Controller.Drawing.IImageEncoder[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1154,6 +1214,7 @@ METHOD: get_ImageEnhancers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Controller.Providers.IImageEnhancer[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1172,6 +1233,7 @@ METHOD: get_SupportedFileExtensions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1190,6 +1252,7 @@ METHOD: get_SupportsImageCollageCreation
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1208,6 +1271,7 @@ METHOD: set_ImageEnhancers
 PARAMETERS:
     MediaBrowser.Controller.Providers.IImageEnhancer[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1226,6 +1290,7 @@ METHOD: set_SupportedFileExtensions
 PARAMETERS:
     System.String[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1244,6 +1309,7 @@ METHOD: set_SupportsImageCollageCreation
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1262,6 +1328,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1280,6 +1347,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1298,6 +1366,7 @@ METHOD: <SetImageEncoders>b__20_0
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1316,6 +1385,7 @@ METHOD: <SetImageEncoders>b__20_1
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1334,6 +1404,7 @@ METHOD: <SetImageEncoders>b__20_2
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1352,6 +1423,7 @@ METHOD: <SetImageEncoders>b__20_3
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1370,6 +1442,7 @@ METHOD: <SetImageEncoders>b__20_4
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Drawing.ImageFormat, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1388,6 +1461,7 @@ METHOD: <SetImageEncoders>b__20_5
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1406,6 +1480,7 @@ METHOD: <SetImageEncoders>b__20_6
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1424,6 +1499,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1442,6 +1518,7 @@ METHOD: <ProcessImage>b__0
 PARAMETERS:
     MediaBrowser.Controller.Drawing.IImageEncoder
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1460,6 +1537,7 @@ METHOD: <ProcessImage>b__1
 PARAMETERS:
     MediaBrowser.Controller.Entities.ItemImageInfo
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1478,6 +1556,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1496,6 +1575,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1514,6 +1594,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1532,6 +1613,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1550,6 +1632,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1568,6 +1651,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1586,6 +1670,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1604,6 +1689,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1622,6 +1708,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1640,6 +1727,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1658,6 +1746,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1676,6 +1765,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1694,6 +1784,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1712,6 +1803,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1730,6 +1822,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1748,6 +1841,7 @@ METHOD: CreateImageCollage
 PARAMETERS:
     MediaBrowser.Controller.Drawing.ImageCollageOptions
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1772,6 +1866,7 @@ PARAMETERS:
     MediaBrowser.Controller.Drawing.ImageProcessingOptions
     MediaBrowser.Model.Drawing.ImageFormat
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1790,6 +1885,7 @@ METHOD: GetImageSize
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.ValueTuple`2[[MediaBrowser.Model.Drawing.ImageSize, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[MediaBrowser.Model.Drawing.ImageOrientation, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1808,6 +1904,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1826,6 +1923,7 @@ METHOD: get_SupportedInputFormats
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1844,6 +1942,7 @@ METHOD: get_SupportedOutputFormats
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1862,6 +1961,7 @@ METHOD: get_SupportsImageCollageCreation
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1880,6 +1980,7 @@ METHOD: get_SupportsImageEncoding
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

@@ -9,6 +9,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -27,6 +28,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -45,6 +47,7 @@ METHOD: AddReference
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -63,6 +66,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -82,6 +86,7 @@ PARAMETERS:
     System.Guid&
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -100,6 +105,7 @@ METHOD: Release
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -118,6 +124,7 @@ METHOD: SharpDX.ICallbackable.get_Shadow
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -136,6 +143,7 @@ METHOD: SharpDX.ICallbackable.set_Shadow
 PARAMETERS:
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -154,6 +162,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -172,6 +181,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -191,6 +201,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -209,6 +220,7 @@ METHOD: GetHashCode
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -227,6 +239,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -245,6 +258,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.ComObject[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -263,6 +277,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -281,6 +296,7 @@ METHOD: Get
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.ComObject
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -299,6 +315,7 @@ METHOD: GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -318,6 +335,7 @@ PARAMETERS:
     System.Int32
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -337,6 +355,7 @@ PARAMETERS:
     System.Int32
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -355,6 +374,7 @@ METHOD: get_Length
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -373,6 +393,7 @@ METHOD: get_NativePointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -391,6 +412,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -409,6 +431,7 @@ METHOD: .ctor
 PARAMETERS:
     T[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -427,6 +450,7 @@ METHOD: GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -445,6 +469,7 @@ METHOD: get_Item
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -464,6 +489,7 @@ PARAMETERS:
     System.Int32
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -482,6 +508,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.IEnumerator
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -500,6 +527,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -518,6 +546,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -536,6 +565,7 @@ METHOD: Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -554,6 +584,7 @@ METHOD: System.Collections.IEnumerator.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -572,6 +603,7 @@ METHOD: get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T1
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -590,6 +622,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -608,6 +641,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -626,6 +660,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -644,6 +679,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -662,6 +698,7 @@ METHOD: As
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -680,6 +717,7 @@ METHOD: As
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -698,6 +736,7 @@ METHOD: AsUnsafe
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -716,6 +755,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -735,6 +775,7 @@ PARAMETERS:
     T
     T
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -753,6 +794,7 @@ METHOD: NativePointerUpdated
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -771,6 +813,7 @@ METHOD: NativePointerUpdating
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -790,6 +833,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -808,6 +852,7 @@ METHOD: QueryInterface
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -826,6 +871,7 @@ METHOD: QueryInterface
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -844,6 +890,7 @@ METHOD: QueryInterfaceFrom
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -862,6 +909,7 @@ METHOD: QueryInterfaceOrNull
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -880,6 +928,7 @@ METHOD: QueryInterfaceOrNull
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -898,6 +947,7 @@ METHOD: QueryInterfaceOrNull
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -916,6 +966,7 @@ METHOD: QueryInterfaceUnsafe
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -934,6 +985,7 @@ METHOD: SharpDX.IUnknown.AddReference
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -953,6 +1005,7 @@ PARAMETERS:
     System.Guid&
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -971,6 +1024,7 @@ METHOD: SharpDX.IUnknown.Release
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -989,6 +1043,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.ComObject
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1007,6 +1062,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1025,6 +1081,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1043,6 +1100,7 @@ METHOD: <.cctor>b__23_0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1061,6 +1119,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1079,6 +1138,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1097,6 +1157,7 @@ METHOD: AddRefImpl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1116,6 +1177,7 @@ PARAMETERS:
     System.Guid&
     System.IntPtr&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1134,6 +1196,7 @@ METHOD: ReleaseImpl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1152,6 +1215,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1170,6 +1234,7 @@ METHOD: AddRefImpl
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1190,6 +1255,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1208,6 +1274,7 @@ METHOD: ReleaseImpl
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1227,6 +1294,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1247,6 +1315,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1265,6 +1334,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1283,6 +1353,7 @@ METHOD: Invoke
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1302,6 +1373,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1324,6 +1396,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1343,6 +1416,7 @@ PARAMETERS:
     System.IntPtr&
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1363,6 +1437,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1382,6 +1457,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1402,6 +1478,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1420,6 +1497,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1438,6 +1516,7 @@ METHOD: Invoke
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1457,6 +1536,7 @@ PARAMETERS:
     SharpDX.Result
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1475,6 +1555,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1495,6 +1576,7 @@ PARAMETERS:
     SharpDX.Result
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1513,6 +1595,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1531,6 +1614,7 @@ METHOD: get_Bytecode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1549,6 +1633,7 @@ METHOD: get_HasErrors
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1567,6 +1652,7 @@ METHOD: get_Message
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1585,6 +1671,7 @@ METHOD: get_ResultCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1603,6 +1690,7 @@ METHOD: set_Bytecode
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1621,6 +1709,7 @@ METHOD: set_Message
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1639,6 +1728,7 @@ METHOD: set_ResultCode
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1657,6 +1747,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1675,6 +1766,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1693,6 +1785,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1711,6 +1804,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1729,6 +1823,7 @@ METHOD: FromPointer
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1747,6 +1842,7 @@ METHOD: FromPointerUnsafe
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1765,6 +1861,7 @@ METHOD: FromTemp
 PARAMETERS:
     SharpDX.CppObject
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1783,6 +1880,7 @@ METHOD: FromTemp
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1801,6 +1899,7 @@ METHOD: NativePointerUpdated
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1819,6 +1918,7 @@ METHOD: NativePointerUpdating
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1837,6 +1937,7 @@ METHOD: SharpDX.ICallbackable.get_Shadow
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1855,6 +1956,7 @@ METHOD: SharpDX.ICallbackable.set_Shadow
 PARAMETERS:
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1873,6 +1975,7 @@ METHOD: ToCallbackPtr
 PARAMETERS:
     SharpDX.ICallbackable
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1891,6 +1994,7 @@ METHOD: get_NativePointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1909,6 +2013,7 @@ METHOD: get_Tag
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1927,6 +2032,7 @@ METHOD: op_Explicit
 PARAMETERS:
     SharpDX.CppObject
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1945,6 +2051,7 @@ METHOD: set_NativePointer
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1963,6 +2070,7 @@ METHOD: set_Tag
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1981,6 +2089,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1999,6 +2108,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2017,6 +2127,7 @@ METHOD: Initialize
 PARAMETERS:
     SharpDX.ICallbackable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2035,6 +2146,7 @@ METHOD: ToShadow
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2053,6 +2165,7 @@ METHOD: get_Callback
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.ICallbackable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2071,6 +2184,7 @@ METHOD: get_GetVtbl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.CppObjectVtbl
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2089,6 +2203,7 @@ METHOD: set_Callback
 PARAMETERS:
     SharpDX.ICallbackable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2107,6 +2222,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2125,6 +2241,7 @@ METHOD: AddMethod
 PARAMETERS:
     System.Delegate
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2143,6 +2260,7 @@ METHOD: get_Pointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2161,6 +2279,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2181,6 +2300,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2199,6 +2319,7 @@ METHOD: get_IsEmpty
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2217,6 +2338,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2236,6 +2358,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2254,6 +2377,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.DataPointer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2272,6 +2396,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.Direct3D.Blob
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2292,6 +2417,7 @@ PARAMETERS:
     System.Int32
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2312,6 +2438,7 @@ PARAMETERS:
     System.Int32
     System.Runtime.InteropServices.GCHandle
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2330,6 +2457,7 @@ METHOD: Clear
 PARAMETERS:
     System.Byte
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2350,6 +2478,7 @@ PARAMETERS:
     System.Int32
     System.Boolean
 
+RETURN_TYPE: SharpDX.DataBuffer
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2368,6 +2497,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2386,6 +2516,7 @@ METHOD: Get
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2405,6 +2536,7 @@ PARAMETERS:
     System.Int32
     T&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2424,6 +2556,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: T[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2445,6 +2578,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2464,6 +2598,7 @@ PARAMETERS:
     System.Int32
     T&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2483,6 +2618,7 @@ PARAMETERS:
     System.Int32
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2502,6 +2638,7 @@ PARAMETERS:
     System.Int32
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2521,6 +2658,7 @@ PARAMETERS:
     System.Int32
     T[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2541,6 +2679,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2562,6 +2701,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2580,6 +2720,7 @@ METHOD: get_DataPointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2598,6 +2739,7 @@ METHOD: get_Size
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2616,6 +2758,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.DataBuffer
 
+RETURN_TYPE: SharpDX.DataPointer
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2634,6 +2777,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2653,6 +2797,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2672,6 +2817,7 @@ PARAMETERS:
     System.Void*
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2690,6 +2836,7 @@ METHOD: CopyFrom
 PARAMETERS:
     T[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2710,6 +2857,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2730,6 +2878,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2748,6 +2897,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.DataPointer
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2766,6 +2916,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2784,6 +2935,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2802,6 +2954,7 @@ METHOD: ToArray
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2820,6 +2973,7 @@ METHOD: ToArray
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -2838,6 +2992,7 @@ METHOD: ToDataBuffer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DataBuffer
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2856,6 +3011,7 @@ METHOD: ToDataStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DataStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2874,6 +3030,7 @@ METHOD: get_IsEmpty
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2893,6 +3050,7 @@ PARAMETERS:
     SharpDX.DataPointer
     SharpDX.DataPointer
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2912,6 +3070,7 @@ PARAMETERS:
     SharpDX.DataPointer
     SharpDX.DataPointer
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2931,6 +3090,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2951,6 +3111,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2972,6 +3133,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2990,6 +3152,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.DataPointer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3008,6 +3171,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.Direct3D.Blob
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3030,6 +3194,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3052,6 +3217,7 @@ PARAMETERS:
     System.Boolean
     System.Runtime.InteropServices.GCHandle
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3074,6 +3240,7 @@ PARAMETERS:
     System.Int32
     System.Boolean
 
+RETURN_TYPE: SharpDX.DataStream
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3092,6 +3259,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3110,6 +3278,7 @@ METHOD: Finalize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3128,6 +3297,7 @@ METHOD: Flush
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3146,6 +3316,7 @@ METHOD: Read
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3166,6 +3337,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3186,6 +3358,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3204,6 +3377,7 @@ METHOD: ReadByte
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3222,6 +3396,7 @@ METHOD: ReadRange
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: T[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3242,6 +3417,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3261,6 +3437,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3279,6 +3456,7 @@ METHOD: SetLength
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3297,6 +3475,7 @@ METHOD: Write
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3317,6 +3496,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3337,6 +3517,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3355,6 +3536,7 @@ METHOD: WriteRange
 PARAMETERS:
     T[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3374,6 +3556,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3394,6 +3577,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -3412,6 +3596,7 @@ METHOD: get_CanRead
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3430,6 +3615,7 @@ METHOD: get_CanSeek
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3448,6 +3634,7 @@ METHOD: get_CanWrite
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3466,6 +3653,7 @@ METHOD: get_DataPointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3484,6 +3672,7 @@ METHOD: get_Length
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3502,6 +3691,7 @@ METHOD: get_Position
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3520,6 +3710,7 @@ METHOD: get_PositionPointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3538,6 +3729,7 @@ METHOD: get_RemainingLength
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3556,6 +3748,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.DataStream
 
+RETURN_TYPE: SharpDX.DataPointer
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3574,6 +3767,7 @@ METHOD: set_Position
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3592,6 +3786,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.ComObject
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3610,6 +3805,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3630,6 +3826,7 @@ PARAMETERS:
     SharpDX.ComObject
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3648,6 +3845,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3666,6 +3864,7 @@ METHOD: get_CreationTime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTime
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3684,6 +3883,7 @@ METHOD: get_IsAlive
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3702,6 +3902,7 @@ METHOD: get_Object
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.WeakReference
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3720,6 +3921,7 @@ METHOD: get_StackTrace
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3738,6 +3940,7 @@ METHOD: set_CreationTime
 PARAMETERS:
     System.DateTime
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3756,6 +3959,7 @@ METHOD: set_Object
 PARAMETERS:
     System.WeakReference
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3774,6 +3978,7 @@ METHOD: set_StackTrace
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3792,6 +3997,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3810,6 +4016,7 @@ METHOD: Find
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Collections.Generic.List`1[[SharpDX.Diagnostics.ObjectReference, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3828,6 +4035,7 @@ METHOD: Find
 PARAMETERS:
     SharpDX.ComObject
 
+RETURN_TYPE: SharpDX.Diagnostics.ObjectReference
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3846,6 +4054,7 @@ METHOD: FindActiveObjects
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[SharpDX.Diagnostics.ObjectReference, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3864,6 +4073,7 @@ METHOD: GetStackTrace
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3882,6 +4092,7 @@ METHOD: OnTracked
 PARAMETERS:
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3900,6 +4111,7 @@ METHOD: OnUnTracked
 PARAMETERS:
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3918,6 +4130,7 @@ METHOD: ReportActiveObjects
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3936,6 +4149,7 @@ METHOD: Track
 PARAMETERS:
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3954,6 +4168,7 @@ METHOD: UnTrack
 PARAMETERS:
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3972,6 +4187,7 @@ METHOD: add_Tracked
 PARAMETERS:
     System.EventHandler`1[[SharpDX.Diagnostics.ComObjectEventArgs, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3990,6 +4206,7 @@ METHOD: add_UnTracked
 PARAMETERS:
     System.EventHandler`1[[SharpDX.Diagnostics.ComObjectEventArgs, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4008,6 +4225,7 @@ METHOD: get_ObjectReferences
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[SharpDX.Diagnostics.ObjectReference, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4026,6 +4244,7 @@ METHOD: remove_Tracked
 PARAMETERS:
     System.EventHandler`1[[SharpDX.Diagnostics.ComObjectEventArgs, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4044,6 +4263,7 @@ METHOD: remove_UnTracked
 PARAMETERS:
     System.EventHandler`1[[SharpDX.Diagnostics.ComObjectEventArgs, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4062,6 +4282,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4080,6 +4301,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4098,6 +4320,7 @@ METHOD: GetBufferPointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4116,6 +4339,7 @@ METHOD: GetBufferSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4134,6 +4358,7 @@ METHOD: get_BufferPointer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4152,6 +4377,7 @@ METHOD: get_BufferSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4170,6 +4396,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Direct3D.Blob
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4188,6 +4415,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.Direct3D.Blob
 
+RETURN_TYPE: SharpDX.DataPointer
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4206,6 +4434,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4224,6 +4453,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4242,6 +4472,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4260,6 +4491,7 @@ METHOD: Enter
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4278,6 +4510,7 @@ METHOD: GetMultithreadProtected
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4296,6 +4529,7 @@ METHOD: Leave
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4314,6 +4548,7 @@ METHOD: SetMultithreadProtected
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4332,6 +4567,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Direct3D.DeviceMultithread
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4350,6 +4586,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4369,6 +4606,7 @@ PARAMETERS:
     System.String
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4387,6 +4625,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.Direct3D.ShaderMacro
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4405,6 +4644,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4423,6 +4663,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4441,6 +4682,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.Direct3D.ShaderMacro+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4459,6 +4701,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.Direct3D.ShaderMacro+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4477,6 +4720,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.Direct3D.ShaderMacro+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4496,6 +4740,7 @@ PARAMETERS:
     SharpDX.Direct3D.ShaderMacro
     SharpDX.Direct3D.ShaderMacro
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4515,6 +4760,7 @@ PARAMETERS:
     SharpDX.Direct3D.ShaderMacro
     SharpDX.Direct3D.ShaderMacro
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4533,6 +4779,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4551,6 +4798,7 @@ METHOD: CheckAndDispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4569,6 +4817,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4587,6 +4836,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4605,6 +4855,7 @@ METHOD: Finalize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4623,6 +4874,7 @@ METHOD: add_Disposed
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4641,6 +4893,7 @@ METHOD: add_Disposing
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4659,6 +4912,7 @@ METHOD: get_IsDisposed
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4677,6 +4931,7 @@ METHOD: remove_Disposed
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4695,6 +4950,7 @@ METHOD: remove_Disposing
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4713,6 +4969,7 @@ METHOD: set_IsDisposed
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4731,6 +4988,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4749,6 +5007,7 @@ METHOD: Collect
 PARAMETERS:
     T
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -4767,6 +5026,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4785,6 +5045,7 @@ METHOD: DisposeAndClear
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4803,6 +5064,7 @@ METHOD: Remove
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -4821,6 +5083,7 @@ METHOD: RemoveAndDispose
 PARAMETERS:
     T&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -4839,6 +5102,7 @@ METHOD: get_Count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4857,6 +5121,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4875,6 +5140,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4893,6 +5159,7 @@ METHOD: Get
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: SharpDX.DisposeEventArgs
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4911,6 +5178,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4929,6 +5197,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Void*
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4947,6 +5216,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.FunctionCallback
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4965,6 +5235,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4983,6 +5254,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5001,6 +5273,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5019,6 +5292,7 @@ METHOD: ToString
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5037,6 +5311,7 @@ METHOD: op_Explicit
 PARAMETERS:
     SharpDX.FunctionCallback
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5055,6 +5330,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.Void*
 
+RETURN_TYPE: SharpDX.FunctionCallback
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5073,6 +5349,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.FunctionCallback
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5091,6 +5368,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.FunctionCallback
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5110,6 +5388,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5131,6 +5410,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5150,6 +5430,7 @@ PARAMETERS:
     T&
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5169,6 +5450,7 @@ PARAMETERS:
     System.Object
     T&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5187,6 +5469,7 @@ METHOD: get_Shadow
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5205,6 +5488,7 @@ METHOD: set_Shadow
 PARAMETERS:
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5223,6 +5507,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5247,6 +5532,7 @@ PARAMETERS:
     SharpDX.IO.NativeFileOptions
     System.IntPtr
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5265,6 +5551,7 @@ METHOD: Exists
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5283,6 +5570,7 @@ METHOD: FlushFileBuffers
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5303,6 +5591,7 @@ PARAMETERS:
     System.Int32
     SharpDX.IO.NativeFile+WIN32_FILE_ATTRIBUTE_DATA&
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5322,6 +5611,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64&
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5340,6 +5630,7 @@ METHOD: GetLastWriteTime
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.DateTime
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5358,6 +5649,7 @@ METHOD: ReadAllBytes
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5376,6 +5668,7 @@ METHOD: ReadAllText
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5396,6 +5689,7 @@ PARAMETERS:
     System.Text.Encoding
     SharpDX.IO.NativeFileShare
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5418,6 +5712,7 @@ PARAMETERS:
     System.Int32&
     System.IntPtr
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5436,6 +5731,7 @@ METHOD: SetEndOfFile
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5457,6 +5753,7 @@ PARAMETERS:
     System.Int64&
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5479,6 +5776,7 @@ PARAMETERS:
     System.Int32&
     System.IntPtr
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5497,6 +5795,7 @@ METHOD: ToDateTime
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.DateTime
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5518,6 +5817,7 @@ PARAMETERS:
     SharpDX.IO.NativeFileAccess
     SharpDX.IO.NativeFileShare
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5536,6 +5836,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5554,6 +5855,7 @@ METHOD: Flush
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5572,6 +5874,7 @@ METHOD: MarshalGetLastWin32Error
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5592,6 +5895,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5612,6 +5916,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5631,6 +5936,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5649,6 +5955,7 @@ METHOD: SetLength
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5669,6 +5976,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5689,6 +5997,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5707,6 +6016,7 @@ METHOD: get_CanRead
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5725,6 +6035,7 @@ METHOD: get_CanSeek
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5743,6 +6054,7 @@ METHOD: get_CanWrite
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5761,6 +6073,7 @@ METHOD: get_Handle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5779,6 +6092,7 @@ METHOD: get_Length
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5797,6 +6111,7 @@ METHOD: get_Position
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5815,6 +6130,7 @@ METHOD: set_Position
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5833,6 +6149,7 @@ METHOD: AddReference
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5852,6 +6169,7 @@ PARAMETERS:
     System.Guid&
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5870,6 +6188,7 @@ METHOD: Release
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5888,6 +6207,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5906,6 +6226,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5924,6 +6245,7 @@ METHOD: ToIntPtr
 PARAMETERS:
     SharpDX.IInspectable
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5942,6 +6264,7 @@ METHOD: get_GetVtbl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.CppObjectVtbl
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5960,6 +6283,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5980,6 +6304,7 @@ PARAMETERS:
     System.Int32*
     System.IntPtr*
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5999,6 +6324,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6018,6 +6344,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6037,6 +6364,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6059,6 +6387,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6077,6 +6406,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6097,6 +6427,7 @@ PARAMETERS:
     System.Int32*
     System.IntPtr*
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6116,6 +6447,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6137,6 +6469,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6155,6 +6488,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6174,6 +6508,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6193,6 +6528,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6214,6 +6550,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6232,6 +6569,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6251,6 +6589,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6269,6 +6608,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6287,6 +6627,7 @@ METHOD: Cast
 PARAMETERS:
     T&
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6305,6 +6646,7 @@ METHOD: CastArray
 PARAMETERS:
     T[]
 
+RETURN_TYPE: TCAST[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 2
@@ -6323,6 +6665,7 @@ METHOD: CastOut
 PARAMETERS:
     T&
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6342,6 +6685,7 @@ PARAMETERS:
     T&
     System.Void*
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6361,6 +6705,7 @@ PARAMETERS:
     System.Void*
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6380,6 +6725,7 @@ PARAMETERS:
     T&
     System.Void*
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6398,6 +6744,7 @@ METHOD: Fixed
 PARAMETERS:
     T&
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6416,6 +6763,7 @@ METHOD: Fixed
 PARAMETERS:
     T[]
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6434,6 +6782,7 @@ METHOD: ModuleInit
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6453,6 +6802,7 @@ PARAMETERS:
     System.Void*
     T&
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6474,6 +6824,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6495,6 +6846,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6513,6 +6865,7 @@ METHOD: ReadInline
 PARAMETERS:
     System.Void*
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6532,6 +6885,7 @@ PARAMETERS:
     System.Void*
     T&
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6550,6 +6904,7 @@ METHOD: SizeOf
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6569,6 +6924,7 @@ PARAMETERS:
     System.Void*
     T&
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6590,6 +6946,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6611,6 +6968,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6630,6 +6988,7 @@ PARAMETERS:
     System.Void*
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -6650,6 +7009,7 @@ PARAMETERS:
     System.Void*
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6670,6 +7030,7 @@ PARAMETERS:
     System.Byte
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6688,6 +7049,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6706,6 +7068,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6724,6 +7087,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6742,6 +7106,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6760,6 +7125,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6779,6 +7145,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6797,6 +7164,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6815,6 +7183,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6834,6 +7203,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool
     SharpDX.Mathematics.Interop.RawBool
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6855,6 +7225,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6875,6 +7246,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6896,6 +7268,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6917,6 +7290,7 @@ PARAMETERS:
     System.Byte
     System.Byte
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6937,6 +7311,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6958,6 +7333,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6981,6 +7357,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7000,6 +7377,7 @@ PARAMETERS:
     SharpDX.Mathematics.Interop.RawVector3
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7019,6 +7397,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7040,6 +7419,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7061,6 +7441,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7079,6 +7460,7 @@ METHOD: get_IsEmpty
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7100,6 +7482,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7119,6 +7502,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7139,6 +7523,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7160,6 +7545,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7178,6 +7564,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7196,6 +7583,7 @@ METHOD: Setup
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7214,6 +7602,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7235,6 +7624,7 @@ PARAMETERS:
     System.Char
     System.Char
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7253,6 +7643,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7271,6 +7662,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7289,6 +7681,7 @@ METHOD: .ctor
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7307,6 +7700,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7325,6 +7719,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7343,6 +7738,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7361,6 +7757,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7380,6 +7777,7 @@ PARAMETERS:
     System.String
     System.IFormatProvider
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7399,6 +7797,7 @@ PARAMETERS:
     SharpDX.Multimedia.FourCC
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7417,6 +7816,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7435,6 +7835,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7453,6 +7854,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: SharpDX.Multimedia.FourCC
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7471,6 +7873,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.Multimedia.FourCC
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7489,6 +7892,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7507,6 +7911,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.String
 
+RETURN_TYPE: SharpDX.Multimedia.FourCC
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7526,6 +7931,7 @@ PARAMETERS:
     SharpDX.Multimedia.FourCC
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7544,6 +7950,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7567,6 +7974,7 @@ PARAMETERS:
     System.Boolean
     System.Boolean
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7585,6 +7993,7 @@ METHOD: GetData
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Byte[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7603,6 +8012,7 @@ METHOD: GetDataAs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -7621,6 +8031,7 @@ METHOD: GetDataAsArray
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -7639,6 +8050,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7657,6 +8069,7 @@ METHOD: get_DataPosition
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7675,6 +8088,7 @@ METHOD: get_IsHeader
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7693,6 +8107,7 @@ METHOD: get_IsList
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7711,6 +8126,7 @@ METHOD: get_Size
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7729,6 +8145,7 @@ METHOD: get_Stream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7747,6 +8164,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Multimedia.FourCC
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7765,6 +8183,7 @@ METHOD: set_DataPosition
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7783,6 +8202,7 @@ METHOD: set_IsHeader
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7801,6 +8221,7 @@ METHOD: set_IsList
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7819,6 +8240,7 @@ METHOD: set_Size
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7837,6 +8259,7 @@ METHOD: set_Stream
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7855,6 +8278,7 @@ METHOD: set_Type
 PARAMETERS:
     SharpDX.Multimedia.FourCC
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7873,6 +8297,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7891,6 +8316,7 @@ METHOD: Ascend
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7909,6 +8335,7 @@ METHOD: CheckState
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7927,6 +8354,7 @@ METHOD: Descend
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7945,6 +8373,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7963,6 +8392,7 @@ METHOD: GetAllChunks
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IList`1[[SharpDX.Multimedia.RiffChunk, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7981,6 +8411,7 @@ METHOD: GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[[SharpDX.Multimedia.RiffChunk, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7999,6 +8430,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8017,6 +8449,7 @@ METHOD: Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8035,6 +8468,7 @@ METHOD: System.Collections.IEnumerable.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8053,6 +8487,7 @@ METHOD: System.Collections.IEnumerator.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8071,6 +8506,7 @@ METHOD: get_ChunkStack
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Stack`1[[SharpDX.Multimedia.RiffChunk, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8089,6 +8525,7 @@ METHOD: get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Multimedia.RiffChunk
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8107,6 +8544,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8126,6 +8564,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[SharpDX.Multimedia.RiffChunk, SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=null]]
     System.String
 
+RETURN_TYPE: SharpDX.Multimedia.RiffChunk
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8144,6 +8583,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8162,6 +8602,7 @@ METHOD: Flush
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8180,6 +8621,7 @@ METHOD: Initialize
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8200,6 +8642,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8219,6 +8662,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8237,6 +8681,7 @@ METHOD: SetLength
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8255,6 +8700,7 @@ METHOD: ThrowInvalidFileFormat
 PARAMETERS:
     System.Exception
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8273,6 +8719,7 @@ METHOD: ToDataStream
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.DataStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8293,6 +8740,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8311,6 +8759,7 @@ METHOD: get_CanRead
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8329,6 +8778,7 @@ METHOD: get_CanSeek
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8347,6 +8797,7 @@ METHOD: get_CanWrite
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8365,6 +8816,7 @@ METHOD: get_DecodedPacketsInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt32[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8383,6 +8835,7 @@ METHOD: get_FileFormatName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8401,6 +8854,7 @@ METHOD: get_Format
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8419,6 +8873,7 @@ METHOD: get_Length
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8437,6 +8892,7 @@ METHOD: get_Position
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8455,6 +8911,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.Multimedia.SoundStream
 
+RETURN_TYPE: SharpDX.DataStream
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8473,6 +8930,7 @@ METHOD: set_DecodedPacketsInfo
 PARAMETERS:
     System.UInt32[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8491,6 +8949,7 @@ METHOD: set_FileFormatName
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8509,6 +8968,7 @@ METHOD: set_Format
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8527,6 +8987,7 @@ METHOD: set_Position
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8545,6 +9006,7 @@ METHOD: ToChannelCount
 PARAMETERS:
     SharpDX.Multimedia.Speakers
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8563,6 +9025,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8582,6 +9045,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8602,6 +9066,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8620,6 +9085,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.BinaryReader
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -8638,6 +9104,7 @@ METHOD: ConvertLatencyToByteSize
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8657,6 +9124,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8680,6 +9148,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8699,6 +9168,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8718,6 +9188,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8736,6 +9207,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8754,6 +9226,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8772,6 +9245,7 @@ METHOD: MarshalFrom
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8790,6 +9264,7 @@ METHOD: MarshalFrom
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormat
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8808,6 +9283,7 @@ METHOD: MarshalToPtr
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8826,6 +9302,7 @@ METHOD: MarshalToPtr
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8844,6 +9321,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8862,6 +9340,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8880,6 +9359,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat+__PcmNative&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8898,6 +9378,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8916,6 +9397,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat+__PcmNative&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8934,6 +9416,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8952,6 +9435,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.Multimedia.WaveFormat+__PcmNative&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8970,6 +9454,7 @@ METHOD: get_AverageBytesPerSecond
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8988,6 +9473,7 @@ METHOD: get_BitsPerSample
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9006,6 +9492,7 @@ METHOD: get_BlockAlign
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9024,6 +9511,7 @@ METHOD: get_Channels
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9042,6 +9530,7 @@ METHOD: get_Encoding
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormatEncoding
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9060,6 +9549,7 @@ METHOD: get_ExtraSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9078,6 +9568,7 @@ METHOD: get_SampleRate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9096,6 +9587,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9114,6 +9606,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9132,6 +9625,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9152,6 +9646,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9170,6 +9665,7 @@ METHOD: MarshalToPtr
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9188,6 +9684,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.Multimedia.WaveFormatAdpcm+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9206,6 +9703,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.Multimedia.WaveFormatAdpcm+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9224,6 +9722,7 @@ METHOD: get_Coefficients1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int16[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9242,6 +9741,7 @@ METHOD: get_Coefficients2
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int16[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9260,6 +9760,7 @@ METHOD: get_SamplesPerBlock
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.UInt16
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9278,6 +9779,7 @@ METHOD: set_Coefficients1
 PARAMETERS:
     System.Int16[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9296,6 +9798,7 @@ METHOD: set_Coefficients2
 PARAMETERS:
     System.Int16[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9314,6 +9817,7 @@ METHOD: set_SamplesPerBlock
 PARAMETERS:
     System.UInt16
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9332,6 +9836,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9350,6 +9855,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9370,6 +9876,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9388,6 +9895,7 @@ METHOD: MarshalToPtr
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9406,6 +9914,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9424,6 +9933,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.Multimedia.WaveFormatExtensible+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9442,6 +9952,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.Multimedia.WaveFormatExtensible+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9460,6 +9971,7 @@ METHOD: __NewNative
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Multimedia.WaveFormatExtensible+__Native
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9478,6 +9990,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9496,6 +10009,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9514,6 +10028,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9532,6 +10047,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9550,6 +10066,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9568,6 +10085,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9586,6 +10104,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Void*
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9604,6 +10123,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9622,6 +10142,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9640,6 +10161,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9658,6 +10180,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9676,6 +10199,7 @@ METHOD: ToString
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9695,6 +10219,7 @@ PARAMETERS:
     SharpDX.PointerSize
     SharpDX.PointerSize
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9714,6 +10239,7 @@ PARAMETERS:
     SharpDX.PointerSize
     System.Int32
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9733,6 +10259,7 @@ PARAMETERS:
     SharpDX.PointerSize
     SharpDX.PointerSize
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9751,6 +10278,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9769,6 +10297,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: System.Int64
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9787,6 +10316,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9805,6 +10335,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9823,6 +10354,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9841,6 +10373,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9859,6 +10392,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.Void*
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9877,6 +10411,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: System.Void*
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9896,6 +10431,7 @@ PARAMETERS:
     SharpDX.PointerSize
     SharpDX.PointerSize
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9915,6 +10451,7 @@ PARAMETERS:
     System.Int32
     SharpDX.PointerSize
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9934,6 +10471,7 @@ PARAMETERS:
     SharpDX.PointerSize
     System.Int32
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9953,6 +10491,7 @@ PARAMETERS:
     SharpDX.PointerSize
     SharpDX.PointerSize
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9971,6 +10510,7 @@ METHOD: op_UnaryNegation
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9989,6 +10529,7 @@ METHOD: op_UnaryPlus
 PARAMETERS:
     SharpDX.PointerSize
 
+RETURN_TYPE: SharpDX.PointerSize
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10007,6 +10548,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10025,6 +10567,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10043,6 +10586,7 @@ METHOD: .ctor
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10061,6 +10605,7 @@ METHOD: CheckError
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10079,6 +10624,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10097,6 +10643,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10115,6 +10662,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10133,6 +10681,7 @@ METHOD: GetResultFromException
 PARAMETERS:
     System.Exception
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10151,6 +10700,7 @@ METHOD: GetResultFromWin32Error
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10169,6 +10719,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10187,6 +10738,7 @@ METHOD: get_Code
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10205,6 +10757,7 @@ METHOD: get_Failure
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10223,6 +10776,7 @@ METHOD: get_Success
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10242,6 +10796,7 @@ PARAMETERS:
     SharpDX.Result
     SharpDX.Result
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10260,6 +10815,7 @@ METHOD: op_Explicit
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10278,6 +10834,7 @@ METHOD: op_Explicit
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10296,6 +10853,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10314,6 +10872,7 @@ METHOD: op_Implicit
 PARAMETERS:
     System.UInt32
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10333,6 +10892,7 @@ PARAMETERS:
     SharpDX.Result
     SharpDX.Result
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10351,6 +10911,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10373,6 +10934,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10391,6 +10953,7 @@ METHOD: AddDescriptorsFromType
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10409,6 +10972,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.ResultDescriptor
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10427,6 +10991,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10445,6 +11010,7 @@ METHOD: Find
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: SharpDX.ResultDescriptor
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10469,6 +11035,7 @@ PARAMETERS:
     System.Int32
     System.IntPtr
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10487,6 +11054,7 @@ METHOD: GetDescriptionFromResultCode
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10505,6 +11073,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10523,6 +11092,7 @@ METHOD: RegisterProvider
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10541,6 +11111,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10559,6 +11130,7 @@ METHOD: get_ApiCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10577,6 +11149,7 @@ METHOD: get_Code
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10595,6 +11168,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10613,6 +11187,7 @@ METHOD: get_Module
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10631,6 +11206,7 @@ METHOD: get_NativeApiCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10649,6 +11225,7 @@ METHOD: get_Result
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10668,6 +11245,7 @@ PARAMETERS:
     SharpDX.ResultDescriptor
     SharpDX.Result
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10686,6 +11264,7 @@ METHOD: op_Explicit
 PARAMETERS:
     SharpDX.ResultDescriptor
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10704,6 +11283,7 @@ METHOD: op_Explicit
 PARAMETERS:
     SharpDX.ResultDescriptor
 
+RETURN_TYPE: System.UInt32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10722,6 +11302,7 @@ METHOD: op_Implicit
 PARAMETERS:
     SharpDX.ResultDescriptor
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10741,6 +11322,7 @@ PARAMETERS:
     SharpDX.ResultDescriptor
     SharpDX.Result
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10759,6 +11341,7 @@ METHOD: set_ApiCode
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10777,6 +11360,7 @@ METHOD: set_Description
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10795,6 +11379,7 @@ METHOD: set_Module
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10813,6 +11398,7 @@ METHOD: set_NativeApiCode
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10831,6 +11417,7 @@ METHOD: set_Result
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10850,6 +11437,7 @@ PARAMETERS:
     System.Type
     System.Object
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10868,6 +11456,7 @@ METHOD: get_Instance
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10886,6 +11475,7 @@ METHOD: get_ServiceType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Type
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10904,6 +11494,7 @@ METHOD: set_Instance
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10922,6 +11513,7 @@ METHOD: set_ServiceType
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10941,6 +11533,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -10962,6 +11555,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -10981,6 +11575,7 @@ PARAMETERS:
     T&
     System.IAsyncResult
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11000,6 +11595,7 @@ PARAMETERS:
     System.Object
     T&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11018,6 +11614,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11036,6 +11633,7 @@ METHOD: Get
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: SharpDX.ShadowAttribute
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11054,6 +11652,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Type
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11072,6 +11671,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11090,6 +11690,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11108,6 +11709,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11126,6 +11728,7 @@ METHOD: Find
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11144,6 +11747,7 @@ METHOD: Find
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.IntPtr
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11162,6 +11766,7 @@ METHOD: FindShadow
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: SharpDX.CppObjectShadow
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11180,6 +11785,7 @@ METHOD: Initialize
 PARAMETERS:
     SharpDX.ICallbackable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11198,6 +11804,7 @@ METHOD: get_Guids
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IntPtr[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11216,6 +11823,7 @@ METHOD: set_Guids
 PARAMETERS:
     System.IntPtr[]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11234,6 +11842,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11252,6 +11861,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.Result
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11271,6 +11881,7 @@ PARAMETERS:
     SharpDX.Result
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11291,6 +11902,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11309,6 +11921,7 @@ METHOD: .ctor
 PARAMETERS:
     SharpDX.ResultDescriptor
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11329,6 +11942,7 @@ PARAMETERS:
     System.Exception
     System.Object[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11348,6 +11962,7 @@ PARAMETERS:
     System.String
     System.Object[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11366,6 +11981,7 @@ METHOD: get_Descriptor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.ResultDescriptor
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11384,6 +12000,7 @@ METHOD: get_ResultCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11402,6 +12019,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11421,6 +12039,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11439,6 +12058,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.Size2
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11457,6 +12077,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11475,6 +12096,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11493,6 +12115,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11512,6 +12135,7 @@ PARAMETERS:
     SharpDX.Size2
     SharpDX.Size2
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11531,6 +12155,7 @@ PARAMETERS:
     SharpDX.Size2
     SharpDX.Size2
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11549,6 +12174,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11568,6 +12194,7 @@ PARAMETERS:
     System.Single
     System.Single
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11586,6 +12213,7 @@ METHOD: Equals
 PARAMETERS:
     SharpDX.Size2F
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11604,6 +12232,7 @@ METHOD: Equals
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11622,6 +12251,7 @@ METHOD: GetHashCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11640,6 +12270,7 @@ METHOD: ToString
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11659,6 +12290,7 @@ PARAMETERS:
     SharpDX.Size2F
     SharpDX.Size2F
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11678,6 +12310,7 @@ PARAMETERS:
     SharpDX.Size2F
     SharpDX.Size2F
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11696,6 +12329,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11714,6 +12348,7 @@ METHOD: get_Value
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11732,6 +12367,7 @@ METHOD: set_Value
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11750,6 +12386,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11770,6 +12407,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11792,6 +12430,7 @@ PARAMETERS:
     System.Byte[]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11812,6 +12451,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11834,6 +12474,7 @@ PARAMETERS:
     System.Char[]
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11852,6 +12493,7 @@ METHOD: GetMaxByteCount
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11870,6 +12512,7 @@ METHOD: GetMaxCharCount
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11888,6 +12531,7 @@ METHOD: GetString
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11906,6 +12550,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11924,6 +12569,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11942,6 +12588,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -11962,6 +12609,7 @@ PARAMETERS:
     System.Byte
     System.Int32
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11981,6 +12629,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -11999,6 +12648,7 @@ METHOD: Any
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[T]
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12017,6 +12667,7 @@ METHOD: BlobToString
 PARAMETERS:
     SharpDX.Direct3D.Blob
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12036,6 +12687,7 @@ PARAMETERS:
     System.Type
     System.Reflection.PropertyInfo
 
+RETURN_TYPE: SharpDX.GetValueFastDelegate`1[T]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12055,6 +12707,7 @@ PARAMETERS:
     System.Type
     System.Reflection.PropertyInfo
 
+RETURN_TYPE: SharpDX.SetValueFastDelegate`1[T]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12075,6 +12728,7 @@ PARAMETERS:
     System.Byte
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12093,6 +12747,7 @@ METHOD: CloseHandle
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12115,6 +12770,7 @@ PARAMETERS:
     System.Guid
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12134,6 +12790,7 @@ PARAMETERS:
     System.Collections.IEnumerable
     System.Collections.IEnumerable
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12153,6 +12810,7 @@ PARAMETERS:
     System.Collections.IEnumerator
     System.Collections.IEnumerator
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12172,6 +12830,7 @@ PARAMETERS:
     System.Collections.ICollection
     System.Collections.ICollection
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12192,6 +12851,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12210,6 +12870,7 @@ METHOD: ComputeHashFNVModified
 PARAMETERS:
     System.Byte[]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12229,6 +12890,7 @@ PARAMETERS:
     System.Int32*
     System.Int32
 
+RETURN_TYPE: System.Boolean[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12247,6 +12909,7 @@ METHOD: ConvertToBoolArray
 PARAMETERS:
     SharpDX.Mathematics.Interop.RawBool[]
 
+RETURN_TYPE: System.Boolean[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12266,6 +12929,7 @@ PARAMETERS:
     System.Boolean[]
     System.Int32*
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12284,6 +12948,7 @@ METHOD: ConvertToIntArray
 PARAMETERS:
     System.Boolean[]
 
+RETURN_TYPE: SharpDX.Mathematics.Interop.RawBool[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12304,6 +12969,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12323,6 +12989,7 @@ PARAMETERS:
     System.IntPtr
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12344,6 +13011,7 @@ PARAMETERS:
     System.Guid
     SharpDX.ComObject
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12362,6 +13030,7 @@ METHOD: Dispose
 PARAMETERS:
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12381,6 +13050,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[TSource]
     System.Collections.Generic.IEqualityComparer`1[TSource]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[TSource]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12400,6 +13070,7 @@ PARAMETERS:
     System.Type
     System.Type
 
+RETURN_TYPE: System.Reflection.MethodInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12418,6 +13089,7 @@ METHOD: FreeMemory
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12437,6 +13109,7 @@ PARAMETERS:
     System.Reflection.MemberInfo
     System.Boolean
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12456,6 +13129,7 @@ PARAMETERS:
     System.Reflection.MemberInfo
     System.Boolean
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[T]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12474,6 +13148,7 @@ METHOD: GetGuidFromType
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Guid
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12492,6 +13167,7 @@ METHOD: GetIUnknownForObject
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12512,6 +13188,7 @@ PARAMETERS:
     System.String
     System.Type[]
 
+RETURN_TYPE: System.Reflection.MethodInfo
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12530,6 +13207,7 @@ METHOD: GetObjectForIUnknown
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Object
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12549,6 +13227,7 @@ PARAMETERS:
     System.IntPtr
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12568,6 +13247,7 @@ PARAMETERS:
     System.IntPtr
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12587,6 +13267,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12606,6 +13287,7 @@ PARAMETERS:
     System.Type
     System.Type
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12625,6 +13307,7 @@ PARAMETERS:
     System.Type
     System.Type
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12643,6 +13326,7 @@ METHOD: IsEnum
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12662,6 +13346,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12681,6 +13366,7 @@ PARAMETERS:
     System.Type
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12699,6 +13385,7 @@ METHOD: IsValueType
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12718,6 +13405,7 @@ PARAMETERS:
     System.String
     T[]
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12737,6 +13425,7 @@ PARAMETERS:
     System.String
     System.Collections.IEnumerable
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12756,6 +13445,7 @@ PARAMETERS:
     System.String
     System.Collections.IEnumerator
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12775,6 +13465,7 @@ PARAMETERS:
     T&
     System.Action`1[[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12794,6 +13485,7 @@ PARAMETERS:
     T[]
     System.Action`1[[System.IntPtr, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12813,6 +13505,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12832,6 +13525,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12850,6 +13544,7 @@ METHOD: Read
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12869,6 +13564,7 @@ PARAMETERS:
     System.IntPtr
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12890,6 +13586,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12909,6 +13606,7 @@ PARAMETERS:
     System.IntPtr
     T&
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12928,6 +13626,7 @@ PARAMETERS:
     System.IntPtr
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -12946,6 +13645,7 @@ METHOD: ReadStream
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12965,6 +13665,7 @@ PARAMETERS:
     System.IO.Stream
     System.Int32&
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -12984,6 +13685,7 @@ PARAMETERS:
     System.Collections.Generic.IEnumerable`1[TSource]
     System.Func`2[TSource,System.Collections.Generic.IEnumerable`1[TResult]]
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[TResult]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 2
@@ -13002,6 +13704,7 @@ METHOD: SizeOf
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13020,6 +13723,7 @@ METHOD: SizeOf
 PARAMETERS:
     T[]
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13038,6 +13742,7 @@ METHOD: StringToCoTaskMemUni
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13056,6 +13761,7 @@ METHOD: StringToHGlobalAnsi
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13074,6 +13780,7 @@ METHOD: StringToHGlobalUni
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13093,6 +13800,7 @@ PARAMETERS:
     T&
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13111,6 +13819,7 @@ METHOD: ToArray
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[T]
 
+RETURN_TYPE: T[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13129,6 +13838,7 @@ METHOD: ToByteArray
 PARAMETERS:
     T[]
 
+RETURN_TYPE: System.Byte[]
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13150,6 +13860,7 @@ PARAMETERS:
     System.Guid
     SharpDX.ComObject
 
+RETURN_TYPE: System.Boolean
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13169,6 +13880,7 @@ PARAMETERS:
     System.IntPtr
     T&
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13190,6 +13902,7 @@ PARAMETERS:
     System.Int32
     System.Int32
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13209,6 +13922,7 @@ PARAMETERS:
     System.IntPtr
     T&
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -13227,6 +13941,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13245,6 +13960,7 @@ METHOD: <>m__Finally1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13263,6 +13979,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13281,6 +13998,7 @@ METHOD: System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[TSource]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13299,6 +14017,7 @@ METHOD: System.Collections.Generic.IEnumerator<TSource>.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: TSource
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13317,6 +14036,7 @@ METHOD: System.Collections.IEnumerable.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13335,6 +14055,7 @@ METHOD: System.Collections.IEnumerator.Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13353,6 +14074,7 @@ METHOD: System.Collections.IEnumerator.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13371,6 +14093,7 @@ METHOD: System.IDisposable.Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13389,6 +14112,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13407,6 +14131,7 @@ METHOD: <>m__Finally1
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13425,6 +14150,7 @@ METHOD: <>m__Finally2
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13443,6 +14169,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13461,6 +14188,7 @@ METHOD: System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[TResult]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13479,6 +14207,7 @@ METHOD: System.Collections.Generic.IEnumerator<TResult>.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: TResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13497,6 +14226,7 @@ METHOD: System.Collections.IEnumerable.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13515,6 +14245,7 @@ METHOD: System.Collections.IEnumerator.Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13533,6 +14264,7 @@ METHOD: System.Collections.IEnumerator.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13551,6 +14283,7 @@ METHOD: System.IDisposable.Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13569,6 +14302,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[TElement]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13587,6 +14321,7 @@ METHOD: ToArray
 PARAMETERS:
     (none)
 
+RETURN_TYPE: TElement[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13605,6 +14340,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13623,6 +14359,7 @@ METHOD: get_Callback
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13641,6 +14378,7 @@ METHOD: set_Callback
 PARAMETERS:
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13659,6 +14397,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13677,6 +14416,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Win32.IStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13695,6 +14435,7 @@ METHOD: Commit
 PARAMETERS:
     SharpDX.Win32.CommitFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13715,6 +14456,7 @@ PARAMETERS:
     System.Int64
     System.Int64&
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13733,6 +14475,7 @@ METHOD: GetStatistics
 PARAMETERS:
     SharpDX.Win32.StorageStatisticsFlags
 
+RETURN_TYPE: SharpDX.Win32.StorageStatistics
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13753,6 +14496,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13771,6 +14515,7 @@ METHOD: Revert
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13790,6 +14535,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13808,6 +14554,7 @@ METHOD: SetSize
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13828,6 +14575,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13846,6 +14594,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Win32.ComStream
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13864,6 +14613,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13883,6 +14633,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13902,6 +14653,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13920,6 +14672,7 @@ METHOD: op_Explicit
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Win32.ComStreamBase
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13938,6 +14691,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13956,6 +14710,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -13974,6 +14729,7 @@ METHOD: get_GetVtbl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.CppObjectVtbl
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -13992,6 +14748,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14013,6 +14770,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14034,6 +14792,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14053,6 +14812,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14076,6 +14836,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14095,6 +14856,7 @@ PARAMETERS:
     System.Int32&
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14116,6 +14878,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14135,6 +14898,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14158,6 +14922,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14177,6 +14942,7 @@ PARAMETERS:
     System.Int32&
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14198,6 +14964,7 @@ PARAMETERS:
     System.Int32
     System.Int32&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14216,6 +14983,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14234,6 +15002,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Win32.IStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14252,6 +15021,7 @@ METHOD: Commit
 PARAMETERS:
     SharpDX.Win32.CommitFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14272,6 +15042,7 @@ PARAMETERS:
     System.Int64
     System.Int64&
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14290,6 +15061,7 @@ METHOD: Dispose
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14308,6 +15080,7 @@ METHOD: GetStatistics
 PARAMETERS:
     SharpDX.Win32.StorageStatisticsFlags
 
+RETURN_TYPE: SharpDX.Win32.StorageStatistics
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14328,6 +15101,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14347,6 +15121,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14365,6 +15140,7 @@ METHOD: Revert
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14384,6 +15160,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14402,6 +15179,7 @@ METHOD: SetSize
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14422,6 +15200,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14441,6 +15220,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14459,6 +15239,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14477,6 +15258,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14495,6 +15277,7 @@ METHOD: ToIntPtr
 PARAMETERS:
     SharpDX.Win32.IStream
 
+RETURN_TYPE: System.IntPtr
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14513,6 +15296,7 @@ METHOD: get_GetVtbl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.CppObjectVtbl
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14531,6 +15315,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14550,6 +15335,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14569,6 +15355,7 @@ PARAMETERS:
     System.IntPtr
     SharpDX.Win32.CommitFlags
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14591,6 +15378,7 @@ PARAMETERS:
     System.Int64&
     System.Int64&
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14612,6 +15400,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14630,6 +15419,7 @@ METHOD: RevertImpl
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14651,6 +15441,7 @@ PARAMETERS:
     System.IO.SeekOrigin
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14670,6 +15461,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14690,6 +15482,7 @@ PARAMETERS:
     SharpDX.Win32.StorageStatistics+__Native&
     SharpDX.Win32.StorageStatisticsFlags
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14711,6 +15504,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14730,6 +15524,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14751,6 +15546,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14770,6 +15566,7 @@ PARAMETERS:
     System.IntPtr&
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14789,6 +15586,7 @@ PARAMETERS:
     System.IntPtr
     System.IntPtr&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14808,6 +15606,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14829,6 +15628,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14847,6 +15647,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14866,6 +15667,7 @@ PARAMETERS:
     System.IntPtr
     SharpDX.Win32.CommitFlags
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14885,6 +15687,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14909,6 +15712,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14929,6 +15733,7 @@ PARAMETERS:
     System.Int64&
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14951,6 +15756,7 @@ PARAMETERS:
     System.Int64&
     System.Int64&
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -14970,6 +15776,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -14993,6 +15800,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15011,6 +15819,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15032,6 +15841,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15051,6 +15861,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15071,6 +15882,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15089,6 +15901,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15107,6 +15920,7 @@ METHOD: Invoke
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15126,6 +15940,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15149,6 +15964,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15167,6 +15983,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15188,6 +16005,7 @@ PARAMETERS:
     System.IO.SeekOrigin
     System.IntPtr
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15207,6 +16025,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15228,6 +16047,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15246,6 +16066,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15265,6 +16086,7 @@ PARAMETERS:
     System.IntPtr
     System.Int64
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15284,6 +16106,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15306,6 +16129,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15325,6 +16149,7 @@ PARAMETERS:
     SharpDX.Win32.StorageStatistics+__Native&
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15345,6 +16170,7 @@ PARAMETERS:
     SharpDX.Win32.StorageStatistics+__Native&
     SharpDX.Win32.StorageStatisticsFlags
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15364,6 +16190,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15387,6 +16214,7 @@ PARAMETERS:
     System.AsyncCallback
     System.Object
 
+RETURN_TYPE: System.IAsyncResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15405,6 +16233,7 @@ METHOD: EndInvoke
 PARAMETERS:
     System.IAsyncResult
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15426,6 +16255,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15444,6 +16274,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15462,6 +16293,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15480,6 +16312,7 @@ METHOD: GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerator`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15498,6 +16331,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15516,6 +16350,7 @@ METHOD: Reset
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15534,6 +16369,7 @@ METHOD: System.Collections.IEnumerable.GetEnumerator
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.IEnumerator
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15552,6 +16388,7 @@ METHOD: System.Collections.IEnumerator.get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15570,6 +16407,7 @@ METHOD: get_Current
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15588,6 +16426,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15606,6 +16445,7 @@ METHOD: ToResult
 PARAMETERS:
     SharpDX.Win32.ErrorCode
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15624,6 +16464,7 @@ METHOD: ToResult
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: SharpDX.Result
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15642,6 +16483,7 @@ METHOD: Clone
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Win32.IStream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15660,6 +16502,7 @@ METHOD: Commit
 PARAMETERS:
     SharpDX.Win32.CommitFlags
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15680,6 +16523,7 @@ PARAMETERS:
     System.Int64
     System.Int64&
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15698,6 +16542,7 @@ METHOD: GetStatistics
 PARAMETERS:
     SharpDX.Win32.StorageStatisticsFlags
 
+RETURN_TYPE: SharpDX.Win32.StorageStatistics
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15718,6 +16563,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15736,6 +16582,7 @@ METHOD: Revert
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15755,6 +16602,7 @@ PARAMETERS:
     System.Int64
     System.IO.SeekOrigin
 
+RETURN_TYPE: System.Int64
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15773,6 +16621,7 @@ METHOD: SetSize
 PARAMETERS:
     System.Int64
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15793,6 +16642,7 @@ PARAMETERS:
     System.Int64
     SharpDX.Win32.LockType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15812,6 +16662,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15831,6 +16682,7 @@ PARAMETERS:
     System.IntPtr
     System.Int32
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15849,6 +16701,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15867,6 +16720,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -15885,6 +16739,7 @@ METHOD: CheckIfInitialized
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15903,6 +16758,7 @@ METHOD: Get
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15921,6 +16777,7 @@ METHOD: Get
 PARAMETERS:
     SharpDX.Win32.PropertyBagKey`2[T1,T2]
 
+RETURN_TYPE: T1
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 2
@@ -15939,6 +16796,7 @@ METHOD: NativePointerUpdated
 PARAMETERS:
     System.IntPtr
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15958,6 +16816,7 @@ PARAMETERS:
     System.String
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -15977,6 +16836,7 @@ PARAMETERS:
     SharpDX.Win32.PropertyBagKey`2[T1,T2]
     T1
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 2
@@ -15995,6 +16855,7 @@ METHOD: get_Count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16013,6 +16874,7 @@ METHOD: get_Keys
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16031,6 +16893,7 @@ METHOD: CountProperties
 PARAMETERS:
     System.Int32&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16052,6 +16915,7 @@ PARAMETERS:
     SharpDX.Win32.PropertyBag+PROPBAG2&
     System.Int32&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16073,6 +16937,7 @@ PARAMETERS:
     System.Object
     System.IntPtr
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16095,6 +16960,7 @@ PARAMETERS:
     System.Object&
     SharpDX.Result&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16115,6 +16981,7 @@ PARAMETERS:
     SharpDX.Win32.PropertyBag+PROPBAG2&
     System.Object&
 
+RETURN_TYPE: SharpDX.Result
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16133,6 +17000,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16151,6 +17019,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16169,6 +17038,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16187,6 +17057,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -16205,6 +17076,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16223,6 +17095,7 @@ METHOD: set_Name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16241,6 +17114,7 @@ METHOD: get_InheritHandle
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16259,6 +17133,7 @@ METHOD: set_InheritHandle
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16277,6 +17152,7 @@ METHOD: __MarshalFree
 PARAMETERS:
     SharpDX.Win32.StorageStatistics+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16295,6 +17171,7 @@ METHOD: __MarshalFrom
 PARAMETERS:
     SharpDX.Win32.StorageStatistics+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16313,6 +17190,7 @@ METHOD: __MarshalTo
 PARAMETERS:
     SharpDX.Win32.StorageStatistics+__Native&
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16331,6 +17209,7 @@ METHOD: get_ElementType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Win32.VariantElementType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16349,6 +17228,7 @@ METHOD: get_Type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: SharpDX.Win32.VariantType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16367,6 +17247,7 @@ METHOD: get_Value
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16385,6 +17266,7 @@ METHOD: set_ElementType
 PARAMETERS:
     SharpDX.Win32.VariantElementType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16403,6 +17285,7 @@ METHOD: set_Type
 PARAMETERS:
     SharpDX.Win32.VariantType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -16421,6 +17304,7 @@ METHOD: set_Value
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

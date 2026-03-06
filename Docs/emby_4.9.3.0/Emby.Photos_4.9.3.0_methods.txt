@@ -11,6 +11,7 @@ PARAMETERS:
     MediaBrowser.Model.IO.IFileSystem
     MediaBrowser.Controller.Drawing.IImageProcessor
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -32,6 +33,7 @@ PARAMETERS:
     MediaBrowser.Model.Configuration.LibraryOptions
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Controller.Library.ItemUpdateType, MediaBrowser.Controller, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -53,6 +55,7 @@ PARAMETERS:
     MediaBrowser.Controller.Providers.MetadataRefreshOptions
     MediaBrowser.Controller.Providers.IDirectoryService
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -71,6 +74,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0

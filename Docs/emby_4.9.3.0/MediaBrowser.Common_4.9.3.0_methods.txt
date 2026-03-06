@@ -10,6 +10,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IConfigurationManager
     System.String
 
+RETURN_TYPE: T
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -28,6 +29,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -46,6 +48,7 @@ METHOD: get_ConfigurationType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Type
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -64,6 +67,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -82,6 +86,7 @@ METHOD: get_RequiresSerializedTypeInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -100,6 +105,7 @@ METHOD: set_ConfigurationType
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -118,6 +124,7 @@ METHOD: set_Key
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -136,6 +143,7 @@ METHOD: set_RequiresSerializedTypeInfo
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -154,6 +162,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -172,6 +181,7 @@ METHOD: get_Key
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -190,6 +200,7 @@ METHOD: get_NewConfiguration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -208,6 +219,7 @@ METHOD: set_Key
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -226,6 +238,7 @@ METHOD: set_NewConfiguration
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -244,6 +257,7 @@ METHOD: GetCachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -262,6 +276,7 @@ METHOD: GetImageCachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -280,6 +295,7 @@ METHOD: add_CachePathChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -298,6 +314,7 @@ METHOD: get_CachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -316,6 +333,7 @@ METHOD: get_ConfigurationDirectoryPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -334,6 +352,7 @@ METHOD: get_DataPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -352,6 +371,7 @@ METHOD: get_ImageCachePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -370,6 +390,7 @@ METHOD: get_LogDirectoryPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -388,6 +409,7 @@ METHOD: get_PluginConfigurationsPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -406,6 +428,7 @@ METHOD: get_PluginsPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -424,6 +447,7 @@ METHOD: get_ProgramDataPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -442,6 +466,7 @@ METHOD: get_ProgramSystemPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -460,6 +485,7 @@ METHOD: get_SystemConfigurationFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -478,6 +504,7 @@ METHOD: get_TempDirectory
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -496,6 +523,7 @@ METHOD: get_TempUpdatePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -514,6 +542,7 @@ METHOD: get_VirtualDataPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -532,6 +561,7 @@ METHOD: remove_CachePathChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -550,6 +580,7 @@ METHOD: GetConfigurations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.ConfigurationStore, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -568,6 +599,7 @@ METHOD: AddParts
 PARAMETERS:
     System.Collections.Generic.IEnumerable`1[[MediaBrowser.Common.Configuration.IConfigurationFactory, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -586,6 +618,7 @@ METHOD: GetConfiguration
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -604,6 +637,7 @@ METHOD: GetConfigurationType
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Type
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -622,6 +656,7 @@ METHOD: ReplaceConfiguration
 PARAMETERS:
     MediaBrowser.Model.Configuration.BaseApplicationConfiguration
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -640,6 +675,7 @@ METHOD: SaveConfiguration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -659,6 +695,7 @@ PARAMETERS:
     System.String
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -677,6 +714,7 @@ METHOD: add_ConfigurationUpdated
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -695,6 +733,7 @@ METHOD: add_NamedConfigurationUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -713,6 +752,7 @@ METHOD: add_NamedConfigurationUpdating
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -731,6 +771,7 @@ METHOD: get_CommonApplicationPaths
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -749,6 +790,7 @@ METHOD: get_CommonConfiguration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Configuration.BaseApplicationConfiguration
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -767,6 +809,7 @@ METHOD: remove_ConfigurationUpdated
 PARAMETERS:
     System.EventHandler`1[[System.EventArgs, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -785,6 +828,7 @@ METHOD: remove_NamedConfigurationUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -803,6 +847,7 @@ METHOD: remove_NamedConfigurationUpdating
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Configuration.ConfigurationUpdateEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -822,6 +867,7 @@ PARAMETERS:
     System.Object
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -843,6 +889,7 @@ PARAMETERS:
     System.EventArgs
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -864,6 +911,7 @@ PARAMETERS:
     T
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -885,6 +933,7 @@ PARAMETERS:
     System.EventArgs
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -906,6 +955,7 @@ PARAMETERS:
     T
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -927,6 +977,7 @@ PARAMETERS:
     T
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 1
@@ -948,6 +999,7 @@ PARAMETERS:
     System.EventArgs
     MediaBrowser.Model.Logging.ILogger
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -966,6 +1018,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -984,6 +1037,7 @@ METHOD: <QueueEventIfNotNull>b__0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1002,6 +1056,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1020,6 +1075,7 @@ METHOD: <QueueEventIfNotNull>b__0
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1038,6 +1094,7 @@ METHOD: GetMD5
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Guid
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1056,6 +1113,7 @@ METHOD: GetMD5
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Guid
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1074,6 +1132,7 @@ METHOD: StripHtml
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1092,6 +1151,7 @@ METHOD: get_CryptographyProvider
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Cryptography.ICryptoProvider
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1110,6 +1170,7 @@ METHOD: set_CryptographyProvider
 PARAMETERS:
     MediaBrowser.Model.Cryptography.ICryptoProvider
 
+RETURN_TYPE: System.Void
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1128,6 +1189,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1146,6 +1208,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1165,6 +1228,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1183,6 +1247,7 @@ METHOD: get_Path
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1201,6 +1266,7 @@ METHOD: set_Path
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1219,6 +1285,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1237,6 +1304,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1255,6 +1323,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1273,6 +1342,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1291,6 +1361,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1309,6 +1380,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1327,6 +1399,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1346,6 +1419,7 @@ PARAMETERS:
     MediaBrowser.Common.Extensions.ResourceExceptionType
     System.Int64
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1365,6 +1439,7 @@ PARAMETERS:
     MediaBrowser.Common.Extensions.ResourceExceptionType
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1383,6 +1458,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1403,6 +1479,7 @@ PARAMETERS:
     MediaBrowser.Common.Extensions.ResourceExceptionType
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1421,6 +1498,7 @@ METHOD: get_ResourceExceptionType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Extensions.ResourceExceptionType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1439,6 +1517,7 @@ METHOD: get_ResourceId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1457,6 +1536,7 @@ METHOD: set_ResourceExceptionType
 PARAMETERS:
     MediaBrowser.Common.Extensions.ResourceExceptionType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1475,6 +1555,7 @@ METHOD: set_ResourceId
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1493,6 +1574,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1511,6 +1593,7 @@ METHOD: .ctor
 PARAMETERS:
     System.String
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -1531,6 +1614,7 @@ PARAMETERS:
     System.Boolean
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Updates.CheckForUpdateResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1549,6 +1633,7 @@ METHOD: ContainsStartupOption
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1567,6 +1652,7 @@ METHOD: CreateInstance
 PARAMETERS:
     System.Type
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1585,6 +1671,7 @@ METHOD: GetExports
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[T]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1603,6 +1690,7 @@ METHOD: Init
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1621,6 +1709,7 @@ METHOD: NotifyPendingRestart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1639,6 +1728,7 @@ METHOD: RemovePlugin
 PARAMETERS:
     MediaBrowser.Common.Plugins.IPlugin
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1657,6 +1747,7 @@ METHOD: Resolve
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1675,6 +1766,7 @@ METHOD: Restart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1693,6 +1785,7 @@ METHOD: Shutdown
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1711,6 +1804,7 @@ METHOD: TryResolve
 PARAMETERS:
     (none)
 
+RETURN_TYPE: T
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 1
@@ -1731,6 +1825,7 @@ PARAMETERS:
     System.Threading.CancellationToken
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1749,6 +1844,7 @@ METHOD: add_ApplicationUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1767,6 +1863,7 @@ METHOD: add_HasPendingRestartChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1785,6 +1882,7 @@ METHOD: get_ApplicationVersion
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Version
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1803,6 +1901,7 @@ METHOD: get_CanSelfRestart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1821,6 +1920,7 @@ METHOD: get_CanSelfUpdate
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1839,6 +1939,7 @@ METHOD: get_HasPendingRestart
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1857,6 +1958,7 @@ METHOD: get_IsShuttingDown
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1875,6 +1977,7 @@ METHOD: get_IsStartupComplete
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1893,6 +1996,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1911,6 +2015,7 @@ METHOD: get_OperatingSystemDisplayName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1929,6 +2034,7 @@ METHOD: get_Plugins
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Plugins.IPlugin[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1947,6 +2053,7 @@ METHOD: get_SystemId
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1965,6 +2072,7 @@ METHOD: get_SystemUpdateLevel
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Updates.PackageVersionClass
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -1983,6 +2091,7 @@ METHOD: remove_ApplicationUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2001,6 +2110,7 @@ METHOD: remove_HasPendingRestartChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2019,6 +2129,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2037,6 +2148,7 @@ METHOD: .ctor
 PARAMETERS:
     MediaBrowser.Model.Dto.MediaSourceInfo
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -2055,6 +2167,7 @@ METHOD: GetHeaderValue
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2074,6 +2187,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2092,6 +2206,7 @@ METHOD: SetPostData
 PARAMETERS:
     System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2110,6 +2225,7 @@ METHOD: get_AcceptHeader
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2128,6 +2244,7 @@ METHOD: get_AppendCharsetToMimeType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2146,6 +2263,7 @@ METHOD: get_BufferContent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2164,6 +2282,7 @@ METHOD: get_CacheLength
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.TimeSpan
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2182,6 +2301,7 @@ METHOD: get_CacheMode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Net.CacheMode
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2200,6 +2320,7 @@ METHOD: get_CancellationToken
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.CancellationToken
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2218,6 +2339,7 @@ METHOD: get_ConnectionContext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2236,6 +2358,7 @@ METHOD: get_ConvertUrlCredentialsToBasicAuth
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2254,6 +2377,7 @@ METHOD: get_DecompressionMethod
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[MediaBrowser.Common.Net.CompressionMethod, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2272,6 +2396,7 @@ METHOD: get_DownloadFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2290,6 +2415,7 @@ METHOD: get_EnableAutomaticTimeouts
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2308,6 +2434,7 @@ METHOD: get_EnableDefaultUserAgent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2326,6 +2453,7 @@ METHOD: get_EnableHttpCompression
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2344,6 +2472,7 @@ METHOD: get_EnableKeepAlive
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2362,6 +2491,7 @@ METHOD: get_FileBufferSize
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2380,6 +2510,7 @@ METHOD: get_FileOpenOptions
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.IO.FileOpenOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2398,6 +2529,7 @@ METHOD: get_FileShareMode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.IO.FileShareMode
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2416,6 +2548,7 @@ METHOD: get_Host
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2434,6 +2567,7 @@ METHOD: get_LogErrorResponseBody
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2452,6 +2586,7 @@ METHOD: get_LogErrors
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2470,6 +2605,7 @@ METHOD: get_LogRequest
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2488,6 +2624,7 @@ METHOD: get_LogRequestAsDebug
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2506,6 +2643,7 @@ METHOD: get_LogResponse
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2524,6 +2662,7 @@ METHOD: get_LogResponseHeaders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2542,6 +2681,7 @@ METHOD: get_LogUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2560,6 +2700,7 @@ METHOD: get_LogUrlPrefix
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2578,6 +2719,7 @@ METHOD: get_Progress
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2596,6 +2738,7 @@ METHOD: get_Referer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2614,6 +2757,7 @@ METHOD: get_RequestContent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2632,6 +2776,7 @@ METHOD: get_RequestContentBytes
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.ReadOnlyMemory`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2650,6 +2795,7 @@ METHOD: get_RequestContentType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2668,6 +2814,7 @@ METHOD: get_RequestHeaders
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2686,6 +2833,7 @@ METHOD: get_RequestHttpContent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.Http.HttpContent
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2704,6 +2852,7 @@ METHOD: get_Sanitation
 PARAMETERS:
     (none)
 
+RETURN_TYPE: Emby.Model.Sanitation.UrlSanitationOptions
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2722,6 +2871,7 @@ METHOD: get_SingleTcpConnection
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2740,6 +2890,7 @@ METHOD: get_ThrowOnErrorResponse
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2758,6 +2909,7 @@ METHOD: get_TimeoutMs
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2776,6 +2928,7 @@ METHOD: get_Url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2794,6 +2947,7 @@ METHOD: get_UserAgent
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2812,6 +2966,7 @@ METHOD: set_AcceptHeader
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2830,6 +2985,7 @@ METHOD: set_AppendCharsetToMimeType
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2848,6 +3004,7 @@ METHOD: set_BufferContent
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2866,6 +3023,7 @@ METHOD: set_CacheLength
 PARAMETERS:
     System.TimeSpan
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2884,6 +3042,7 @@ METHOD: set_CacheMode
 PARAMETERS:
     MediaBrowser.Common.Net.CacheMode
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2902,6 +3061,7 @@ METHOD: set_CancellationToken
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2920,6 +3080,7 @@ METHOD: set_ConnectionContext
 PARAMETERS:
     System.IDisposable
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2938,6 +3099,7 @@ METHOD: set_ConvertUrlCredentialsToBasicAuth
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2956,6 +3118,7 @@ METHOD: set_DecompressionMethod
 PARAMETERS:
     System.Nullable`1[[MediaBrowser.Common.Net.CompressionMethod, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2974,6 +3137,7 @@ METHOD: set_DownloadFilePath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -2992,6 +3156,7 @@ METHOD: set_EnableAutomaticTimeouts
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3010,6 +3175,7 @@ METHOD: set_EnableDefaultUserAgent
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3028,6 +3194,7 @@ METHOD: set_EnableHttpCompression
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3046,6 +3213,7 @@ METHOD: set_EnableKeepAlive
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3064,6 +3232,7 @@ METHOD: set_FileBufferSize
 PARAMETERS:
     System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3082,6 +3251,7 @@ METHOD: set_FileOpenOptions
 PARAMETERS:
     MediaBrowser.Model.IO.FileOpenOptions
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3100,6 +3270,7 @@ METHOD: set_FileShareMode
 PARAMETERS:
     MediaBrowser.Model.IO.FileShareMode
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3118,6 +3289,7 @@ METHOD: set_Host
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3136,6 +3308,7 @@ METHOD: set_LogErrorResponseBody
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3154,6 +3327,7 @@ METHOD: set_LogErrors
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3172,6 +3346,7 @@ METHOD: set_LogRequest
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3190,6 +3365,7 @@ METHOD: set_LogRequestAsDebug
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3208,6 +3384,7 @@ METHOD: set_LogResponse
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3226,6 +3403,7 @@ METHOD: set_LogResponseHeaders
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3244,6 +3422,7 @@ METHOD: set_LogUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3262,6 +3441,7 @@ METHOD: set_LogUrlPrefix
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3280,6 +3460,7 @@ METHOD: set_Progress
 PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3298,6 +3479,7 @@ METHOD: set_Referer
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3316,6 +3498,7 @@ METHOD: set_RequestContent
 PARAMETERS:
     System.ReadOnlyMemory`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3334,6 +3517,7 @@ METHOD: set_RequestContentBytes
 PARAMETERS:
     System.ReadOnlyMemory`1[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3352,6 +3536,7 @@ METHOD: set_RequestContentType
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3370,6 +3555,7 @@ METHOD: set_RequestHeaders
 PARAMETERS:
     System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3388,6 +3574,7 @@ METHOD: set_RequestHttpContent
 PARAMETERS:
     System.Net.Http.HttpContent
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3406,6 +3593,7 @@ METHOD: set_SingleTcpConnection
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3424,6 +3612,7 @@ METHOD: set_ThrowOnErrorResponse
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3442,6 +3631,7 @@ METHOD: set_TimeoutMs
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3460,6 +3650,7 @@ METHOD: set_Url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3478,6 +3669,7 @@ METHOD: set_UserAgent
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3496,6 +3688,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3514,6 +3707,7 @@ METHOD: <SetPostData>b__0
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3532,6 +3726,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3550,6 +3745,7 @@ METHOD: .ctor
 PARAMETERS:
     System.IDisposable[]
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -3568,6 +3764,7 @@ METHOD: Dispose
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3586,6 +3783,7 @@ METHOD: get_Content
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3604,6 +3802,7 @@ METHOD: get_ContentLength
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3622,6 +3821,7 @@ METHOD: get_ContentType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3640,6 +3840,7 @@ METHOD: get_Headers
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3658,6 +3859,7 @@ METHOD: get_ResponseUrl
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3676,6 +3878,7 @@ METHOD: get_StatusCode
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.HttpStatusCode
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3694,6 +3897,7 @@ METHOD: get_TempFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3712,6 +3916,7 @@ METHOD: set_Content
 PARAMETERS:
     System.IO.Stream
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3730,6 +3935,7 @@ METHOD: set_ContentLength
 PARAMETERS:
     System.Nullable`1[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3748,6 +3954,7 @@ METHOD: set_ContentType
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3766,6 +3973,7 @@ METHOD: set_Headers
 PARAMETERS:
     System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3784,6 +3992,7 @@ METHOD: set_ResponseUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3802,6 +4011,7 @@ METHOD: set_StatusCode
 PARAMETERS:
     System.Net.HttpStatusCode
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3820,6 +4030,7 @@ METHOD: set_TempFilePath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3838,6 +4049,7 @@ METHOD: Get
 PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.IO.Stream, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3856,6 +4068,7 @@ METHOD: GetConnectionContext
 PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
 
+RETURN_TYPE: System.IDisposable
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3874,6 +4087,7 @@ METHOD: GetResponse
 PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3892,6 +4106,7 @@ METHOD: GetTempFile
 PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3910,6 +4125,7 @@ METHOD: GetTempFileResponse
 PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3928,6 +4144,7 @@ METHOD: Post
 PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3947,6 +4164,7 @@ PARAMETERS:
     MediaBrowser.Common.Net.HttpRequestOptions
     System.String
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Common.Net.HttpResponseInfo, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3966,6 +4184,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Net.IPAddress[], System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -3984,6 +4203,7 @@ METHOD: GetLocalIpAddresses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Net.IPAddress[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4002,6 +4222,7 @@ METHOD: GetLocalIpAddresses
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Net.IPAddress[], System.Net.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4020,6 +4241,7 @@ METHOD: GetMacAddresses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4038,6 +4260,7 @@ METHOD: GetNetworkDevices
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Model.IO.FileSystemEntryInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4056,6 +4279,7 @@ METHOD: GetNetworkShares
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Collections.Generic.IEnumerable`1[[MediaBrowser.Model.Net.NetworkShare, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4074,6 +4298,7 @@ METHOD: GetRandomUnusedTcpPort
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4092,6 +4317,7 @@ METHOD: GetRandomUnusedUdpPort
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4111,6 +4337,7 @@ PARAMETERS:
     System.Net.IPAddress
     System.String[]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4130,6 +4357,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4149,6 +4377,7 @@ PARAMETERS:
     System.Net.IPAddress
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4167,6 +4396,7 @@ METHOD: IsInLocalNetwork
 PARAMETERS:
     System.Net.IPAddress
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4185,6 +4415,7 @@ METHOD: IsInPrivateAddressSpace
 PARAMETERS:
     System.ReadOnlySpan`1[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4203,6 +4434,7 @@ METHOD: add_NetworkChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4221,6 +4453,7 @@ METHOD: add_RemoteAddressesChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4239,6 +4472,7 @@ METHOD: get_LocalSubnetsFn
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Func`1[[System.String[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4257,6 +4491,7 @@ METHOD: get_RemoteApiAddresses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4275,6 +4510,7 @@ METHOD: get_RemoteIPAddresses
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4293,6 +4529,7 @@ METHOD: remove_NetworkChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4311,6 +4548,7 @@ METHOD: remove_RemoteAddressesChanged
 PARAMETERS:
     System.EventHandler
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4329,6 +4567,7 @@ METHOD: set_LocalSubnetsFn
 PARAMETERS:
     System.Func`1[[System.String[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4347,6 +4586,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4365,6 +4605,7 @@ METHOD: GetPluginInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.PluginInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4383,6 +4624,7 @@ METHOD: GetPluginPageUrl
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.String
 STATIC: True
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4401,6 +4643,7 @@ METHOD: OnUninstalling
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4421,6 +4664,7 @@ PARAMETERS:
     System.String
     System.Version
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4439,6 +4683,7 @@ METHOD: SetId
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4457,6 +4702,7 @@ METHOD: get_AssemblyFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4475,6 +4721,7 @@ METHOD: get_DataFolderPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4493,6 +4740,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4511,6 +4759,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4529,6 +4778,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4547,6 +4797,7 @@ METHOD: get_Version
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Version
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4565,6 +4816,7 @@ METHOD: set_AssemblyFilePath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4583,6 +4835,7 @@ METHOD: set_DataFolderPath
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4601,6 +4854,7 @@ METHOD: set_Id
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4619,6 +4873,7 @@ METHOD: set_Version
 PARAMETERS:
     System.Version
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4638,6 +4893,7 @@ PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
     MediaBrowser.Model.Serialization.IXmlSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -4656,6 +4912,7 @@ METHOD: GetPluginInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.PluginInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4674,6 +4931,7 @@ METHOD: LoadConfiguration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: TConfigurationType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4692,6 +4950,7 @@ METHOD: MediaBrowser.Common.Plugins.IHasPluginConfiguration.get_Configuration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.BasePluginConfiguration
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4710,6 +4969,7 @@ METHOD: SaveConfiguration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4728,6 +4988,7 @@ METHOD: SetStartupInfo
 PARAMETERS:
     System.Action`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4746,6 +5007,7 @@ METHOD: UpdateConfiguration
 PARAMETERS:
     MediaBrowser.Model.Plugins.BasePluginConfiguration
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4764,6 +5026,7 @@ METHOD: get_ApplicationPaths
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Configuration.IApplicationPaths
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4782,6 +5045,7 @@ METHOD: get_AssemblyFileName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4800,6 +5064,7 @@ METHOD: get_Configuration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: TConfigurationType
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4818,6 +5083,7 @@ METHOD: get_ConfigurationFileName
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4836,6 +5102,7 @@ METHOD: get_ConfigurationFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4854,6 +5121,7 @@ METHOD: get_ConfigurationType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Type
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4872,6 +5140,7 @@ METHOD: get_IsFirstRun
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4890,6 +5159,7 @@ METHOD: get_XmlSerializer
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Serialization.IXmlSerializer
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4908,6 +5178,7 @@ METHOD: set_ApplicationPaths
 PARAMETERS:
     MediaBrowser.Common.Configuration.IApplicationPaths
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4926,6 +5197,7 @@ METHOD: set_Configuration
 PARAMETERS:
     TConfigurationType
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4944,6 +5216,7 @@ METHOD: set_IsFirstRun
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4962,6 +5235,7 @@ METHOD: set_XmlSerializer
 PARAMETERS:
     MediaBrowser.Model.Serialization.IXmlSerializer
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4980,6 +5254,7 @@ METHOD: SetStartupInfo
 PARAMETERS:
     System.Action`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -4998,6 +5273,7 @@ METHOD: UpdateConfiguration
 PARAMETERS:
     MediaBrowser.Model.Plugins.BasePluginConfiguration
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5016,6 +5292,7 @@ METHOD: get_Configuration
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.BasePluginConfiguration
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5034,6 +5311,7 @@ METHOD: get_ConfigurationType
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Type
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5052,6 +5330,7 @@ METHOD: GetThumbImage
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.IO.Stream
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5070,6 +5349,7 @@ METHOD: get_ThumbImageFormat
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Drawing.ImageFormat
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5088,6 +5368,7 @@ METHOD: GetPluginInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Plugins.PluginInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5106,6 +5387,7 @@ METHOD: OnUninstalling
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5124,6 +5406,7 @@ METHOD: get_AssemblyFilePath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5142,6 +5425,7 @@ METHOD: get_DataFolderPath
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5160,6 +5444,7 @@ METHOD: get_Description
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5178,6 +5463,7 @@ METHOD: get_Id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Guid
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5196,6 +5482,7 @@ METHOD: get_Name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5214,6 +5501,7 @@ METHOD: get_Version
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Version
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5234,6 +5522,7 @@ PARAMETERS:
     System.String
     System.Version
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5252,6 +5541,7 @@ METHOD: SetId
 PARAMETERS:
     System.Guid
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5270,6 +5560,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5288,6 +5579,7 @@ METHOD: RegisterAction
 PARAMETERS:
     System.Action`1[T]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5306,6 +5598,7 @@ METHOD: Report
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5324,6 +5617,7 @@ METHOD: add_ProgressChanged
 PARAMETERS:
     System.EventHandler`1[T]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5342,6 +5636,7 @@ METHOD: remove_ProgressChanged
 PARAMETERS:
     System.EventHandler`1[T]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5360,6 +5655,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5378,6 +5674,7 @@ METHOD: Report
 PARAMETERS:
     T
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5396,6 +5693,7 @@ METHOD: add_ProgressChanged
 PARAMETERS:
     System.EventHandler`1[T]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5414,6 +5712,7 @@ METHOD: remove_ProgressChanged
 PARAMETERS:
     System.EventHandler`1[T]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5433,6 +5732,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Double
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5453,6 +5753,7 @@ PARAMETERS:
     System.Double
     System.Double
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5471,6 +5772,7 @@ METHOD: Report
 PARAMETERS:
     System.Double
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5489,6 +5791,7 @@ METHOD: LoadRegistrationInfoAsync
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5508,6 +5811,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Entities.MBRegistrationRecord, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5527,6 +5831,7 @@ PARAMETERS:
     System.String
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5547,6 +5852,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5565,6 +5871,7 @@ METHOD: IsSupporter
 PARAMETERS:
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5584,6 +5891,7 @@ PARAMETERS:
     System.String
     System.Boolean
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5602,6 +5910,7 @@ METHOD: UpdateSupporterKey
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5620,6 +5929,7 @@ METHOD: get_SupporterKey
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5638,6 +5948,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5657,6 +5968,7 @@ PARAMETERS:
     MediaBrowser.Common.Net.IHttpClient
     MediaBrowser.Model.Serialization.IJsonSerializer
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5684,6 +5996,7 @@ PARAMETERS:
     System.Boolean
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Updates.CheckForUpdateResult, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5707,6 +6020,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Updates.CheckForUpdateResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5729,6 +6043,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: MediaBrowser.Model.Updates.CheckForUpdateResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5751,6 +6066,7 @@ PARAMETERS:
     System.TimeSpan
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Common.Updates.GithubUpdater+RootObject, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5769,6 +6085,7 @@ METHOD: GetVersion
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Version
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5789,6 +6106,7 @@ PARAMETERS:
     System.String
     System.String
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5808,6 +6126,7 @@ PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
     MediaBrowser.Model.Updates.PackageVersionClass
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5826,6 +6145,7 @@ METHOD: .cctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: True
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5844,6 +6164,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5862,6 +6183,7 @@ METHOD: <CheckForUpdateResult>b__4_0
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5880,6 +6202,7 @@ METHOD: <CheckForUpdateResult>b__4_1
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5898,6 +6221,7 @@ METHOD: <CheckForUpdateResult>b__4_2
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5916,6 +6240,7 @@ METHOD: <CheckForUpdateResult>b__4_4
 PARAMETERS:
     MediaBrowser.Model.Updates.CheckForUpdateResult
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5934,6 +6259,7 @@ METHOD: <CheckForUpdateResult>b__4_5
 PARAMETERS:
     MediaBrowser.Model.Updates.CheckForUpdateResult
 
+RETURN_TYPE: System.Version
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5952,6 +6278,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -5970,6 +6297,7 @@ METHOD: <CheckForUpdateResult>b__3
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: MediaBrowser.Model.Updates.CheckForUpdateResult
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -5988,6 +6316,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6006,6 +6335,7 @@ METHOD: <GetLatestReleases>b__0
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6024,6 +6354,7 @@ METHOD: <GetLatestReleases>b__1
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6042,6 +6373,7 @@ METHOD: <GetLatestReleases>b__2
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+RootObject
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6060,6 +6392,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6078,6 +6411,7 @@ METHOD: <GetLatestReleases>b__3
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+Asset
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6096,6 +6430,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6114,6 +6449,7 @@ METHOD: <CheckForUpdateResult>b__0
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+Asset
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6132,6 +6468,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6150,6 +6487,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6168,6 +6506,7 @@ METHOD: MoveNext
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6186,6 +6525,7 @@ METHOD: SetStateMachine
 PARAMETERS:
     System.Runtime.CompilerServices.IAsyncStateMachine
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6204,6 +6544,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6222,6 +6563,7 @@ METHOD: get_browser_download_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6240,6 +6582,7 @@ METHOD: get_content_type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6258,6 +6601,7 @@ METHOD: get_created_at
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6276,6 +6620,7 @@ METHOD: get_download_count
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6294,6 +6639,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6312,6 +6658,7 @@ METHOD: get_label
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Object
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6330,6 +6677,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6348,6 +6696,7 @@ METHOD: get_size
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6366,6 +6715,7 @@ METHOD: get_state
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6384,6 +6734,7 @@ METHOD: get_updated_at
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6402,6 +6753,7 @@ METHOD: get_uploader
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Updates.GithubUpdater+Uploader
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6420,6 +6772,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6438,6 +6791,7 @@ METHOD: set_browser_download_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6456,6 +6810,7 @@ METHOD: set_content_type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6474,6 +6829,7 @@ METHOD: set_created_at
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6492,6 +6848,7 @@ METHOD: set_download_count
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6510,6 +6867,7 @@ METHOD: set_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6528,6 +6886,7 @@ METHOD: set_label
 PARAMETERS:
     System.Object
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6546,6 +6905,7 @@ METHOD: set_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6564,6 +6924,7 @@ METHOD: set_size
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6582,6 +6943,7 @@ METHOD: set_state
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6600,6 +6962,7 @@ METHOD: set_updated_at
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6618,6 +6981,7 @@ METHOD: set_uploader
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+Uploader
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6636,6 +7000,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6654,6 +7019,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -6672,6 +7038,7 @@ METHOD: get_avatar_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6690,6 +7057,7 @@ METHOD: get_events_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6708,6 +7076,7 @@ METHOD: get_followers_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6726,6 +7095,7 @@ METHOD: get_following_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6744,6 +7114,7 @@ METHOD: get_gists_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6762,6 +7133,7 @@ METHOD: get_gravatar_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6780,6 +7152,7 @@ METHOD: get_html_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6798,6 +7171,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6816,6 +7190,7 @@ METHOD: get_login
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6834,6 +7209,7 @@ METHOD: get_organizations_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6852,6 +7228,7 @@ METHOD: get_received_events_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6870,6 +7247,7 @@ METHOD: get_repos_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6888,6 +7266,7 @@ METHOD: get_site_admin
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6906,6 +7285,7 @@ METHOD: get_starred_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6924,6 +7304,7 @@ METHOD: get_subscriptions_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6942,6 +7323,7 @@ METHOD: get_type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6960,6 +7342,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6978,6 +7361,7 @@ METHOD: set_avatar_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -6996,6 +7380,7 @@ METHOD: set_events_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7014,6 +7399,7 @@ METHOD: set_followers_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7032,6 +7418,7 @@ METHOD: set_following_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7050,6 +7437,7 @@ METHOD: set_gists_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7068,6 +7456,7 @@ METHOD: set_gravatar_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7086,6 +7475,7 @@ METHOD: set_html_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7104,6 +7494,7 @@ METHOD: set_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7122,6 +7513,7 @@ METHOD: set_login
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7140,6 +7532,7 @@ METHOD: set_organizations_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7158,6 +7551,7 @@ METHOD: set_received_events_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7176,6 +7570,7 @@ METHOD: set_repos_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7194,6 +7589,7 @@ METHOD: set_site_admin
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7212,6 +7608,7 @@ METHOD: set_starred_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7230,6 +7627,7 @@ METHOD: set_subscriptions_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7248,6 +7646,7 @@ METHOD: set_type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7266,6 +7665,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7284,6 +7684,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7302,6 +7703,7 @@ METHOD: get_assets
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[MediaBrowser.Common.Updates.GithubUpdater+Asset, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7320,6 +7722,7 @@ METHOD: get_assets_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7338,6 +7741,7 @@ METHOD: get_author
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Common.Updates.GithubUpdater+Author
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7356,6 +7760,7 @@ METHOD: get_body
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7374,6 +7779,7 @@ METHOD: get_created_at
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7392,6 +7798,7 @@ METHOD: get_draft
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7410,6 +7817,7 @@ METHOD: get_html_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7428,6 +7836,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7446,6 +7855,7 @@ METHOD: get_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7464,6 +7874,7 @@ METHOD: get_prerelease
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7482,6 +7893,7 @@ METHOD: get_published_at
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7500,6 +7912,7 @@ METHOD: get_tag_name
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7518,6 +7931,7 @@ METHOD: get_tarball_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7536,6 +7950,7 @@ METHOD: get_target_commitish
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7554,6 +7969,7 @@ METHOD: get_upload_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7572,6 +7988,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7590,6 +8007,7 @@ METHOD: get_zipball_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7608,6 +8026,7 @@ METHOD: set_assets
 PARAMETERS:
     System.Collections.Generic.List`1[[MediaBrowser.Common.Updates.GithubUpdater+Asset, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7626,6 +8045,7 @@ METHOD: set_assets_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7644,6 +8064,7 @@ METHOD: set_author
 PARAMETERS:
     MediaBrowser.Common.Updates.GithubUpdater+Author
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7662,6 +8083,7 @@ METHOD: set_body
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7680,6 +8102,7 @@ METHOD: set_created_at
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7698,6 +8121,7 @@ METHOD: set_draft
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7716,6 +8140,7 @@ METHOD: set_html_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7734,6 +8159,7 @@ METHOD: set_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7752,6 +8178,7 @@ METHOD: set_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7770,6 +8197,7 @@ METHOD: set_prerelease
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7788,6 +8216,7 @@ METHOD: set_published_at
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7806,6 +8235,7 @@ METHOD: set_tag_name
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7824,6 +8254,7 @@ METHOD: set_tarball_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7842,6 +8273,7 @@ METHOD: set_target_commitish
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7860,6 +8292,7 @@ METHOD: set_upload_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7878,6 +8311,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7896,6 +8330,7 @@ METHOD: set_zipball_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7914,6 +8349,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -7932,6 +8368,7 @@ METHOD: get_avatar_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7950,6 +8387,7 @@ METHOD: get_events_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7968,6 +8406,7 @@ METHOD: get_followers_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -7986,6 +8425,7 @@ METHOD: get_following_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8004,6 +8444,7 @@ METHOD: get_gists_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8022,6 +8463,7 @@ METHOD: get_gravatar_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8040,6 +8482,7 @@ METHOD: get_html_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8058,6 +8501,7 @@ METHOD: get_id
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Int32
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8076,6 +8520,7 @@ METHOD: get_login
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8094,6 +8539,7 @@ METHOD: get_organizations_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8112,6 +8558,7 @@ METHOD: get_received_events_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8130,6 +8577,7 @@ METHOD: get_repos_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8148,6 +8596,7 @@ METHOD: get_site_admin
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Boolean
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8166,6 +8615,7 @@ METHOD: get_starred_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8184,6 +8634,7 @@ METHOD: get_subscriptions_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8202,6 +8653,7 @@ METHOD: get_type
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8220,6 +8672,7 @@ METHOD: get_url
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.String
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8238,6 +8691,7 @@ METHOD: set_avatar_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8256,6 +8710,7 @@ METHOD: set_events_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8274,6 +8729,7 @@ METHOD: set_followers_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8292,6 +8748,7 @@ METHOD: set_following_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8310,6 +8767,7 @@ METHOD: set_gists_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8328,6 +8786,7 @@ METHOD: set_gravatar_id
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8346,6 +8805,7 @@ METHOD: set_html_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8364,6 +8824,7 @@ METHOD: set_id
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8382,6 +8843,7 @@ METHOD: set_login
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8400,6 +8862,7 @@ METHOD: set_organizations_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8418,6 +8881,7 @@ METHOD: set_received_events_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8436,6 +8900,7 @@ METHOD: set_repos_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8454,6 +8919,7 @@ METHOD: set_site_admin
 PARAMETERS:
     System.Boolean
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8472,6 +8938,7 @@ METHOD: set_starred_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8490,6 +8957,7 @@ METHOD: set_subscriptions_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8508,6 +8976,7 @@ METHOD: set_type
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8526,6 +8995,7 @@ METHOD: set_url
 PARAMETERS:
     System.String
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8547,6 +9017,7 @@ PARAMETERS:
     System.String
     System.Version
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[MediaBrowser.Model.Updates.PackageInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8566,6 +9037,7 @@ PARAMETERS:
     System.Version
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Updates.PackageVersionInfo[], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8586,6 +9058,7 @@ PARAMETERS:
     MediaBrowser.Model.Logging.LogSeverity
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Updates.PackageVersionInfo[], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8608,6 +9081,7 @@ PARAMETERS:
     MediaBrowser.Model.Updates.PackageVersionClass
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8630,6 +9104,7 @@ PARAMETERS:
     System.Version
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8651,6 +9126,7 @@ PARAMETERS:
     System.IProgress`1[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
     System.Threading.CancellationToken
 
+RETURN_TYPE: System.Threading.Tasks.Task
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8669,6 +9145,7 @@ METHOD: UninstallPlugin
 PARAMETERS:
     MediaBrowser.Common.Plugins.IPlugin
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8687,6 +9164,7 @@ METHOD: add_PackageInstallationCancelled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8705,6 +9183,7 @@ METHOD: add_PackageInstallationCompleted
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8723,6 +9202,7 @@ METHOD: add_PackageInstallationFailed
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationFailedEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8741,6 +9221,7 @@ METHOD: add_PackageInstalling
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8759,6 +9240,7 @@ METHOD: add_PluginInstalled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8777,6 +9259,7 @@ METHOD: add_PluginUninstalled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8795,6 +9278,7 @@ METHOD: add_PluginUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8813,6 +9297,7 @@ METHOD: get_CompletedInstallations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Updates.InstallationInfo[]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8831,6 +9316,7 @@ METHOD: get_CurrentInstallations
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Collections.Generic.List`1[[System.Tuple`2[[MediaBrowser.Model.Updates.InstallationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Threading.CancellationTokenSource, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8849,6 +9335,7 @@ METHOD: remove_PackageInstallationCancelled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8867,6 +9354,7 @@ METHOD: remove_PackageInstallationCompleted
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8885,6 +9373,7 @@ METHOD: remove_PackageInstallationFailed
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationFailedEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8903,6 +9392,7 @@ METHOD: remove_PackageInstalling
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Common.Updates.InstallationEventArgs, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8921,6 +9411,7 @@ METHOD: remove_PluginInstalled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8939,6 +9430,7 @@ METHOD: remove_PluginUninstalled
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8957,6 +9449,7 @@ METHOD: remove_PluginUpdated
 PARAMETERS:
     System.EventHandler`1[[MediaBrowser.Model.Events.GenericEventArgs`1[[System.Tuple`2[[MediaBrowser.Common.Plugins.IPlugin, MediaBrowser.Common, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[MediaBrowser.Model.Updates.PackageVersionInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8975,6 +9468,7 @@ METHOD: set_CurrentInstallations
 PARAMETERS:
     System.Collections.Generic.List`1[[System.Tuple`2[[MediaBrowser.Model.Updates.InstallationInfo, MediaBrowser.Model, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null],[System.Threading.CancellationTokenSource, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -8993,6 +9487,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9011,6 +9506,7 @@ METHOD: get_InstallationInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Updates.InstallationInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9029,6 +9525,7 @@ METHOD: get_PackageVersionInfo
 PARAMETERS:
     (none)
 
+RETURN_TYPE: MediaBrowser.Model.Updates.PackageVersionInfo
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9047,6 +9544,7 @@ METHOD: set_InstallationInfo
 PARAMETERS:
     MediaBrowser.Model.Updates.InstallationInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9065,6 +9563,7 @@ METHOD: set_PackageVersionInfo
 PARAMETERS:
     MediaBrowser.Model.Updates.PackageVersionInfo
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9083,6 +9582,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9101,6 +9601,7 @@ METHOD: get_Exception
 PARAMETERS:
     (none)
 
+RETURN_TYPE: System.Exception
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9119,6 +9620,7 @@ METHOD: set_Exception
 PARAMETERS:
     System.Exception
 
+RETURN_TYPE: System.Void
 STATIC: False
 CONSTRUCTOR: False
 GENERIC: 0
@@ -9137,6 +9639,7 @@ METHOD: .ctor
 PARAMETERS:
     (none)
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
@@ -9155,6 +9658,7 @@ METHOD: .ctor
 PARAMETERS:
     System.Int32
 
+RETURN_TYPE: (constructor)
 STATIC: False
 CONSTRUCTOR: True
 GENERIC: 0
