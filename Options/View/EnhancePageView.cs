@@ -7,18 +7,18 @@ namespace MediaInfoKeeper.Options.View
     using MediaInfoKeeper.Options.Store;
     using MediaInfoKeeper.Options.UIBaseClasses.Views;
 
-    internal class EnhanceChineseSearchPageView : PluginPageView
+    internal class EnhancePageView : PluginPageView
     {
-        private readonly EnhanceChineseSearchOptionsStore store;
+        private readonly EnhanceOptionsStore store;
 
-        public EnhanceChineseSearchPageView(PluginInfo pluginInfo, EnhanceChineseSearchOptionsStore store)
+        public EnhancePageView(PluginInfo pluginInfo, EnhanceOptionsStore store)
             : base(pluginInfo.Id)
         {
             this.store = store;
             this.ContentData = store.GetOptions();
         }
 
-        public EnhanceChineseSearchOptions Options => this.ContentData as EnhanceChineseSearchOptions;
+        public EnhanceOptions Options => this.ContentData as EnhanceOptions;
 
         public override Task<IPluginUIView> OnSaveCommand(string itemId, string commandId, string data)
         {

@@ -94,14 +94,22 @@ namespace MediaInfoKeeper.Patch
                     BuildProxyNotes(),
                     false);
 
-                Register("EnhanceChineseSearch");
-                EnhanceChineseSearch.UpdateSearchScope(safeOptions.EnhanceChineseSearch.SearchScope);
-                EnhanceChineseSearch.Initialize(logger, safeOptions.EnhanceChineseSearch);
+                Register("ChineseSearch");
+                ChineseSearch.UpdateSearchScope(safeOptions.Enhance.SearchScope);
+                ChineseSearch.Initialize(logger, safeOptions.Enhance);
                 UpdateTracker(
-                    "EnhanceChineseSearch",
-                    safeOptions.EnhanceChineseSearch.EnhanceChineseSearch || safeOptions.EnhanceChineseSearch.EnhanceChineseSearchRestore,
-                    EnhanceChineseSearch.IsReady,
+                    "ChineseSearch",
+                    safeOptions.Enhance.EnhanceChineseSearch || safeOptions.Enhance.EnhanceChineseSearchRestore,
+                    ChineseSearch.IsReady,
                     null);
+
+                Register("DeepDelete");
+                DeepDelete.Initialize(logger, safeOptions.Enhance.EnableDeepDelete);
+                UpdateTracker("DeepDelete", safeOptions.Enhance.EnableDeepDelete, DeepDelete.IsReady, null);
+
+                Register("NotificationSystem");
+                NotificationSystem.Initialize(logger);
+                UpdateTracker("NotificationSystem", true, NotificationSystem.IsReady, null);
 
                 LogTrackerSummary();
             }
@@ -115,8 +123,9 @@ namespace MediaInfoKeeper.Patch
             MetadataProvidersWatcher.Configure(safeOptions.MetaData.EnableMetadataProvidersWatcher);
             IntroUnlock.Configure(safeOptions);
             ProxyServer.Configure(safeOptions.Proxy.EnableProxyServer);
-            EnhanceChineseSearch.UpdateSearchScope(safeOptions.EnhanceChineseSearch.SearchScope);
-            EnhanceChineseSearch.Configure(safeOptions.EnhanceChineseSearch);
+            ChineseSearch.UpdateSearchScope(safeOptions.Enhance.SearchScope);
+            ChineseSearch.Configure(safeOptions.Enhance);
+            DeepDelete.Configure(safeOptions.Enhance.EnableDeepDelete);
             MovieDbTitle.Configure(safeOptions.MetaData.EnableAlternativeTitleFallback);
             TvdbTitle.Configure(safeOptions.MetaData.EnableTvdbFallback);
             MovieDbEpisodeGroup.Configure(safeOptions.MetaData.EnableMovieDbEpisodeGroup, safeOptions.MetaData.EnableLocalEpisodeGroup);
@@ -139,10 +148,12 @@ namespace MediaInfoKeeper.Patch
             UpdateTracker("ProxyServer", safeOptions.Proxy.EnableProxyServer, ProxyServer.IsReady,
                 BuildProxyNotes(), false);
             UpdateTracker(
-                "EnhanceChineseSearch",
-                safeOptions.EnhanceChineseSearch.EnhanceChineseSearch || safeOptions.EnhanceChineseSearch.EnhanceChineseSearchRestore,
-                EnhanceChineseSearch.IsReady,
+                "ChineseSearch",
+                safeOptions.Enhance.EnhanceChineseSearch || safeOptions.Enhance.EnhanceChineseSearchRestore,
+                ChineseSearch.IsReady,
                 null);
+            UpdateTracker("DeepDelete", safeOptions.Enhance.EnableDeepDelete, DeepDelete.IsReady, null);
+            UpdateTracker("NotificationSystem", true, NotificationSystem.IsReady, null);
 
             LogTrackerSummary();
         }
@@ -163,7 +174,7 @@ namespace MediaInfoKeeper.Patch
             safe.MainPage ??= new MainPageOptions();
             safe.IntroSkip ??= new IntroSkipOptions();
             safe.Proxy ??= new ProxyOptions();
-            safe.EnhanceChineseSearch ??= new EnhanceChineseSearchOptions();
+            safe.Enhance ??= new EnhanceOptions();
             safe.MetaData ??= new MetaDataOptions();
             return safe;
         }

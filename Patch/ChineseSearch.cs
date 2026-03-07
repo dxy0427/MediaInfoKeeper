@@ -19,7 +19,7 @@ using MediaBrowser.Model.Logging;
 
 namespace MediaInfoKeeper.Patch
 {
-    public static class EnhanceChineseSearch
+    public static class ChineseSearch
     {
         private static readonly Version Ver4830 = new Version("4.8.3.0");
         private static readonly Version Ver4900 = new Version("4.9.0.0");
@@ -57,7 +57,7 @@ namespace MediaInfoKeeper.Patch
             { "tvdb", new Regex(@"^tvdb(id)?=(\d+)$", RegexOptions.IgnoreCase | RegexOptions.Compiled) }
         };
 
-        public static void Initialize(ILogger pluginLogger, EnhanceChineseSearchOptions options)
+        public static void Initialize(ILogger pluginLogger, EnhanceOptions options)
         {
             if (isInitialized)
             {
@@ -147,7 +147,7 @@ namespace MediaInfoKeeper.Patch
                             IsStatic = true
                         },
                         logger,
-                        "EnhanceChineseSearch.CreateSearchTerm");
+                        "ChineseSearch.CreateSearchTerm");
                     if (createSearchTerm == null)
                     {
                         LogMethodCandidates(sqliteItemRepository, "CreateSearchTerm");
@@ -164,13 +164,13 @@ namespace MediaInfoKeeper.Patch
                             IsStatic = false
                         },
                         logger,
-                        "EnhanceChineseSearch.CacheIdsFromTextParams");
+                        "ChineseSearch.CacheIdsFromTextParams");
 
                     if (createConnection == null || dbFilePath == null || getJoinCommandText == null ||
                         cacheIdsFromTextParams == null || sqlite3_db == null ||
                         sqlite3_enable_load_extension == null)
                     {
-                        PatchLog.InitFailed(logger, nameof(EnhanceChineseSearch), "缺少反射目标");
+                        PatchLog.InitFailed(logger, nameof(ChineseSearch), "缺少反射目标");
                         return;
                     }
 
@@ -186,7 +186,7 @@ namespace MediaInfoKeeper.Patch
             Configure(options);
         }
 
-        public static void Configure(EnhanceChineseSearchOptions options)
+        public static void Configure(EnhanceOptions options)
         {
             if (!isInitialized || options == null)
             {
@@ -216,35 +216,35 @@ namespace MediaInfoKeeper.Patch
             var includeTypes = new List<string>();
             foreach (var scope in searchScope)
             {
-                if (Enum.TryParse(scope, true, out EnhanceChineseSearchOptions.SearchItemType type))
+                if (Enum.TryParse(scope, true, out EnhanceOptions.SearchItemType type))
                 {
                     switch (type)
                     {
-                        case EnhanceChineseSearchOptions.SearchItemType.Collection:
+                        case EnhanceOptions.SearchItemType.Collection:
                             includeTypes.AddRange(new[] { nameof(BoxSet) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Episode:
+                        case EnhanceOptions.SearchItemType.Episode:
                             includeTypes.AddRange(new[] { nameof(Episode) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.LiveTv:
+                        case EnhanceOptions.SearchItemType.LiveTv:
                             includeTypes.AddRange(new[] { nameof(LiveTvChannel), nameof(LiveTvProgram), "LiveTVSeries" });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Movie:
+                        case EnhanceOptions.SearchItemType.Movie:
                             includeTypes.AddRange(new[] { nameof(Movie) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Person:
+                        case EnhanceOptions.SearchItemType.Person:
                             includeTypes.AddRange(new[] { nameof(Person) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Playlist:
+                        case EnhanceOptions.SearchItemType.Playlist:
                             includeTypes.AddRange(new[] { nameof(Playlist) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Series:
+                        case EnhanceOptions.SearchItemType.Series:
                             includeTypes.AddRange(new[] { nameof(Series) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Season:
+                        case EnhanceOptions.SearchItemType.Season:
                             includeTypes.AddRange(new[] { nameof(Season) });
                             break;
-                        case EnhanceChineseSearchOptions.SearchItemType.Video:
+                        case EnhanceOptions.SearchItemType.Video:
                             includeTypes.AddRange(new[] { nameof(Video) });
                             break;
                     }
@@ -312,14 +312,14 @@ namespace MediaInfoKeeper.Patch
 
             try
             {
-                var postfix = new HarmonyMethod(typeof(EnhanceChineseSearch), postfixName);
+                var postfix = new HarmonyMethod(typeof(ChineseSearch), postfixName);
                 harmony.Patch(createConnection, postfix: postfix);
                 isConnectionPatched = true;
                 return true;
             }
             catch (Exception e)
             {
-                logger?.Error("EnhanceChineseSearch patch CreateConnection failed.");
+                logger?.Error("ChineseSearch patch CreateConnection failed.");
                 logger?.Error(e.ToString());
                 return false;
             }
@@ -366,7 +366,7 @@ namespace MediaInfoKeeper.Patch
                     }
                 }
 
-                var options = Plugin.Instance?.Options?.EnhanceChineseSearch;
+                var options = Plugin.Instance?.Options?.Enhance;
                 if (options != null && !string.Equals(CurrentTokenizerName, "unknown", StringComparison.Ordinal))
                 {
                     if (options.EnhanceChineseSearchRestore)
@@ -590,13 +590,13 @@ namespace MediaInfoKeeper.Patch
         private static void ResetOptions()
         {
             var options = Plugin.Instance?.OptionsStore?.GetOptions();
-            if (options?.EnhanceChineseSearch == null)
+            if (options?.Enhance == null)
             {
                 return;
             }
 
-            options.EnhanceChineseSearch.EnhanceChineseSearch = false;
-            options.EnhanceChineseSearch.EnhanceChineseSearchRestore = false;
+            options.Enhance.EnhanceChineseSearch = false;
+            options.Enhance.EnhanceChineseSearchRestore = false;
             Plugin.Instance.OptionsStore.SetOptions(options);
         }
 
@@ -610,18 +610,18 @@ namespace MediaInfoKeeper.Patch
             try
             {
                 harmony.Patch(getJoinCommandText,
-                    postfix: new HarmonyMethod(typeof(EnhanceChineseSearch), nameof(GetJoinCommandTextPostfix)));
+                    postfix: new HarmonyMethod(typeof(ChineseSearch), nameof(GetJoinCommandTextPostfix)));
                 if (createSearchTerm != null)
                 {
                     harmony.Patch(createSearchTerm,
-                        prefix: new HarmonyMethod(typeof(EnhanceChineseSearch), nameof(CreateSearchTermPrefix)));
+                        prefix: new HarmonyMethod(typeof(ChineseSearch), nameof(CreateSearchTermPrefix)));
                 }
                 else
                 {
                     logger?.Warn("增强搜索 - 未安装 CreateSearchTerm patch：目标方法未找到。");
                 }
                 harmony.Patch(cacheIdsFromTextParams,
-                    prefix: new HarmonyMethod(typeof(EnhanceChineseSearch), nameof(CacheIdsFromTextParamsPrefix)));
+                    prefix: new HarmonyMethod(typeof(ChineseSearch), nameof(CacheIdsFromTextParamsPrefix)));
 
                 areSearchFunctionsPatched = true;
                 return true;
@@ -741,7 +741,7 @@ namespace MediaInfoKeeper.Patch
 
             if (!string.IsNullOrEmpty(query.SearchTerm) && hasMatchParam)
             {
-                var options = Plugin.Instance?.Options?.EnhanceChineseSearch;
+                var options = Plugin.Instance?.Options?.Enhance;
                 var excludeOriginalTitle = options?.ExcludeOriginalTitleFromSearch == true;
                 var replacement = excludeOriginalTitle
                     ? "match '-OriginalTitle:' || simple_query(@SearchTerm)"

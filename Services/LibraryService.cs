@@ -4,8 +4,10 @@ using System.IO;
 using System.Linq;
 using Emby.Web.GenericEdit.Common;
 using MediaBrowser.Controller.Entities;
+using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
+using MediaBrowser.Controller.Playlists;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.Entities;
@@ -16,6 +18,30 @@ namespace MediaInfoKeeper.Services
 {
     public class LibraryService
     {
+        private sealed class FileSystemMetadataComparer : IEqualityComparer<FileSystemMetadata>
+        {
+            public bool Equals(FileSystemMetadata x, FileSystemMetadata y)
+            {
+                if (x == null || y == null)
+                {
+                    return false;
+                }
+
+                return x.IsDirectory == y.IsDirectory &&
+                       string.Equals(x.FullName, y.FullName, StringComparison.OrdinalIgnoreCase);
+            }
+
+            public int GetHashCode(FileSystemMetadata obj)
+            {
+                if (obj == null || string.IsNullOrEmpty(obj.FullName))
+                {
+                    return 0;
+                }
+
+                return StringComparer.OrdinalIgnoreCase.GetHashCode(obj.FullName) ^ obj.IsDirectory.GetHashCode();
+            }
+        }
+
         private readonly ILogger logger;
         private readonly ILibraryManager libraryManager;
         private readonly IProviderManager providerManager;
@@ -382,6 +408,440 @@ namespace MediaInfoKeeper.Services
                     : path + separator)
                 .Distinct(StringComparer.OrdinalIgnoreCase)
                 .ToList();
+        }
+
+        public Dictionary<string, bool> PrepareDeepDelete(BaseItem item, string[] scope = null)
+        {
+            var deleteItems = new List<BaseItem> { item };
+
+            if (item is Folder folder)
+            {
+                deleteItems.AddRange(folder.GetItemList(new InternalItemsQuery
+                {
+                    Recursive = true,
+                    ForceOriginalFolders = item is Playlist || item is BoxSet
+                }));
+            }
+
+            deleteItems = deleteItems.Where(i => i is IHasMediaSources).ToList();
+
+            var mountPaths = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase);
+            var single = scope is null;
+            var totalMediaSources = 0;
+            var shortcutSources = 0;
+            var symlinkSources = 0;
+            var staticSourceMiss = 0;
+            var classifyFail = 0;
+            var duplicateSkip = 0;
+            var addedLocal = 0;
+            var addedRemote = 0;
+
+            foreach (var workItem in deleteItems)
+            {
+                var mediaSources =
+                    workItem.GetMediaSources(!single, false, this.libraryManager.GetLibraryOptions(workItem));
+                mediaSources = mediaSources.Where(s =>
+                        single || scope?.Any(p => s.Path.StartsWith(p, StringComparison.OrdinalIgnoreCase)) is true)
+                    .ToList();
+                totalMediaSources += mediaSources.Count;
+
+                var staticMediaSources = Plugin.MediaInfoService.GetStaticMediaSources(workItem, !single)
+                    .ToDictionary(s => s.Id, s => s.Path);
+
+                foreach (var source in mediaSources)
+                {
+                    if (IsFileShortcut(source.Path))
+                    {
+                        shortcutSources++;
+                        var added = false;
+                        var hasStaticMountPath = staticMediaSources.TryGetValue(source.Id, out var mountPath);
+                        var staticFailReason = string.Empty;
+
+                        if (hasStaticMountPath &&
+                            TryClassifyMountPath(mountPath, out var pathKey, out var isLocal) &&
+                            !IsFileShortcut(pathKey))
+                        {
+                            if (!mountPaths.ContainsKey(pathKey))
+                            {
+                                mountPaths.Add(pathKey, isLocal);
+                                if (isLocal)
+                                {
+                                    addedLocal++;
+                                }
+                                else
+                                {
+                                    addedRemote++;
+                                }
+                            }
+                            else
+                            {
+                                duplicateSkip++;
+                            }
+
+                            added = true;
+                        }
+                        else
+                        {
+                            if (!hasStaticMountPath)
+                            {
+                                staticSourceMiss++;
+                                staticFailReason = "staticMountPathMissing";
+                            }
+                            else if (string.IsNullOrWhiteSpace(mountPath))
+                            {
+                                staticFailReason = "empty";
+                            }
+                            else if (!TryClassifyMountPath(mountPath, out pathKey, out isLocal))
+                            {
+                                staticFailReason = "invalid";
+                            }
+                            else if (IsFileShortcut(pathKey))
+                            {
+                                staticFailReason = "isShortcut";
+                            }
+                            else
+                            {
+                                staticFailReason = "unknown";
+                            }
+                        }
+
+                        if (!added)
+                        {
+                            if (TryResolveStrmTargetPath(source.Path, out var parsedMountPath, out var parseReason) &&
+                                TryClassifyMountPath(parsedMountPath, out var parsedPathKey, out var parsedIsLocal) &&
+                                !IsFileShortcut(parsedPathKey))
+                            {
+                                if (!mountPaths.ContainsKey(parsedPathKey))
+                                {
+                                    mountPaths.Add(parsedPathKey, parsedIsLocal);
+                                    if (parsedIsLocal)
+                                    {
+                                        addedLocal++;
+                                    }
+                                    else
+                                    {
+                                        addedRemote++;
+                                    }
+
+                                    this.logger.Debug(
+                                        "DeepDelete - STRM 兜底解析成功: 源路径={0}, 挂载路径={1}",
+                                        source.Path, parsedMountPath);
+                                }
+                                else
+                                {
+                                    duplicateSkip++;
+                                }
+                            }
+                            else
+                            {
+                                classifyFail++;
+                                this.logger.Debug(
+                                    "DeepDelete - STRM 解析失败: 源路径={0}, 挂载路径={1}, reason={2}, 兜底路径={3}, fallbackReason={4}",
+                                    source.Path,
+                                    mountPath ?? "<null>",
+                                    staticFailReason,
+                                    parsedMountPath ?? "<null>",
+                                    parseReason ?? "<null>");
+                            }
+                        }
+                    }
+                    else if (IsSymlink(source.Path))
+                    {
+                        symlinkSources++;
+                        var targetPath = GetSymlinkTarget(source.Path);
+
+                        if (TryClassifyMountPath(targetPath, out var pathKey, out var isLocal) && isLocal)
+                        {
+                            if (!mountPaths.ContainsKey(pathKey))
+                            {
+                                mountPaths.Add(pathKey, true);
+                                addedLocal++;
+                            }
+                            else
+                            {
+                                duplicateSkip++;
+                            }
+                        }
+                        else
+                        {
+                            classifyFail++;
+                        }
+                    }
+                }
+            }
+
+            this.logger.Debug(
+                "DeepDelete - 准备汇总: 条目={0}, 删除条目数={1}, 媒体源数={2}, 快捷方式数={3}, 软链接数={4}, 挂载路径数={5}, 本地={6}, 远程={7}, 静态源缺失={8}, 分类失败={9}, 重复跳过={10}",
+                item?.Name ?? "unknown",
+                deleteItems.Count,
+                totalMediaSources,
+                shortcutSources,
+                symlinkSources,
+                mountPaths.Count,
+                addedLocal,
+                addedRemote,
+                staticSourceMiss,
+                classifyFail,
+                duplicateSkip);
+
+            return mountPaths;
+        }
+
+        private bool TryResolveStrmTargetPath(string strmPath, out string mountPath, out string reason)
+        {
+            mountPath = null;
+            reason = null;
+
+            if (string.IsNullOrWhiteSpace(strmPath))
+            {
+                reason = "strmPathEmpty";
+                return false;
+            }
+
+            if (!File.Exists(strmPath))
+            {
+                reason = "strmFileNotFound";
+                return false;
+            }
+
+            try
+            {
+                var line = File.ReadLines(strmPath)
+                    .Select(l => l?.Trim())
+                    .FirstOrDefault(l => !string.IsNullOrWhiteSpace(l) && !l.StartsWith("#", StringComparison.Ordinal));
+
+                if (string.IsNullOrWhiteSpace(line))
+                {
+                    reason = "strmContentEmpty";
+                    return false;
+                }
+
+                if (Uri.TryCreate(line, UriKind.Absolute, out var uri) && uri.IsAbsoluteUri &&
+                    string.Equals(uri.Scheme, Uri.UriSchemeFile, StringComparison.OrdinalIgnoreCase))
+                {
+                    mountPath = uri.LocalPath;
+                }
+                else
+                {
+                    mountPath = line;
+                }
+
+                if (string.IsNullOrWhiteSpace(mountPath))
+                {
+                    reason = "parsedMountPathEmpty";
+                    return false;
+                }
+
+                reason = "ok";
+                return true;
+            }
+            catch (Exception ex)
+            {
+                reason = "strmReadError:" + ex.Message;
+                return false;
+            }
+        }
+
+        public void ExecuteDeepDelete(HashSet<string> mountPaths)
+        {
+            if (mountPaths == null || mountPaths.Count == 0)
+            {
+                return;
+            }
+
+            var deletePaths = new HashSet<FileSystemMetadata>(new FileSystemMetadataComparer());
+
+            foreach (var mountPath in mountPaths)
+            {
+                foreach (var path in GetDeletePaths(mountPath))
+                {
+                    deletePaths.Add(path);
+                    var folderPath = this.fileSystem.GetDirectoryName(path.FullName);
+
+                    if (!string.IsNullOrEmpty(folderPath))
+                    {
+                        deletePaths.Add(new FileSystemMetadata { FullName = folderPath, IsDirectory = true });
+                    }
+                }
+            }
+
+            foreach (var path in deletePaths.Where(p => !p.IsDirectory))
+            {
+                try
+                {
+                    this.logger.Info("DeepDelete - 尝试删除文件: " + path.FullName);
+                    this.fileSystem.DeleteFile(path.FullName, true);
+                }
+                catch (Exception e) when (e is FileNotFoundException || e is DirectoryNotFoundException)
+                {
+                    this.logger.Debug("DeepDelete - 文件已不存在或父目录缺失: " + path.FullName);
+                    this.logger.Debug(e.Message);
+                }
+                catch (Exception e)
+                {
+                    this.logger.Error("DeepDelete - 删除文件失败: " + path.FullName);
+                    this.logger.Error(e.Message);
+                    this.logger.Debug(e.StackTrace);
+                }
+            }
+
+            var folderPaths = new HashSet<FileSystemMetadata>(deletePaths.Where(p => p.IsDirectory),
+                new FileSystemMetadataComparer());
+
+            while (folderPaths.Any())
+            {
+                var path = folderPaths.First();
+
+                try
+                {
+                    if (IsDirectoryEmpty(path.FullName))
+                    {
+                        this.logger.Info("DeepDelete - 尝试删除空目录: " + path.FullName);
+                        this.fileSystem.DeleteDirectory(path.FullName, true, true);
+
+                        var parentPath = this.fileSystem.GetDirectoryName(path.FullName);
+                        if (!string.IsNullOrEmpty(parentPath))
+                        {
+                            folderPaths.Add(new FileSystemMetadata { FullName = parentPath, IsDirectory = true });
+                        }
+                    }
+                }
+                catch (DirectoryNotFoundException e)
+                {
+                    this.logger.Debug("DeepDelete - 目录已不存在: " + path.FullName);
+                    this.logger.Debug(e.Message);
+                }
+                catch (Exception e)
+                {
+                    this.logger.Error("DeepDelete - 删除空目录失败: " + path.FullName);
+                    this.logger.Error(e.Message);
+                    this.logger.Debug(e.StackTrace);
+                }
+
+                folderPaths.Remove(path);
+            }
+        }
+
+        private FileSystemMetadata[] GetDeletePaths(string path)
+        {
+            var folder = this.fileSystem.GetDirectoryName(path);
+
+            if (string.IsNullOrEmpty(folder) || !this.fileSystem.DirectoryExists(folder))
+            {
+                return Array.Empty<FileSystemMetadata>();
+            }
+
+            var basename = Path.GetFileNameWithoutExtension(path);
+            var relatedFiles = GetRelatedPaths(basename, folder);
+            var target = this.fileSystem.GetFileInfo(path);
+
+            return new[] { target }.Concat(relatedFiles).Where(f => f?.Exists == true).ToArray();
+        }
+
+        private FileSystemMetadata[] GetRelatedPaths(string basename, string folder)
+        {
+            var extensions = new List<string>
+            {
+                ".nfo",
+                ".xml",
+                ".srt",
+                ".vtt",
+                ".sub",
+                ".idx",
+                ".txt",
+                ".edl",
+                ".bif",
+                ".smi",
+                ".ttml",
+                ".ass",
+                ".json"
+            };
+
+            extensions.AddRange(BaseItem.SupportedImageExtensions);
+
+            return this.fileSystem.GetFiles(folder, extensions.ToArray(), false, false)
+                .Where(i => !string.IsNullOrEmpty(i.FullName) && Path.GetFileNameWithoutExtension(i.FullName)
+                    .StartsWith(basename, StringComparison.OrdinalIgnoreCase))
+                .ToArray();
+        }
+
+        private static bool IsFileShortcut(string path)
+        {
+            return path != null && string.Equals(Path.GetExtension(path), ".strm", StringComparison.OrdinalIgnoreCase);
+        }
+
+        private static bool TryClassifyMountPath(string path, out string pathKey, out bool isLocal)
+        {
+            pathKey = null;
+            isLocal = false;
+            if (string.IsNullOrWhiteSpace(path))
+            {
+                return false;
+            }
+
+            if (Uri.TryCreate(path, UriKind.Absolute, out var uri) && uri.IsAbsoluteUri)
+            {
+                if (string.Equals(uri.Scheme, Uri.UriSchemeFile, StringComparison.OrdinalIgnoreCase))
+                {
+                    pathKey = uri.LocalPath;
+                    isLocal = !string.IsNullOrWhiteSpace(pathKey);
+                    return isLocal;
+                }
+
+                pathKey = path;
+                isLocal = false;
+                return true;
+            }
+
+            pathKey = path;
+            isLocal = true;
+            return true;
+        }
+
+        private static bool IsSymlink(string path)
+        {
+            if (string.IsNullOrWhiteSpace(path))
+            {
+                return false;
+            }
+
+            try
+            {
+                if (!File.Exists(path))
+                {
+                    return false;
+                }
+
+                return (File.GetAttributes(path) & FileAttributes.ReparsePoint) != 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private static string GetSymlinkTarget(string path)
+        {
+            try
+            {
+                var fileInfo = new FileInfo(path);
+                var targetInfo = fileInfo.ResolveLinkTarget(false);
+                return targetInfo?.FullName;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        private static bool IsDirectoryEmpty(string path)
+        {
+            if (string.IsNullOrWhiteSpace(path) || !Directory.Exists(path))
+            {
+                return false;
+            }
+
+            return !Directory.EnumerateFileSystemEntries(path).Any();
         }
 
         /// <summary>复制库配置，用于元数据刷新流程。</summary>

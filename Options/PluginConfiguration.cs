@@ -17,8 +17,8 @@ namespace MediaInfoKeeper.Options
         [DisplayName("IntroSkip")]
         public IntroSkipOptions IntroSkip { get; set; } = new IntroSkipOptions();
 
-        [DisplayName("Search")]
-        public EnhanceChineseSearchOptions EnhanceChineseSearch { get; set; } = new EnhanceChineseSearchOptions();
+        [DisplayName("Enhance")]
+        public EnhanceOptions Enhance { get; set; } = new EnhanceOptions();
 
         [DisplayName("MetaData")]
         public MetaDataOptions MetaData { get; set; } = new MetaDataOptions();

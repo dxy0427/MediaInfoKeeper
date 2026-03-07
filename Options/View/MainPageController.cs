@@ -19,7 +19,7 @@ namespace MediaInfoKeeper.Options.View
             GitHubOptionsStore gitHubOptionsStore,
             IntroSkipOptionsStore introSkipOptionsStore,
             ProxyOptionsStore proxyOptionsStore,
-            EnhanceChineseSearchOptionsStore enhanceChineseSearchOptionsStore,
+            EnhanceOptionsStore enhanceOptionsStore,
             MetaDataOptionsStore metaDataOptionsStore)
             : base(pluginInfo.Id)
         {
@@ -35,18 +35,17 @@ namespace MediaInfoKeeper.Options.View
                 IsMainConfigPage = true
             };
 
-
             this.tabPages.Add(new TabPageController(pluginInfo, nameof(IntroSkipPageView), "IntroSkip",
                 e => new IntroSkipPageView(pluginInfo, introSkipOptionsStore)));
-
-            this.tabPages.Add(new TabPageController(pluginInfo, nameof(EnhanceChineseSearchPageView), "Search",
-                e => new EnhanceChineseSearchPageView(pluginInfo, enhanceChineseSearchOptionsStore)));
 
             this.tabPages.Add(new TabPageController(pluginInfo, nameof(MetaDataPageView), "MetaData",
                 e => new MetaDataPageView(pluginInfo, metaDataOptionsStore)));
 
             this.tabPages.Add(new TabPageController(pluginInfo, nameof(ProxyPageView), "Proxy",
                 e => new ProxyPageView(pluginInfo, proxyOptionsStore)));
+
+            this.tabPages.Add(new TabPageController(pluginInfo, nameof(EnhancePageView), "Enhance",
+                e => new EnhancePageView(pluginInfo, enhanceOptionsStore)));
 
             this.tabPages.Add(new TabPageController(pluginInfo, nameof(GitHubPageView), "GitHub & Update",
                 e => new GitHubPageView(pluginInfo, gitHubOptionsStore)));

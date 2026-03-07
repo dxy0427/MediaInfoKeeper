@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using MediaInfoKeeper.Common;
 using MediaInfoKeeper.Options;
 using MediaInfoKeeper.Options.Store;
 using MediaInfoKeeper.Options.View;
@@ -19,6 +20,7 @@ using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Persistence;
+using MediaBrowser.Controller.Notifications;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Controller.Session;
 using MediaBrowser.Controller.Entities.TV;
@@ -42,6 +44,7 @@ namespace MediaInfoKeeper
         public static Plugin Instance { get; private set; }
         public static MediaInfoService MediaInfoService { get; private set; }
         public static LibraryService LibraryService { get; private set; }
+        public static NotificationApi NotificationApi { get; private set; }
         public static IntroSkipChapterApi IntroSkipChapterApi { get; private set; }
         public static IntroSkipPlaySessionMonitor IntroSkipPlaySessionMonitor { get; private set; }
         public static IntroScanService IntroScanService { get; private set; }
@@ -71,7 +74,7 @@ namespace MediaInfoKeeper
         internal readonly GitHubOptionsStore GitHubOptionsStore;
         internal readonly IntroSkipOptionsStore IntroSkipOptionsStore;
         internal readonly ProxyOptionsStore ProxyOptionsStore;
-        internal readonly EnhanceChineseSearchOptionsStore EnhanceChineseSearchOptionsStore;
+        internal readonly EnhanceOptionsStore EnhanceOptionsStore;
         internal readonly MetaDataOptionsStore MetaDataOptionsStore;
         private static readonly HttpClient HttpClient = new HttpClient
         {
@@ -94,6 +97,7 @@ namespace MediaInfoKeeper
             IUserManager userManager,
             IUserDataManager userDataManager,
             ISessionManager sessionManager,
+            INotificationManager notificationManager,
             IMediaMountManager mediaMountManager,
             IServerConfigurationManager serverConfigurationManager,
             IJsonSerializer jsonSerializer,
@@ -115,6 +119,7 @@ namespace MediaInfoKeeper
             ProviderManager = providerManager;
             FileSystem = fileSystem;
             LibraryManager = libraryManager;
+            LibraryApi.Initialize(userManager);
 
             OptionsStore = new PluginOptionsStore(applicationHost, this.logger, this.Name,
                 PrepareOptionsForUi, HandleOptionsSaving, HandleOptionsSaved);
@@ -122,7 +127,7 @@ namespace MediaInfoKeeper
             GitHubOptionsStore = new GitHubOptionsStore(OptionsStore);
             IntroSkipOptionsStore = new IntroSkipOptionsStore(OptionsStore);
             ProxyOptionsStore = new ProxyOptionsStore(OptionsStore);
-            EnhanceChineseSearchOptionsStore = new EnhanceChineseSearchOptionsStore(OptionsStore);
+            EnhanceOptionsStore = new EnhanceOptionsStore(OptionsStore);
             MetaDataOptionsStore = new MetaDataOptionsStore(OptionsStore);
 
             PatchManager.Initialize(this.logger, this.Options);
@@ -131,6 +136,7 @@ namespace MediaInfoKeeper
 
             LibraryService = new LibraryService(libraryManager, providerManager, fileSystem, userDataManager);
             MediaInfoService = new MediaInfoService(libraryManager, fileSystem, itemRepository, jsonSerializer, mediaMountManager);
+            NotificationApi = new NotificationApi(notificationManager);
             IntroSkipChapterApi = new IntroSkipChapterApi(libraryManager, itemRepository, this.logger);
             IntroScanService = new IntroScanService(logManager, libraryManager);
             IntroSkipPlaySessionMonitor = new IntroSkipPlaySessionMonitor(
@@ -186,7 +192,7 @@ namespace MediaInfoKeeper
                     {
                         new MainPageController(this.GetPluginInfo(), this.MainPageOptionsStore,
                             this.GitHubOptionsStore, this.IntroSkipOptionsStore, this.ProxyOptionsStore,
-                            this.EnhanceChineseSearchOptionsStore, this.MetaDataOptionsStore)
+                            this.EnhanceOptionsStore, this.MetaDataOptionsStore)
                     };
                 }
 
@@ -205,9 +211,9 @@ namespace MediaInfoKeeper
             options.IntroSkip ??= new IntroSkipOptions();
             options.Proxy ??= new ProxyOptions();
             options.GitHub ??= new GitHubOptions();
-            options.EnhanceChineseSearch ??= new EnhanceChineseSearchOptions();
+            options.Enhance ??= new EnhanceOptions();
             options.MetaData ??= new MetaDataOptions();
-            options.EnhanceChineseSearch.Initialize();
+            options.Enhance.Initialize();
             options.MetaData.Initialize();
 
             var list = LibraryService.BuildLibrarySelectOptions();
@@ -246,7 +252,7 @@ namespace MediaInfoKeeper
             options.MainPage ??= new MainPageOptions();
             options.IntroSkip ??= new IntroSkipOptions();
             options.Proxy ??= new ProxyOptions();
-            options.EnhanceChineseSearch ??= new EnhanceChineseSearchOptions();
+            options.Enhance ??= new EnhanceOptions();
             options.MetaData ??= new MetaDataOptions();
 
             this.PlugginEnabled = options.MainPage.PlugginEnabled;
@@ -272,10 +278,11 @@ namespace MediaInfoKeeper
             this.logger.Info($"打标库范围 设置为 {(string.IsNullOrEmpty(options.IntroSkip.LibraryScope) ? "空" : options.IntroSkip.LibraryScope)}");
             this.logger.Info($"用户范围 设置为 {(string.IsNullOrEmpty(options.IntroSkip.UserScope) ? "空" : options.IntroSkip.UserScope)}");
 
-            this.logger.Info("[Search]");
-            this.logger.Info($"启用增强搜索 设置为 {options.EnhanceChineseSearch.EnhanceChineseSearch}");
-            this.logger.Info($"搜索范围 设置为 {(string.IsNullOrEmpty(options.EnhanceChineseSearch.SearchScope) ? "空" : options.EnhanceChineseSearch.SearchScope)}");
-            this.logger.Info($"排除原始标题 设置为 {options.EnhanceChineseSearch.ExcludeOriginalTitleFromSearch}");
+            this.logger.Info("[Enhance]");
+            this.logger.Info($"启用增强搜索 设置为 {options.Enhance.EnhanceChineseSearch}");
+            this.logger.Info($"启用深度删除 设置为 {options.Enhance.EnableDeepDelete}");
+            this.logger.Info($"搜索范围 设置为 {(string.IsNullOrEmpty(options.Enhance.SearchScope) ? "空" : options.Enhance.SearchScope)}");
+            this.logger.Info($"排除原始标题 设置为 {options.Enhance.ExcludeOriginalTitleFromSearch}");
 
             this.logger.Info("[MetaData]");
             this.logger.Info($"启用剧集元数据变动监听 设置为 {options.MetaData.EnableMetadataProvidersWatcher}");
