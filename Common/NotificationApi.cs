@@ -42,7 +42,7 @@ namespace MediaInfoKeeper.Common
                 var request = new NotificationRequest
                 {
                     Title = Plugin.PluginName + " - 深度删除",
-                    EventId = "mediainfokeeper.deep.delete",
+                    EventId = "deep.delete",
                     User = user,
                     Item = item,
                     Description = string.Format(
@@ -65,7 +65,7 @@ namespace MediaInfoKeeper.Common
             }
 
             var useSystemLibraryNew = Plugin.Instance?.Options?.Enhance?.TakeOverSystemLibraryNew == true;
-            var eventId = useSystemLibraryNew ? "library.new" : "mediainfokeeper.library.new";
+            var eventId = useSystemLibraryNew ? "library.new" : "favorites.update";
             var sentCount = 0;
             using (useSystemLibraryNew ? NotificationSystem.BeginCustomLibraryNewScope() : null)
             {

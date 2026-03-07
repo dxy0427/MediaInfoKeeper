@@ -17,14 +17,14 @@ namespace MediaInfoKeeper.Notification
             {
                 new NotificationTypeInfo
                 {
-                    Id = useSystemLibraryNew ? "library.new" : "mediainfokeeper.library.new",
+                    Id = useSystemLibraryNew ? "library.new" : "favorites.update",
                     Name = "收藏剧集更新",
                     CategoryId = "mediainfo.keeper",
                     CategoryName = Plugin.PluginName
                 },
                 new NotificationTypeInfo
                 {
-                    Id = "mediainfokeeper.deep.delete",
+                    Id = "deep.delete",
                     Name = "深度删除通知",
                     CategoryId = "mediainfo.keeper",
                     CategoryName = Plugin.PluginName

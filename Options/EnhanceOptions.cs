@@ -53,7 +53,7 @@ namespace MediaInfoKeeper.Options
         public bool EnableDeepDelete { get; set; } = false;
     
         [DisplayName("接管系统新入库通知")]
-        [Description("开启后插件接管 Emby 的 library.new 事件并屏蔽系统原生新入库通知，仅对已收藏/喜爱的剧集新入库集发送通知，用于配合MP插件——媒体服务器通知，通知新入库；关闭则插件使用 mediainfokeeper.library.new 事件，不影响 Emby 原有的新入库通知。")]
+        [Description("开启后插件接管 Emby 的 library.new 事件并屏蔽系统原生新入库通知，仅对已收藏/喜爱的剧集新入库集发送通知，用于配合MP插件——媒体服务器通知，通知新入库；关闭则插件使用 favorites.update 事件，不影响 Emby 原有的新入库通知。")]
         public bool TakeOverSystemLibraryNew { get; set; } = false;
 
         public void Initialize()
