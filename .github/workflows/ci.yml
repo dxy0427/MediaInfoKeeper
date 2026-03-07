@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
+          cache: true
 
       - name: Restore
         run: dotnet restore MediaInfoKeeper.csproj
@@ -27,15 +28,6 @@ jobs:
         run: |
           app_version=$(cat MediaInfoKeeper.csproj | sed -ne "s/.*<AssemblyVersion>\\(.*\\)<\\/AssemblyVersion>.*/\\1/p")
           echo "app_version=$app_version" >> $GITHUB_ENV
-      
-      - name: Commit message
-        id: commit_message
-        shell: bash
-        run: |
-          commit_message=$(git log -1 --pretty=%B)
-          echo "commit_message<<EOF" >> $GITHUB_ENV
-          echo "$commit_message" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
 
       - name: Install ilrepack tool
         run: dotnet tool install -g dotnet-ilrepack --version 2.0.44
@@ -47,8 +39,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: MediaInfoKeeper v${{ env.app_version }}
-          tag_name: v${{ env.app_version }}
+          tag_name: v${{ env.app_version }}-dev.${{ github.run_number }}
           target_commitish: ${{ github.sha }}
-          body: ${{ env.commit_message }}
+          generate_release_notes: true
           overwrite_files: true
           files: Build/bin/Release/net8.0/MediaInfoKeeper.dll
