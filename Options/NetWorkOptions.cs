@@ -9,7 +9,7 @@ namespace MediaInfoKeeper.Options
 {
     public class NetWorkOptions : EditableOptionsBase
     {
-        public override string EditorTitle => "NetWork";
+        public override string EditorTitle => "Network";
 
         [DisplayName("启用代理")]
         [Description("开启后所有 HttpClient 请求将走代理。")]

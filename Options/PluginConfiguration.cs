@@ -23,7 +23,7 @@ namespace MediaInfoKeeper.Options
         [DisplayName("MetaData")]
         public MetaDataOptions MetaData { get; set; } = new MetaDataOptions();
 
-        [DisplayName("NetWork")]
+        [DisplayName("Network")]
         public NetWorkOptions NetWork { get; set; }
 
         [Browsable(false)]

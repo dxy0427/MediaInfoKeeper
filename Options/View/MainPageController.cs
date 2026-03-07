@@ -41,7 +41,7 @@ namespace MediaInfoKeeper.Options.View
             this.tabPages.Add(new TabPageController(pluginInfo, nameof(MetaDataPageView), "MetaData",
                 e => new MetaDataPageView(pluginInfo, metaDataOptionsStore)));
 
-            this.tabPages.Add(new TabPageController(pluginInfo, nameof(NetWorkPageView), "NetWork",
+            this.tabPages.Add(new TabPageController(pluginInfo, nameof(NetWorkPageView), "Network",
                 e => new NetWorkPageView(pluginInfo, netWorkOptionsStore)));
 
             this.tabPages.Add(new TabPageController(pluginInfo, nameof(EnhancePageView), "Enhance",
